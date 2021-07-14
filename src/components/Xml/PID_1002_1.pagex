@@ -1,0 +1,314 @@
+<hmipage prev_page="" belongs_to_all_areas="1" order="54" next_object_number="10324" template_id="" title="PID_1002_1" default_page_scan="1" color="4290427578" access_area="0" id="PID_1002_1" page_scan_time="250" next_page="" height="500" version="0.1.0" width="370">
+        <shapes>
+            <shape type="Rectangle">
+                <object tool_tip="" object_number="10319" description="" object_id="SHAPE_10319"/>
+                <box top="0" axis_offset_left="249" bottom="30" left="0" z_index="83" axis_anchor="0" right="106" angle="0" axis_offset_top="467"/>
+                <line line_width="1" color="#000000" style="1"/>
+                <fill fill="#000000"/>
+                <rectangle x2="106" corner_radius="0" y1="0" x1="0" y2="30"/>
+                <input_touch>
+                    <up enabled="1">
+                        <command><![CDATA[inputAnalogValue("KD","Enter KD Value:", EcTag["KD"].getTagID())]]></command>
+                    </up>
+                </input_touch>
+            </shape>
+            <shape type="Rectangle">
+                <object tool_tip="" object_number="10318" description="" object_id="SHAPE_10318"/>
+                <box top="0" axis_offset_left="219" bottom="30" left="0" z_index="82" axis_anchor="0" right="32" angle="0" axis_offset_top="467"/>
+                <line line_width="1" color="#000000" style="1"/>
+                <fill fill="#000000"/>
+                <rectangle x2="32" corner_radius="0" y1="0" x1="0" y2="30"/>
+            </shape>
+            <shape type="Rectangle">
+                <object tool_tip="" object_number="10317" description="" object_id="SHAPE_10317"/>
+                <box top="0" axis_offset_left="249" bottom="30" left="0" z_index="81" axis_anchor="0" right="106" angle="0" axis_offset_top="427"/>
+                <line line_width="1" color="#000000" style="1"/>
+                <fill fill="#000000"/>
+                <rectangle x2="106" corner_radius="0" y1="0" x1="0" y2="30"/>
+                <input_touch>
+                    <up enabled="1">
+                        <command><![CDATA[inputAnalogValue("KI","Enter KI Value:", EcTag["KI"].getTagID())]]></command>
+                    </up>
+                </input_touch>
+            </shape>
+            <shape type="Rectangle">
+                <object tool_tip="" object_number="10316" description="" object_id="SHAPE_10316"/>
+                <box top="0" axis_offset_left="219" bottom="30" left="0" z_index="80" axis_anchor="0" right="32" angle="0" axis_offset_top="427"/>
+                <line line_width="1" color="#000000" style="1"/>
+                <fill fill="#000000"/>
+                <rectangle x2="32" corner_radius="0" y1="0" x1="0" y2="30"/>
+            </shape>
+            <shape type="Rectangle">
+                <object tool_tip="" object_number="10314" description="" object_id="SHAPE_10314"/>
+                <box top="0" axis_offset_left="218" bottom="20" left="0" z_index="78" axis_anchor="0" right="140" angle="0" axis_offset_top="358"/>
+                <line line_width="1" color="#000000" style="1"/>
+                <fill fill="#550000"/>
+                <rectangle x2="140" corner_radius="5" y1="0" x1="0" y2="20"/>
+            </shape>
+            <shape type="Rectangle">
+                <object tool_tip="" object_number="10312" description="" object_id="SHAPE_10312"/>
+                <box top="0" axis_offset_left="249" bottom="30" left="0" z_index="76" axis_anchor="0" right="106" angle="0" axis_offset_top="387"/>
+                <line line_width="1" color="#000000" style="1"/>
+                <fill fill="#000000"/>
+                <rectangle x2="106" corner_radius="0" y1="0" x1="0" y2="30"/>
+                <input_touch>
+                    <up enabled="1">
+                        <command><![CDATA[inputAnalogValue("KP","Enter KP Value:", EcTag["KP"].getTagID())]]></command>
+                    </up>
+                </input_touch>
+            </shape>
+            <shape type="Rectangle">
+                <object tool_tip="" object_number="10311" description="" object_id="SHAPE_10311"/>
+                <box top="0" axis_offset_left="219" bottom="30" left="0" z_index="75" axis_anchor="0" right="32" angle="0" axis_offset_top="387"/>
+                <line line_width="1" color="#000000" style="1"/>
+                <fill fill="#000000"/>
+                <rectangle x2="32" corner_radius="0" y1="0" x1="0" y2="30"/>
+            </shape>
+            <shape type="Rectangle">
+                <object tool_tip="" object_number="10310" description="" object_id="SHAPE_10310"/>
+                <box top="0" axis_offset_left="200" bottom="140" left="0" z_index="74" axis_anchor="0" right="180" angle="0" axis_offset_top="370"/>
+                <line line_width="1" color="#000000" style="1"/>
+                <rectangle x2="180" corner_radius="5" y1="0" x1="0" y2="140"/>
+            </shape>
+            <shape type="Rectangle">
+                <object tool_tip="" object_number="10304" description="" object_id="SHAPE_10304"/>
+                <box top="0" axis_offset_left="48" bottom="30" left="0" z_index="68" axis_anchor="0" right="106" angle="0" axis_offset_top="467"/>
+                <line line_width="1" color="#000000" style="1"/>
+                <fill fill="#000000"/>
+                <rectangle x2="106" corner_radius="0" y1="0" x1="0" y2="30"/>
+                <input_touch>
+                    <up enabled="1">
+                        <command><![CDATA[inputAnalogValue("M_SP","Enter Manual Set Point Value", EcTag["M_SP"].getTagID())]]></command>
+                    </up>
+                </input_touch>
+            </shape>
+            <shape type="Rectangle">
+                <object tool_tip="" object_number="10303" description="" object_id="SHAPE_10303"/>
+                <box top="0" axis_offset_left="18" bottom="30" left="0" z_index="67" axis_anchor="0" right="32" angle="0" axis_offset_top="467"/>
+                <line line_width="1" color="#000000" style="1"/>
+                <fill fill="#000000"/>
+                <rectangle x2="32" corner_radius="0" y1="0" x1="0" y2="30"/>
+            </shape>
+            <shape type="Rectangle">
+                <object tool_tip="" object_number="10302" description="" object_id="SHAPE_10302"/>
+                <box top="0" axis_offset_left="48" bottom="30" left="0" z_index="66" axis_anchor="0" right="106" angle="0" axis_offset_top="427"/>
+                <line line_width="1" color="#000000" style="1"/>
+                <fill fill="#000000"/>
+                <rectangle x2="106" corner_radius="0" y1="0" x1="0" y2="30"/>
+                <input_touch>
+                    <up enabled="1">
+                        <command><![CDATA[inputAnalogValue("SP","Enter Set Point Value", EcTag[3].getTagID())]]></command>
+                    </up>
+                </input_touch>
+            </shape>
+            <shape type="Rectangle">
+                <object tool_tip="" object_number="10301" description="" object_id="SHAPE_10301"/>
+                <box top="0" axis_offset_left="18" bottom="30" left="0" z_index="65" axis_anchor="0" right="32" angle="0" axis_offset_top="427"/>
+                <line line_width="1" color="#000000" style="1"/>
+                <fill fill="#000000"/>
+                <rectangle x2="32" corner_radius="0" y1="0" x1="0" y2="30"/>
+            </shape>
+            <shape type="Rectangle">
+                <object tool_tip="" object_number="10298" description="" object_id="SHAPE_10298"/>
+                <box top="0" axis_offset_left="65" bottom="20" left="0" z_index="62" axis_anchor="0" right="69" angle="0" axis_offset_top="360"/>
+                <line line_width="1" color="#000000" style="1"/>
+                <fill fill="#550000"/>
+                <rectangle x2="69" corner_radius="5" y1="0" x1="0" y2="20"/>
+            </shape>
+            <shape type="Rectangle">
+                <object tool_tip="" object_number="10293" description="" object_id="SHAPE_10293"/>
+                <box top="0" axis_offset_left="18" bottom="30" left="0" z_index="57" axis_anchor="0" right="32" angle="0" axis_offset_top="387"/>
+                <line line_width="1" color="#000000" style="1"/>
+                <fill fill="#000000"/>
+                <rectangle x2="32" corner_radius="0" y1="0" x1="0" y2="30"/>
+            </shape>
+            <shape type="Rectangle">
+                <object tool_tip="" object_number="10292" description="" object_id="SHAPE_10292"/>
+                <box top="0" axis_offset_left="48" bottom="30" left="0" z_index="56" axis_anchor="0" right="106" angle="0" axis_offset_top="387"/>
+                <line line_width="1" color="#000000" style="1"/>
+                <fill fill="#000000"/>
+                <rectangle x2="106" corner_radius="0" y1="0" x1="0" y2="30"/>
+            </shape>
+            <shape type="Rectangle">
+                <object tool_tip="" object_number="10291" description="" object_id="SHAPE_10291"/>
+                <box top="0" axis_offset_left="10" bottom="142" left="0" z_index="55" axis_anchor="0" right="180" angle="0" axis_offset_top="368"/>
+                <line line_width="1" color="#000000" style="1"/>
+                <rectangle x2="180" corner_radius="5" y1="0" x1="0" y2="142"/>
+            </shape>
+            <shape type="Rectangle">
+                <object tool_tip="" object_number="10243" description="" object_id="SHAPE_10243"/>
+                <box top="0" axis_offset_left="5" bottom="30" left="0" z_index="12" axis_anchor="0" right="375" angle="0" axis_offset_top="46"/>
+                <line line_width="1" color="#000000" style="1"/>
+                <fill fill="#000000"/>
+                <rectangle x2="375" corner_radius="0" y1="0" x1="0" y2="30"/>
+            </shape>
+            <shape type="Rectangle">
+                <object tool_tip="" object_number="10242" description="" object_id="SHAPE_10242"/>
+                <box top="0" axis_offset_left="107" bottom="30" left="0" z_index="11" axis_anchor="0" right="273" angle="0" axis_offset_top="4"/>
+                <line line_width="1" color="#000000" style="1"/>
+                <fill fill="#000000"/>
+                <rectangle x2="273" corner_radius="0" y1="0" x1="0" y2="30"/>
+            </shape>
+            <shape type="Rectangle">
+                <object tool_tip="" object_number="10240" description="" object_id="SHAPE_10240"/>
+                <box top="0" axis_offset_left="5" bottom="30" left="0" z_index="9" axis_anchor="0" right="91" angle="0" axis_offset_top="3"/>
+                <line line_width="1" color="#000000" style="1"/>
+                <fill fill="#000000"/>
+                <rectangle x2="91" corner_radius="0" y1="0" x1="0" y2="30"/>
+            </shape>
+        </shapes>
+        <labels>
+            <text font_size="12" display_type="3" static_text="####.##" font_weight="75" color="4278255615" underline="0" font_style="0" font_family="PT Sans" align_type="0" strikeout="0">
+                <display_numeric>
+                    <expression><![CDATA[EcTag["KD"];]]></expression>
+                    <format>2</format>
+                </display_numeric>
+                <object tool_tip="" object_number="10324" description="" object_id="TEXT_10324"/>
+                <box top="0" axis_offset_left="260" bottom="0" left="0" z_index="88" axis_anchor="4" right="0" angle="0" axis_offset_top="467"/>
+                <input_touch>
+                    <up enabled="1">
+                        <command><![CDATA[inputAnalogValue("KD","Enter KD Value:", EcTag["KD"].getTagID())]]></command>
+                    </up>
+                </input_touch>
+            </text>
+            <text font_size="12" display_type="3" static_text="####.##" font_weight="75" color="4278255615" underline="0" font_style="0" font_family="PT Sans" align_type="0" strikeout="0">
+                <display_numeric>
+                    <expression><![CDATA[EcTag["KI"];]]></expression>
+                    <format>2</format>
+                </display_numeric>
+                <object tool_tip="" object_number="10323" description="" object_id="TEXT_10323"/>
+                <box top="0" axis_offset_left="260" bottom="0" left="0" z_index="87" axis_anchor="4" right="0" angle="0" axis_offset_top="427"/>
+                <input_touch>
+                    <up enabled="1">
+                        <command><![CDATA[inputAnalogValue("KI","Enter KI Value:", EcTag["KI"].getTagID())]]></command>
+                    </up>
+                </input_touch>
+            </text>
+            <text font_size="12" display_type="3" static_text="####.##" font_weight="75" color="4278255615" underline="0" font_style="0" font_family="PT Sans" align_type="0" strikeout="0">
+                <display_numeric>
+                    <expression><![CDATA[EcTag["KP"];]]></expression>
+                    <format>2</format>
+                </display_numeric>
+                <object tool_tip="" object_number="10322" description="" object_id="TEXT_10322"/>
+                <box top="0" axis_offset_left="260" bottom="0" left="0" z_index="86" axis_anchor="4" right="0" angle="0" axis_offset_top="387"/>
+                <input_touch>
+                    <up enabled="1">
+                        <command><![CDATA[inputAnalogValue("KP","Enter KP Value:", EcTag["KP"].getTagID())]]></command>
+                    </up>
+                </input_touch>
+            </text>
+            <text font_size="10" display_type="0" static_text="KD" font_weight="75" color="4278255615" underline="0" font_style="0" font_family="URW Bookman L" align_type="0" strikeout="0">
+                <display_on_off text_off="" text_on=""><![CDATA[]]></display_on_off>
+                <object tool_tip="" object_number="10321" description="" object_id="TEXT_10321"/>
+                <box top="0" axis_offset_left="220" bottom="0" left="0" z_index="85" axis_anchor="4" right="0" angle="0" axis_offset_top="469"/>
+            </text>
+            <text font_size="11" display_type="0" static_text="KI" font_weight="75" color="4294901760" underline="0" font_style="0" font_family="URW Bookman L" align_type="0" strikeout="0">
+                <display_on_off text_off="" text_on=""><![CDATA[]]></display_on_off>
+                <object tool_tip="" object_number="10320" description="" object_id="TEXT_10320"/>
+                <box top="0" axis_offset_left="221" bottom="0" left="0" z_index="84" axis_anchor="4" right="0" angle="0" axis_offset_top="428"/>
+            </text>
+            <text font_size="10" display_type="0" static_text="Tune Parameters" font_weight="75" color="4294967040" underline="0" font_style="1" font_family="URW Bookman L" align_type="0" strikeout="0">
+                <display_on_off text_off="" text_on=""><![CDATA[]]></display_on_off>
+                <object tool_tip="" object_number="10315" description="" object_id="TEXT_10315"/>
+                <box top="0" axis_offset_left="225" bottom="0" left="0" z_index="79" axis_anchor="4" right="0" angle="0" axis_offset_top="355"/>
+            </text>
+            <text font_size="11" display_type="0" static_text="KP" font_weight="75" color="4278255360" underline="0" font_style="0" font_family="URW Bookman L" align_type="0" strikeout="0">
+                <display_on_off text_off="" text_on=""><![CDATA[]]></display_on_off>
+                <object tool_tip="" object_number="10313" description="" object_id="TEXT_10313"/>
+                <box top="0" axis_offset_left="220" bottom="0" left="0" z_index="77" axis_anchor="4" right="0" angle="0" axis_offset_top="388"/>
+            </text>
+            <text font_size="12" display_type="3" static_text="####.##" font_weight="75" color="4278255615" underline="0" font_style="0" font_family="PT Sans" align_type="0" strikeout="0">
+                <display_numeric>
+                    <expression><![CDATA[EcTag["CV"];]]></expression>
+                    <format>2</format>
+                </display_numeric>
+                <object tool_tip="" object_number="10309" description="" object_id="TEXT_10309"/>
+                <box top="0" axis_offset_left="60" bottom="0" left="0" z_index="73" axis_anchor="4" right="0" angle="0" axis_offset_top="468"/>
+                <input_touch>
+                    <up enabled="1">
+                        <command><![CDATA[inputAnalogValue("M_SP","Enter Manual Set Point Value", EcTag["M_SP"].getTagID())]]></command>
+                    </up>
+                </input_touch>
+            </text>
+            <text font_size="12" display_type="3" static_text="####.##" font_weight="75" color="4278255615" underline="0" font_style="0" font_family="PT Sans" align_type="0" strikeout="0">
+                <display_numeric>
+                    <expression><![CDATA[EcTag["SP"];]]></expression>
+                    <format>2</format>
+                </display_numeric>
+                <object tool_tip="" object_number="10308" description="" object_id="TEXT_10308"/>
+                <box top="0" axis_offset_left="59" bottom="0" left="0" z_index="72" axis_anchor="4" right="0" angle="0" axis_offset_top="430"/>
+                <input_touch>
+                    <up enabled="1">
+                        <command><![CDATA[inputAnalogValue("SP","Enter Set Point Value", EcTag[3].getTagID())]]></command>
+                    </up>
+                </input_touch>
+            </text>
+            <text font_size="12" display_type="3" static_text="####.##" font_weight="75" color="4278255615" underline="0" font_style="0" font_family="PT Sans" align_type="0" strikeout="0">
+                <display_numeric>
+                    <expression><![CDATA[EcTag[1];]]></expression>
+                    <format>2</format>
+                </display_numeric>
+                <object tool_tip="" object_number="10307" description="" object_id="TEXT_10307"/>
+                <box top="0" axis_offset_left="60" bottom="0" left="0" z_index="71" axis_anchor="4" right="0" angle="0" axis_offset_top="387"/>
+            </text>
+            <text font_size="10" display_type="0" static_text="MV" font_weight="75" color="4278255615" underline="0" font_style="0" font_family="URW Bookman L" align_type="0" strikeout="0">
+                <display_on_off text_off="" text_on=""><![CDATA[]]></display_on_off>
+                <object tool_tip="" object_number="10306" description="" object_id="TEXT_10306"/>
+                <box top="0" axis_offset_left="19" bottom="0" left="0" z_index="70" axis_anchor="4" right="0" angle="0" axis_offset_top="469"/>
+            </text>
+            <text font_size="11" display_type="0" static_text="SP" font_weight="75" color="4294901760" underline="0" font_style="0" font_family="URW Bookman L" align_type="0" strikeout="0">
+                <display_on_off text_off="" text_on=""><![CDATA[]]></display_on_off>
+                <object tool_tip="" object_number="10305" description="" object_id="TEXT_10305"/>
+                <box top="0" axis_offset_left="20" bottom="0" left="0" z_index="69" axis_anchor="4" right="0" angle="0" axis_offset_top="428"/>
+            </text>
+            <text font_size="10" display_type="0" static_text="Valves" font_weight="75" color="4294967040" underline="0" font_style="1" font_family="URW Bookman L" align_type="0" strikeout="0">
+                <display_on_off text_off="" text_on=""><![CDATA[]]></display_on_off>
+                <object tool_tip="" object_number="10299" description="" object_id="TEXT_10299"/>
+                <box top="0" axis_offset_left="73" bottom="0" left="0" z_index="63" axis_anchor="4" right="0" angle="0" axis_offset_top="357"/>
+            </text>
+            <text font_size="11" display_type="0" static_text="%" font_weight="75" color="4278255615" underline="0" font_style="0" font_family="PT Sans" align_type="0" strikeout="0">
+                <display_on_off text_off="" text_on=""><![CDATA[]]></display_on_off>
+                <object tool_tip="" object_number="10297" description="" object_id="TEXT_10297"/>
+                <box top="0" axis_offset_left="154" bottom="0" left="0" z_index="61" axis_anchor="4" right="0" angle="0" axis_offset_top="467"/>
+            </text>
+            <text font_size="10" display_type="0" static_text="LPH" font_weight="75" color="4294901760" underline="0" font_style="0" font_family="URW Bookman L" align_type="0" strikeout="0">
+                <display_on_off text_off="" text_on=""><![CDATA[]]></display_on_off>
+                <object tool_tip="" object_number="10296" description="" object_id="TEXT_10296"/>
+                <box top="0" axis_offset_left="155" bottom="0" left="0" z_index="60" axis_anchor="4" right="0" angle="0" axis_offset_top="428"/>
+            </text>
+            <text font_size="10" display_type="0" static_text="LPH" font_weight="75" color="4278255360" underline="0" font_style="0" font_family="URW Bookman L" align_type="0" strikeout="0">
+                <display_on_off text_off="" text_on=""><![CDATA[]]></display_on_off>
+                <object tool_tip="" object_number="10295" description="" object_id="TEXT_10295"/>
+                <box top="0" axis_offset_left="154" bottom="0" left="0" z_index="59" axis_anchor="4" right="0" angle="0" axis_offset_top="387"/>
+            </text>
+            <text font_size="11" display_type="0" static_text="PV" font_weight="75" color="4278255360" underline="0" font_style="0" font_family="URW Bookman L" align_type="0" strikeout="0">
+                <display_on_off text_off="" text_on=""><![CDATA[]]></display_on_off>
+                <object tool_tip="" object_number="10294" description="" object_id="TEXT_10294"/>
+                <box top="0" axis_offset_left="19" bottom="0" left="0" z_index="58" axis_anchor="4" right="0" angle="0" axis_offset_top="388"/>
+            </text>
+            <text font_size="11" display_type="4" static_text="TagName" font_weight="75" color="4283826175" underline="0" font_style="0" font_family="URW Bookman L" align_type="0" strikeout="0">
+                <display_string><![CDATA[getTagDesc(EcTag[1].getTagID())]]></display_string>
+                <object tool_tip="" object_number="10246" description="" object_id="TEXT_10246"/>
+                <box top="0" axis_offset_left="11" bottom="0" left="0" z_index="15" axis_anchor="4" right="0" angle="0" axis_offset_top="45"/>
+            </text>
+            <text font_size="11" display_type="4" static_text="TagName" font_weight="75" color="4283826175" underline="0" font_style="0" font_family="URW Bookman L" align_type="0" strikeout="0">
+                <display_string><![CDATA[getTagName(EcTag[1].getTagID())]]></display_string>
+                <object tool_tip="" object_number="10245" description="" object_id="TEXT_10245"/>
+                <box top="0" axis_offset_left="115" bottom="0" left="0" z_index="14" axis_anchor="4" right="0" angle="0" axis_offset_top="4"/>
+            </text>
+            <text font_size="11" display_type="3" static_text="TagID" font_weight="75" color="4283826175" underline="0" font_style="0" font_family="URW Bookman L" align_type="0" strikeout="0">
+                <display_numeric>
+                    <expression><![CDATA[EcTag[1].getTagID()]]></expression>
+                    <format></format>
+                </display_numeric>
+                <object tool_tip="" object_number="10241" description="" object_id="TEXT_10241"/>
+                <box top="0" axis_offset_left="9" bottom="0" left="0" z_index="10" axis_anchor="4" right="0" angle="0" axis_offset_top="3"/>
+            </text>
+        </labels>
+        <trends>
+            <trend x2="380" objectNumber="0" objectId="" lineWidth="1" color="#000000" zIndex="0" y1="85" style="1" x1="10" y2="350">
+                <description/>
+                <touchCommand><![CDATA[]]></touchCommand>
+            </trend>
+        </trends>
+    </hmipage>

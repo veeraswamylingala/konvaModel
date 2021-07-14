@@ -1,0 +1,242 @@
+<hmipage prev_page="" belongs_to_all_areas="1" order="53" next_object_number="10190" template_id="" title="Pump_Run_Hours" default_page_scan="1" color="4290822336" access_area="0" id="Pump_Run_Hours" page_scan_time="250" next_page="" height="410" version="0.1.0" width="300">
+        <shapes>
+            <shape type="Rectangle">
+                <object tool_tip="" object_number="10180" description="" object_id="SHAPE_10180"/>
+                <box top="0" axis_offset_left="0" bottom="60" left="0" z_index="95" axis_anchor="0" right="310" angle="0" axis_offset_top="250"/>
+                <line line_width="1" color="#000000" style="1"/>
+                <rectangle x2="310" corner_radius="5" y1="0" x1="0" y2="60"/>
+            </shape>
+            <shape type="Button">
+                <object tool_tip="" object_number="10170" description="" object_id="SHAPE_10170"/>
+                <box top="0" axis_offset_left="8" bottom="35" left="0" z_index="92" axis_anchor="0" right="291" angle="0" axis_offset_top="188"/>
+                <line line_width="1" color="#000000" style="1"/>
+                <input_touch>
+                    <up enabled="1">
+                        <command><![CDATA[EcTag["RST_CRH"] = 1]]></command>
+                    </up>
+                </input_touch>
+            </shape>
+            <shape type="Rectangle">
+                <object tool_tip="" object_number="10158" description="" object_id="SHAPE_10158"/>
+                <box top="0" axis_offset_left="268" bottom="30" left="0" z_index="49" axis_anchor="0" right="30" angle="0" axis_offset_top="91"/>
+                <line line_width="1" color="#000000" style="1"/>
+                <fill fill="#000000"/>
+                <rectangle x2="30" corner_radius="0" y1="0" x1="0" y2="30"/>
+            </shape>
+            <shape type="Rectangle">
+                <object tool_tip="" object_number="10157" description="" object_id="SHAPE_10157"/>
+                <box top="0" axis_offset_left="196" bottom="30" left="0" z_index="48" axis_anchor="0" right="54" angle="0" axis_offset_top="91"/>
+                <line line_width="1" color="#000000" style="1"/>
+                <fill fill="#000000"/>
+                <rectangle x2="54" corner_radius="0" y1="0" x1="0" y2="30"/>
+            </shape>
+            <shape type="Rectangle">
+                <object tool_tip="" object_number="10148" description="" object_id="SHAPE_10148"/>
+                <box top="0" axis_offset_left="30" bottom="26" left="0" z_index="40" axis_anchor="0" right="155" angle="0" axis_offset_top="360"/>
+                <line line_width="1" color="#000000" style="1"/>
+                <rectangle x2="155" corner_radius="5" y1="0" x1="0" y2="26"/>
+            </shape>
+            <shape type="Rectangle">
+                <object tool_tip="" object_number="10144" description="" object_id="SHAPE_10144"/>
+                <box top="0" axis_offset_left="220" bottom="15" left="0" z_index="36" axis_anchor="0" right="20" angle="0" axis_offset_top="400"/>
+                <line line_width="1" color="#000000" style="1"/>
+                <fill fill="#55ff00"/>
+                <rectangle x2="20" corner_radius="0" y1="0" x1="0" y2="15"/>
+            </shape>
+            <shape type="Rectangle">
+                <object tool_tip="" object_number="10143" description="" object_id="SHAPE_10143"/>
+                <box top="0" axis_offset_left="260" bottom="15" left="0" z_index="35" axis_anchor="0" right="20" angle="0" axis_offset_top="360"/>
+                <line line_width="1" color="#000000" style="1"/>
+                <fill fill="#55ff00"/>
+                <rectangle x2="20" corner_radius="0" y1="0" x1="0" y2="15"/>
+            </shape>
+            <shape type="Rectangle">
+                <object tool_tip="" object_number="10142" description="" object_id="SHAPE_10142"/>
+                <box top="0" axis_offset_left="220" bottom="15" left="0" z_index="34" axis_anchor="0" right="20" angle="0" axis_offset_top="360"/>
+                <line line_width="1" color="#000000" style="1"/>
+                <fill fill="#55ff00"/>
+                <rectangle x2="20" corner_radius="0" y1="0" x1="0" y2="15"/>
+            </shape>
+            <shape type="Rectangle">
+                <object tool_tip="" object_number="10137" description="" object_id="SHAPE_10137"/>
+                <box top="0" axis_offset_left="90" bottom="17" left="0" z_index="29" axis_anchor="0" right="137" angle="0" axis_offset_top="320"/>
+                <line line_width="1" color="#000000" style="1"/>
+                <fill fill="#550000"/>
+                <rectangle x2="137" corner_radius="5" y1="0" x1="0" y2="17"/>
+            </shape>
+            <shape type="Rectangle">
+                <object tool_tip="" object_number="10131" description="" object_id="SHAPE_10131"/>
+                <box top="0" axis_offset_left="210" bottom="17" left="0" z_index="23" axis_anchor="0" right="33" angle="0" axis_offset_top="340"/>
+                <line line_width="1" color="#000000" style="1"/>
+                <fill fill="#919191"/>
+                <rectangle x2="33" corner_radius="8" y1="0" x1="0" y2="17"/>
+            </shape>
+            <shape type="Rectangle">
+                <object tool_tip="" object_number="10127" description="" object_id="SHAPE_10127"/>
+                <box top="0" axis_offset_left="30" bottom="26" left="0" z_index="19" axis_anchor="0" right="156" angle="0" axis_offset_top="390"/>
+                <line line_width="1" color="#000000" style="1"/>
+                <rectangle x2="156" corner_radius="5" y1="0" x1="0" y2="26"/>
+            </shape>
+            <shape type="Rectangle">
+                <object tool_tip="" object_number="10126" description="" object_id="SHAPE_10126"/>
+                <box top="0" axis_offset_left="250" bottom="17" left="0" z_index="18" axis_anchor="0" right="33" angle="0" axis_offset_top="340"/>
+                <line line_width="1" color="#000000" style="1"/>
+                <fill fill="#919191"/>
+                <rectangle x2="33" corner_radius="8" y1="0" x1="0" y2="17"/>
+            </shape>
+            <shape type="Rectangle">
+                <object tool_tip="" object_number="10079" description="" object_id="SHAPE_10079"/>
+                <box top="0" axis_offset_left="0" bottom="200" left="0" z_index="7" axis_anchor="0" right="310" angle="0" axis_offset_top="40"/>
+                <line line_width="1" color="#000000" style="1"/>
+                <rectangle x2="310" corner_radius="5" y1="0" x1="0" y2="200"/>
+            </shape>
+            <shape type="Rectangle">
+                <object tool_tip="" object_number="10078" description="" object_id="SHAPE_10078"/>
+                <box top="0" axis_offset_left="0" bottom="97" left="0" z_index="6" axis_anchor="0" right="310" angle="0" axis_offset_top="330"/>
+                <line line_width="1" color="#000000" style="1"/>
+                <rectangle x2="310" corner_radius="5" y1="0" x1="0" y2="97"/>
+            </shape>
+            <shape type="Rectangle">
+                <object tool_tip="" object_number="10188" description="" object_id="SHAPE_10188"/>
+                <box top="0" axis_offset_left="268" bottom="30" left="0" z_index="6" axis_anchor="0" right="30" angle="0" axis_offset_top="140"/>
+                <line line_width="1" color="#000000" style="1"/>
+                <fill fill="#000000"/>
+                <rectangle x2="30" corner_radius="0" y1="0" x1="0" y2="30"/>
+            </shape>
+            <shape type="Rectangle">
+                <object tool_tip="" object_number="10187" description="" object_id="SHAPE_10187"/>
+                <box top="0" axis_offset_left="196" bottom="30" left="0" z_index="5" axis_anchor="0" right="54" angle="0" axis_offset_top="140"/>
+                <line line_width="1" color="#000000" style="1"/>
+                <fill fill="#000000"/>
+                <rectangle x2="54" corner_radius="0" y1="0" x1="0" y2="30"/>
+            </shape>
+            <shape type="Rectangle">
+                <object tool_tip="" object_number="10076" description="" object_id="SHAPE_10076"/>
+                <box top="0" axis_offset_left="0" bottom="28" left="0" z_index="4" axis_anchor="0" right="310" angle="0" axis_offset_top="0"/>
+                <line line_width="1" color="#000000" style="1"/>
+                <rectangle x2="310" corner_radius="5" y1="0" x1="0" y2="28"/>
+            </shape>
+            <shape type="Rectangle">
+                <object tool_tip="" object_number="10075" description="" object_id="SHAPE_10075"/>
+                <box top="0" axis_offset_left="-10" bottom="450" left="0" z_index="3" axis_anchor="0" right="330" angle="0" axis_offset_top="-10"/>
+                <line line_width="1" color="#000000" style="1"/>
+                <fill fill="#a5a5a5"/>
+                <gradient gradient_color="#bcbcbc" gradient_direction="4"/>
+                <rectangle x2="330" corner_radius="0" y1="0" x1="0" y2="450"/>
+            </shape>
+            <shape type="Rectangle">
+                <object tool_tip="" object_number="10184" description="" object_id="SHAPE_10184"/>
+                <box top="0" axis_offset_left="275" bottom="30" left="0" z_index="2" axis_anchor="0" right="30" angle="0" axis_offset_top="100"/>
+                <line line_width="1" color="#000000" style="1"/>
+                <fill fill="#000000"/>
+                <rectangle x2="30" corner_radius="0" y1="0" x1="0" y2="30"/>
+            </shape>
+            <shape type="Rectangle">
+                <object tool_tip="" object_number="10183" description="" object_id="SHAPE_10183"/>
+                <box top="0" axis_offset_left="205" bottom="30" left="0" z_index="1" axis_anchor="0" right="54" angle="0" axis_offset_top="100"/>
+                <line line_width="1" color="#000000" style="1"/>
+                <fill fill="#000000"/>
+                <rectangle x2="54" corner_radius="0" y1="0" x1="0" y2="30"/>
+            </shape>
+        </shapes>
+        <labels>
+            <text font_size="13" display_type="0" static_text="Last Run Hours" font_weight="75" color="4278190207" underline="0" font_style="1" font_family="URW Bookman L" align_type="0" strikeout="0">
+                <display_on_off text_off="" text_on=""><![CDATA[]]></display_on_off>
+                <object tool_tip="" object_number="10172" description="" object_id="TEXT_10172"/>
+                <box top="0" axis_offset_left="6" bottom="0" left="0" z_index="93" axis_anchor="4" right="0" angle="0" axis_offset_top="142"/>
+            </text>
+            <text font_size="12" display_type="3" static_text="00" font_weight="75" color="4278255615" underline="0" font_style="0" font_family="URW Bookman L" align_type="0" strikeout="0">
+                <display_numeric>
+                    <expression><![CDATA[EcTag["CRM"]]]></expression>
+                    <format></format>
+                </display_numeric>
+                <object tool_tip="" object_number="10164" description="" object_id="TEXT_10164"/>
+                <box top="0" axis_offset_left="267" bottom="0" left="0" z_index="54" axis_anchor="4" right="0" angle="0" axis_offset_top="92"/>
+            </text>
+            <text font_size="12" display_type="3" static_text="00" font_weight="75" color="4278255615" underline="0" font_style="0" font_family="URW Bookman L" align_type="0" strikeout="0">
+                <display_numeric>
+                    <expression><![CDATA[EcTag["CRH"]]]></expression>
+                    <format></format>
+                </display_numeric>
+                <object tool_tip="" object_number="10163" description="" object_id="TEXT_10163"/>
+                <box top="0" axis_offset_left="199" bottom="0" left="0" z_index="53" axis_anchor="4" right="0" angle="0" axis_offset_top="91"/>
+            </text>
+            <text font_size="13" display_type="0" static_text="Total Cumm. Run hr" font_weight="75" color="4278190207" underline="0" font_style="1" font_family="URW Bookman L" align_type="0" strikeout="0">
+                <display_on_off text_off="" text_on=""><![CDATA[]]></display_on_off>
+                <object tool_tip="" object_number="10150" description="" object_id="TEXT_10150"/>
+                <box top="0" axis_offset_left="2" bottom="0" left="0" z_index="42" axis_anchor="4" right="0" angle="0" axis_offset_top="92"/>
+            </text>
+            <text font_size="15" display_type="4" static_text="Running Hours" font_weight="75" color="4278211840" underline="0" font_style="0" font_family="URW Bookman L" align_type="0" strikeout="0">
+                <display_string><![CDATA[EcTag.title();]]></display_string>
+                <object tool_tip="" object_number="10149" description="" object_id="TEXT_10149"/>
+                <box top="0" axis_offset_left="72" bottom="0" left="0" z_index="41" axis_anchor="4" right="0" angle="0" axis_offset_top="-3"/>
+            </text>
+            <text font_size="10" display_type="0" static_text="CHANNEL STATUS" font_weight="75" color="4294967040" underline="0" font_style="1" font_family="URW Bookman L" align_type="0" strikeout="0">
+                <display_on_off text_off="" text_on=""><![CDATA[]]></display_on_off>
+                <object tool_tip="" object_number="10138" description="" object_id="TEXT_10138"/>
+                <box top="0" axis_offset_left="91" bottom="0" left="0" z_index="30" axis_anchor="4" right="0" angle="0" axis_offset_top="318"/>
+            </text>
+            <text font_size="10" display_type="0" static_text="OFF" font_weight="75" color="4294967040" underline="0" font_style="0" font_family="URW Bookman L" align_type="0" strikeout="0">
+                <display_on_off text_off="" text_on=""><![CDATA[]]></display_on_off>
+                <object tool_tip="" object_number="10132" description="" object_id="TEXT_10132"/>
+                <box top="0" axis_offset_left="211" bottom="0" left="0" z_index="24" axis_anchor="4" right="0" angle="0" axis_offset_top="336"/>
+            </text>
+            <text font_size="10" display_type="0" static_text="ON" font_weight="75" color="4294967040" underline="0" font_style="0" font_family="URW Bookman L" align_type="0" strikeout="0">
+                <display_on_off text_off="" text_on=""><![CDATA[]]></display_on_off>
+                <object tool_tip="" object_number="10130" description="" object_id="TEXT_10130"/>
+                <box top="0" axis_offset_left="252" bottom="0" left="0" z_index="22" axis_anchor="4" right="0" angle="0" axis_offset_top="336"/>
+            </text>
+            <text font_size="11" display_type="0" static_text="Channel DO Faulty" font_weight="75" color="4278190207" underline="0" font_style="0" font_family="URW Bookman L" align_type="0" strikeout="0">
+                <display_on_off text_off="" text_on=""><![CDATA[]]></display_on_off>
+                <object tool_tip="" object_number="10129" description="" object_id="TEXT_10129"/>
+                <box top="0" axis_offset_left="26" bottom="0" left="0" z_index="21" axis_anchor="4" right="0" angle="0" axis_offset_top="391"/>
+            </text>
+            <text font_size="11" display_type="0" static_text="Channel DI Faulty" font_weight="75" color="4278190207" underline="0" font_style="0" font_family="URW Bookman L" align_type="0" strikeout="0">
+                <display_on_off text_off="" text_on=""><![CDATA[]]></display_on_off>
+                <object tool_tip="" object_number="10128" description="" object_id="TEXT_10128"/>
+                <box top="0" axis_offset_left="29" bottom="0" left="0" z_index="20" axis_anchor="4" right="0" angle="0" axis_offset_top="359"/>
+            </text>
+            <text font_size="12" display_type="3" static_text="00" font_weight="75" color="4278255615" underline="0" font_style="0" font_family="URW Bookman L" align_type="0" strikeout="0">
+                <display_numeric>
+                    <expression><![CDATA[EcTag["LRM"]]]></expression>
+                    <format></format>
+                </display_numeric>
+                <object tool_tip="" object_number="10190" description="" object_id="TEXT_10190"/>
+                <box top="0" axis_offset_left="268" bottom="0" left="0" z_index="8" axis_anchor="4" right="0" angle="0" axis_offset_top="142"/>
+            </text>
+            <text font_size="12" display_type="3" static_text="00" font_weight="75" color="4278255615" underline="0" font_style="0" font_family="URW Bookman L" align_type="0" strikeout="0">
+                <display_numeric>
+                    <expression><![CDATA[EcTag["LRH"]]]></expression>
+                    <format></format>
+                </display_numeric>
+                <object tool_tip="" object_number="10189" description="" object_id="TEXT_10189"/>
+                <box top="0" axis_offset_left="200" bottom="0" left="0" z_index="7" axis_anchor="4" right="0" angle="0" axis_offset_top="141"/>
+            </text>
+            <text font_size="20" display_type="0" static_text=":" font_weight="75" color="4278190080" underline="0" font_style="0" font_family="URW Bookman L" align_type="0" strikeout="0">
+                <display_on_off text_off="" text_on=""><![CDATA[]]></display_on_off>
+                <object tool_tip="" object_number="10186" description="" object_id="TEXT_10186"/>
+                <box top="0" axis_offset_left="249" bottom="0" left="0" z_index="4" axis_anchor="4" right="0" angle="0" axis_offset_top="133"/>
+            </text>
+            <text font_size="20" display_type="0" static_text=":" font_weight="75" color="4278190080" underline="0" font_style="0" font_family="URW Bookman L" align_type="0" strikeout="0">
+                <display_on_off text_off="" text_on=""><![CDATA[]]></display_on_off>
+                <object tool_tip="" object_number="10185" description="" object_id="TEXT_10185"/>
+                <box top="0" axis_offset_left="249" bottom="0" left="0" z_index="3" axis_anchor="4" right="0" angle="0" axis_offset_top="84"/>
+            </text>
+        </labels>
+        <groups>
+            <group objectNumber="1" objectId="" zIndex="0">
+                <shape type="Rectangle">
+                    <object tool_tip="" object_number="10151" description="" object_id="SHAPE_10151"/>
+                    <box top="0" axis_offset_left="6" bottom="30" left="0" z_index="43" axis_anchor="0" right="100" angle="0" axis_offset_top="6"/>
+                    <line line_width="1" color="#000000" style="1"/>
+                    <rectangle x2="100" corner_radius="3" y1="0" x1="0" y2="30"/>
+                </shape>
+                <text font_size="12" display_type="0" static_text="HH : MIN" font_weight="75" color="4278190080" underline="0" font_style="0" font_family="URW Bookman L" align_type="0" strikeout="0">
+                    <display_on_off text_off="" text_on=""><![CDATA[]]></display_on_off>
+                    <object tool_tip="" object_number="10152" description="" object_id="TEXT_10152"/>
+                    <box top="0" axis_offset_left="16" bottom="0" left="0" z_index="44" axis_anchor="4" right="0" angle="0" axis_offset_top="6"/>
+                </text>
+                <description/>
+            </group>
+        </groups>
+    </hmipage>

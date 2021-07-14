@@ -1,0 +1,799 @@
+<hmipage prev_page="" belongs_to_all_areas="1" order="55" next_object_number="10125" template_id="template_Diagnostics_1" title="HMI_features_1" default_page_scan="1" color="4283804287" access_area="0" id="HMI_features_1" page_scan_time="250" next_page="" height="1050" version="0.1.0" width="1890">
+        <shapes>
+            <shape type="Rectangle">
+                <object tool_tip="" object_number="10065" description="" object_id="SHAPE_10065"/>
+                <box top="-31" axis_offset_left="612" bottom="31" left="-41" z_index="1" axis_anchor="0" right="42" angle="0" axis_offset_top="335"/>
+                <line line_width="1" color="#000000" style="1"/>
+                <fill fill="#ff0000"/>
+                <rectangle x2="42" corner_radius="0" y1="-31" x1="-41" y2="31"/>
+            </shape>
+            <shape type="Rectangle">
+                <object tool_tip="" object_number="10061" description="" object_id="SHAPE_10061"/>
+                <box top="-50" axis_offset_left="750" bottom="54" left="-58" z_index="1" axis_anchor="0" right="42" angle="0" axis_offset_top="455"/>
+                <line line_width="1" color="#000000" style="1"/>
+                <fill fill="#ff55ff"/>
+                <rectangle x2="42" corner_radius="0" y1="-50" x1="-58" y2="54"/>
+            </shape>
+            <shape type="Rectangle">
+                <object tool_tip="" object_number="10081" description="" object_id="SHAPE_10081"/>
+                <box top="-18" axis_offset_left="219" bottom="18" left="-41" z_index="0" axis_anchor="0" right="41" angle="0" axis_offset_top="332"/>
+                <line line_width="1" color="#000000" style="1"/>
+                <fill fill="#ffaaff"/>
+                <rectangle x2="41" corner_radius="0" y1="-18" x1="-41" y2="18"/>
+                <dynamic_fill type="1">
+                    <multi_state>
+                        <condition><![CDATA[int static i = 0, dir = 1;  if (i < -25 || i > 25) dir *= -1;  i += dir;   return  i % 2 == 0;]]><![CDATA[int static i = 0, dir = 1;  if (i < -25 || i > 25) dir *= -1;  i += dir;   return  i %3 == 0;]]></condition>
+                        <color><![CDATA[1677786880]]><![CDATA[4294901760]]><![CDATA[4278190335]]><![CDATA[4283804160]]></color>
+                        <blink_enable/>
+                        <blink_color/>
+                    </multi_state>
+                </dynamic_fill>
+            </shape>
+            <shape type="Rectangle">
+                <object tool_tip="" object_number="10080" description="" object_id="SHAPE_10080"/>
+                <box top="0" axis_offset_left="302" bottom="0" left="0" z_index="0" axis_anchor="0" right="0" angle="0" axis_offset_top="580"/>
+                <line line_width="1" color="#000000" style="1"/>
+                <rectangle x2="0" corner_radius="0" y1="0" x1="0" y2="0"/>
+            </shape>
+            <shape type="Rectangle">
+                <object tool_tip="" object_number="10067" description="" object_id="SHAPE_10067"/>
+                <box top="-28" axis_offset_left="91" bottom="29" left="-23" z_index="0" axis_anchor="0" right="23" angle="0" axis_offset_top="539"/>
+                <line line_width="1" color="#000000" style="1"/>
+                <scaling>
+                    <horizontal at_minimum="0" axis_anchor_scale="1" axis_type="0" enabled="0" maximum="100" minimum="0" at_maximum="100">
+                        <expression><![CDATA[static int m=0;
+m=m+5;
+if(m>=100) 
+m=0;
+return m;]]></expression>
+                    </horizontal>
+                </scaling>
+                <fill fill="#00ff7f"/>
+                <rectangle x2="23" corner_radius="0" y1="-28" x1="-23" y2="29"/>
+            </shape>
+            <shape type="Button">
+                <object tool_tip="" object_number="10033" description="" object_id="SHAPE_10033"/>
+                <box top="-1" axis_offset_left="1723" bottom="51" left="-39" z_index="0" axis_anchor="0" right="53" angle="0" axis_offset_top="177"/>
+                <line line_width="1" color="#000000" style="1"/>
+            </shape>
+            <shape type="Polygon">
+                <object tool_tip="" object_number="10031" description="" object_id="SHAPE_10031"/>
+                <box top="0" axis_offset_left="645" bottom="0" left="0" z_index="0" axis_anchor="0" right="0" angle="0" axis_offset_top="396"/>
+                <line line_width="1" color="#000000" style="1"/>
+                <polyline closed="0">
+                    <points>
+                        <point y="0" x="0"/>
+                        <point y="0" x="0"/>
+                    </points>
+                </polyline>
+            </shape>
+            <shape type="Polygon">
+                <object tool_tip="" object_number="10029" description="" object_id="SHAPE_10029"/>
+                <box top="0" axis_offset_left="662" bottom="0" left="0" z_index="0" axis_anchor="0" right="0" angle="0" axis_offset_top="224"/>
+                <line line_width="1" color="#000000" style="1"/>
+                <polyline closed="0">
+                    <points>
+                        <point y="0" x="0"/>
+                        <point y="0" x="0"/>
+                    </points>
+                </polyline>
+            </shape>
+            <shape type="Polygon">
+                <object tool_tip="" object_number="10028" description="" object_id="SHAPE_10028"/>
+                <box top="0" axis_offset_left="1194" bottom="0" left="0" z_index="0" axis_anchor="0" right="0" angle="0" axis_offset_top="514"/>
+                <line line_width="1" color="#000000" style="1"/>
+                <polyline closed="0">
+                    <points>
+                        <point y="0" x="0"/>
+                        <point y="0" x="0"/>
+                    </points>
+                </polyline>
+            </shape>
+            <shape type="Polygon">
+                <object tool_tip="" object_number="10027" description="" object_id="SHAPE_10027"/>
+                <box top="0" axis_offset_left="734" bottom="0" left="0" z_index="0" axis_anchor="0" right="0" angle="0" axis_offset_top="593"/>
+                <line line_width="1" color="#000000" style="1"/>
+                <polyline closed="0">
+                    <points>
+                        <point y="0" x="0"/>
+                        <point y="0" x="0"/>
+                    </points>
+                </polyline>
+            </shape>
+            <shape type="Polygon">
+                <object tool_tip="" object_number="10026" description="" object_id="SHAPE_10026"/>
+                <box top="0" axis_offset_left="733" bottom="0" left="0" z_index="0" axis_anchor="0" right="0" angle="0" axis_offset_top="617"/>
+                <line line_width="1" color="#000000" style="1"/>
+                <polyline closed="0">
+                    <points>
+                        <point y="0" x="0"/>
+                        <point y="0" x="0"/>
+                    </points>
+                </polyline>
+            </shape>
+            <shape type="Ellipse">
+                <object tool_tip="" object_number="10020" description="" object_id="SHAPE_10020"/>
+                <box top="-15" axis_offset_left="452" bottom="27" left="-52" z_index="0" axis_anchor="0" right="47" angle="0" axis_offset_top="434"/>
+                <line line_width="1" color="#000000" style="1"/>
+                <movement>
+                    <rotational at_minimum="0" axis_type="0" axis_anchor="3" enabled="1" maximum="100" minimum="0" at_maximum="360">
+                        <expression><![CDATA[static int m=0;
+m=m+5;
+if(m>=100) 
+m=0;
+return m;]]></expression>
+                    </rotational>
+                </movement>
+                <fill fill="#ff55ff"/>
+                <ellipse x2="47" angle_end="0" ellipse_type="ARC_ELLIPSE" angle_start="0" y1="-15" x1="-52" y2="27"/>
+            </shape>
+            <shape type="Rectangle">
+                <object tool_tip="" object_number="10014" description="" object_id="SHAPE_10014"/>
+                <box top="1" axis_offset_left="394" bottom="60" left="1" z_index="0" axis_anchor="0" right="68" angle="0" axis_offset_top="620"/>
+                <line line_width="1" color="#000000" style="1"/>
+                <fill fill="#ffaa00"/>
+                <rectangle x2="68" corner_radius="0" y1="1" x1="1" y2="60"/>
+            </shape>
+            <shape type="Rectangle">
+                <object tool_tip="" object_number="10013" description="" object_id="SHAPE_10013"/>
+                <box top="0" axis_offset_left="280" bottom="60" left="0" z_index="0" axis_anchor="0" right="68" angle="0" axis_offset_top="621"/>
+                <line line_width="1" color="#000000" style="1"/>
+                <fill fill="#ffaa00"/>
+                <rectangle x2="68" corner_radius="0" y1="0" x1="0" y2="60"/>
+            </shape>
+            <shape type="Rectangle">
+                <object tool_tip="" object_number="10012" description="" object_id="SHAPE_10012"/>
+                <box top="-30" axis_offset_left="199" bottom="30" left="-34" z_index="0" axis_anchor="0" right="35" angle="0" axis_offset_top="650"/>
+                <line line_width="1" color="#000000" style="1"/>
+                <fill fill="#ffaa00"/>
+                <rectangle x2="35" corner_radius="0" y1="-30" x1="-34" y2="30"/>
+            </shape>
+            <shape type="Rectangle">
+                <object tool_tip="" object_number="10011" description="" object_id="SHAPE_10011"/>
+                <box top="-30" axis_offset_left="642" bottom="30" left="-34" z_index="0" axis_anchor="0" right="34" angle="0" axis_offset_top="650"/>
+                <line line_width="1" color="#000000" style="1"/>
+                <fill fill="#ffaa00"/>
+                <rectangle x2="34" corner_radius="0" y1="-30" x1="-34" y2="30"/>
+            </shape>
+            <shape type="Rectangle">
+                <object tool_tip="" object_number="10010" description="" object_id="SHAPE_10010"/>
+                <box top="-30" axis_offset_left="539" bottom="30" left="-34" z_index="0" axis_anchor="0" right="34" angle="0" axis_offset_top="649"/>
+                <line line_width="1" color="#000000" style="1"/>
+                <fill fill="#ffaa00"/>
+                <rectangle x2="34" corner_radius="0" y1="-30" x1="-34" y2="30"/>
+            </shape>
+            <shape type="Rectangle">
+                <object tool_tip="" object_number="10009" description="" object_id="SHAPE_10009"/>
+                <box top="0" axis_offset_left="50" bottom="60" left="0" z_index="0" axis_anchor="0" right="68" angle="0" axis_offset_top="621"/>
+                <line line_width="1" color="#000000" style="1"/>
+                <fill fill="#ffaa00"/>
+                <rectangle x2="68" corner_radius="0" y1="0" x1="0" y2="60"/>
+            </shape>
+            <shape type="Ellipse">
+                <object tool_tip="" object_number="10002" description="" object_id="SHAPE_10002"/>
+                <box top="-44" axis_offset_left="1154" bottom="44" left="-42" z_index="0" axis_anchor="0" right="43" angle="0" axis_offset_top="235"/>
+                <line line_width="1" color="#000000" style="1"/>
+                <fill fill="#ff5500"/>
+                <ellipse x2="43" angle_end="0" ellipse_type="ARC_ELLIPSE" angle_start="0" y1="-44" x1="-42" y2="44"/>
+            </shape>
+            <shape type="Polygon">
+                <object tool_tip="" object_number="10001" description="" object_id="SHAPE_10001"/>
+                <box top="0" axis_offset_left="994" bottom="0" left="0" z_index="0" axis_anchor="0" right="0" angle="0" axis_offset_top="376"/>
+                <line line_width="1" color="#000000" style="1"/>
+                <fill fill="#ffff7f"/>
+                <polyline closed="1">
+                    <points>
+                        <point y="-37" x="86"/>
+                        <point y="0" x="0"/>
+                        <point y="0" x="0"/>
+                        <point y="0" x="0"/>
+                        <point y="0" x="0"/>
+                        <point y="-155" x="85"/>
+                        <point y="-57" x="165"/>
+                        <point y="18" x="147"/>
+                        <point y="-26" x="126"/>
+                    </points>
+                </polyline>
+            </shape>
+            <shape type="Polygon">
+                <object tool_tip="" object_number="10019" description="" object_id="SHAPE_10019"/>
+                <box top="0" axis_offset_left="439" bottom="0" left="0" z_index="0" axis_anchor="0" right="0" angle="0" axis_offset_top="395"/>
+                <line line_width="1" color="#000000" style="1"/>
+                <fill fill="#000000"/>
+                <gradient gradient_color="#55ff00" gradient_direction="0"/>
+                <polyline closed="1">
+                    <points>
+                        <point y="-30" x="1"/>
+                        <point y="-88" x="0"/>
+                        <point y="-25" x="87"/>
+                        <point y="-89" x="85"/>
+                        <point y="-29" x="3"/>
+                    </points>
+                </polyline>
+            </shape>
+            <shape type="Ellipse">
+                <object tool_tip="" object_number="10021" description="" object_id="SHAPE_10021"/>
+                <box top="0" axis_offset_left="324" bottom="27" left="0" z_index="0" axis_anchor="0" right="30" angle="0" axis_offset_top="428"/>
+                <line line_width="1" color="#000000" style="1"/>
+                <movement>
+                    <rotational at_minimum="0" axis_type="0" axis_anchor="7" enabled="1" maximum="100" minimum="0" at_maximum="360">
+                        <expression><![CDATA[static int m=0;
+m=m+5;
+if(m>=100) 
+m=0;
+return m;]]></expression>
+                    </rotational>
+                </movement>
+                <fill fill="#ff55ff"/>
+                <ellipse x2="30" angle_end="0" ellipse_type="ARC_ELLIPSE" angle_start="0" y1="0" x1="0" y2="27"/>
+            </shape>
+            <shape type="Ellipse">
+                <object tool_tip="" object_number="10022" description="" object_id="SHAPE_10022"/>
+                <box top="0" axis_offset_left="91" bottom="0" left="0" z_index="0" axis_anchor="0" right="0" angle="0" axis_offset_top="458"/>
+                <line line_width="1" color="#000000" style="1"/>
+                <ellipse x2="0" angle_end="0" ellipse_type="ARC_ELLIPSE" angle_start="0" y1="0" x1="0" y2="0"/>
+            </shape>
+            <shape type="Ellipse">
+                <object tool_tip="" object_number="10023" description="" object_id="SHAPE_10023"/>
+                <box top="-27" axis_offset_left="203" bottom="27" left="-27" z_index="0" axis_anchor="0" right="27" angle="0" axis_offset_top="541"/>
+                <line line_width="1" color="#000000" style="1"/>
+                <movement>
+                    <horizontal at_minimum="0" enabled="1" maximum="100" minimum="0" at_maximum="500">
+                        <expression><![CDATA[static int m=0;
+m=m+5;
+if(m>=100) 
+m=0;
+return m;]]></expression>
+                    </horizontal>
+                </movement>
+                <scaling>
+                    <vertical at_minimum="0" axis_anchor_scale="5" axis_type="0" enabled="1" maximum="100" minimum="0" at_maximum="100">
+                        <expression><![CDATA[static int m=0;
+m=m+5;
+if(m>=100) 
+m=0;
+return m;]]></expression>
+                    </vertical>
+                </scaling>
+                <fill fill="#ff557f"/>
+                <ellipse x2="27" angle_end="0" ellipse_type="ARC_ELLIPSE" angle_start="0" y1="-27" x1="-27" y2="27"/>
+            </shape>
+            <shape type="Ellipse">
+                <object tool_tip="" object_number="10025" description="" object_id="SHAPE_10025"/>
+                <box top="-19" axis_offset_left="210" bottom="12" left="-18" z_index="0" axis_anchor="0" right="18" angle="0" axis_offset_top="449"/>
+                <line line_width="1" color="#000000" style="1"/>
+                <movement>
+                    <vertical at_minimum="0" enabled="1" maximum="100" minimum="0" at_maximum="250">
+                        <expression><![CDATA[static int m=0;
+m=m+5;
+if(m>=100) 
+m=0;
+return m;]]></expression>
+                    </vertical>
+                </movement>
+                <scaling>
+                    <vertical at_minimum="0" axis_anchor_scale="0" axis_type="0" enabled="1" maximum="100" minimum="0" at_maximum="100">
+                        <expression><![CDATA[static int m=0;
+m=m+5;
+if(m>=100) 
+m=0;
+return m;]]></expression>
+                    </vertical>
+                </scaling>
+                <fill fill="#5555ff"/>
+                <ellipse x2="18" angle_end="0" ellipse_type="ARC_ELLIPSE" angle_start="0" y1="-19" x1="-18" y2="12"/>
+                <array>
+                    <expression><![CDATA[static int i = 1, dir = -1;
+
+if (i == 1 || i == 255) dir *= -1;
+
+i += dir;
+
+return i;]]></expression>
+                    <colors><![CDATA[4294902015]]><![CDATA[32721]]><![CDATA[43157472]]><![CDATA[0]]><![CDATA[43157472]]><![CDATA[0]]><![CDATA[100663296]]><![CDATA[4283387727]]><![CDATA[4294967295]]><![CDATA[4294769916]]><![CDATA[4294967295]]><![CDATA[4294967295]]><![CDATA[4294967295]]><![CDATA[4294506744]]><![CDATA[4293717228]]><![CDATA[4293190884]]><![CDATA[4292730333]]><![CDATA[4292598747]]><![CDATA[4287993237]]><![CDATA[2368284969]]><![CDATA[637534208]]><![CDATA[419430400]]><![CDATA[184549376]]><![CDATA[33554432]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[16777216]]><![CDATA[100663296]]><![CDATA[234881024]]><![CDATA[3410314565]]><![CDATA[4283519313]]><![CDATA[4283453520]]><![CDATA[4283453520]]><![CDATA[4283453520]]><![CDATA[4283124555]]><![CDATA[4272663467]]><![CDATA[4294375158]]><![CDATA[4293322470]]><![CDATA[4292861919]]><![CDATA[4292861919]]><![CDATA[4287006342]]><![CDATA[1931419423]]><![CDATA[469762048]]><![CDATA[234881024]]><![CDATA[67108864]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[16777216]]><![CDATA[117440512]]><![CDATA[402653184]]><![CDATA[536870912]]><![CDATA[570425344]]><![CDATA[587202560]]><![CDATA[587202560]]><![CDATA[587202560]]><![CDATA[771751936]]><![CDATA[3913894217]]><![CDATA[4272663467]]><![CDATA[4293980400]]><![CDATA[4292927712]]><![CDATA[4292993505]]><![CDATA[4285953654]]><![CDATA[1410667797]]><![CDATA[285212672]]><![CDATA[83886080]]><![CDATA[16777216]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[16777216]]><![CDATA[134217728]]><![CDATA[402653184]]><![CDATA[654311424]]><![CDATA[754974720]]><![CDATA[754974720]]><![CDATA[754974720]]><![CDATA[771751936]]><![CDATA[771751936]]><![CDATA[838926593]]><![CDATA[3930671433]]><![CDATA[4272531881]]><![CDATA[4293454056]]><![CDATA[4293585642]]><![CDATA[4285164138]]><![CDATA[889981964]]><![CDATA[150994944]]><![CDATA[16777216]]><![CDATA[0]]><![CDATA[0]]><![CDATA[21793]]><![CDATA[0]]><![CDATA[4154279864]]><![CDATA[32721]]><![CDATA[4154279864]]><![CDATA[32721]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[16777216]]><![CDATA[117440512]]><![CDATA[369098752]]><![CDATA[587202560]]><![CDATA[671088640]]><![CDATA[687865856]]><![CDATA[687865856]]><![CDATA[704643072]]><![CDATA[721420288]]><![CDATA[754974720]]><![CDATA[855769602]]><![CDATA[3964291658]]><![CDATA[4287795858]]><![CDATA[4285558896]]><![CDATA[3897445966]]><![CDATA[234881024]]><![CDATA[83886080]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[67108864]]><![CDATA[218103808]]><![CDATA[385875968]]><![CDATA[452984832]]><![CDATA[452984832]]><![CDATA[469762048]]><![CDATA[503316480]]><![CDATA[603979776]]><![CDATA[687865856]]><![CDATA[754974720]]><![CDATA[889389827]]><![CDATA[2586783535]]><![CDATA[1595282966]]><![CDATA[402653184]]><![CDATA[251658240]]><![CDATA[50331648]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[16777216]]><![CDATA[67108864]]><![CDATA[117440512]]><![CDATA[167772160]]><![CDATA[167772160]]><![CDATA[167772160]]><![CDATA[218103808]]><![CDATA[352321536]]><![CDATA[536870912]]><![CDATA[687865856]]><![CDATA[754974720]]><![CDATA[754974720]]><![CDATA[704643072]]><![CDATA[503316480]]><![CDATA[218103808]]><![CDATA[50331648]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[16777216]]><![CDATA[16777216]]><![CDATA[16777216]]><![CDATA[16777216]]><![CDATA[67108864]]><![CDATA[150994944]]><![CDATA[335544320]]><![CDATA[536870912]]><![CDATA[671088640]]><![CDATA[704643072]]><![CDATA[620756992]]><![CDATA[419430400]]><![CDATA[167772160]]><![CDATA[33554432]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]></colors>
+                    <blink_enable/>
+                    <blink_color/>
+                </array>
+            </shape>
+            <shape type="Rectangle">
+                <object tool_tip="" object_number="10038" description="" object_id="SHAPE_10038"/>
+                <box top="-14" axis_offset_left="324" bottom="23" left="-21" z_index="0" axis_anchor="0" right="49" angle="0" axis_offset_top="328"/>
+                <line line_width="1" color="#000000" style="1"/>
+                <fill fill="#ff0000"/>
+                <rectangle x2="49" corner_radius="0" y1="-14" x1="-21" y2="23"/>
+                <array>
+                    <expression><![CDATA[static int i = 1, dir = -1;
+
+if (i == 1 || i == 255) dir *= -1;
+
+i += dir;
+
+return i;]]></expression>
+                    <colors><![CDATA[4278190080]]><![CDATA[32614]]><![CDATA[34650688]]><![CDATA[0]]><![CDATA[34650688]]><![CDATA[0]]><![CDATA[3473463]]><![CDATA[3538995]]><![CDATA[3735608]]><![CDATA[655416]]><![CDATA[2097184]]><![CDATA[2097184]]><![CDATA[2097184]]><![CDATA[2097184]]><![CDATA[7274595]]><![CDATA[7274604]]><![CDATA[7536754]]><![CDATA[2097210]]><![CDATA[3342387]]><![CDATA[2097162]]><![CDATA[2097184]]><![CDATA[2097184]]><![CDATA[2097184]]><![CDATA[6488096]]><![CDATA[7077999]]><![CDATA[7471215]]><![CDATA[3801203]]><![CDATA[3604512]]><![CDATA[3670071]]><![CDATA[3342389]]><![CDATA[3407921]]><![CDATA[3735603]]><![CDATA[2097162]]><![CDATA[2097184]]><![CDATA[2097184]]><![CDATA[2097184]]><![CDATA[6488096]]><![CDATA[7077999]]><![CDATA[7471215]]><![CDATA[3801203]]><![CDATA[3211296]]><![CDATA[3145783]]><![CDATA[3211313]]><![CDATA[3604532]]><![CDATA[3342386]]><![CDATA[655416]]><![CDATA[2097184]]><![CDATA[2097184]]><![CDATA[2097184]]><![CDATA[2097184]]><![CDATA[7274595]]><![CDATA[7274604]]><![CDATA[7536754]]><![CDATA[2097210]]><![CDATA[3670065]]><![CDATA[3276848]]><![CDATA[3276855]]><![CDATA[3604532]]><![CDATA[3670064]]><![CDATA[2097162]]><![CDATA[2097184]]><![CDATA[2097184]]><![CDATA[2097184]]><![CDATA[6488096]]><![CDATA[7077999]]><![CDATA[7471215]]><![CDATA[3801203]]><![CDATA[3604512]]><![CDATA[3735607]]><![CDATA[3276849]]><![CDATA[3473456]]><![CDATA[3145776]]><![CDATA[2097162]]><![CDATA[2097184]]><![CDATA[2097184]]><![CDATA[2097184]]><![CDATA[6488096]]><![CDATA[7077999]]><![CDATA[7471215]]><![CDATA[3801203]]><![CDATA[3604512]]><![CDATA[3670070]]><![CDATA[3538996]]><![CDATA[3211320]]><![CDATA[2097162]]><![CDATA[2097184]]><![CDATA[2097184]]><![CDATA[2097184]]><![CDATA[6488096]]><![CDATA[7077999]]><![CDATA[7471215]]><![CDATA[3801203]]><![CDATA[3211296]]><![CDATA[3670072]]><![CDATA[3276854]]><![CDATA[3473463]]><![CDATA[3670072]]><![CDATA[655414]]><![CDATA[2097184]]><![CDATA[2097184]]><![CDATA[2097184]]><![CDATA[2097184]]><![CDATA[7274595]]><![CDATA[7274604]]><![CDATA[7536754]]><![CDATA[2097210]]><![CDATA[3407921]]><![CDATA[655412]]><![CDATA[2097184]]><![CDATA[2097184]]><![CDATA[2097184]]><![CDATA[2097184]]><![CDATA[7274595]]><![CDATA[7274604]]><![CDATA[7536754]]><![CDATA[2097210]]><![CDATA[2353]]><![CDATA[0]]><![CDATA[2358441912]]><![CDATA[32614]]><![CDATA[2358441912]]><![CDATA[32614]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[2097162]]><![CDATA[2097184]]><![CDATA[2097184]]><![CDATA[2097184]]><![CDATA[6488096]]><![CDATA[7077999]]><![CDATA[7471215]]><![CDATA[3801203]]><![CDATA[3145760]]><![CDATA[2097162]]><![CDATA[2097184]]><![CDATA[2097184]]><![CDATA[2097184]]><![CDATA[6488096]]><![CDATA[7077999]]><![CDATA[7471215]]><![CDATA[3801203]]><![CDATA[3342368]]><![CDATA[3276848]]><![CDATA[3145777]]><![CDATA[3276854]]><![CDATA[655412]]><![CDATA[2097184]]><![CDATA[2097184]]><![CDATA[2097184]]><![CDATA[2097184]]><![CDATA[7274595]]><![CDATA[7274604]]><![CDATA[7536754]]><![CDATA[2097210]]><![CDATA[655408]]><![CDATA[2097184]]><![CDATA[2097184]]><![CDATA[2097184]]><![CDATA[2097184]]><![CDATA[7274595]]><![CDATA[7274604]]><![CDATA[7536754]]><![CDATA[2097210]]><![CDATA[3145780]]><![CDATA[2097162]]><![CDATA[2097184]]><![CDATA[2097184]]><![CDATA[2097184]]><![CDATA[6488096]]><![CDATA[7077999]]><![CDATA[7471215]]><![CDATA[3801203]]><![CDATA[3342368]]><![CDATA[3473458]]><![CDATA[3735602]]><![CDATA[2097162]]><![CDATA[2097184]]><![CDATA[2097184]]><![CDATA[2097184]]><![CDATA[6488096]]><![CDATA[7077999]]><![CDATA[7471215]]><![CDATA[3801203]]><![CDATA[3276832]]><![CDATA[655412]]><![CDATA[2097184]]><![CDATA[2097184]]><![CDATA[2097184]]><![CDATA[2097184]]><![CDATA[7274595]]><![CDATA[7274604]]><![CDATA[7536754]]><![CDATA[2097210]]><![CDATA[655408]]><![CDATA[2097184]]><![CDATA[2097184]]><![CDATA[2097184]]><![CDATA[2097184]]><![CDATA[7274595]]><![CDATA[7274604]]><![CDATA[7536754]]><![CDATA[2097210]]><![CDATA[3604529]]><![CDATA[3473459]]><![CDATA[3473461]]><![CDATA[3670066]]><![CDATA[3473457]]><![CDATA[2097162]]><![CDATA[2097184]]><![CDATA[2097184]]><![CDATA[2097184]]><![CDATA[6488096]]><![CDATA[7077999]]><![CDATA[7471215]]><![CDATA[3801203]]><![CDATA[3211296]]><![CDATA[3145783]]><![CDATA[3735601]]><![CDATA[3539001]]><![CDATA[3604528]]><![CDATA[655417]]><![CDATA[2097184]]><![CDATA[2097184]]><![CDATA[2097184]]><![CDATA[2097184]]><![CDATA[7274595]]><![CDATA[7274604]]><![CDATA[7536754]]><![CDATA[2097210]]><![CDATA[3735601]]><![CDATA[3538995]]><![CDATA[3276848]]><![CDATA[3538996]]><![CDATA[3604535]]><![CDATA[2097162]]><![CDATA[2097184]]><![CDATA[2097184]]><![CDATA[2097184]]><![CDATA[6488096]]><![CDATA[7077999]]><![CDATA[7471215]]><![CDATA[3801203]]><![CDATA[3211296]]><![CDATA[3670072]]><![CDATA[3342390]]><![CDATA[3276853]]><![CDATA[3735604]]><![CDATA[655409]]><![CDATA[2097184]]><![CDATA[2097184]]><![CDATA[2097184]]><![CDATA[2097184]]><![CDATA[7274595]]><![CDATA[7274604]]></colors>
+                    <blink_enable/>
+                    <blink_color/>
+                </array>
+            </shape>
+            <shape type="Rectangle">
+                <object tool_tip="" object_number="10050" description="" object_id="SHAPE_10050"/>
+                <box top="-21" axis_offset_left="559" bottom="49" left="-31" z_index="0" axis_anchor="0" right="31" angle="0" axis_offset_top="452"/>
+                <line line_width="1" color="#000000" style="1"/>
+                <movement>
+                    <rotational at_minimum="90" axis_type="0" axis_anchor="8" enabled="1" maximum="25" minimum="-25" at_maximum="90">
+                        <expression><![CDATA[static int i = 0, dir = 1;
+
+if (i < -25 || i > 25) dir *= -1;
+
+return i += dir;
+]]></expression>
+                    </rotational>
+                </movement>
+                <fill fill="#ffff7f"/>
+                <gradient gradient_color="#ff007f" gradient_direction="2"/>
+                <rectangle x2="31" corner_radius="0" y1="-21" x1="-31" y2="49"/>
+            </shape>
+            <shape type="Rectangle">
+                <object tool_tip="" object_number="10051" description="" object_id="SHAPE_10051"/>
+                <box top="-18" axis_offset_left="639" bottom="49" left="-31" z_index="0" axis_anchor="0" right="31" angle="0" axis_offset_top="446"/>
+                <line line_width="1" color="#000000" style="1"/>
+                <movement>
+                    <horizontal at_minimum="100" enabled="1" maximum="25" minimum="-25" at_maximum="100">
+                        <expression><![CDATA[static int i = 0, dir = 2;
+
+if (i < -25 || i > 25) dir *= -1;
+
+return i += dir;
+]]></expression>
+                    </horizontal>
+                    <rotational at_minimum="90" axis_type="0" axis_anchor="8" enabled="1" maximum="25" minimum="-25" at_maximum="90">
+                        <expression><![CDATA[static int i = 0, dir = 1;
+
+if (i < -25 || i > 25) dir *= -1;
+
+return i += dir;
+]]></expression>
+                    </rotational>
+                </movement>
+                <fill fill="#ffff7f"/>
+                <gradient gradient_color="#ff007f" gradient_direction="2"/>
+                <rectangle x2="31" corner_radius="0" y1="-18" x1="-31" y2="49"/>
+            </shape>
+            <shape type="Rectangle">
+                <object tool_tip="" object_number="10052" description="" object_id="SHAPE_10052"/>
+                <box top="-20" axis_offset_left="730" bottom="54" left="-17" z_index="0" axis_anchor="0" right="41" angle="0" axis_offset_top="446"/>
+                <line line_width="1" color="#000000" style="1"/>
+                <movement>
+                    <horizontal at_minimum="100" enabled="1" maximum="25" minimum="-25" at_maximum="100">
+                        <expression><![CDATA[static int i = 0, dir = 1;
+
+//if (i < -25 || i > 25) dir *= -1;
+if (i > 25) i = -25;
+
+return i += dir;
+]]></expression>
+                    </horizontal>
+                    <vertical at_minimum="100" enabled="1" maximum="25" minimum="-25" at_maximum="100">
+                        <expression><![CDATA[static int i = 0, dir = 1;
+
+//if (i < -25 || i > 25) dir *= -1;
+if (i > 25) i = -25;
+
+return i += dir;
+]]></expression>
+                    </vertical>
+                    <rotational at_minimum="90" axis_type="0" axis_anchor="8" enabled="1" maximum="25" minimum="-25" at_maximum="90">
+                        <expression><![CDATA[static int i = 0, dir = 1;
+
+//if (i < -25 || i > 25) dir *= -1;
+if (i > 25) i = -25;
+
+return i += dir;
+]]></expression>
+                    </rotational>
+                </movement>
+                <scaling>
+                    <horizontal at_minimum="0" axis_anchor_scale="1" axis_type="0" enabled="1" maximum="25" minimum="-25" at_maximum="100">
+                        <expression><![CDATA[static int i = 0, dir = 1;
+
+//if (i < -25 || i > 25) dir *= -1;
+if (i > 25) i = -25;
+
+return i += dir;
+]]></expression>
+                    </horizontal>
+                    <vertical at_minimum="0" axis_anchor_scale="5" axis_type="0" enabled="1" maximum="25" minimum="-25" at_maximum="100">
+                        <expression><![CDATA[static int i = 0, dir = 1;
+
+//if (i < -25 || i > 25) dir *= -1;
+if (i > 25) i = -25;
+
+return i += dir;
+]]></expression>
+                    </vertical>
+                </scaling>
+                <fill fill="#ffff7f"/>
+                <gradient gradient_color="#ff007f" gradient_direction="2"/>
+                <rectangle x2="41" corner_radius="0" y1="-20" x1="-17" y2="54"/>
+            </shape>
+            <shape type="Rectangle">
+                <object tool_tip="" object_number="10060" description="" object_id="SHAPE_10060"/>
+                <box top="0" axis_offset_left="175" bottom="33" left="0" z_index="0" axis_anchor="0" right="23" angle="0" axis_offset_top="713"/>
+                <line line_width="1" color="#000000" style="1"/>
+                <fill fill="#5500ff"/>
+                <rectangle x2="23" corner_radius="0" y1="0" x1="0" y2="33"/>
+            </shape>
+            <shape type="Rectangle">
+                <object tool_tip="" object_number="10063" description="" object_id="SHAPE_10063"/>
+                <box top="0" axis_offset_left="614" bottom="0" left="0" z_index="0" axis_anchor="0" right="0" angle="0" axis_offset_top="444"/>
+                <line line_width="1" color="#000000" style="1"/>
+                <rectangle x2="0" corner_radius="0" y1="0" x1="0" y2="0"/>
+            </shape>
+            <shape type="Rectangle">
+                <object tool_tip="" object_number="10064" description="" object_id="SHAPE_10064"/>
+                <box top="-15" axis_offset_left="612" bottom="15" left="-32" z_index="0" axis_anchor="0" right="32" angle="0" axis_offset_top="336"/>
+                <line line_width="1" color="#000000" style="1"/>
+                <fill fill="#55ff7f"/>
+                <rectangle x2="32" corner_radius="0" y1="-15" x1="-32" y2="15"/>
+            </shape>
+            <shape type="Rectangle">
+                <object tool_tip="" object_number="10085" description="" object_id="SHAPE_10085"/>
+                <box top="-7" axis_offset_left="79" bottom="28" left="-26" z_index="0" axis_anchor="0" right="53" angle="0" axis_offset_top="322"/>
+                <line line_width="1" color="#000000" style="1"/>
+                <fill fill="#00aaff"/>
+                <rectangle x2="53" corner_radius="0" y1="-7" x1="-26" y2="28"/>
+                <dynamic_fill type="0">
+                    <on_off off_color="4294901760" on_color="4278255487" blink_on_color="0" blink_off_enable="0" blink_off_color="0" blink_on_enable="0">
+                        <on_color_when><![CDATA[static int i = 100;
+//printf("in shape visibility %d:\n", i);
+i++;
+if (i == 120) i = 100;
+
+
+return i > 110;]]></on_color_when>
+                    </on_off>
+                </dynamic_fill>
+            </shape>
+            <shape type="Rectangle">
+                <object tool_tip="" object_number="10090" description="" object_id="SHAPE_10090"/>
+                <box top="11" axis_offset_left="136" bottom="39" left="186" z_index="0" axis_anchor="0" right="288" angle="0" axis_offset_top="-201"/>
+                <line line_width="1" color="#000000" style="1"/>
+                <fill fill="#ffaaff"/>
+                <rectangle x2="288" corner_radius="0" y1="11" x1="186" y2="39"/>
+            </shape>
+            <shape type="Rectangle">
+                <object tool_tip="" object_number="10091" description="" object_id="SHAPE_10091"/>
+                <box top="11" axis_offset_left="338" bottom="39" left="186" z_index="0" axis_anchor="0" right="288" angle="0" axis_offset_top="-166"/>
+                <line line_width="1" color="#000000" style="1"/>
+                <fill fill="#ffaaff"/>
+                <rectangle x2="288" corner_radius="0" y1="11" x1="186" y2="39"/>
+            </shape>
+            <shape type="Rectangle">
+                <object tool_tip="" object_number="10092" description="" object_id="SHAPE_10092"/>
+                <box top="11" axis_offset_left="219" bottom="39" left="186" z_index="0" axis_anchor="0" right="288" angle="0" axis_offset_top="-158"/>
+                <line line_width="1" color="#000000" style="1"/>
+                <fill fill="#ffaaff"/>
+                <rectangle x2="288" corner_radius="0" y1="11" x1="186" y2="39"/>
+            </shape>
+            <shape type="Rectangle">
+                <object tool_tip="" object_number="10093" description="" object_id="SHAPE_10093"/>
+                <box top="11" axis_offset_left="233" bottom="39" left="186" z_index="0" axis_anchor="0" right="288" angle="0" axis_offset_top="-157"/>
+                <line line_width="1" color="#000000" style="1"/>
+                <fill fill="#ffaaff"/>
+                <rectangle x2="288" corner_radius="0" y1="11" x1="186" y2="39"/>
+            </shape>
+            <shape type="Rectangle">
+                <object tool_tip="" object_number="10094" description="" object_id="SHAPE_10094"/>
+                <box top="11" axis_offset_left="242" bottom="39" left="186" z_index="0" axis_anchor="0" right="288" angle="0" axis_offset_top="-173"/>
+                <line line_width="1" color="#000000" style="1"/>
+                <fill fill="#ffaaff"/>
+                <rectangle x2="288" corner_radius="0" y1="11" x1="186" y2="39"/>
+            </shape>
+            <shape type="Rectangle">
+                <object tool_tip="" object_number="10096" description="" object_id="SHAPE_10096"/>
+                <box top="11" axis_offset_left="269" bottom="39" left="186" z_index="0" axis_anchor="0" right="288" angle="0" axis_offset_top="-162"/>
+                <line line_width="1" color="#000000" style="1"/>
+                <fill fill="#ffaaff"/>
+                <rectangle x2="288" corner_radius="0" y1="11" x1="186" y2="39"/>
+            </shape>
+            <shape type="Ellipse">
+                <object tool_tip="" object_number="10024" description="" object_id="SHAPE_10024"/>
+                <box top="-12" axis_offset_left="72" bottom="12" left="-13" z_index="0" axis_anchor="0" right="14" angle="0" axis_offset_top="448"/>
+                <line line_width="1" color="#000000" style="1"/>
+                <movement>
+                    <horizontal at_minimum="0" enabled="1" maximum="100" minimum="0" at_maximum="500">
+                        <expression><![CDATA[static int m=0;
+m=m+5;
+if(m>=100) 
+m=0;
+return m;]]></expression>
+                    </horizontal>
+                </movement>
+                <fill fill="#55ffff"/>
+                <ellipse x2="14" angle_end="0" ellipse_type="ARC_ELLIPSE" angle_start="0" y1="-12" x1="-13" y2="12"/>
+            </shape>
+            <shape type="Rectangle">
+                <object tool_tip="" object_number="10087" description="" object_id="SHAPE_10087"/>
+                <box top="0" axis_offset_left="12" bottom="30" left="0" z_index="-1" axis_anchor="0" right="1862" angle="0" axis_offset_top="99"/>
+                <line line_width="1" color="#000000" style="1"/>
+                <rectangle x2="1862" corner_radius="0" y1="0" x1="0" y2="30"/>
+            </shape>
+            <shape type="Rectangle">
+                <object tool_tip="" object_number="10123" description="" object_id="SHAPE_10123"/>
+                <box top="0" axis_offset_left="14" bottom="873" left="0" z_index="-1" axis_anchor="0" right="1866" angle="0" axis_offset_top="136"/>
+                <line line_width="1" color="#000000" style="1"/>
+                <rectangle x2="1866" corner_radius="0" y1="0" x1="0" y2="873"/>
+            </shape>
+        </shapes>
+        <images>
+            <image y="235" objectNumber="1" objectId="" zIndex="0" x="74">
+                <filename src="freehand_2.png"/>
+                <on_off on_name="star_half_1.png" off_name="freehand_2.png"><![CDATA[static int i = 100;
+//printf("in shape visibility %d:\n", i);
+i++;
+if (i == 120) i = 100;
+
+
+return i > 110;]]></on_off>
+                <object number="10008" tool_tip="" description="" id="IMAGE_10008"/>
+                <box top="-23" bottom="24" left="-32" offset_top="235" z_index="0" offset_left="74" axis_anchor="0" right="33" angle="0"/>
+            </image>
+            <image y="211" objectNumber="0" objectId="" zIndex="0" x="180">
+                <filename src="Screenshot from 2017-07-22 15-07-34.png"/>
+                <multi_state>
+                    <conditions><![CDATA[int static i = 0, dir = 1;  if (i < -25 || i > 25) dir *= -1;  i += dir;   return  i % 2 == 0;]]><![CDATA[int static i = 0, dir = 1;  if (i < -25 || i > 25) dir *= -1;  i += dir;   return  i % 3 == 0;]]></conditions>
+                    <name><![CDATA[computer.png]]><![CDATA[star_half_1.png]]><![CDATA[freehand_2.png]]><![CDATA[button.png]]></name>
+                </multi_state>
+                <object number="10070" tool_tip="" description="" id="IMAGE_10070"/>
+                <box top="1" bottom="50" left="3" offset_top="211" z_index="0" offset_left="180" axis_anchor="0" right="58" angle="0"/>
+            </image>
+            <image y="215" objectNumber="0" objectId="" zIndex="0" x="313">
+                <filename src="coffee_1.png"/>
+                <animate>
+                    <animate_when><![CDATA[static int i = 100;
+
+//printf("in shape visibility %d:\n", i);
+i++;
+if (i == 120) i = 100;
+
+return i > 110;]]></animate_when>
+                    <state_images><![CDATA[calculator.png]]><![CDATA[clock.png]]><![CDATA[camera.png]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]></state_images>
+                    <off_image><![CDATA[]]></off_image>
+                </animate>
+                <object number="10072" tool_tip="" description="" id="IMAGE_10072"/>
+                <box top="-3" bottom="47" left="-5" offset_top="215" z_index="0" offset_left="313" axis_anchor="0" right="56" angle="0"/>
+            </image>
+            <image y="215" objectNumber="1" objectId="" zIndex="0" x="433">
+                <filename src="computer_1.png"/>
+                <array>
+                    <index_expression><![CDATA[static int i =0;
+
+if (i == 3) i=-1;
+
+i ++;
+
+return i;]]></index_expression>
+                    <name><![CDATA[computer.png]]><![CDATA[coffee.png]]><![CDATA[clock.png]]><![CDATA[calculator.png]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]></name>
+                </array>
+                <object number="10084" tool_tip="" description="" id="IMAGE_10084"/>
+                <box top="0" bottom="45" left="0" offset_top="215" z_index="0" offset_left="433" axis_anchor="0" right="60" angle="0"/>
+            </image>
+        </images>
+        <labels>
+            <text font_size="14" display_type="0" static_text="Individual Fill" font_weight="75" color="4283760895" underline="0" font_style="0" font_family="PT Sans" align_type="0" strikeout="0">
+                <display_on_off text_off="" text_on=""><![CDATA[]]></display_on_off>
+                <object tool_tip="" object_number="10125" description="" object_id="TEXT_10125"/>
+                <box top="0" axis_offset_left="1018" bottom="0" left="0" z_index="2" axis_anchor="4" right="0" angle="0" axis_offset_top="95"/>
+            </text>
+            <text font_size="14" display_type="0" static_text="Group Fill" font_weight="75" color="4283760895" underline="0" font_style="0" font_family="PT Sans" align_type="0" strikeout="0">
+                <display_on_off text_off="" text_on=""><![CDATA[]]></display_on_off>
+                <object tool_tip="" object_number="10124" description="" object_id="TEXT_10124"/>
+                <box top="0" axis_offset_left="1373" bottom="0" left="0" z_index="1" axis_anchor="4" right="0" angle="0" axis_offset_top="99"/>
+            </text>
+            <text font_size="4294967295" display_type="0" static_text="HORIZONTAL" font_weight="75" color="4278190335" underline="0" font_style="0" font_family="PT Sans" align_type="0" strikeout="0">
+                <display_on_off text_off="" text_on=""><![CDATA[]]></display_on_off>
+                <object tool_tip="" object_number="10107" description="" object_id="TEXT_10107"/>
+                <box top="0" axis_offset_left="53" bottom="0" left="0" z_index="0" axis_anchor="0" right="0" angle="0" axis_offset_top="396"/>
+            </text>
+            <text font_size="9" display_type="0" static_text="GRADIENT" font_weight="75" color="4294967167" underline="0" font_style="0" font_family="PT Sans" align_type="0" strikeout="0">
+                <display_on_off text_off="" text_on=""><![CDATA[]]></display_on_off>
+                <object tool_tip="" object_number="10106" description="" object_id="TEXT_10106"/>
+                <box top="0" axis_offset_left="538" bottom="0" left="0" z_index="0" axis_anchor="0" right="0" angle="0" axis_offset_top="104"/>
+            </text>
+            <text font_size="9" display_type="0" static_text="Array" font_weight="75" color="2533294080" underline="0" font_style="0" font_family="PT Sans" align_type="0" strikeout="0">
+                <display_on_off text_off="" text_on=""><![CDATA[]]></display_on_off>
+                <object tool_tip="" object_number="10079" description="" object_id="TEXT_10079"/>
+                <box top="0" axis_offset_left="328" bottom="0" left="0" z_index="0" axis_anchor="0" right="0" angle="0" axis_offset_top="324"/>
+            </text>
+            <text font_size="14" display_type="4" static_text="String" font_weight="75" color="4278212095" underline="0" font_style="0" font_family="PT Sans" align_type="0" strikeout="0">
+                <display_string><![CDATA[]]></display_string>
+                <object tool_tip="" object_number="10078" description="" object_id="TEXT_10078"/>
+                <box top="0" axis_offset_left="738" bottom="0" left="0" z_index="0" axis_anchor="0" right="0" angle="0" axis_offset_top="154"/>
+            </text>
+            <text font_size="14" display_type="3" static_text="Number" font_weight="75" color="4283825920" underline="0" font_style="0" font_family="PT Sans" align_type="0" strikeout="0">
+                <display_numeric>
+                    <expression><![CDATA[static int i = 1, dir = -1;
+
+if (i == 1 || i == 255) dir *= -1;
+
+i += dir;
+
+return i;]]></expression>
+                    <format></format>
+                </display_numeric>
+                <object tool_tip="" object_number="10075" description="" object_id="TEXT_10075"/>
+                <box top="0" axis_offset_left="648" bottom="0" left="0" z_index="0" axis_anchor="0" right="0" angle="0" axis_offset_top="154"/>
+            </text>
+            <text font_size="14" display_type="1" static_text="Array" font_weight="75" color="4289331455" underline="0" font_style="0" font_family="PT Sans" align_type="0" strikeout="0">
+                <display_multi_state>
+                    <conditions><![CDATA[int static i = 0, dir = 1;  if (i < -25 || i > 25) dir *= -1;  i += dir;   return  i % 2 == 0;]]><![CDATA[int static i = 0, dir = 1;  if (i < -25 || i > 25) dir *= -1;  i += dir;   return  i % 3 == 0;]]><![CDATA[int static i = 0, dir = 1;  if (i < -25 || i > 25) dir *= -1;  i += dir;   return  i % 5 == 0;]]></conditions>
+                    <state_text><![CDATA[000]]><![CDATA[001]]><![CDATA[010]]><![CDATA[011]]><![CDATA[100]]><![CDATA[101]]><![CDATA[110]]><![CDATA[111]]></state_text>
+                </display_multi_state>
+                <object tool_tip="" object_number="10034" description="" object_id="TEXT_10034"/>
+                <box top="0" axis_offset_left="318" bottom="0" left="0" z_index="0" axis_anchor="0" right="0" angle="0" axis_offset_top="154"/>
+            </text>
+            <text font_size="14" display_type="2" static_text="Multistate" font_weight="75" color="4294901760" underline="0" font_style="1" font_family="PT Sans" align_type="0" strikeout="0">
+                <display_array>
+                    <index_expression><![CDATA[static int i = 1, dir = -1;
+
+if (i == 1 || i == 255) dir *= -1;
+
+i += dir;
+
+return i;]]></index_expression>
+                    <array_text><![CDATA[Hi0]]><![CDATA[Hi1]]><![CDATA[Hi2]]><![CDATA[Hi3]]><![CDATA[Hi4]]><![CDATA[Hi5]]><![CDATA[Hi6]]><![CDATA[Hi7]]><![CDATA[Hi8]]><![CDATA[Hi9]]><![CDATA[Hi10]]><![CDATA[Hi11]]><![CDATA[Hi12]]><![CDATA[Hi13]]><![CDATA[Hi14]]><![CDATA[Hi15]]><![CDATA[Hi16]]><![CDATA[Hi17]]><![CDATA[Hi18]]><![CDATA[Hi19]]><![CDATA[Hi20]]><![CDATA[Hi21]]><![CDATA[Hi22]]><![CDATA[Hi23]]><![CDATA[Hi24]]><![CDATA[Hi25]]><![CDATA[Hi26]]><![CDATA[Hi27]]><![CDATA[Hi28]]><![CDATA[Hi29]]><![CDATA[Hi30]]><![CDATA[Hi31]]><![CDATA[Hi32]]><![CDATA[Hi33]]><![CDATA[Hi34]]><![CDATA[Hi35]]><![CDATA[Hi36]]><![CDATA[Hi37]]><![CDATA[Hi38]]><![CDATA[Hi39]]><![CDATA[Hi40]]><![CDATA[Hi41]]><![CDATA[Hi42]]><![CDATA[Hi43]]><![CDATA[Hi44]]><![CDATA[Hi45]]><![CDATA[Hi46]]><![CDATA[Hi47]]><![CDATA[Hi48]]><![CDATA[Hi49]]><![CDATA[Hi50]]><![CDATA[Hi51]]><![CDATA[Hi52]]><![CDATA[Hi53]]><![CDATA[Hi54]]><![CDATA[Hi55]]><![CDATA[Hi56]]><![CDATA[Hi57]]><![CDATA[Hi58]]><![CDATA[Hi59]]><![CDATA[Hi60]]><![CDATA[Hi61]]><![CDATA[Hi62]]><![CDATA[Hi63]]><![CDATA[Hi64]]><![CDATA[Hi65]]><![CDATA[Hi66]]><![CDATA[Hi67]]><![CDATA[Hi68]]><![CDATA[Hi69]]><![CDATA[Hi70]]><![CDATA[Hi71]]><![CDATA[Hi72]]><![CDATA[Hi73]]><![CDATA[Hi74]]><![CDATA[Hi75]]><![CDATA[Hi76]]><![CDATA[Hi77]]><![CDATA[Hi78]]><![CDATA[Hi79]]><![CDATA[Hi80]]><![CDATA[Hi81]]><![CDATA[Hi82]]><![CDATA[Hi83]]><![CDATA[Hi84]]><![CDATA[Hi85]]><![CDATA[Hi86]]><![CDATA[Hi87]]><![CDATA[Hi88]]><![CDATA[Hi89]]><![CDATA[Hi90]]><![CDATA[Hi91]]><![CDATA[Hi92]]><![CDATA[Hi93]]><![CDATA[Hi94]]><![CDATA[Hi95]]><![CDATA[Hi96]]><![CDATA[Hi97]]><![CDATA[Hi98]]><![CDATA[Hi99]]><![CDATA[Hi100]]><![CDATA[Hi101]]><![CDATA[Hi102]]><![CDATA[Hi103]]><![CDATA[Hi104]]><![CDATA[Hi105]]><![CDATA[Hi106]]><![CDATA[Hi107]]><![CDATA[Hi108]]><![CDATA[Hi109]]><![CDATA[Hi110]]><![CDATA[Hi111]]><![CDATA[Hi112]]><![CDATA[Hi113]]><![CDATA[Hi114]]><![CDATA[Hi115]]><![CDATA[Hi116]]><![CDATA[Hi117]]><![CDATA[Hi118]]><![CDATA[Hi119]]><![CDATA[Hi120]]><![CDATA[Hi121]]><![CDATA[Hi122]]><![CDATA[Hi123]]><![CDATA[Hi124]]><![CDATA[Hi125]]><![CDATA[Hi126]]><![CDATA[Hi127]]><![CDATA[Hi128]]><![CDATA[Hi129]]><![CDATA[Hi130]]><![CDATA[Hi131]]><![CDATA[Hi132]]><![CDATA[Hi133]]><![CDATA[Hi134]]><![CDATA[Hi135]]><![CDATA[Hi136]]><![CDATA[Hi137]]><![CDATA[Hi138]]><![CDATA[Hi139]]><![CDATA[Hi140]]><![CDATA[Hi141]]><![CDATA[Hi142]]><![CDATA[Hi143]]><![CDATA[Hi144]]><![CDATA[Hi145]]><![CDATA[Hi146]]><![CDATA[Hi147]]><![CDATA[Hi148]]><![CDATA[Hi149]]><![CDATA[Hi150]]><![CDATA[Hi151]]><![CDATA[Hi152]]><![CDATA[Hi153]]><![CDATA[Hi154]]><![CDATA[Hi155]]><![CDATA[Hi156]]><![CDATA[Hi157]]><![CDATA[Hi158]]><![CDATA[Hi159]]><![CDATA[Hi160]]><![CDATA[Hi161]]><![CDATA[Hi162]]><![CDATA[Hi163]]><![CDATA[Hi164]]><![CDATA[Hi165]]><![CDATA[Hi166]]><![CDATA[Hi167]]><![CDATA[Hi168]]><![CDATA[Hi169]]><![CDATA[Hi170]]><![CDATA[Hi171]]><![CDATA[Hi172]]><![CDATA[Hi173]]><![CDATA[Hi174]]><![CDATA[Hi175]]><![CDATA[Hi176]]><![CDATA[Hi177]]><![CDATA[Hi178]]><![CDATA[Hi179]]><![CDATA[Hi180]]><![CDATA[Hi181]]><![CDATA[Hi182]]><![CDATA[Hi183]]><![CDATA[Hi184]]><![CDATA[Hi185]]><![CDATA[Hi186]]><![CDATA[Hi187]]><![CDATA[Hi188]]><![CDATA[Hi189]]><![CDATA[Hi190]]><![CDATA[Hi191]]><![CDATA[Hi192]]><![CDATA[Hi193]]><![CDATA[Hi194]]><![CDATA[Hi195]]><![CDATA[Hi196]]><![CDATA[Hi197]]><![CDATA[Hi198]]><![CDATA[Hi199]]><![CDATA[Hi200]]><![CDATA[Hi201]]><![CDATA[Hi202]]><![CDATA[Hi203]]><![CDATA[Hi204]]><![CDATA[Hi205]]><![CDATA[Hi206]]><![CDATA[Hi207]]><![CDATA[Hi208]]><![CDATA[Hi209]]><![CDATA[Hi210]]><![CDATA[Hi211]]><![CDATA[Hi212]]><![CDATA[Hi213]]><![CDATA[Hi214]]><![CDATA[Hi215]]><![CDATA[Hi216]]><![CDATA[Hi217]]><![CDATA[Hi218]]><![CDATA[Hi219]]><![CDATA[Hi220]]><![CDATA[Hi221]]><![CDATA[Hi222]]><![CDATA[Hi223]]><![CDATA[Hi224]]><![CDATA[Hi225]]><![CDATA[Hi226]]><![CDATA[Hi227]]><![CDATA[Hi228]]><![CDATA[Hi229]]><![CDATA[Hi230]]><![CDATA[Hi231]]><![CDATA[Hi232]]><![CDATA[Hi233]]><![CDATA[Hi234]]><![CDATA[Hi235]]><![CDATA[Hi236]]><![CDATA[Hi237]]><![CDATA[Hi238]]><![CDATA[Hi239]]><![CDATA[Hi240]]><![CDATA[Hi241]]><![CDATA[Hi242]]><![CDATA[Hi243]]><![CDATA[Hi244]]><![CDATA[Hi245]]><![CDATA[Hi246]]><![CDATA[Hi247]]><![CDATA[Hi248]]><![CDATA[Hi249]]><![CDATA[Hi250]]><![CDATA[Hi251]]><![CDATA[Hi252]]><![CDATA[Hi253]]><![CDATA[Hi254]]><![CDATA[Hi255]]></array_text>
+                </display_array>
+                <object tool_tip="" object_number="10035" description="" object_id="TEXT_10035"/>
+                <box top="0" axis_offset_left="168" bottom="0" left="0" z_index="0" axis_anchor="0" right="0" angle="0" axis_offset_top="154"/>
+            </text>
+            <text font_size="14" display_type="0" static_text="ON/OFF" font_weight="75" color="4289331200" underline="0" font_style="0" font_family="PT Sans" align_type="0" strikeout="0">
+                <display_on_off text_off="OFF" text_on="ON"><![CDATA[static int i = 100;
+
+printf("in shape visibility %d:\n", i);
+i++;
+if (i == 120) i = 100;
+
+
+return i > 110;]]></display_on_off>
+                <object tool_tip="" object_number="10074" description="" object_id="TEXT_10074"/>
+                <box top="0" axis_offset_left="58" bottom="0" left="0" z_index="0" axis_anchor="0" right="0" angle="0" axis_offset_top="154"/>
+            </text>
+            <text font_size="11" display_type="0" static_text="ON/OFF" font_weight="75" color="4294967167" underline="0" font_style="1" font_family="PT Sans" align_type="0" strikeout="0">
+                <display_on_off text_off="" text_on=""><![CDATA[]]></display_on_off>
+                <object tool_tip="" object_number="10086" description="" object_id="TEXT_10086"/>
+                <box top="0" axis_offset_left="58" bottom="0" left="0" z_index="0" axis_anchor="0" right="0" angle="0" axis_offset_top="104"/>
+            </text>
+            <text font_size="9" display_type="0" static_text="MULTISTATE" font_weight="75" color="4294967167" underline="0" font_style="0" font_family="PT Sans" align_type="0" strikeout="0">
+                <display_on_off text_off="" text_on=""><![CDATA[]]></display_on_off>
+                <object tool_tip="" object_number="10089" description="" object_id="TEXT_10089"/>
+                <box top="0" axis_offset_left="168" bottom="0" left="0" z_index="0" axis_anchor="0" right="0" angle="0" axis_offset_top="104"/>
+            </text>
+            <text font_size="4294967295" display_type="0" static_text="NUMBER" font_weight="75" color="4294967167" underline="0" font_style="0" font_family="PT Sans" align_type="0" strikeout="0">
+                <display_on_off text_off="" text_on=""><![CDATA[]]></display_on_off>
+                <object tool_tip="" object_number="10099" description="" object_id="TEXT_10099"/>
+                <box top="0" axis_offset_left="648" bottom="0" left="0" z_index="0" axis_anchor="0" right="0" angle="0" axis_offset_top="104"/>
+            </text>
+            <text font_size="4294967295" display_type="0" static_text="ARRAY" font_weight="75" color="4294967167" underline="0" font_style="0" font_family="PT Sans" align_type="0" strikeout="0">
+                <display_on_off text_off="" text_on=""><![CDATA[]]></display_on_off>
+                <object tool_tip="" object_number="10100" description="" object_id="TEXT_10100"/>
+                <box top="0" axis_offset_left="308" bottom="0" left="0" z_index="0" axis_anchor="0" right="0" angle="0" axis_offset_top="104"/>
+            </text>
+            <text font_size="4294967295" display_type="0" static_text="STRING" font_weight="75" color="4294967167" underline="0" font_style="0" font_family="PT Sans" align_type="0" strikeout="0">
+                <display_on_off text_off="" text_on=""><![CDATA[]]></display_on_off>
+                <object tool_tip="" object_number="10101" description="" object_id="TEXT_10101"/>
+                <box top="0" axis_offset_left="738" bottom="0" left="0" z_index="0" axis_anchor="0" right="0" angle="0" axis_offset_top="104"/>
+            </text>
+            <text font_size="9" display_type="0" static_text="ANIMATION" font_weight="75" color="4294967167" underline="0" font_style="0" font_family="PT Sans" align_type="0" strikeout="0">
+                <display_on_off text_off="" text_on=""><![CDATA[]]></display_on_off>
+                <object tool_tip="" object_number="10103" description="" object_id="TEXT_10103"/>
+                <box top="0" axis_offset_left="418" bottom="0" left="0" z_index="0" axis_anchor="0" right="0" angle="0" axis_offset_top="104"/>
+            </text>
+            <text font_size="9" display_type="0" static_text="VERTICAL" font_weight="75" color="4278190335" underline="0" font_style="0" font_family="PT Sans" align_type="0" strikeout="0">
+                <display_on_off text_off="" text_on=""><![CDATA[]]></display_on_off>
+                <object tool_tip="" object_number="10108" description="" object_id="TEXT_10108"/>
+                <box top="0" axis_offset_left="183" bottom="0" left="0" z_index="0" axis_anchor="0" right="0" angle="0" axis_offset_top="396"/>
+            </text>
+            <text font_size="9" display_type="0" static_text="ROTATIONAL" font_weight="75" color="4278190335" underline="0" font_style="0" font_family="PT Sans" align_type="0" strikeout="0">
+                <display_on_off text_off="" text_on=""><![CDATA[]]></display_on_off>
+                <object tool_tip="" object_number="10109" description="" object_id="TEXT_10109"/>
+                <box top="0" axis_offset_left="303" bottom="0" left="0" z_index="0" axis_anchor="0" right="0" angle="0" axis_offset_top="396"/>
+            </text>
+            <text font_size="12" display_type="0" static_text="MOVEMENT" font_weight="75" color="4278190335" underline="0" font_style="0" font_family="PT Sans" align_type="0" strikeout="0">
+                <display_on_off text_off="" text_on=""><![CDATA[]]></display_on_off>
+                <object tool_tip="" object_number="10110" description="" object_id="TEXT_10110"/>
+                <box top="0" axis_offset_left="28" bottom="0" left="0" z_index="0" axis_anchor="0" right="0" angle="0" axis_offset_top="374"/>
+            </text>
+            <text font_size="12" display_type="0" static_text="FILL DIRECTION" font_weight="75" color="11141120" underline="0" font_style="0" font_family="PT Sans" align_type="0" strikeout="0">
+                <display_on_off text_off="" text_on=""><![CDATA[]]></display_on_off>
+                <object tool_tip="" object_number="10111" description="" object_id="TEXT_10111"/>
+                <box top="0" axis_offset_left="28" bottom="0" left="0" z_index="0" axis_anchor="0" right="0" angle="0" axis_offset_top="574"/>
+            </text>
+            <text font_size="12" display_type="0" static_text="UP" font_weight="75" color="11141120" underline="0" font_style="0" font_family="PT Sans" align_type="0" strikeout="0">
+                <display_on_off text_off="" text_on=""><![CDATA[]]></display_on_off>
+                <object tool_tip="" object_number="10112" description="" object_id="TEXT_10112"/>
+                <box top="0" axis_offset_left="68" bottom="0" left="0" z_index="0" axis_anchor="0" right="0" angle="0" axis_offset_top="597"/>
+            </text>
+            <text font_size="12" display_type="0" static_text="DOWN" font_weight="75" color="11141120" underline="0" font_style="0" font_family="PT Sans" align_type="0" strikeout="0">
+                <display_on_off text_off="" text_on=""><![CDATA[]]></display_on_off>
+                <object tool_tip="" object_number="10113" description="" object_id="TEXT_10113"/>
+                <box top="0" axis_offset_left="168" bottom="0" left="0" z_index="0" axis_anchor="0" right="0" angle="0" axis_offset_top="597"/>
+            </text>
+            <text font_size="12" display_type="0" static_text="LEFT" font_weight="75" color="4289331200" underline="0" font_style="0" font_family="PT Sans" align_type="0" strikeout="0">
+                <display_on_off text_off="" text_on=""><![CDATA[]]></display_on_off>
+                <object tool_tip="" object_number="10114" description="" object_id="TEXT_10114"/>
+                <box top="0" axis_offset_left="298" bottom="0" left="0" z_index="0" axis_anchor="0" right="0" angle="0" axis_offset_top="597"/>
+            </text>
+            <text font_size="12" display_type="0" static_text="RIGHT" font_weight="75" color="4289331200" underline="0" font_style="0" font_family="PT Sans" align_type="0" strikeout="0">
+                <display_on_off text_off="" text_on=""><![CDATA[]]></display_on_off>
+                <object tool_tip="" object_number="10115" description="" object_id="TEXT_10115"/>
+                <box top="0" axis_offset_left="398" bottom="0" left="0" z_index="0" axis_anchor="0" right="0" angle="0" axis_offset_top="597"/>
+            </text>
+            <text font_size="12" display_type="0" static_text="SCALING" font_weight="75" color="4289331327" underline="0" font_style="0" font_family="PT Sans" align_type="0" strikeout="0">
+                <display_on_off text_off="" text_on=""><![CDATA[]]></display_on_off>
+                <object tool_tip="" object_number="10117" description="" object_id="TEXT_10117"/>
+                <box top="0" axis_offset_left="28" bottom="0" left="0" z_index="0" axis_anchor="0" right="0" angle="0" axis_offset_top="484"/>
+            </text>
+            <text font_size="12" display_type="0" static_text="TEXT" font_weight="75" color="4294967167" underline="0" font_style="0" font_family="PT Sans" align_type="0" strikeout="0">
+                <display_on_off text_off="" text_on=""><![CDATA[]]></display_on_off>
+                <object tool_tip="" object_number="10118" description="" object_id="TEXT_10118"/>
+                <box top="0" axis_offset_left="28" bottom="0" left="0" z_index="0" axis_anchor="0" right="0" angle="0" axis_offset_top="134"/>
+            </text>
+            <text font_size="4294967295" display_type="0" static_text="IMAGES" font_weight="75" color="4278255615" underline="0" font_style="0" font_family="PT Sans" align_type="0" strikeout="0">
+                <display_on_off text_off="" text_on=""><![CDATA[]]></display_on_off>
+                <object tool_tip="" object_number="10119" description="" object_id="TEXT_10119"/>
+                <box top="0" axis_offset_left="28" bottom="0" left="0" z_index="0" axis_anchor="0" right="0" angle="0" axis_offset_top="184"/>
+            </text>
+            <text font_size="9" display_type="0" static_text="FILL COLOUR" font_weight="75" color="4288479467" underline="0" font_style="0" font_family="PT Sans" align_type="0" strikeout="0">
+                <display_on_off text_off="" text_on=""><![CDATA[]]></display_on_off>
+                <object tool_tip="" object_number="10120" description="" object_id="TEXT_10120"/>
+                <box top="0" axis_offset_left="28" bottom="0" left="0" z_index="0" axis_anchor="0" right="0" angle="0" axis_offset_top="274"/>
+            </text>
+            <text font_size="12" display_type="0" static_text="SLIDER" font_weight="75" color="21760" underline="0" font_style="0" font_family="PT Sans" align_type="0" strikeout="0">
+                <display_on_off text_off="" text_on=""><![CDATA[]]></display_on_off>
+                <object tool_tip="" object_number="10122" description="" object_id="TEXT_10122"/>
+                <box top="0" axis_offset_left="28" bottom="0" left="0" z_index="0" axis_anchor="0" right="0" angle="0" axis_offset_top="694"/>
+            </text>
+            <text font_size="4294967295" display_type="0" static_text="MultiState" font_weight="75" color="2533294207" underline="0" font_style="0" font_family="PT Sans" align_type="0" strikeout="0">
+                <display_on_off text_off="" text_on=""><![CDATA[]]></display_on_off>
+                <object tool_tip="" object_number="10082" description="" object_id="TEXT_10082"/>
+                <box top="0" axis_offset_left="188" bottom="0" left="0" z_index="-1" axis_anchor="0" right="0" angle="0" axis_offset_top="324"/>
+            </text>
+        </labels>
+        <groups>
+            <group objectNumber="0" objectId="" zIndex="0">
+                <shape type="Polygon">
+                    <object tool_tip="" object_number="10003" description="" object_id="SHAPE_10003"/>
+                    <box top="0" axis_offset_left="303" bottom="0" left="0" z_index="0" axis_anchor="0" right="0" angle="0" axis_offset_top="315"/>
+                    <line line_width="1" color="#000000" style="1"/>
+                    <fill fill="#ffff7f"/>
+                    <polyline closed="1">
+                        <points>
+                            <point y="0" x="0"/>
+                            <point y="0" x="0"/>
+                            <point y="0" x="0"/>
+                            <point y="0" x="0"/>
+                            <point y="0" x="0"/>
+                            <point y="0" x="0"/>
+                            <point y="0" x="0"/>
+                            <point y="-155" x="85"/>
+                            <point y="-57" x="165"/>
+                            <point y="18" x="147"/>
+                            <point y="-26" x="78"/>
+                        </points>
+                    </polyline>
+                </shape>
+                <shape type="Ellipse">
+                    <object tool_tip="" object_number="10004" description="" object_id="SHAPE_10004"/>
+                    <box top="-2" axis_offset_left="434" bottom="104" left="0" z_index="0" axis_anchor="0" right="102" angle="0" axis_offset_top="128"/>
+                    <line line_width="1" color="#000000" style="1"/>
+                    <fill fill="#ffff7f"/>
+                    <ellipse x2="102" angle_end="0" ellipse_type="ARC_ELLIPSE" angle_start="0" y1="-2" x1="0" y2="104"/>
+                </shape>
+                <description/>
+            </group>
+        </groups>
+        <component_instances>
+            <componentInstance x2="0" uuid="{00000000-0000-0000-0000-000000000000}" objectNumber="773" objectId="" zIndex="0" y1="71" x1="0" y2="71">
+                <description/>
+            </componentInstance>
+        </component_instances>
+    </hmipage>
