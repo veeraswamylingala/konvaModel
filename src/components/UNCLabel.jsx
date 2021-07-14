@@ -9,10 +9,11 @@ function UNCLabel(shapeProps){
   const [display_on_off_text, setOnOffText] = useState('');
   const [display_numeric, setDisplayNumericValue] = useState({});
   const [display_array, setDisplayArray] = useState();
-  
+
   const { text} = shapeProps; 
   
   var value = " ";
+  
   value = text.static_text.toString()
   value =  value.replace(/&amp;/g,'')
   value =  value.replace(/#xa;/g,'')    
