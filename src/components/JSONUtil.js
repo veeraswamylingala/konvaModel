@@ -172,7 +172,7 @@ export function ShapeObjects(shapesData) {
         );
         console.log("labels-text")
 
-        shapeComponetsList.push(group);
+        shapeComponetsList.push(component_instances.componentInstance);
       } else  {         
        let singleshapearray = []; 
        if(Array.isArray(component_instances.componentInstance.shape))   //if composite instance contains mul 
