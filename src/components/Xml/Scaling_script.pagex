@@ -257,46 +257,7 @@ return m;]]></expression>
                 <box top="0" axis_offset_left="910" bottom="0" left="0" z_index="61" axis_anchor="4" right="0" angle="0" axis_offset_top="170"/>
             </text>
         </labels>
-        <groups>
-            <group objectNumber="0" objectId="" zIndex="0">
-                <shape type="Rectangle">
-                    <object tool_tip="" object_number="10119" description="" object_id="SHAPE_10119"/>
-                    <box top="0" axis_offset_left="6" bottom="52" left="0" z_index="29" axis_anchor="0" right="73" angle="0" axis_offset_top="7"/>
-                    <line line_width="1" color="#000000" style="1"/>
-                    <fill fill="#00aa00"/>
-                    <gradient gradient_color="#ffffff" gradient_direction="0"/>
-                    <rectangle x2="73" corner_radius="0" y1="0" x1="0" y2="52"/>
-                </shape>
-                <shape type="Ellipse">
-                    <object tool_tip="" object_number="10120" description="" object_id="SHAPE_10120"/>
-                    <box top="0" axis_offset_left="47" bottom="52" left="0" z_index="74" axis_anchor="0" right="66" angle="0" axis_offset_top="6"/>
-                    <line line_width="1" color="#000000" style="1"/>
-                    <fill fill="#5555ff"/>
-                    <gradient gradient_color="#ffffff" gradient_direction="6"/>
-                    <ellipse x2="66" angle_end="0" ellipse_type="ARC_ELLIPSE" angle_start="0" y1="0" x1="0" y2="52"/>
-                </shape>
-                <description/>
-            </group>
-            <group objectNumber="100992003" objectId="" zIndex="0">
-                <shape type="Rectangle">
-                    <object tool_tip="" object_number="10106" description="" object_id="SHAPE_10106"/>
-                    <box top="0" axis_offset_left="6" bottom="52" left="0" z_index="29" axis_anchor="0" right="73" angle="0" axis_offset_top="7"/>
-                    <line line_width="1" color="#000000" style="1"/>
-                    <fill fill="#00aa00"/>
-                    <gradient gradient_color="#ffffff" gradient_direction="0"/>
-                    <rectangle x2="73" corner_radius="0" y1="0" x1="0" y2="52"/>
-                </shape>
-                <shape type="Ellipse">
-                    <object tool_tip="" object_number="10107" description="" object_id="SHAPE_10107"/>
-                    <box top="0" axis_offset_left="47" bottom="52" left="0" z_index="74" axis_anchor="0" right="66" angle="0" axis_offset_top="6"/>
-                    <line line_width="1" color="#000000" style="1"/>
-                    <fill fill="#5555ff"/>
-                    <gradient gradient_color="#ffffff" gradient_direction="6"/>
-                    <ellipse x2="66" angle_end="0" ellipse_type="ARC_ELLIPSE" angle_start="0" y1="0" x1="0" y2="52"/>
-                </shape>
-                <description/>
-            </group>
-        </groups>
+    
         <component_instances>
             <componentInstance x2="0" uuid="{00000000-0000-0000-0000-000000000000}" objectNumber="35" objectId="" zIndex="0" y1="0" x1="0" y2="0">
                 <description/>
