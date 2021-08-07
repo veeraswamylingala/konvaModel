@@ -430,8 +430,8 @@ var  cdataValue = text.display_on_off.__cdata ;
       <Button variant="primary">{this.state.ProjectId}</Button>{' '}
     </Nav>
     <Form inline>
-    <Button variant="outline-info">LatestAlarms</Button>{' '}
-    <Button variant="outline-info">LatestEvents</Button>{' '}
+    {/* <Button variant="outline-info">LatestAlarms</Button>{' '}
+    <Button variant="outline-info">LatestEvents</Button>{' '} */}
       <Button variant="outline-info">Login</Button>
     </Form>
   </Navbar>

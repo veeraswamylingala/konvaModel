@@ -37,7 +37,7 @@ if(shape.dynamic_fill != undefined)
  {
    console.log("DynamicFill")
   //  this.androidToRgba(shape.dynamic_fill.on_off.on_color)
-  setDynamicFill(androidToRgba(shape.dynamic_fill.on_off.on_color))
+  setDynamicFill(androidToRgba(shape.dynamic_fill?.on_off?.on_color))
   
  }else{
   console.log("NDynamicFill")
