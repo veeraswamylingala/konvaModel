@@ -27,7 +27,7 @@ if(shape.dynamic_fill != undefined)
   var value = shape.dynamic_fill.on_off.on_color_when
   axios({
     method: 'post',
-    url: "http://localhost:8080/tag",
+    url: "https://demo3412.herokuapp.com/tag",
     headers: {}, 
     data: {
       tagname:value, // This is the body part
@@ -53,7 +53,7 @@ if(shape.dynamic_fill != undefined)
    var value = shape.object.security.hidden_when.__cdata ;
    axios({
      method: 'post',
-     url: "http://localhost:8080/tag",
+     url: "https://demo3412.herokuapp.com/tag",
      headers: {}, 
      data: {
        tagname:value, // This is the body part

@@ -7,7 +7,7 @@ function UNCText(shapeProps){
   
   const [hide, setHidden] = useState(true);
   const [display_on_off_text, setOnOffText] = useState('');
-  const [display_numeric, setDisplayNumericValue] = useState({});
+  const [display_numeric, setDisplayNumericValue] = useState(0);
   const [display_array, setDisplayArray] = useState();
 
   const { text,parentX,parentY} = shapeProps; 
@@ -60,7 +60,7 @@ function UNCText(shapeProps){
   
      axios({
       method: 'post',
-      url: "http://localhost:8080/tag",
+      url: "https://demo3412.herokuapp.com/tag",
       headers: {}, 
       data: {
         tagname:value, // This is the body part
@@ -70,13 +70,13 @@ function UNCText(shapeProps){
 
       var names = {};
     
-         names = display_numeric;
-         console.log(names);
-       names[value] =res.data.tagValue;
-       setDisplayNumericValue(names);
+      //    names = display_numeric;
+      //    console.log(names);
+      //    console.log(res.data.tagValue);
+      //  names[value] =res.data.tagValue;
+       setDisplayNumericValue(res.data.tagValue);
   
     });
-  
 
   }else
   {
@@ -99,7 +99,7 @@ function UNCText(shapeProps){
     {
       axios({
         method: 'post',
-        url: "http://localhost:8080/tag",
+        url: "https://demo3412.herokuapp.com/tag",
         headers: {}, 
         data: {
           tagname:value, // This is the body part
@@ -140,7 +140,7 @@ function UNCText(shapeProps){
     {
     axios({
       method: 'post',
-      url: "http://localhost:8080/tag",
+      url: "https://demo3412.herokuapp.com/tag",
       headers: {}, 
       data: {
         tagname:value, // This is the body part
@@ -218,7 +218,7 @@ function UNCText(shapeProps){
          fontSize={text.font_size }
               fill={androidToRgba(text.color)}
               visible={ text.object.security != undefined ? hide :  true }
-              text={text.display_numeric != undefined ? text.display_numeric.expression.__cdata ?  display_numeric[value] : value :
+              text={text.display_numeric != undefined ? text.display_numeric.expression.__cdata ?  display_numeric : value :
                 text.display_on_off != undefined ?  text.display_on_off?.__cdata ? display_on_off_text : value : text.display_array != undefined ? value:
                 value}
                 x={ parseFloat(parentX)+ parseFloat(text.box.axis_anchor)+parseFloat(text.box.axis_offset_left)+((parseFloat(text.box.left))/2)}
