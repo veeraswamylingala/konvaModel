@@ -381,10 +381,7 @@ var  cdataValue = text.display_on_off.__cdata ;
       renderLabels(text,obj)
       {
         
-        
         return  <UNCLabel text={text}  />;
-
-    
               }
             
       
