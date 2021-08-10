@@ -1,15 +1,17 @@
 import { Line } from "react-konva";
 import { getPloyPoints } from "./CanvasUtils.js";
-import { useState  } from 'react';
+import { useState , useEffect} from 'react';
 import axios from 'axios';
 
 const UNCPolygon = (shapeProps) => {
   const { shape, parentX, parentY } = shapeProps;
   
-
-  
 const [hide, setHide] = useState(0);
 const [dynamcifill, setDynamicFill] = useState(0);
+
+useEffect(() => {
+  console.log(getPloyPoints(shape, parentX, parentY))
+ })
 
   function androidToRgba(color){
     const colorArray = []
@@ -38,12 +40,10 @@ if(shape.dynamic_fill != undefined)
    console.log("DynamicFill")
   //  this.androidToRgba(shape.dynamic_fill.on_off.on_color)
   setDynamicFill(androidToRgba(shape.dynamic_fill.on_off.on_color))
-  
  }else{
   console.log("NDynamicFill")
   setDynamicFill(androidToRgba(shape.dynamic_fill.on_off.off_color))
  }
-  
   });
 }
 
@@ -60,7 +60,6 @@ if(shape.dynamic_fill != undefined)
      }
    }).then((res)=>{
      console.log(res.data.tagValue)
-    
   if(res.data.tagValue > 50)
   {
    setHide(true)
@@ -81,7 +80,7 @@ if(shape.dynamic_fill != undefined)
      // fill={shape.fill == undefined ? "" : shape.fill.fill == "#5b5b5b" ? "#c0c0c0"  :shape.fill.fill}
      fill = {shape.dynamic_fill != undefined ? dynamcifill : shape?.fill?.fill}
       visible={ shape.object.security != undefined ? hide :  true }
-       stroke={"black"}
+       stroke={shape.line.color}
       strokeWidth={parseInt(shape.line.line_width)}
       draggable={true}
       closed={parseInt(shape.polyline.closed)}

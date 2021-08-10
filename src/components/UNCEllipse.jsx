@@ -96,9 +96,9 @@ const UNCEllipse = (shapeProps) => {
 
        fill={shape.dynamic_fill != undefined ? dynamcifill  :shape?.fill?.fill}
  
-      stroke={"black"}
-      draggable={false}
-      shadowBlur={10}
+      stroke={shape.line.color}
+      // draggable={false}
+      // shadowBlur={10}
       strokeWidth={parseFloat(shape.line.line_width)}
       //fillLinearGradientStartPointX={this.getXPoint(shape)+parseFloat(obj.x1)}
       //fillLinearGradientStartPointY={this.getYPoint(shape)+parseFloat(obj.y1)}

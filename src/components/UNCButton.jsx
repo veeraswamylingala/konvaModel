@@ -17,6 +17,7 @@ import {
 import { getRectPointX, getRectPointY } from "./CanvasUtils.js";
 import React, { Component } from "react";
 import { render } from "react-dom"; 
+import UNCCanvas from "./UNCCanvas";
 const UNCButton = (shapeElement) => {
   const { shape, parentX, parentY,ProjectId } = shapeElement;
 
@@ -29,30 +30,34 @@ var buttonLabel = "" ;
 
 finalLabel = preFunctions.mainFunction(buttonLabel,ProjectId,objectId)
 
+
+const canvasClass = new UNCCanvas();
+
+function handleClick(name){
+  console.log("-------------------------------------------------")
+console.log(name)
+console.log(canvasClass.importingXmls());
+canvasClass.handleSubmit(name);
+}
+
   return (
           <Group>
-   
          <Rect
       id={"But" + shape.object.object_id + shape.object.object_number}
-
      x={ parseFloat(parentX)+ parseFloat(shape.box.axis_offset_left)+((parseFloat(shape.box.left))/2)}
      y={ parseFloat(parentY) +parseFloat(shape.box.axis_offset_top)+((parseFloat(shape.box.top))/2)}
-     
-        width={parseFloat(shape.box.right)}
-      height={parseFloat(shape.box.bottom)}
-
-     fill ='white'
-  strokeWidth={2}
+    width={parseFloat(shape.box.right)}
+    height={parseFloat(shape.box.bottom)}
+    fill ='white'
+     strokeWidth={2}
      stroke = { "grey" }
-
-
+    //  onClick={()=>handleClick(finalLabel)}
       />
       <Text  
         x={ parseFloat(parentX)+ parseFloat(shape.box.axis_offset_left)+((parseFloat(shape.box.left))+parseFloat(0)/2)}
        y={ parseFloat(parentY) +parseFloat(shape.box.axis_offset_top)+((parseFloat(shape.box.top))+parseFloat(20)/2)}
        text = {finalLabel}
       ></Text>
-
           </Group>
       );
 };

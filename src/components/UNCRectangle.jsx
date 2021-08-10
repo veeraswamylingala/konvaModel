@@ -97,8 +97,8 @@ if(shape.dynamic_fill != undefined)
       // strokeWidth={parseFloat(shape.line.line_width)}
       // shadowBlur={10}
     strokeWidth={parseFloat(shape.line.line_width)}
-   stroke = {"White"}
-   shadowBlur={10} 
+   stroke = {shape.line.color}
+   
     // fillLinearGradientColorStops={
     //   (1,
     //   shape.gradient === undefined ? "nofill" : shape.gradient.gradient_color)

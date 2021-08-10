@@ -5,6 +5,7 @@
                 <box top="0" axis_offset_left="840" bottom="50" left="0" z_index="238" axis_anchor="0" right="210" angle="0" axis_offset_top="120"/>
                 <line line_width="1" color="#000000" style="1"/>
             </shape>
+            
             <shape type="Pipe">
                 <object tool_tip="" object_number="10135" description="" object_id="SHAPE_10135"/>
                 <box top="0" axis_offset_left="1500" bottom="0" left="0" z_index="110" axis_anchor="5" right="0" angle="0" axis_offset_top="680"/>
@@ -25,6 +26,8 @@ return m;]]></expression>
                     </points>
                 </pipe>
             </shape>
+
+
             <shape type="Ellipse">
                 <object tool_tip="" object_number="10133" description="" object_id="SHAPE_10133"/>
                 <box top="0" axis_offset_left="1424" bottom="45" left="-1" z_index="108" axis_anchor="0" right="64" angle="0" axis_offset_top="572"/>
@@ -41,6 +44,7 @@ return m;]]></expression>
                 <fill fill="#555500"/>
                 <ellipse x2="64" angle_end="0" ellipse_type="ARC_ELLIPSE" angle_start="0" y1="0" x1="-1" y2="45"/>
             </shape>
+
             <shape type="Rectangle">
                 <object tool_tip="" object_number="10132" description="" object_id="SHAPE_10132"/>
                 <box top="0" axis_offset_left="1418" bottom="50" left="0" z_index="107" axis_anchor="0" right="74" angle="0" axis_offset_top="492"/>
@@ -57,6 +61,7 @@ return m;]]></expression>
                 <fill fill="#0000ff"/>
                 <rectangle x2="74" corner_radius="0" y1="0" x1="0" y2="50"/>
             </shape>
+
             <shape type="Line">
                 <object tool_tip="" object_number="10129" description="" object_id="SHAPE_10129"/>
                 <box top="0" axis_offset_left="1420" bottom="0" left="0" z_index="104" axis_anchor="6" right="80" angle="0" axis_offset_top="370"/>

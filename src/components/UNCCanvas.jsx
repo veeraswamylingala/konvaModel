@@ -107,13 +107,16 @@ class UNCCanvas extends Component {
       this.setState({
         xmlsList:images},() => {
           console.log(this.state.xmlsList)
-        })    
+        })   
+        
+        return this.state.xmlsList
     }
     
 
 
     //This Loads  User Selected Xml 
   async handleSubmit(event) {
+    console.log("function calling")
     this.setState({
       loading : true,
       currentXml:event
@@ -206,7 +209,7 @@ class UNCCanvas extends Component {
       var value = require('./templates/'+jsonObj.hmipage.template_id+'.pagex');
     }catch{
 
-    }
+    } 
 
     // console.log(value)
     if(value != undefined)
@@ -274,14 +277,63 @@ class UNCCanvas extends Component {
       case "Polygon":
         return <UNCPolygon shape={shape} parentX={parentX} parentY={parentY} />;
           case "Button":
+        return  <UNCButton   shape={shape} parentX={parentX} parentY={parentY}  ProjectId={this.state.ProjectId}      />
+    //     var finalLabel = "";
+    //     var buttonLabel = "" ;
+    //     buttonLabel = shape?.input_touch?.up?.command?.__cdata.toString();
+    //     var objectId= shape.object.object_id
+    //     finalLabel = preFunctions.mainFunction(buttonLabel,this.state.ProjectId,objectId)
+    //     finalLabel = finalLabel.split(",") ?? finalLabel
+    //     finalLabel = finalLabel[0]
 
-          return <UNCButton shape={shape} parentX={parentX} parentY={parentY} ProjectId={this.state.ProjectId}/>
+    //       return(
+    //         <Group>
+     
+    //        <Rect
+    //     id={"But" + shape.object.object_id + shape.object.object_number}
+  
+    //    x={ parseFloat(parentX)+ parseFloat(shape.box.axis_offset_left)+((parseFloat(shape.box.left))/2)}
+    //    y={ parseFloat(parentY) +parseFloat(shape.box.axis_offset_top)+((parseFloat(shape.box.top))/2)}
+       
+    //       width={parseFloat(shape.box.right)}
+    //     height={parseFloat(shape.box.bottom)}
+  
+    //    fill ='white'
+    // strokeWidth={2}
+    //    stroke = { "grey" }
+    //    onClick={()=>this.handleClick(finalLabel)}
+  
+  
+    //     />
+    //     <Text  
+    //       x={ parseFloat(parentX)+ parseFloat(shape.box.axis_offset_left)+((parseFloat(shape.box.left))+parseFloat(0)/2)}
+    //      y={ parseFloat(parentY) +parseFloat(shape.box.axis_offset_top)+((parseFloat(shape.box.top))+parseFloat(20)/2)}
+    //      text = {finalLabel}
+    //      onClick={()=>this.handleClick(finalLabel)}
+    //     ></Text>
+  
+    //         </Group>
+    //     );
        }
       }
     }   
   }
 
+
+  handleClick(name){
+    console.log("-------------------------------------------------")
+    console.log(name)
+  // console.log(canvasClass.importingXmls());
+
+  this.state.xmlsList.map((shape)=>{
+    console.log(shape.default)
+  });
+
+
+  this.handleSubmit(name);
+  }
   
+
 //Render Group-------------------------------------------------
 renderGroupsMian(shape,Obj)
 {
@@ -332,8 +384,6 @@ renderGroupsMian(shape,Obj)
         } 
   
 
-
-
   //Group Text-------------------
   renderGrouptext(text,obj)
   {
@@ -382,7 +432,7 @@ var  cdataValue = text.display_on_off.__cdata ;
       {
         
         return  <UNCLabel text={text}  />;
-              }
+        }
             
       
       
@@ -442,7 +492,32 @@ var  cdataValue = text.display_on_off.__cdata ;
           </div></center>
       
 
-       <Stage
+    {this.state.currentXml === "Home_Page" ?
+      <div className="page" style={{ width:this.state.windowwidth,height:"850px", background:"#004C99" }}>
+      <br/>
+          <br/>
+          <br/>
+     
+      <div >
+          <center><h3 style={{color:'white'}}>Welcome To ECSCADA Design Studio</h3></center>
+      </div>
+      <br/>     <br/>
+      <br/>
+     <center> <div><div class="row"> {this.state.xmlsList.map((page)=>{
+        var pageName = page.default.split("/")
+        pageName = pageName[3].split(".")
+        pageName = pageName[0]
+
+        
+        return   <div class="col-3"  style={{
+          paddingBottom: '30px',
+         
+        }}> <Button style={{width: "75%"}} onClick={()=> this.handleSubmit(pageName)} variant="btn btn-secondary btn-lg">{pageName}</Button></div>
+
+      })}</div></div></center>
+      
+      </div>  
+      :   <Stage
           id="konvaStage"
           ref={this.myRef}
           width={this.state.windowwidth}
@@ -611,7 +686,7 @@ var  cdataValue = text.display_on_off.__cdata ;
             
           </Layer>
         </Stage>
-        
+  }
       </div>
     );
   }

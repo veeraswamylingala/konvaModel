@@ -58,14 +58,15 @@ export const getPloyPoints = (shape, parentX, parentY) => {
       break;
     case "Polygon":
       if (Array.isArray(shape.polyline.points)) {
+        console.log("Entered if")
         ptx = shape.polyline.points.map((o) => ({
-          x: parseFloat(o.x),
-          y: parseFloat(o.y),
+          x: o.x,
+          y:o.y,
         }));
       } else {
         ptx = shape.polyline.points.point.map((g) => ({
-          x: parseFloat(g.x),
-          y: parseFloat(g.y),
+          x: g.x,
+          y: g.y,
         }));
       }
       break;
