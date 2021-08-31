@@ -446,7 +446,7 @@ var  cdataValue = text.display_on_off.__cdata ;
     const label =  this.state.loading == true ? <label>Loading.....</label> : <label>Loading.....</label>
 
     return (
-     
+ 
       <div id="stageContainer"   width={this.state.windowwidth}
       height={this.state.windowheight} style={{backgroundColor:this.state.windowColor}} >
       <Navbar bg="dark" variant="dark">
@@ -493,31 +493,51 @@ var  cdataValue = text.display_on_off.__cdata ;
       
 
     {this.state.currentXml === "Home_Page" ?
-      <div className="page" style={{ width:this.state.windowwidth,height:"850px", background:"#004C99" }}>
-      <br/>
-          <br/>
-          <br/>
+
+    //Home Page----------------------------------
      
+      <div  style={{ background:"#004C99" }}>
+      <br/>
+       
+      <div class="container">
       <div >
           <center><h3 style={{color:'white'}}>Welcome To ECSCADA Design Studio</h3></center>
       </div>
-      <br/>     <br/>
+      <br/>   
       <br/>
-     <center> <div><div class="row"> {this.state.xmlsList.map((page)=>{
+      <br/>
+   
+     
+     
+               <div class="row">
+                  
+        {this.state.xmlsList.map((page)=>{
         var pageName = page.default.split("/")
         pageName = pageName[3].split(".")
         pageName = pageName[0]
 
         
-        return   <div class="col-3"  style={{
+        return   <div  class="col-md-3 text-center"  style={{
           paddingBottom: '30px',
          
-        }}> <Button style={{width: "75%"}} onClick={()=> this.handleSubmit(pageName)} variant="btn btn-secondary btn-lg">{pageName}</Button></div>
-
-      })}</div></div></center>
+        }}> 
+        
+        
+        
+        <Button style={{width: "100%"}} onClick={()=> this.handleSubmit(pageName)} variant="btn btn-secondary btn-lg">
       
-      </div>  
-      :   <Stage
+    {pageName}
+ 
+          </Button>
+          
+          </div>
+
+      })}
+      
+     </div></div></div>
+      : 
+      //Konva Starts------------------------------------------------
+       <Stage
           id="konvaStage"
           ref={this.myRef}
           width={this.state.windowwidth}
