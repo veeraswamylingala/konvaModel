@@ -478,7 +478,7 @@ var  cdataValue = text.display_on_off.__cdata ;
         }
        </NavDropdown>
      
-      <Button variant="primary">{this.state.ProjectId}</Button>{' '}
+      {/* <Button variant="primary">{this.state.ProjectId}</Button>{' '} */}
     </Nav>
     <Form inline>
     {/* <Button variant="outline-info">LatestAlarms</Button>{' '}
