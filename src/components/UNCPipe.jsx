@@ -88,7 +88,7 @@ if(shape.dynamic_fill != undefined)
      fill = {shape.dynamic_fill != undefined ? dynamcifill : shape.pipe.highlight_color}
        stroke={shape.pipe.lowlight_color}
        strokeWidth={parseFloat(shape.pipe.pipe_width)}
-      draggable={true}
+      draggable={false}
       closed={false}
     //   fillLinearGradientStartPoint={{ x: 0, y: 0 }}
     //  fillLinearGradientEndPoint={{ x: 0, y: -90 }}

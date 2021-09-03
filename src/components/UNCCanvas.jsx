@@ -195,9 +195,10 @@ class UNCCanvas extends Component {
      this.setState({windowwidth:jsonObj.hmipage.width ?? "1890"})
    
 
+     //json-list[]shapes
     var pageShape = ShapeObjects(jsonObj);
-    // console.log("PageShapes ------------------------------------------------------------------")
-    // console.log(pageShape);
+    console.log("PageShapes ------------------------------------------------------------------")
+    console.log(pageShape);
 
     // console.log("-------------------------JsonTemplateID-----------------------------")
     // console.log(jsonObj.hmipage.template_id)
@@ -495,20 +496,19 @@ var  cdataValue = text.display_on_off.__cdata ;
     {this.state.currentXml === "Home_Page" ?
 
     //Home Page----------------------------------
-     
-      <div  style={{ background:"#004C99" }}>
+      <div className="page" style={{width:this.state.windowwidth, height:window.height,  background:"#004C99" }}>
       <br/>
        
-      <div class="container">
+     
       <div >
           <center><h3 style={{color:'white'}}>Welcome To ECSCADA Design Studio</h3></center>
       </div>
       <br/>   
-      <br/>
-      <br/>
+      <br/>   
+      <br/>   
    
      
-     
+      <div class="container">
                <div class="row">
                   
         {this.state.xmlsList.map((page)=>{
@@ -517,7 +517,7 @@ var  cdataValue = text.display_on_off.__cdata ;
         pageName = pageName[0]
 
         
-        return   <div  class="col-md-3 text-center"  style={{
+        return   <div  class="col-md-4 text-center"  style={{
           paddingBottom: '30px',
          
         }}> 
@@ -525,8 +525,9 @@ var  cdataValue = text.display_on_off.__cdata ;
         
         
         <Button style={{width: "100%"}} onClick={()=> this.handleSubmit(pageName)} variant="btn btn-secondary btn-lg">
-      
+      <p  style={{fontSize: "15px"}}>
     {pageName}
+    </p>
  
           </Button>
           
