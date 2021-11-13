@@ -1,3 +1,6 @@
+import { parse } from "fast-xml-parser";
+
+//X Position for Rectangle and Ellipse--------------------------
 export const getRectPointX = (shape, parentX) => {
   parentX = parentX === undefined ? 0 : parentX;
   switch (shape.type) {
@@ -10,12 +13,16 @@ export const getRectPointX = (shape, parentX) => {
       );
     case "Ellipse":
       return (
-        parseFloat(parentX) +parseFloat(shape.ellipse.x1) + parseFloat(shape.box.axis_offset_left) + (parseFloat(shape.box.left) + parseFloat(shape.box.right)) / 2
+        parseFloat(parentX) + parseFloat(shape.ellipse.x1) +
+         parseFloat(shape.box.axis_offset_left) + 
+         (parseFloat(shape.box.left) + parseFloat(shape.box.right)) / 2
       );
-    
+
   }
 };
 
+
+//Y Position for Rectangle and Ellipse------------------------
 export const getRectPointY = (shape, parentY) => {
   parentY = parentY === undefined ? 0 : parentY;
   //console.log(shape.type);
@@ -36,61 +43,154 @@ export const getRectPointY = (shape, parentY) => {
   }
 };
 
-export const getPloyPoints = (shape, parentX, parentY) => {
-  // console.log("getPloyPoints");
+
+//Line Related [X,Y]Points-------------------------------------------------------
+//Pipe Points--------------------------------------------
+export const getPipePoints = (shape, parentX, parentY) => {
+
   parentY = parentY === undefined ? 0 : parentY;
   parentX = parentX === undefined ? 0 : parentX;
   var ptx = [];
-  // console.log(shape.type);
-  switch (shape.type) {
-    case "Pipe":
-      if (Array.isArray(shape.pipe.points)) {
-        ptx = shape.pipe.points.map((o) => ({
-          x: parseFloat(o.x),
-          y: parseFloat(o.y),
-        }));
-      } else {
-        ptx = shape.pipe.points.point.map((g) => ({
+
+  if (Array.isArray(shape.pipe.points)) {
+    ptx = shape.pipe.points.map((o) => ({
+      x: parseFloat(o.x),
+      y: parseFloat(o.y)
+    }));
+  } else {
+    if(Array.isArray(shape.pipe.points.point)){
+
+    ptx = shape.pipe.points.point.map((g) => ({
+      x: parseFloat(g.x),
+      y: parseFloat(g.y),
+    }));
+  }else{
+    console.log("entered Else")
+    console.log(shape.pipe.points.point)
+    ptx = ({
+      x: parseFloat(shape.pipe.points.point.x),
+      y: parseFloat(shape.pipe.points.point.y),
+    });
+  }
+  }
+  var data = [];
+  //console.log(ptx)
+  //If pipe has multiple Points
+  if(Array.isArray(ptx)){
+  ptx.map((point) => {
+
+    //if the object is Not from Component_Instance 
+    if (parentX == 0 && parentY == 0) {
+    //push x
+    data.push(point.x + parseFloat(shape.box.axis_offset_left))
+    //push y
+    data.push(point.y + parseFloat(shape.box.axis_offset_top))
+
+    }  //if the object is Not from Component_Instance 
+    else {
+
+  //push x
+      data.push(point.x + parseFloat(shape.box.left) / 2 + parseFloat(parentX ?? "0") + parseFloat(shape.box.axis_offset_left))
+      //push y
+      data.push(point.y + parseFloat(shape.box.top) / 2 + parseFloat(parentY ?? "0") + parseFloat(shape.box.axis_offset_top))
+    }
+
+  });
+}
+  return data;
+}
+
+
+
+
+//Polygon-----------------------------------------------------
+export const getPolygonPoints = (shape, parentX, parentY) => {
+
+  var ptx = [];
+
+  if (Array.isArray(shape.polyline.points)) {
+    ptx = shape.polyline.points.map((o) => ({
+      x: parseFloat(o.x),
+      y: parseFloat(o.y),
+    }));
+  } else {
+    if(Array.isArray(shape.polyline.points.point)){
+      ptx = shape.polyline.points.point.map((g) => {
+        return ({
           x: parseFloat(g.x),
           y: parseFloat(g.y),
-        }));
-      }
-      break;
-    case "Polygon":
-      if (Array.isArray(shape.polyline.points)) {
-        console.log("Entered if")
-        ptx = shape.polyline.points.map((o) => ({
-          x: o.x,
-          y:o.y,
-        }));
-      } else {
-        ptx = shape.polyline.points.point.map((g) => ({
-          x: g.x,
-          y: g.y,
-        }));
-      }
-      break;
-      case "Line":
-        ptx.push({ x: shape.box.left, y: shape.box.top });
-        ptx.push({ x: shape.box.right, y: shape.box.bottom });
-        break;
+        });
+      })
+    }
   }
 
-  let ptArray = [];
-  ptx.forEach((element) => {
-    ptArray.push(
-      parseFloat(element.x) +
-        parseFloat(parentX) +
-        parseFloat(shape.box.axis_offset_left) +
-        parseFloat(shape.box.left) / 2
-    );
-    ptArray.push(
-      parseFloat(element.y) +
-        parseFloat(parentY) +
-        parseFloat(shape.box.axis_offset_top) +
-        parseFloat(shape.box.top) / 2
-    );
+  
+  var data = [];
+
+  ptx.map((point) => {
+
+    //if the object is Not from Component_Instance 
+    if (parentX == 0 && parentY == 0) {
+      //push x
+      data.push(point.x + parseFloat(shape.box.axis_offset_left))
+      //push y
+      data.push(point.y + parseFloat(shape.box.axis_offset_top))
+
+    }
+    //if the object is Not from Component_Instance 
+    else {
+      //push x
+      data.push(point.x + parseFloat(shape.box.left) / 2 + parseFloat(parentX ?? "0") + parseFloat(shape.box.axis_offset_left))
+      //push y
+      data.push(point.y + parseFloat(shape.box.top) / 2 + parseFloat(parentY ?? "0") + parseFloat(shape.box.axis_offset_top))
+    }
   });
-  // console.log(ptArray);
+  return data;
+}
+
+
+
+
+//Line Points-------------------------------------------------
+export const getLinePoints = (shape, parentX, parentY) => {
+
+  var ptx = [];
+
+  //starting Point{x:,y:}
+  ptx.push({ x: shape.box.left, y: shape.box.top });
+  //Ending Point{x:,y:}
+  ptx.push({ x: shape.box.right, y: shape.box.bottom });
+
+  let ptArray = [];
+  ptx.map((element) => {
+    //If the Object is NotFrom Component Instance 
+    if (parentX == 0 && parentY == 0) {
+      //XPush
+      ptArray.push(
+        parseFloat(element.x) +
+        parseFloat(shape.box.axis_offset_left)
+      );
+      //YPush
+      ptArray.push(
+        parseFloat(element.y) +
+        parseFloat(shape.box.axis_offset_top)
+      );
+    }  //If the Object is From Component Instance 
+    else {
+      //XPush
+      ptArray.push(
+        parseFloat(element.x) +
+        parseFloat(shape.box.axis_offset_left) + parseFloat(parentX ?? "0")
+      );
+      //YPush
+      ptArray.push(
+        parseFloat(element.y) +
+        parseFloat(shape.box.axis_offset_top) + parseFloat(parentY ?? "0")
+      );
+
+    }
+  })
+
+
   return ptArray;
 };

@@ -2,6 +2,8 @@ import { Text } from "react-konva";
 import { getPloyPoints } from "./JSONUtil.js";
 import { useState ,useEffect } from 'react';
 import axios from 'axios';
+import { hextoRGBA, lineStyle ,gradientStartPoints ,gradientEndPoints ,androidToRgba} from './Utils';
+
 
 function UNCText(shapeProps){
   
@@ -216,7 +218,7 @@ function UNCText(shapeProps){
   
           return  <Text fontFamily={text.font_family}  
          fontSize={text.font_size }
-              fill={androidToRgba(text.color)}
+              fill={hextoRGBA(text.color)}
               visible={ text.object.security != undefined ? hide :  true }
               text={text.display_numeric != undefined ? text.display_numeric.expression.__cdata ?  display_numeric : value :
                 text.display_on_off != undefined ?  text.display_on_off?.__cdata ? display_on_off_text : value : text.display_array != undefined ? value:

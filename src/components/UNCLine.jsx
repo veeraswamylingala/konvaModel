@@ -1,18 +1,25 @@
 import { Line } from "react-konva";
-import { getPloyPoints } from "./CanvasUtils.js";
+import { getLinePoints } from "./CanvasUtils.js";
+import { hextoRGBA, lineStyle ,gradientStartPoints ,gradientEndPoints ,androidToRgba} from './Utils';
+
 
 const UNCLine = (shapeProps) => {
   const { shape, parentX, parentY } = shapeProps;
 
   
   return (
-    <Line
-      key={"Line_" + shape.object.object_id + shape.object.object_number}
-      id={"Line_" + Math.random()}
-      points={getPloyPoints(shape, parentX, parentY)}
-      fill={shape.fill == undefined ? "" : shape.fill.fill == "#5b5b5b" ? "#c0c0c0"  :shape.fill.fill}
-      stroke={shape.line.color}
-      strokeWidth={parseInt(shape.line.line_width)}
+  <Line
+      key={"Line_" +  shape.object.object_number}
+      id={"Line_" + shape.object.object_id}
+      points={getLinePoints(shape, parentX, parentY)}
+      fill={hextoRGBA(shape.line.color)}
+      dashEnabled={true}
+      dash={lineStyle(shape.line.style)}
+      stroke={hextoRGBA(shape.line.color) ?? "grey"}
+      strokeWidth={parseInt(shape.line.line_width) ?? 1}
+      draggable={false}
+      lineCap={"round"}
+      lineJoin={"round"}
        
     ></Line>
   );

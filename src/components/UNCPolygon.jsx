@@ -1,7 +1,9 @@
 import { Line } from "react-konva";
-import { getPloyPoints } from "./CanvasUtils.js";
+import { getPolygonPoints } from "./CanvasUtils.js";
 import { useState , useEffect} from 'react';
 import axios from 'axios';
+import { hextoRGBA, lineStyle ,gradientStartPoints ,gradientEndPoints } from './Utils';
+
 
 const UNCPolygon = (shapeProps) => {
   const { shape, parentX, parentY } = shapeProps;
@@ -10,7 +12,7 @@ const [hide, setHide] = useState(0);
 const [dynamcifill, setDynamicFill] = useState(0);
 
 useEffect(() => {
-  console.log(getPloyPoints(shape, parentX, parentY))
+
  })
 
   function androidToRgba(color){
@@ -75,19 +77,25 @@ if(shape.dynamic_fill != undefined)
     <Line
       key={"Polygon_" + shape.object.object_id + shape.object.object_number}
       id={"Polygon_" + shape.object.object_id + shape.object.object_number}
-      points={getPloyPoints(shape, parentX, parentY)}
+      points={getPolygonPoints(shape, parentX, parentY)}
 
-     // fill={shape.fill == undefined ? "" : shape.fill.fill == "#5b5b5b" ? "#c0c0c0"  :shape.fill.fill}
-     fill = {shape.dynamic_fill != undefined ? dynamcifill : shape?.fill?.fill}
+    //fill={shape.fill == undefined ? "" : shape.fill.fill == "#5b5b5b" ? "#c0c0c0"  :shape.fill.fill}
+       fill = {shape.dynamic_fill != undefined ? dynamcifill : shape.fill != undefined ? hextoRGBA(shape.fill.fill) : "white"}
       visible={ shape.object.security != undefined ? hide :  true }
-       stroke={shape.line.color}
-      strokeWidth={parseInt(shape.line.line_width)}
-      draggable={true}
+      strokeWidth={parseFloat(shape.line.line_width) ?? 2}
+      stroke = {hextoRGBA(shape.line.color)  ?? "black"}
+     // strokeWidth={parseInt(shape.line.line_width)}
+      draggable={false}
+      dashEnabled={true}
+      dash={lineStyle(shape.line.style)}
       closed={parseInt(shape.polyline.closed)}
       // fillLinearGradientStartPointX={this.getXPoint(shape)+parseFloat(obj.x1)}
       // fillLinearGradientStartPointY={this.getYPoint(shape)+parseFloat(obj.y1)}
-      // fillLinearGradientColorStops={1,shape.gradient===undefined?"nofill":shape.gradient.gradient_color}
-    ></Line>
+      // fillLinearGradientColorStops={1,shape.gradient===undefined?"nofill":hextoRGBA(shape.gradient.gradient_color)}
+    >
+
+      
+    </Line>
   );
 };
 
