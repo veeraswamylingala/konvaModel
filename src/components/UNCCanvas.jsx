@@ -473,213 +473,272 @@ text = text.replace("&#xa;"," ");
     return (
 
       <div id="stageContainer" width={this.state.windowwidth}
-        height={this.state.windowheight} style={{ backgroundColor: this.state.windowColor }} >
-        <Navbar bg="dark" variant="dark">
-          <Navbar.Brand href="#home">
-            <img
-              src="assets/ecs.png"
-              width="80"
-              height="40"
-              className="d-inline-block align-top"
-            /></Navbar.Brand>
-          <Nav className="mr-auto">
-            <Nav.Link href="#" onClick={() => this.handleSubmit("Home_Page")}>Home</Nav.Link>
+      height={this.state.windowheight} style={{ backgroundColor: this.state.windowColor }} >
+      <Navbar bg="dark" variant="dark">
+        <Navbar.Brand href="#home">
+          <img
+            src="assets/ecs.png"
+            width="80"
+            height="40"
+            className="d-inline-block align-top"
+          /></Navbar.Brand>
+        <Nav className="mr-auto">
+          <Nav.Link href="#" onClick={() => this.handleSubmit("Home_Page")}>Home</Nav.Link>
 
-            {/* Dynamic Retriving of Xmls from the Folder -----------------------------------------------------------   */}
-            <NavDropdown title="Xml's" style={{ backgroundolor: 'white' }} >
-              {
-                this.state.xmlsList.map((xml, i) => {
-                  var name = xml.default.replace("/static/media/", "");
-                  name = name.replace(".pagex", "");
-                  name = name.split(".");
+          {/* Dynamic Retriving of Xmls from the Folder -----------------------------------------------------------   */}
+          <NavDropdown title="Xml's" style={{ backgroundolor: 'white' }} >
+            {
+              this.state.xmlsList.map((xml, i) => {
+                var name = xml.default.replace("/static/media/", "");
+                name = name.replace(".pagex", "");
+                name = name.split(".");
 
-                  return <NavDropdown.Item className={i + 1} href="#" onClick={() => this.handleSubmit(name[0])}>{name[0]}</NavDropdown.Item>
-                }
-                )
+                return <NavDropdown.Item className={i + 1} href="#" onClick={() => this.handleSubmit(name[0])}>{name[0]}</NavDropdown.Item>
               }
-            </NavDropdown>
-            {/* <Button variant="primary">{this.state.ProjectId}</Button>{' '} */}
-          </Nav>
-          <Form inline>
-            <Button variant="outline-info">LatestAlarms</Button>{' '}
-            <Button variant="outline-info">LatestEvents</Button>{' '}
-            <Button variant="outline-info">Login</Button>
-          </Form>
-        </Navbar>
-        <center><div style={{ display: this.state.loading ? "block" : "none" }}>
-          <label>Loading...</label>
-        </div></center>
+              )
+            }
+          </NavDropdown>
+          {/* <Button variant="primary">{this.state.ProjectId}</Button>{' '} */}
+        </Nav>
+        <Form inline>
+          {/* <Button variant="outline-info">LatestAlarms</Button>{' '}
+          <Button variant="outline-info">LatestEvents</Button>{' '}
+          <Button variant="outline-info">Login</Button> */}
+        </Form>
+      </Navbar>
+      <center><div style={{ display: this.state.loading ? "block" : "none" }}>
+        <label>Loading...</label>
+      </div></center>
+      
+      {this.state.currentXml === "Home_Page" ?
 
-        <Stage
-          id="konvaStage"
-          ref={this.myRef}
-          width={this.state.windowwidth}
-          height={this.state.windowheight}
-          containerId={"stageContainer"}
-          //  style={{marginLeft:"250px", backgroundColor:"Grey"}}
+  //Home Page----------------------------------
+    <div className="page" style={{width:this.state.windowwidth, height:window.height,  background:"#004C99" }}>
+    <br/>
+    
+  
+    <div >
+        <center><h3 style={{color:'white'}}>Welcome To ECSCADA Design Studio</h3></center>
+    </div>
+    <br/>   
+    <br/>   
+    <br/>   
 
-          style={{ display: this.state.loading ? "none" : "block", backgroundColor:this.state.windowColor }}
-        >
+  
+    <div class="container">
+            <div class="row">
+                
+      {this.state.xmlsList.map((page)=>{
+      var pageName = page.default.split("/")
+      pageName = pageName[3].split(".")
+      pageName = pageName[0]
 
-          <Layer>
-            {shapes.length != undefined ? shapes.map((obj, i) => obj != undefined ?
-              (
+      
+      return   <div  class="col-md-3 text-center"  style={{
+        paddingBottom: '30px',
+      
+      }}> 
+      
+      
+      
+      <Button style={{width: "100%"}} onClick={()=> this.handleSubmit(pageName)} variant="btn btn-secondary btn-lg">
+    <p  style={{fontSize: "15px"}}>
+  {pageName}
+  </p>
 
-                <Group
-                  key={"Grp_" + obj.objectNumber + i}
+        </Button>
+        
+        </div>
 
-                  // id={obj.objectNumber}
-                  x={0}
-                  y={0}
-                // width={parseFloat(obj.x2 == undefined ? 0 : obj.x2)}
-                // height={parseFloat(obj.y2 == undefined ? 0 : obj.y2)}
-                // fill={"blue"}
-                //draggable={true}
-                >
+    })}
+    
+  </div></div>
+    </div>
+    : 
 
-                  {/* obj.shape--------------------------------------------------------- */}
-                  {obj.shape === undefined ? (
-                    <Group />
-                  ) : (
-                    obj.shape.length != undefined ?
-                      obj.shape.map((shape) =>
-                        this.renderShapes(shape, obj.x1, obj.y1)
-                      ) : this.renderShapes(obj.shape, obj.x1, obj.y1)
-                  )}
+      <Stage
+        id="konvaStage"
+        ref={this.myRef}
+        width={this.state.windowwidth}
+        height={this.state.windowheight}
+        containerId={"stageContainer"}
+        //  style={{marginLeft:"250px", backgroundColor:"Grey"}}
 
+        style={{ display: this.state.loading ? "none" : "block", backgroundColor:this.state.windowColor }}
+      >
 
-                  {/* obj.shapes--------------------------------------------------------- */}
-                  {obj.shapes === undefined ? (
-                    <Group />
-                  ) : (
-                    obj.shapes.map((shape) =>
-                      this.renderShapes(shape, obj.x1, obj.y1)
-                    )
-                  )}
+        <Layer>
+          {shapes.length != undefined ? shapes.map((obj, i) => obj != undefined ?
+            (
 
+              <Group
+                key={"Grp_" + obj.objectNumber + i}
 
+                // id={obj.objectNumber}
+                x={0}
+                y={0}
+              // width={parseFloat(obj.x2 == undefined ? 0 : obj.x2)}
+              // height={parseFloat(obj.y2 == undefined ? 0 : obj.y2)}
+              // fill={"blue"}
+              //draggable={true}
+              >
 
-                  {/* Obj.text----------------------------------------------------------- */}
-
-                  {/* {obj.text === undefined ?(
+                {/* obj.shape--------------------------------------------------------- */}
+                {obj.shape === undefined ? (
                   <Group />
-                ):
-                obj.text.length != undefined ? 
-                 obj.text.map((value) => {
+                ) : (
+                  obj.shape.length != undefined ?
+                    obj.shape.map((shape) =>
+                      this.renderShapes(shape, obj.x1, obj.y1)
+                    ) : this.renderShapes(obj.shape, obj.x1, obj.y1)
+                )}
 
-                  //console.log("*****************************************************************************")
-                  return  <UNCDynamicText shape={value} parentX={obj.x1} parentY={obj.y1} />
-                 }
-                  ):   <UNCDynamicText shape={obj.text} parentX={obj.x1} parentY={obj.y1} />
-                } */}
 
-                  {obj.text === undefined ? (
-                    <Group />
-                  ) :
-                    obj.text.length != undefined ?
-                      obj.text.map((value) => this.rendertext(value, obj.x1, obj.y1)
-                      ) : this.rendertext(obj.text, obj.x1, obj.y1)
-                  }
+                {/* obj.shapes--------------------------------------------------------- */}
+                {obj.shapes === undefined ? (
+                  <Group />
+                ) : (
+                  obj.shapes.map((shape) =>
+                    this.renderShapes(shape, obj.x1, obj.y1)
+                  )
+                )}
 
-                  {/* //Obj.Labels---------------------------------------------------- */}
-                  {obj.labels === undefined ? (
+                {/* {obj.params === undefined ? (
+                  <Group />
+                ) : (
+                  // obj.params.length != undefined ?
+                  // obj.params.map((shape) =>
+                //   this.renderparams(shape)
+                // ): 
+                  this.renderparams(obj)
+                )} */}
+
+
+
+                {/* Obj.text----------------------------------------------------------- */}
+
+                {/* {obj.text === undefined ?(
+                <Group />
+              ):
+              obj.text.length != undefined ? 
+              obj.text.map((value) => {
+
+                //console.log("*****************************************************************************")
+                return  <UNCDynamicText shape={value} parentX={obj.x1} parentY={obj.y1} />
+              }
+                ):   <UNCDynamicText shape={obj.text} parentX={obj.x1} parentY={obj.y1} />
+              } */}
+
+                {obj.text === undefined ? (
+                  <Group />
+                ) :
+                  obj.text.length != undefined ?
+                    obj.text.map((value) => this.rendertext(value, obj.x1, obj.y1)
+                    ) : this.rendertext(obj.text, obj.x1, obj.y1)
+                }
+                
+
+                {/* //Obj.Labels---------------------------------------------------- */}
+                {obj.labels === undefined ? (
+                  <Group />
+                ) : (
+                  //MainLabels length Validation
+                  obj.labels.length != undefined ?
+                    //if
+                    obj.labels.map((text, i) =>
+
+                      text.text.length != undefined ?
+
+                        text.text.map((text) =>
+
+                          this.renderLabels(text, obj))
+
+                        : this.renderLabels(text.text, obj))
+                    //else
+                    : obj.labels.text.length != undefined ?
+
+                      obj.labels.text.map((text, i) =>
+                        this.renderLabels(text, obj)
+                      )
+                      : this.renderLabels(obj.labels.text, obj)
+                )}
+
+                {/* //obj.groups-------------------------------------------------------- */}
+
+                {
+
+                  obj.group === undefined ? (
                     <Group />
                   ) : (
-                    //MainLabels length Validation
-                    obj.labels.length != undefined ?
-                      //if
-                      obj.labels.map((text, i) =>
+                    //if--1--------------------
 
-                        text.text.length != undefined ?
-
-                          text.text.map((text) =>
-
-                            this.renderLabels(text, obj))
-
-                          : this.renderLabels(text.text, obj))
-                      //else
-                      : obj.labels.text.length != undefined ?
-
-                        obj.labels.text.map((text, i) =>
-                          this.renderLabels(text, obj)
-                        )
-                        : this.renderLabels(obj.labels.text, obj)
-                  )}
-
-                  {/* //obj.groups-------------------------------------------------------- */}
-
-                  {
-
-                    obj.group === undefined ? (
-                      <Group />
-                    ) : (
-                      //if--1--------------------
-
-                      obj.group.length != undefined ?
-                        obj.group.map((val) => {
-                          //console.log("--GroupS in  UNCCanvas")
-                          //console.log(obj)
-                          if (val.text) {
-                            //   //console.log("-0-text")
-                            //  //console.log(obj)
-                            if (val.text.length != undefined) {
-                              return val.text.map((text) =>  this.rendertext(val.text, obj.x1, obj.y1))
-
-                            }
-                            else {
-                              return this.rendertext(val.text, obj.x1, obj.y1)
-                            }
-                          }
-
-                          if (val.group) {
-                            ////console.log("-0-group")
-                            if (val.group.length != undefined) {
-                              //  //console.log("Calling");
-                              return val.group.map((group) => this.renderGroupsMian(group, obj))
-                            }
-                            else {
-                              return this.renderGroupsMian(val.group, obj)
-                            }
+                    obj.group.length != undefined ?
+                      obj.group.map((val) => {
+                        //console.log("--GroupS in  UNCCanvas")
+                        //console.log(obj)
+                        if (val.text) {
+                          //   //console.log("-0-text")
+                          //  //console.log(obj)
+                          if (val.text.length != undefined) {
+                            return val.text.map((text) =>  this.rendertext(val.text, obj.x1, obj.y1))
 
                           }
-                          if (val.shape) {
-                            //console.log("-0-shape")
-                            //console.log(obj.group.x1, obj.group.y1)
-                            //console.log(val.x1, val.y1)
-
-
-                            if (val.shape.length != undefined) {
-                              return val.shape.map((shape) =>
-                                this.renderShapes(shape, obj.x1, obj.y1))
-                            }
-                            else {
-                              return this.renderShapes(val.shape, obj.x1, obj.y1)
-
-                            }
+                          else {
+                            return this.rendertext(val.text, obj.x1, obj.y1)
                           }
                         }
-                        ) : this.renderGroupsMian(obj.group, obj)
-                    )}
+
+                        if (val.group) {
+                          ////console.log("-0-group")
+                          if (val.group.length != undefined) {
+                            //  //console.log("Calling");
+                            return val.group.map((group) => this.renderGroupsMian(group, obj))
+                          }
+                          else {
+                            return this.renderGroupsMian(val.group, obj)
+                          }
+
+                        }
+                        if (val.shape) {
+                          //console.log("-0-shape")
+                          //console.log(obj.group.x1, obj.group.y1)
+                          //console.log(val.x1, val.y1)
 
 
-                  {/* //obj.images-------------------------------------------------------- */}
+                          if (val.shape.length != undefined) {
+                            return val.shape.map((shape) =>
+                              this.renderShapes(shape, obj.x1, obj.y1))
+                          }
+                          else {
+                            return this.renderShapes(val.shape, obj.x1, obj.y1)
 
-                  {obj.image === undefined ? (
-                    <Group />
-                  ) : (
-                    obj.image.length != undefined ?
-                      obj.image.map((image) =>
-                        this.renderImages(image, obj)
-                      ) : this.renderImages(obj.image, obj)
+                          }
+                        }
+                      }
+                      ) : this.renderGroupsMian(obj.group, obj)
                   )}
 
-                </Group>
-              ) : null) : null}
 
-          </Layer>
-        </Stage>
+                {/* //obj.images-------------------------------------------------------- */}
 
-      </div>
+                {obj.image === undefined ? (
+                  <Group />
+                ) : (
+                  obj.image.length != undefined ?
+                    obj.image.map((image) =>
+                      this.renderImages(image, obj)
+                    ) : this.renderImages(obj.image, obj)
+                )}
+
+              </Group>
+            ) : null) : null}
+
+        </Layer>
+      </Stage>
+}
+    </div>
+
+    
     );
   }
 }
