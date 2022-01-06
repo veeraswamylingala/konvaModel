@@ -140,7 +140,7 @@
 
       }
 
-      //console.log(value)
+       console.log(value)
       var data = [];
       
       await axios.get(value.default, {
