@@ -1,0 +1,44 @@
+<hmipage page_scan_time="250" width="800" order="2" belongs_to_all_areas="1" access_area="0" next_object_number="10010" default_page_scan="1" prev_page="" title="group101" version="0.1.0" next_page="" height="600" color="#ffc0c0c0" id="group101" template_id="">
+    <groups>
+        <group y1="211" objectNumber="0" x1="425" zIndex="0" y2="358" x2="614" objectId="">
+            <shape type="Rectangle">
+                <object description="" object_number="10007" object_id="SHAPE_10007" tool_tip=""/>
+                <box z_index="-1" bottom="101" axis_offset_top="40" axis_offset_left="6" right="139" axis_anchor="0" top="0" left="0" angle="0"/>
+                <line style="1" line_width="1" color="#ff000000"/>
+                <fill fill="#ffff007f"/>
+                <rectangle y1="0" x1="0" y2="101" corner_radius="0" x2="139"/>
+            </shape>
+            <shape type="Ellipse">
+                <object description="" object_number="10006" object_id="SHAPE_10006" tool_tip=""/>
+                <box z_index="4" bottom="107" axis_offset_top="6" axis_offset_left="67" right="116" axis_anchor="0" top="0" left="0" angle="0"/>
+                <line style="1" line_width="1" color="#ff000000"/>
+                <fill fill="#ff55aa00"/>
+                <ellipse y1="0" angle_end="0" x1="0" angle_start="0" y2="107" x2="116" ellipse_type="ARC_ELLIPSE"/>
+            </shape>
+            <description/>
+        </group>
+        <group y1="129.623" objectNumber="0" x1="230" zIndex="0" y2="324" x2="516" objectId="">
+            <shape type="Line">
+                <object description="" object_number="10001" object_id="SHAPE_10001" tool_tip=""/>
+                <box z_index="1" bottom="114" axis_offset_top="6" axis_offset_left="60" right="131" axis_anchor="0" top="0" left="0" angle="0"/>
+                <line style="1" line_width="1" color="#ff000000"/>
+            </shape>
+            <shape type="Button">
+                <object description="" object_number="10003" object_id="SHAPE_10003" tool_tip=""/>
+                <box z_index="3" bottom="98" axis_offset_top="54" axis_offset_left="6" right="151" axis_anchor="0" top="0" left="0" angle="0"/>
+                <line style="1" line_width="1" color="#ff000000"/>
+                <button fill_color_up="#ffc0c0c0" customfill_enabled="0" fill_color_down="#00000000" is_transparent="0">
+                    <buttontext font_size="12" TextAlignType="0" underline="0" font_style="0" text="BUTTON" font_weight="50" color="#ff000000" strikeout="0"/>
+                </button>
+            </shape>
+            <shape type="Ellipse">
+                <object description="" object_number="10002" object_id="SHAPE_10002" tool_tip=""/>
+                <box z_index="2" bottom="120" axis_offset_top="68" axis_offset_left="103" right="177" axis_anchor="0" top="0" left="0" angle="0"/>
+                <line style="1" line_width="1" color="#ff000000"/>
+                <fill fill="#ff808080"/>
+                <ellipse y1="0" angle_end="0" x1="0" angle_start="0" y2="120" x2="177" ellipse_type="ARC_ELLIPSE"/>
+            </shape>
+            <description/>
+        </group>
+    </groups>
+</hmipage>

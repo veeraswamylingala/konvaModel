@@ -1,0 +1,14 @@
+<hmipage version="0.1.0" next_object_number="10004" access_area="0" color="#ffc0c0c0" prev_page="" default_page_scan="1" id="Dynamicfill" order="1" next_page="" belongs_to_all_areas="1" page_scan_time="250" height="600" width="800" template_id="" title="Dynamicfill">
+    <shapes>
+        <shape type="Rectangle">
+            <object object_number="10004" description="" object_id="SHAPE_10004" tool_tip=""/>
+            <box left="0" top="-1" right="218" angle="0" bottom="153" axis_offset_top="120" z_index="4" axis_anchor="0" axis_offset_left="60"/>
+            <line line_width="1" color="#ff000000" style="1"/>
+            <fill fill="#ffff007f"/>
+            <rectangle x1="0" y1="-1" corner_radius="0" y2="153" x2="218"/>
+            <dynamic_fill_level minimum="0" level_at_maximum="200" maximum="100" level_at_minimum="0" background_color="#ffffff7f" enabled="1" fill_direction="0">
+                <expression><![CDATA[_DTms_0010]]></expression>
+            </dynamic_fill_level>
+        </shape>
+    </shapes>
+</hmipage>

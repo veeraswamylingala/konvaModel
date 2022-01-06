@@ -199,6 +199,7 @@ return m;]]></expression>
             </polyline>
         </shape>
         <shape type="Polygon">
+
             <object description="" object_id="SHAPE_10019" tool_tip="" object_number="10019"/>
             <box top="0" bottom="0" left="0" axis_offset_top="395" right="0" axis_offset_left="439" axis_anchor="0" angle="0" z_index="0"/>
             <line color="#ff000002" style="1" line_width="1"/>
@@ -446,13 +447,7 @@ return i += dir;
             <rectangle x1="-26" x2="53" y2="28" corner_radius="0" y1="-7"/>
             <dynamic_fill type="0">
                 <on_off on_color="#ff00ff7f" blink_on_color="#00000000" off_color="#ffff0000" blink_off_enable="0" blink_off_color="#00000000" blink_on_enable="0">
-                    <on_color_when><![CDATA[static int i = 100;
-//printf("in shape visibility %d:\n", i);
-i++;
-if (i == 120) i = 100;
-
-
-return i > 110;]]></on_color_when>
+                    <on_color_when><![CDATA[_DTms_0010%2]]></on_color_when>
                 </on_off>
             </dynamic_fill>
         </shape>
@@ -583,27 +578,27 @@ return i;]]></index_expression>
     </images>
     <labels>
         <text underline="0" font_size="14" color="#ff5500ff" align_type="0" font_family="PT Sans" display_type="0" static_text="Individual Fill" font_style="0" strikeout="0" font_weight="75">
-            <display_on_off text_off="" text_on=""><![CDATA[]]></display_on_off>
+        
             <object description="" object_id="TEXT_10125" tool_tip="" object_number="10125"/>
             <box top="0" bottom="0" left="0" axis_offset_top="95" right="0" axis_offset_left="1018" axis_anchor="4" angle="0" z_index="2"/>
         </text>
         <text underline="0" font_size="14" color="#ff5500ff" align_type="0" font_family="PT Sans" display_type="0" static_text="Group Fill" font_style="0" strikeout="0" font_weight="75">
-            <display_on_off text_off="" text_on=""><![CDATA[]]></display_on_off>
+        
             <object description="" object_id="TEXT_10124" tool_tip="" object_number="10124"/>
             <box top="0" bottom="0" left="0" axis_offset_top="99" right="0" axis_offset_left="1373" axis_anchor="4" angle="0" z_index="1"/>
         </text>
         <text underline="0" font_size="4294967295" color="#ff0000ff" align_type="0" font_family="PT Sans" display_type="0" static_text="HORIZONTAL" font_style="0" strikeout="0" font_weight="75">
-            <display_on_off text_off="" text_on=""><![CDATA[]]></display_on_off>
+        
             <object description="" object_id="TEXT_10107" tool_tip="" object_number="10107"/>
             <box top="0" bottom="0" left="0" axis_offset_top="396" right="0" axis_offset_left="53" axis_anchor="0" angle="0" z_index="0"/>
         </text>
         <text underline="0" font_size="9" color="#ffffff7f" align_type="0" font_family="PT Sans" display_type="0" static_text="GRADIENT" font_style="0" strikeout="0" font_weight="75">
-            <display_on_off text_off="" text_on=""><![CDATA[]]></display_on_off>
+        
             <object description="" object_id="TEXT_10106" tool_tip="" object_number="10106"/>
             <box top="0" bottom="0" left="0" axis_offset_top="104" right="0" axis_offset_left="538" axis_anchor="0" angle="0" z_index="0"/>
         </text>
         <text underline="0" font_size="9" color="#96ff0000" align_type="0" font_family="PT Sans" display_type="0" static_text="Array" font_style="0" strikeout="0" font_weight="75">
-            <display_on_off text_off="" text_on=""><![CDATA[]]></display_on_off>
+        
             <object description="" object_id="TEXT_10079" tool_tip="" object_number="10079"/>
             <box top="0" bottom="0" left="0" axis_offset_top="324" right="0" axis_offset_left="328" axis_anchor="0" angle="0" z_index="0"/>
         </text>
@@ -661,102 +656,102 @@ return i > 110;]]></display_on_off>
             <box top="0" bottom="0" left="0" axis_offset_top="154" right="0" axis_offset_left="58" axis_anchor="0" angle="0" z_index="0"/>
         </text>
         <text underline="0" font_size="11" color="#ffffff7f" align_type="0" font_family="PT Sans" display_type="0" static_text="ON/OFF" font_style="1" strikeout="0" font_weight="75">
-            <display_on_off text_off="" text_on=""><![CDATA[]]></display_on_off>
+        
             <object description="" object_id="TEXT_10086" tool_tip="" object_number="10086"/>
             <box top="0" bottom="0" left="0" axis_offset_top="104" right="0" axis_offset_left="58" axis_anchor="0" angle="0" z_index="0"/>
         </text>
         <text underline="0" font_size="9" color="#ffffff7f" align_type="0" font_family="PT Sans" display_type="0" static_text="MULTISTATE" font_style="0" strikeout="0" font_weight="75">
-            <display_on_off text_off="" text_on=""><![CDATA[]]></display_on_off>
+        
             <object description="" object_id="TEXT_10089" tool_tip="" object_number="10089"/>
             <box top="0" bottom="0" left="0" axis_offset_top="104" right="0" axis_offset_left="168" axis_anchor="0" angle="0" z_index="0"/>
         </text>
         <text underline="0" font_size="4294967295" color="#ffffff7f" align_type="0" font_family="PT Sans" display_type="0" static_text="NUMBER" font_style="0" strikeout="0" font_weight="75">
-            <display_on_off text_off="" text_on=""><![CDATA[]]></display_on_off>
+        
             <object description="" object_id="TEXT_10099" tool_tip="" object_number="10099"/>
             <box top="0" bottom="0" left="0" axis_offset_top="104" right="0" axis_offset_left="648" axis_anchor="0" angle="0" z_index="0"/>
         </text>
         <text underline="0" font_size="4294967295" color="#ffffff7f" align_type="0" font_family="PT Sans" display_type="0" static_text="ARRAY" font_style="0" strikeout="0" font_weight="75">
-            <display_on_off text_off="" text_on=""><![CDATA[]]></display_on_off>
+        
             <object description="" object_id="TEXT_10100" tool_tip="" object_number="10100"/>
             <box top="0" bottom="0" left="0" axis_offset_top="104" right="0" axis_offset_left="308" axis_anchor="0" angle="0" z_index="0"/>
         </text>
         <text underline="0" font_size="4294967295" color="#ffffff7f" align_type="0" font_family="PT Sans" display_type="0" static_text="STRING" font_style="0" strikeout="0" font_weight="75">
-            <display_on_off text_off="" text_on=""><![CDATA[]]></display_on_off>
+        
             <object description="" object_id="TEXT_10101" tool_tip="" object_number="10101"/>
             <box top="0" bottom="0" left="0" axis_offset_top="104" right="0" axis_offset_left="738" axis_anchor="0" angle="0" z_index="0"/>
         </text>
         <text underline="0" font_size="9" color="#ffffff7f" align_type="0" font_family="PT Sans" display_type="0" static_text="ANIMATION" font_style="0" strikeout="0" font_weight="75">
-            <display_on_off text_off="" text_on=""><![CDATA[]]></display_on_off>
+        
             <object description="" object_id="TEXT_10103" tool_tip="" object_number="10103"/>
             <box top="0" bottom="0" left="0" axis_offset_top="104" right="0" axis_offset_left="418" axis_anchor="0" angle="0" z_index="0"/>
         </text>
         <text underline="0" font_size="9" color="#ff0000ff" align_type="0" font_family="PT Sans" display_type="0" static_text="VERTICAL" font_style="0" strikeout="0" font_weight="75">
-            <display_on_off text_off="" text_on=""><![CDATA[]]></display_on_off>
+        
             <object description="" object_id="TEXT_10108" tool_tip="" object_number="10108"/>
             <box top="0" bottom="0" left="0" axis_offset_top="396" right="0" axis_offset_left="183" axis_anchor="0" angle="0" z_index="0"/>
         </text>
         <text underline="0" font_size="9" color="#ff0000ff" align_type="0" font_family="PT Sans" display_type="0" static_text="ROTATIONAL" font_style="0" strikeout="0" font_weight="75">
-            <display_on_off text_off="" text_on=""><![CDATA[]]></display_on_off>
+        
             <object description="" object_id="TEXT_10109" tool_tip="" object_number="10109"/>
             <box top="0" bottom="0" left="0" axis_offset_top="396" right="0" axis_offset_left="303" axis_anchor="0" angle="0" z_index="0"/>
         </text>
         <text underline="0" font_size="12" color="#ff0000ff" align_type="0" font_family="PT Sans" display_type="0" static_text="MOVEMENT" font_style="0" strikeout="0" font_weight="75">
-            <display_on_off text_off="" text_on=""><![CDATA[]]></display_on_off>
+        
             <object description="" object_id="TEXT_10110" tool_tip="" object_number="10110"/>
             <box top="0" bottom="0" left="0" axis_offset_top="374" right="0" axis_offset_left="28" axis_anchor="0" angle="0" z_index="0"/>
         </text>
         <text underline="0" font_size="12" color="#00aa0000" align_type="0" font_family="PT Sans" display_type="0" static_text="FILL DIRECTION" font_style="0" strikeout="0" font_weight="75">
-            <display_on_off text_off="" text_on=""><![CDATA[]]></display_on_off>
+        
             <object description="" object_id="TEXT_10111" tool_tip="" object_number="10111"/>
             <box top="0" bottom="0" left="0" axis_offset_top="574" right="0" axis_offset_left="28" axis_anchor="0" angle="0" z_index="0"/>
         </text>
         <text underline="0" font_size="12" color="#00aa0000" align_type="0" font_family="PT Sans" display_type="0" static_text="UP" font_style="0" strikeout="0" font_weight="75">
-            <display_on_off text_off="" text_on=""><![CDATA[]]></display_on_off>
+        
             <object description="" object_id="TEXT_10112" tool_tip="" object_number="10112"/>
             <box top="0" bottom="0" left="0" axis_offset_top="597" right="0" axis_offset_left="68" axis_anchor="0" angle="0" z_index="0"/>
         </text>
         <text underline="0" font_size="12" color="#00aa0000" align_type="0" font_family="PT Sans" display_type="0" static_text="DOWN" font_style="0" strikeout="0" font_weight="75">
-            <display_on_off text_off="" text_on=""><![CDATA[]]></display_on_off>
+        
             <object description="" object_id="TEXT_10113" tool_tip="" object_number="10113"/>
             <box top="0" bottom="0" left="0" axis_offset_top="597" right="0" axis_offset_left="168" axis_anchor="0" angle="0" z_index="0"/>
         </text>
         <text underline="0" font_size="12" color="#ffaa0000" align_type="0" font_family="PT Sans" display_type="0" static_text="LEFT" font_style="0" strikeout="0" font_weight="75">
-            <display_on_off text_off="" text_on=""><![CDATA[]]></display_on_off>
+        
             <object description="" object_id="TEXT_10114" tool_tip="" object_number="10114"/>
             <box top="0" bottom="0" left="0" axis_offset_top="597" right="0" axis_offset_left="298" axis_anchor="0" angle="0" z_index="0"/>
         </text>
         <text underline="0" font_size="12" color="#ffaa0000" align_type="0" font_family="PT Sans" display_type="0" static_text="RIGHT" font_style="0" strikeout="0" font_weight="75">
-            <display_on_off text_off="" text_on=""><![CDATA[]]></display_on_off>
+        
             <object description="" object_id="TEXT_10115" tool_tip="" object_number="10115"/>
             <box top="0" bottom="0" left="0" axis_offset_top="597" right="0" axis_offset_left="398" axis_anchor="0" angle="0" z_index="0"/>
         </text>
         <text underline="0" font_size="12" color="#ffaa007f" align_type="0" font_family="PT Sans" display_type="0" static_text="SCALING" font_style="0" strikeout="0" font_weight="75">
-            <display_on_off text_off="" text_on=""><![CDATA[]]></display_on_off>
+        
             <object description="" object_id="TEXT_10117" tool_tip="" object_number="10117"/>
             <box top="0" bottom="0" left="0" axis_offset_top="484" right="0" axis_offset_left="28" axis_anchor="0" angle="0" z_index="0"/>
         </text>
         <text underline="0" font_size="12" color="#ffffff7f" align_type="0" font_family="PT Sans" display_type="0" static_text="TEXT" font_style="0" strikeout="0" font_weight="75">
-            <display_on_off text_off="" text_on=""><![CDATA[]]></display_on_off>
+        
             <object description="" object_id="TEXT_10118" tool_tip="" object_number="10118"/>
             <box top="0" bottom="0" left="0" axis_offset_top="134" right="0" axis_offset_left="28" axis_anchor="0" angle="0" z_index="0"/>
         </text>
         <text underline="0" font_size="4294967295" color="#ff00ffff" align_type="0" font_family="PT Sans" display_type="0" static_text="IMAGES" font_style="0" strikeout="0" font_weight="75">
-            <display_on_off text_off="" text_on=""><![CDATA[]]></display_on_off>
+        
             <object description="" object_id="TEXT_10119" tool_tip="" object_number="10119"/>
             <box top="0" bottom="0" left="0" axis_offset_top="184" right="0" axis_offset_left="28" axis_anchor="0" angle="0" z_index="0"/>
         </text>
         <text underline="0" font_size="9" color="#ff9d00eb" align_type="0" font_family="PT Sans" display_type="0" static_text="FILL COLOUR" font_style="0" strikeout="0" font_weight="75">
-            <display_on_off text_off="" text_on=""><![CDATA[]]></display_on_off>
+        
             <object description="" object_id="TEXT_10120" tool_tip="" object_number="10120"/>
             <box top="0" bottom="0" left="0" axis_offset_top="274" right="0" axis_offset_left="28" axis_anchor="0" angle="0" z_index="0"/>
         </text>
         <text underline="0" font_size="12" color="#00005500" align_type="0" font_family="PT Sans" display_type="0" static_text="SLIDER" font_style="0" strikeout="0" font_weight="75">
-            <display_on_off text_off="" text_on=""><![CDATA[]]></display_on_off>
+        
             <object description="" object_id="TEXT_10122" tool_tip="" object_number="10122"/>
             <box top="0" bottom="0" left="0" axis_offset_top="694" right="0" axis_offset_left="28" axis_anchor="0" angle="0" z_index="0"/>
         </text>
         <text underline="0" font_size="4294967295" color="#96ff007f" align_type="0" font_family="PT Sans" display_type="0" static_text="MultiState" font_style="0" strikeout="0" font_weight="75">
-            <display_on_off text_off="" text_on=""><![CDATA[]]></display_on_off>
+        
             <object description="" object_id="TEXT_10082" tool_tip="" object_number="10082"/>
             <box top="0" bottom="0" left="0" axis_offset_top="324" right="0" axis_offset_left="188" axis_anchor="0" angle="0" z_index="-1"/>
         </text>

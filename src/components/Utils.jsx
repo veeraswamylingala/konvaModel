@@ -1,14 +1,14 @@
 
-
-var ip = "192.168.0.45";
-
+export var intervalUpdate = 1000;
+export var ip = "192.168.0.45";
 export const getTagValueApi ="http://"+ip+"/ScadaClient/api/ExpressionEval/GetExprVal";
 
 //Function-1
 //Hexa(#fafafafa) to RGBA Convertion-----------------------------------
 export function hextoRGBA(color) {
-  // //console.log(color)
-
+ //   console.log(color)
+  if(color != undefined)
+  {
   if (color.length == 9) {
     var r;
     var g;
@@ -32,13 +32,27 @@ export function hextoRGBA(color) {
     //   //console.log( "rgba("+r+","+g+","+b+","+a+")");
 
     return "rgba(" + r + "," + g + "," + b + "," + a + ")";
-  } else {
+  }//AndroidColor(2325262421) to RGBA Convertion----------------------------------- 
+  else if(color.length == 10){
+    const colorArray = []
+    for (let i = 0; i < 4; i++) {
+      colorArray.push(color % 256)
+      color >>>= 8
+    }
+    const alpha = colorArray.pop() / 255
+    return `rgba(${colorArray.reverse()},${alpha})`
+
+  } {
     return color;
   }
+}else{
+  return color;
+}
+  
 }
 
 //Function-1
-//AndroidColor(10Digit) to RGBA Convertion-----------------------------------
+//AndroidColor(2325262421) to RGBA Convertion-----------------------------------
 export function androidToRgba(color) {
   const colorArray = []
   for (let i = 0; i < 4; i++) {
@@ -77,112 +91,6 @@ export function lineStyle(value) {
   }
 
 }
-
-
-    //gradient-----------------------------------------------
- // -0---GRADIENT_LEFT_TO_RIGHT-------------------------------
- //startPoint:   {x1:x2/2 - x2/4 , y1:y2}
- //endPoint:     {x2:x2 - x4/4,y2:y2 }
-
- //-1--GRADIENT_RIGHT_TO_LEFT----------------------------------
- //startPoint:  {x1: x2 - x2/4   , y1:y2   }
- //endPoint:    {x2: x2/2 - x2/4 , y2:    y2  }
-
- //--2---GRADIENT_TOP_TO_BOTTOM -----------------------------
- //startPoint:  {x2: x2 , y2:y2/2 - y2/4  } 
- //endPoint:   {x1: x2    , y1:y2 - y2/4  }
-
-  //--3---GRADIENT_BOTTOM_TO_TOP  -----------------------------
- //startPoint:  {x2: x2 , y2:y2 - y2/4  }
- //endPoint:    {x1: x2    , y1:y2/2 - y2/4  }
-
- //--4--GRADIENT_HORIZONTAL_TO_MIDDLE -------------------------
-  //startPoint:  {x1: x2    , y1:y2/2 }
- //endPoint:    {x2: x2 , y2:y2/2 + 1  }
-
- //---
- //---5---GRADIENT_HORIZONTAL_FROM_MIDDLE ---------------------
-   //startPoint:  {x1: x2    , y1:y2/2 }
- //endPoint:    {x2: x2 , y2:y2 - 1  }
-
- //--6---GRADIENT_VERTICAL_TO_MIDDLE----------------------------
- //startPoint:  {x1: x2/2   , y1:y2 }
- //endPoint:    {x2: x2/2 -1 , y2:y2 }
-
- //---
- //--7--GRADIENT_VERTICAL_FROM_MIDDLE----------------------------
- //startPoint:  {x1: x2/2   , y1:y2 }
- //endPoint:    {x2: x2 -1 , y2:y2 }
-
-
- //Rectangle Gradient StartPoints-------------------------------------------
- export function gradientStartPoints(shape,x1,x2,y1,y2) {
-  ////console.log(shape.gradient.gradient_direction)
-
-  switch (parseInt(shape.gradient.gradient_direction)) {
-    //-0---GRADIENT_LEFT_TO_RIGHT     
-    case 0:
-      return { x: x2 / 2 - x2 / 4, y: y2 };
-    //-1--GRADIENT_RIGHT_TO_LEFT
-    case 1:
-      return { x: x2 - x2 / 4, y: y2 };
-    //-2--GRADIENT_TOP_TO_BOTTOM
-    case 2:
-      return { x: x2, y: y2 / 2 - y2 / 4 };
-    //-3--GRADIENT_BOTTOM_TO_TOP 
-    case 3:
-      return { x: x2, y: y2 - y2 / 4 };
-    //-4--GRADIENT_HORIZONTAL_TO_MIDDLE 
-    case 4:
-      return { x: x2 / 2 - x2 / 3, y: y2 };
-    //-5---GRADIENT_HORIZONTAL_FROM_MIDDLE 
-    case 5:
-      return { x: x2 / 2 - x2 / 3, y: y2 };
-    //-6--GRADIENT_HORIZONTAL_TO_MIDDLE 
-    case 6:
-      return   { x: x2, y: y2 / 2 - y2 / 3 };
-    // //--7--GRADIENT_VERTICAL_FROM_MIDDLE
-    case 7:
-      return   { x: x2, y: y2 / 2 - y2 / 3 };
-    default: return { x: 0, y: 0 };
-  }
-}
-
-//Rectangle Gradient End POints-------------------------------------
-export function gradientEndPoints(shape,x1,x2,y1,y2) {
-  switch (parseInt(shape.gradient.gradient_direction)) {
-    //-0---GRADIENT_LEFT_TO_RIGHT     
-    case 0:
-      return { x: x2 - x2 / 4, y: y2 };
-    //-1--GRADIENT_RIGHT_TO_LEFT
-    case 1:
-      return { x: x2 / 2 - x2 / 4, y: y2 };
-    //-2--GRADIENT_TOP_TO_BOTTOM
-    case 2:
-      return { x: x2, y: y2 - y2 / 4 };
-    //-3--GRADIENT_BOTTOM_TO_TOP 
-    case 3:
-      return { x: x2, y: y2 / 2 - y2 / 4 };
-    //-4--GRADIENT_HORIZONTAL_TO_MIDDLE 
-    case 4:
-      return { x: x2 - x2 / 8, y: y2 };
-    //-5---GRADIENT_HORIZONTAL_FROM_MIDDLE
-    case 5:
-      return { x: x2 - x2 / 8, y: y2 };
-    //-6--GRADIENT_VERTICAL_TO_MIDDLE 
-    case 6:
-      return { x: x2, y: y2 - y2 / 10 };
-    // //--7--GRADIENT_VERTICAL_FROM_MIDDLE
-    case 7:
-      return { x: x2, y: y2 - y2 / 10 };
-    default: return { x: 0, y: 0 };
-  }
-
-}
-
-
-
-
 
 
 

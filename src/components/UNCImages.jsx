@@ -4,23 +4,23 @@ import { getPloyPoints } from "./JSONUtil.js";
 
 const UNCImage = (shapeProps) => {
   const { image } = shapeProps;
-  
-  
+
+
   return (
-       
-     <Image
-    x={200}
-    y={300}
-    
-    height ={150}
-    width = {150}
 
-    ref={node => {
-      this.imageNode = node;
-    }
+    <Image
+      x={200}
+      y={300}
 
-}
-  />
+      height={150}
+      width={150}
+
+      ref={node => {
+        this.imageNode = node;
+      }
+
+      }
+    />
   );
 };
 

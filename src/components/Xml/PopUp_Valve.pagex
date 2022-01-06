@@ -1,0 +1,306 @@
+<hmipage next_object_number="10386" template_id="" version="0.1.0" color="#ffffffff" belongs_to_all_areas="1" access_area="0" default_page_scan="1" order="45" height="440" prev_page="" width="300" id="PopUp_Valve" title="PopUp_Valve" page_scan_time="250" next_page="">
+    <shapes>
+        <shape type="Rectangle">
+            <object description="" object_id="SHAPE_10380" tool_tip="" object_number="10380"/>
+            <box top="0" bottom="26" left="0" axis_offset_top="397" right="155" axis_offset_left="26" axis_anchor="0" angle="0" z_index="289"/>
+            <line color="#ffaaffff" style="1" line_width="1"/>
+            <rectangle x1="0" x2="155" y2="26" corner_radius="5" y1="0"/>
+        </shape>
+        <shape type="Rectangle">
+            <object description="" object_id="SHAPE_10379" tool_tip="" object_number="10379"/>
+            <box top="0" bottom="15" left="0" axis_offset_top="182" right="20" axis_offset_left="190" axis_anchor="0" angle="0" z_index="288"/>
+            <line color="#ff55007f" style="1" line_width="2"/>
+            <rectangle x1="0" x2="20" y2="15" corner_radius="0" y1="0"/>
+        </shape>
+        <shape type="Rectangle">
+            <object description="" object_id="SHAPE_10378" tool_tip="" object_number="10378"/>
+            <box top="0" bottom="15" left="0" axis_offset_top="147" right="20" axis_offset_left="190" axis_anchor="0" angle="0" z_index="287"/>
+            <line color="#ff55007f" style="1" line_width="2"/>
+            <rectangle x1="0" x2="20" y2="15" corner_radius="0" y1="0"/>
+        </shape>
+        <shape type="Rectangle">
+            <object description="" object_id="SHAPE_10377" tool_tip="" object_number="10377"/>
+            <box top="0" bottom="15" left="0" axis_offset_top="112" right="20" axis_offset_left="190" axis_anchor="0" angle="0" z_index="286"/>
+            <line color="#ff55007f" style="1" line_width="2"/>
+            <rectangle x1="0" x2="20" y2="15" corner_radius="0" y1="0"/>
+        </shape>
+        <shape type="Rectangle">
+            <object description="" object_id="SHAPE_10376" tool_tip="" object_number="10376"/>
+            <box top="0" bottom="15" left="0" axis_offset_top="435" right="20" axis_offset_left="217" axis_anchor="0" angle="0" z_index="285"/>
+            <line color="#ff55007f" style="1" line_width="2"/>
+            <rectangle x1="0" x2="20" y2="15" corner_radius="0" y1="0"/>
+        </shape>
+        <shape type="Rectangle">
+            <object description="" object_id="SHAPE_10375" tool_tip="" object_number="10375"/>
+            <box top="0" bottom="15" left="0" axis_offset_top="401" right="20" axis_offset_left="258" axis_anchor="0" angle="0" z_index="284"/>
+            <line color="#ff55007f" style="1" line_width="2"/>
+            <rectangle x1="0" x2="20" y2="15" corner_radius="0" y1="0"/>
+        </shape>
+        <shape type="Rectangle">
+            <object description="" object_id="SHAPE_10374" tool_tip="" object_number="10374"/>
+            <box top="0" bottom="15" left="0" axis_offset_top="401" right="20" axis_offset_left="217" axis_anchor="0" angle="0" z_index="283"/>
+            <line color="#ff55007f" style="1" line_width="2"/>
+            <rectangle x1="0" x2="20" y2="15" corner_radius="0" y1="0"/>
+        </shape>
+        <shape type="Rectangle">
+            <object description="" object_id="SHAPE_10370" tool_tip="" object_number="10370"/>
+            <box top="0" bottom="28" left="0" axis_offset_top="46" right="296" axis_offset_left="8" axis_anchor="0" angle="0" z_index="279"/>
+            <line color="#ffffff00" style="1" line_width="1"/>
+            <rectangle x1="0" x2="296" y2="28" corner_radius="5" y1="0"/>
+        </shape>
+        <shape type="Rectangle">
+            <object description="" object_id="SHAPE_10368" tool_tip="" object_number="10368"/>
+            <box top="0" bottom="17" left="0" axis_offset_top="355" right="137" axis_offset_left="88" axis_anchor="0" angle="0" z_index="277"/>
+            <line color="#ffffffff" style="1" line_width="1"/>
+            <fill fill="#ff550000"/>
+            <rectangle x1="0" x2="137" y2="17" corner_radius="5" y1="0"/>
+        </shape>
+        <shape type="Rectangle">
+            <object description="" object_id="SHAPE_10366" tool_tip="" object_number="10366"/>
+            <box top="0" bottom="17" left="0" axis_offset_top="213" right="64" axis_offset_left="125" axis_anchor="0" angle="0" z_index="275"/>
+            <line color="#ffffffff" style="1" line_width="1"/>
+            <fill fill="#ff550000"/>
+            <rectangle x1="0" x2="64" y2="17" corner_radius="5" y1="0"/>
+        </shape>
+        <shape type="Rectangle">
+            <object description="" object_id="SHAPE_10362" tool_tip="" object_number="10362"/>
+            <box top="0" bottom="17" left="0" axis_offset_top="376" right="33" axis_offset_left="210" axis_anchor="0" angle="0" z_index="271"/>
+            <line color="#ff000000" style="0" line_width="1"/>
+            <fill fill="#ff919191"/>
+            <rectangle x1="0" x2="33" y2="17" corner_radius="8" y1="0"/>
+        </shape>
+        <shape type="Rectangle">
+            <object description="" object_id="SHAPE_10358" tool_tip="" object_number="10358"/>
+            <box top="0" bottom="26" left="0" axis_offset_top="429" right="156" axis_offset_left="25" axis_anchor="0" angle="0" z_index="267"/>
+            <line color="#ffaaffff" style="1" line_width="1"/>
+            <rectangle x1="0" x2="156" y2="26" corner_radius="5" y1="0"/>
+        </shape>
+        <shape type="Rectangle">
+            <object description="" object_id="SHAPE_10357" tool_tip="" object_number="10357"/>
+            <box top="0" bottom="17" left="0" axis_offset_top="376" right="33" axis_offset_left="248" axis_anchor="0" angle="0" z_index="266"/>
+            <line color="#ff000000" style="0" line_width="1"/>
+            <fill fill="#ff919191"/>
+            <rectangle x1="0" x2="33" y2="17" corner_radius="8" y1="0"/>
+        </shape>
+        <shape type="Button">
+            <object description="" object_id="SHAPE_10356" tool_tip="" object_number="10356"/>
+            <box top="0" bottom="17" left="0" axis_offset_top="329" right="147" axis_offset_left="22" axis_anchor="0" angle="0" z_index="265"/>
+            <line color="#ff000000" style="1" line_width="1"/>
+            <button is_transparent="0" fill_color_down="#00000000" fill_color_up="#ffaaaa7f" customfill_enabled="1">
+                <buttontext underline="0" TextAlignType="0" text="POINT SUMMARY" font_size="11" color="#ff550000" strikeout="0" font_style="0" font_weight="75"/>
+            </button>
+        </shape>
+        <shape type="Rectangle">
+            <object description="" object_id="SHAPE_10354" tool_tip="" object_number="10354"/>
+            <box top="0" bottom="26" left="0" axis_offset_top="258" right="67" axis_offset_left="217" axis_anchor="0" angle="0" z_index="263"/>
+            <line color="#ffaaffff" style="1" line_width="1"/>
+            <rectangle x1="0" x2="67" y2="26" corner_radius="5" y1="0"/>
+        </shape>
+        <shape type="Rectangle">
+            <object description="" object_id="SHAPE_10352" tool_tip="" object_number="10352"/>
+            <box top="0" bottom="17" left="0" axis_offset_top="82" right="91" axis_offset_left="110" axis_anchor="0" angle="0" z_index="261"/>
+            <line color="#ffffffff" style="1" line_width="1"/>
+            <fill fill="#ff550000"/>
+            <rectangle x1="0" x2="91" y2="17" corner_radius="5" y1="0"/>
+        </shape>
+        <shape type="Rectangle">
+            <object description="" object_id="SHAPE_10346" tool_tip="" object_number="10346"/>
+            <box top="0" bottom="97" left="0" axis_offset_top="364" right="296" axis_offset_left="8" axis_anchor="0" angle="0" z_index="255"/>
+            <line color="#ffffff00" style="1" line_width="1"/>
+            <rectangle x1="0" x2="296" y2="97" corner_radius="5" y1="0"/>
+        </shape>
+        <shape type="Rectangle">
+            <object description="" object_id="SHAPE_10344" tool_tip="" object_number="10344"/>
+            <box top="0" bottom="28" left="0" axis_offset_top="11" right="296" axis_offset_left="8" axis_anchor="0" angle="0" z_index="253"/>
+            <line color="#ffffff00" style="1" line_width="1"/>
+            <rectangle x1="0" x2="296" y2="28" corner_radius="5" y1="0"/>
+        </shape>
+        <shape type="Button">
+            <object description="" object_id="SHAPE_10355" tool_tip="" object_number="10355"/>
+            <box top="0" bottom="17" left="0" axis_offset_top="329" right="53" axis_offset_left="231" axis_anchor="0" angle="0" z_index="210"/>
+            <line color="#ff000000" style="1" line_width="1"/>
+            <button is_transparent="0" fill_color_down="#00000000" fill_color_up="#ffaaaa7f" customfill_enabled="1">
+                <buttontext underline="0" TextAlignType="0" text="ACK" font_size="11" color="#ff550000" strikeout="0" font_style="0" font_weight="75"/>
+            </button>
+        </shape>
+        <shape type="Button">
+            <object description="" object_id="SHAPE_10351" tool_tip="" object_number="10351"/>
+            <box top="0" bottom="25" left="0" axis_offset_top="177" right="67" axis_offset_left="108" axis_anchor="0" angle="0" z_index="1"/>
+            <line color="#ff000000" style="1" line_width="1"/>
+            <button is_transparent="0" fill_color_down="#00000000" fill_color_up="#ff00007f" customfill_enabled="1">
+                <buttontext underline="0" TextAlignType="0" text="CLOSE" font_size="10" color="#ffffff00" strikeout="0" font_style="0" font_weight="75"/>
+            </button>
+        </shape>
+        <shape type="Button">
+            <object description="" object_id="SHAPE_10350" tool_tip="" object_number="10350"/>
+            <box top="0" bottom="25" left="0" axis_offset_top="107" right="67" axis_offset_left="108" axis_anchor="0" angle="0" z_index="1"/>
+            <line color="#ff000000" style="1" line_width="1"/>
+            <button is_transparent="0" fill_color_down="#00000000" fill_color_up="#ff00007f" customfill_enabled="1">
+                <buttontext underline="0" TextAlignType="0" text="OPEN" font_size="10" color="#ffffff00" strikeout="0" font_style="0" font_weight="75"/>
+            </button>
+        </shape>
+        <shape type="Button">
+            <object description="" object_id="SHAPE_10349" tool_tip="" object_number="10349"/>
+            <box top="0" bottom="25" left="0" axis_offset_top="142" right="67" axis_offset_left="108" axis_anchor="0" angle="0" z_index="1"/>
+            <line color="#ff000000" style="1" line_width="1"/>
+            <button is_transparent="0" fill_color_down="#00000000" fill_color_up="#ff00007f" customfill_enabled="1">
+                <buttontext underline="0" TextAlignType="0" text="AUTO" font_size="10" color="#ffffff00" strikeout="0" font_style="0" font_weight="75"/>
+            </button>
+        </shape>
+        <shape type="Rectangle">
+            <object description="" object_id="SHAPE_10347" tool_tip="" object_number="10347"/>
+            <box top="0" bottom="120" left="0" axis_offset_top="91" right="296" axis_offset_left="8" axis_anchor="0" angle="0" z_index="-32"/>
+            <line color="#ffffff00" style="1" line_width="1"/>
+            <rectangle x1="0" x2="296" y2="120" corner_radius="5" y1="0"/>
+        </shape>
+        <shape type="Rectangle">
+            <object description="" object_id="SHAPE_10343" tool_tip="" object_number="10343"/>
+            <box top="0" bottom="468" left="0" axis_offset_top="0" right="323" axis_offset_left="-10" axis_anchor="0" angle="0" z_index="-33"/>
+            <line color="#ffffff00" style="1" line_width="1"/>
+            <fill fill="#ffa5a5a5"/>
+            <gradient gradient_direction="4" gradient_color="#ffbcbcbc"/>
+            <rectangle x1="0" x2="323" y2="468" corner_radius="0" y1="0"/>
+        </shape>
+        <shape type="Rectangle">
+            <object description="" object_id="SHAPE_10345" tool_tip="" object_number="10345"/>
+            <box top="0" bottom="97" left="0" axis_offset_top="220" right="296" axis_offset_left="10" axis_anchor="0" angle="0" z_index="-34"/>
+            <line color="#ffffff00" style="1" line_width="1"/>
+            <rectangle x1="0" x2="296" y2="97" corner_radius="5" y1="0"/>
+        </shape>
+    </shapes>
+    <labels>
+        <text underline="0" font_size="15" color="#ff005500" align_type="0" font_family="URW Bookman L" display_type="4" static_text="####.##" font_style="0" strikeout="0" font_weight="75">
+            <display_string><![CDATA[EcTag.title();]]></display_string>
+            <object description="" object_id="TEXT_10381" tool_tip="" object_number="10381"/>
+            <box top="0" bottom="0" left="0" axis_offset_top="8" right="0" axis_offset_left="79" axis_anchor="4" angle="0" z_index="290"/>
+        </text>
+        <text underline="0" font_size="10" color="#ffffff00" align_type="0" font_family="URW Bookman L" display_type="0" static_text="CHANNEL STATUS" font_style="1" strikeout="0" font_weight="75">
+            <display_on_off text_off="" text_on=""><![CDATA[]]></display_on_off>
+            <object description="" object_id="TEXT_10369" tool_tip="" object_number="10369"/>
+            <box top="0" bottom="0" left="0" axis_offset_top="350" right="0" axis_offset_left="90" axis_anchor="4" angle="0" z_index="278"/>
+        </text>
+        <text underline="0" font_size="10" color="#ffffff00" align_type="0" font_family="URW Bookman L" display_type="0" static_text="STATUS" font_style="1" strikeout="0" font_weight="75">
+            <display_on_off text_off="" text_on=""><![CDATA[]]></display_on_off>
+            <object description="" object_id="TEXT_10367" tool_tip="" object_number="10367"/>
+            <box top="0" bottom="0" left="0" axis_offset_top="209" right="0" axis_offset_left="125" axis_anchor="4" angle="0" z_index="276"/>
+        </text>
+        <text underline="0" font_size="10" color="#ffffff00" align_type="0" font_family="URW Bookman L" display_type="0" static_text="OFF" font_style="0" strikeout="0" font_weight="75">
+            <display_on_off text_off="" text_on=""><![CDATA[]]></display_on_off>
+            <object description="" object_id="TEXT_10363" tool_tip="" object_number="10363"/>
+            <box top="0" bottom="0" left="0" axis_offset_top="373" right="0" axis_offset_left="210" axis_anchor="4" angle="0" z_index="272"/>
+        </text>
+        <text underline="0" font_size="10" color="#ffffff00" align_type="0" font_family="URW Bookman L" display_type="0" static_text="ON" font_style="0" strikeout="0" font_weight="75">
+            <display_on_off text_off="" text_on=""><![CDATA[]]></display_on_off>
+            <object description="" object_id="TEXT_10361" tool_tip="" object_number="10361"/>
+            <box top="0" bottom="0" left="0" axis_offset_top="373" right="0" axis_offset_left="251" axis_anchor="4" angle="0" z_index="270"/>
+        </text>
+        <text underline="0" font_size="11" color="#ff00007f" align_type="0" font_family="URW Bookman L" display_type="0" static_text="Channel DO Faulty" font_style="0" strikeout="0" font_weight="75">
+            <display_on_off text_off="" text_on=""><![CDATA[]]></display_on_off>
+            <object description="" object_id="TEXT_10360" tool_tip="" object_number="10360"/>
+            <box top="0" bottom="0" left="0" axis_offset_top="428" right="0" axis_offset_left="25" axis_anchor="4" angle="0" z_index="269"/>
+        </text>
+        <text underline="0" font_size="11" color="#ff00007f" align_type="0" font_family="URW Bookman L" display_type="0" static_text="Channel DI Faulty" font_style="0" strikeout="0" font_weight="75">
+            <display_on_off text_off="" text_on=""><![CDATA[]]></display_on_off>
+            <object description="" object_id="TEXT_10359" tool_tip="" object_number="10359"/>
+            <box top="0" bottom="0" left="0" axis_offset_top="396" right="0" axis_offset_left="28" axis_anchor="4" angle="0" z_index="268"/>
+        </text>
+        <text underline="0" font_size="10" color="#ffffff00" align_type="0" font_family="URW Bookman L" display_type="0" static_text="SELECTION" font_style="1" strikeout="0" font_weight="75">
+            <display_on_off text_off="" text_on=""><![CDATA[]]></display_on_off>
+            <object description="" object_id="TEXT_10353" tool_tip="" object_number="10353"/>
+            <box top="0" bottom="0" left="0" axis_offset_top="77" right="0" axis_offset_left="112" axis_anchor="4" angle="0" z_index="262"/>
+        </text>
+        <text underline="0" font_size="12" color="#ff550000" align_type="0" font_family="PT Sans" display_type="3" static_text="####.##" font_style="0" strikeout="0" font_weight="75">
+            <display_numeric>
+                <expression><![CDATA[EcTag["STS"];]]></expression>
+                <format>2</format>
+            </display_numeric>
+            <object description="" object_id="TEXT_10324" tool_tip="" object_number="10324"/>
+            <box top="0" bottom="0" left="0" axis_offset_top="257" right="0" axis_offset_left="218" axis_anchor="4" angle="0" z_index="235"/>
+        </text>
+    </labels>
+    <groups>
+        <group x1="41" objectId="" x2="121.158" y2="304.255" objectNumber="0" zIndex="0" y1="233">
+            <shape type="Polygon">
+                <object description="" object_id="SHAPE_10385" tool_tip="" object_number="10385"/>
+                <box top="0" bottom="0" left="0" axis_offset_top="19" right="0" axis_offset_left="17" axis_anchor="0" angle="0" z_index="294"/>
+                <line color="#ff000000" style="1" line_width="1"/>
+                <fill fill="#ffff0000"/>
+                <gradient gradient_direction="7" gradient_color="#ff6f6f6f"/>
+                <polyline closed="1">
+                    <points>
+                        <point y="0" x="0"/>
+                        <point y="54.25531768798828" x="0"/>
+                        <point y="0" x="63.15789413452148"/>
+                        <point y="54.25531768798828" x="63.15789413452148"/>
+                    </points>
+                </polyline>
+                <input_touch>
+                    <up enabled="1">
+                        <command><![CDATA[popup("VALVE","Valve","%MOV_NO%");]]></command>
+                    </up>
+                </input_touch>
+            </shape>
+            <shape type="Polygon">
+                <object description="" object_id="SHAPE_10382" tool_tip="" object_number="10382"/>
+                <box top="0" bottom="0" left="0" axis_offset_top="19" right="0" axis_offset_left="17" axis_anchor="0" angle="0" z_index="291"/>
+                <line color="#ff000000" style="1" line_width="1"/>
+                <fill fill="#ffffff00"/>
+                <gradient gradient_direction="7" gradient_color="#ff6f6f6f"/>
+                <polyline closed="1">
+                    <points>
+                        <point y="0" x="0"/>
+                        <point y="54.25531768798828" x="0"/>
+                        <point y="0" x="63.15789413452148"/>
+                        <point y="54.25531768798828" x="63.15789413452148"/>
+                    </points>
+                </polyline>
+                <input_touch>
+                    <up enabled="1">
+                        <command><![CDATA[popup("VALVE","Valve","%MOV_NO%");]]></command>
+                    </up>
+                </input_touch>
+            </shape>
+            <shape type="Polygon">
+                <object description="" object_id="SHAPE_10384" tool_tip="" object_number="10384"/>
+                <box top="0" bottom="0" left="0" axis_offset_top="19" right="0" axis_offset_left="17" axis_anchor="0" angle="0" z_index="293"/>
+                <line color="#ff000000" style="1" line_width="1"/>
+                <fill fill="#ff0000ff"/>
+                <gradient gradient_direction="6" gradient_color="#ff55aaff"/>
+                <polyline closed="1">
+                    <points>
+                        <point y="0" x="0"/>
+                        <point y="54.25531768798828" x="0"/>
+                        <point y="0" x="63.15789413452148"/>
+                        <point y="54.25531768798828" x="63.15789413452148"/>
+                    </points>
+                </polyline>
+                <input_touch>
+                    <up enabled="1">
+                        <command><![CDATA[popup("VALVE","Valve","%MOV_NO%");]]></command>
+                    </up>
+                </input_touch>
+            </shape>
+            <shape type="Polygon">
+                <object description="" object_id="SHAPE_10383" tool_tip="" object_number="10383"/>
+                <box top="0" bottom="0" left="0" axis_offset_top="19" right="0" axis_offset_left="17" axis_anchor="0" angle="0" z_index="292"/>
+                <line color="#ff000000" style="1" line_width="1"/>
+                <fill fill="#ff00ff00"/>
+                <gradient gradient_direction="7" gradient_color="#ff6f6f6f"/>
+                <polyline closed="1">
+                    <points>
+                        <point y="0" x="0"/>
+                        <point y="54.25531768798828" x="0"/>
+                        <point y="0" x="63.15789413452148"/>
+                        <point y="54.25531768798828" x="63.15789413452148"/>
+                    </points>
+                </polyline>
+                <input_touch>
+                    <up enabled="1">
+                        <command><![CDATA[popup("VALVE","Valve","%MOV_NO%");]]></command>
+                    </up>
+                </input_touch>
+            </shape>
+            <description/>
+        </group>
+    </groups>
+</hmipage>

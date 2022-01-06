@@ -1,0 +1,730 @@
+<hmipage next_object_number="10260" template_id="template_Diagnostics" version="0.1.0" color="#ffc0c0c0" belongs_to_all_areas="1" access_area="0" default_page_scan="1" order="71" height="1050" prev_page="" width="1890" id="Interplc_data" title="Interplc_data" page_scan_time="250" next_page="">
+    <labels>
+        <text underline="0" font_size="24" color="#ff00007f" align_type="0" font_family="STIX" display_type="0" static_text="INTER PLC PACKET LOSS " font_style="0" strikeout="0" font_weight="75">
+            <display_on_off text_off="" text_on=""><![CDATA[]]></display_on_off>
+            <object description="" object_id="TEXT_10024" tool_tip="" object_number="10024"/>
+            <box top="0" bottom="0" left="0" axis_offset_top="141" right="0" axis_offset_left="689" axis_anchor="4" angle="0" z_index="298"/>
+        </text>
+        <text underline="0" font_size="20" color="#ff00007f" align_type="0" font_family="STIX" display_type="0" static_text="PACKET LOSS IN PLC-4" font_style="0" strikeout="0" font_weight="75">
+            <display_on_off text_off="" text_on=""><![CDATA[]]></display_on_off>
+            <object description="" object_id="TEXT_10223" tool_tip="" object_number="10223"/>
+            <box top="0" bottom="0" left="0" axis_offset_top="210" right="0" axis_offset_left="1297" axis_anchor="4" angle="0" z_index="146"/>
+        </text>
+        <text underline="0" font_size="24" color="#ff00007f" align_type="0" font_family="STIX" display_type="0" static_text="INTER PLC DATA" font_style="0" strikeout="0" font_weight="75">
+            <display_on_off text_off="" text_on=""><![CDATA[]]></display_on_off>
+            <object description="" object_id="TEXT_10222" tool_tip="" object_number="10222"/>
+            <box top="0" bottom="0" left="0" axis_offset_top="401" right="0" axis_offset_left="759" axis_anchor="4" angle="0" z_index="145"/>
+        </text>
+        <text underline="0" font_size="12" color="#ff000000" align_type="0" font_family="Sans Serif" display_type="0" static_text="PLC4_PLC3 PacketLoss" font_style="0" strikeout="0" font_weight="50">
+            <display_on_off text_off="" text_on=""><![CDATA[]]></display_on_off>
+            <object description="" object_id="TEXT_10221" tool_tip="" object_number="10221"/>
+            <box top="0" bottom="0" left="0" axis_offset_top="330" right="0" axis_offset_left="1299" axis_anchor="4" angle="0" z_index="144"/>
+        </text>
+        <text underline="0" font_size="12" color="#ff000000" align_type="0" font_family="Sans Serif" display_type="0" static_text="PLC4_PLC2 PacketLoss" font_style="0" strikeout="0" font_weight="50">
+            <display_on_off text_off="" text_on=""><![CDATA[]]></display_on_off>
+            <object description="" object_id="TEXT_10220" tool_tip="" object_number="10220"/>
+            <box top="0" bottom="0" left="0" axis_offset_top="300" right="0" axis_offset_left="1299" axis_anchor="4" angle="0" z_index="143"/>
+        </text>
+        <text underline="0" font_size="12" color="#ff000000" align_type="0" font_family="Sans Serif" display_type="0" static_text="PLC4_PLC1 PacketLoss" font_style="0" strikeout="0" font_weight="50">
+            <display_on_off text_off="" text_on=""><![CDATA[]]></display_on_off>
+            <object description="" object_id="TEXT_10219" tool_tip="" object_number="10219"/>
+            <box top="0" bottom="0" left="0" axis_offset_top="270" right="0" axis_offset_left="1299" axis_anchor="4" angle="0" z_index="142"/>
+        </text>
+        <text underline="0" font_size="12" color="#ff000000" align_type="0" font_family="Sans Serif" display_type="0" static_text="PLC3_PLC4 PacketLoss" font_style="0" strikeout="0" font_weight="50">
+            <display_on_off text_off="" text_on=""><![CDATA[]]></display_on_off>
+            <object description="" object_id="TEXT_10218" tool_tip="" object_number="10218"/>
+            <box top="0" bottom="0" left="0" axis_offset_top="330" right="0" axis_offset_left="884" axis_anchor="4" angle="0" z_index="141"/>
+        </text>
+        <text underline="0" font_size="12" color="#ff000000" align_type="0" font_family="Sans Serif" display_type="0" static_text="PLC3_PLC2 PacketLoss" font_style="0" strikeout="0" font_weight="50">
+            <display_on_off text_off="" text_on=""><![CDATA[]]></display_on_off>
+            <object description="" object_id="TEXT_10217" tool_tip="" object_number="10217"/>
+            <box top="0" bottom="0" left="0" axis_offset_top="300" right="0" axis_offset_left="884" axis_anchor="4" angle="0" z_index="140"/>
+        </text>
+        <text underline="0" font_size="12" color="#ff000000" align_type="0" font_family="Sans Serif" display_type="0" static_text="PLC3_PLC1 PacketLoss" font_style="0" strikeout="0" font_weight="50">
+            <display_on_off text_off="" text_on=""><![CDATA[]]></display_on_off>
+            <object description="" object_id="TEXT_10216" tool_tip="" object_number="10216"/>
+            <box top="0" bottom="0" left="0" axis_offset_top="270" right="0" axis_offset_left="884" axis_anchor="4" angle="0" z_index="139"/>
+        </text>
+        <text underline="0" font_size="12" color="#ff000000" align_type="0" font_family="Sans Serif" display_type="0" static_text="PLC2_PLC4 PacketLoss" font_style="0" strikeout="0" font_weight="50">
+            <display_on_off text_off="" text_on=""><![CDATA[]]></display_on_off>
+            <object description="" object_id="TEXT_10215" tool_tip="" object_number="10215"/>
+            <box top="0" bottom="0" left="0" axis_offset_top="330" right="0" axis_offset_left="474" axis_anchor="4" angle="0" z_index="138"/>
+        </text>
+        <text underline="0" font_size="12" color="#ff000000" align_type="0" font_family="Sans Serif" display_type="0" static_text="PLC2_PLC3 PacketLoss" font_style="0" strikeout="0" font_weight="50">
+            <display_on_off text_off="" text_on=""><![CDATA[]]></display_on_off>
+            <object description="" object_id="TEXT_10214" tool_tip="" object_number="10214"/>
+            <box top="0" bottom="0" left="0" axis_offset_top="300" right="0" axis_offset_left="474" axis_anchor="4" angle="0" z_index="137"/>
+        </text>
+        <text underline="0" font_size="12" color="#ff000000" align_type="0" font_family="Sans Serif" display_type="0" static_text="PLC2_PLC1 PacketLoss" font_style="0" strikeout="0" font_weight="50">
+            <display_on_off text_off="" text_on=""><![CDATA[]]></display_on_off>
+            <object description="" object_id="TEXT_10213" tool_tip="" object_number="10213"/>
+            <box top="0" bottom="0" left="0" axis_offset_top="270" right="0" axis_offset_left="474" axis_anchor="4" angle="0" z_index="136"/>
+        </text>
+        <text underline="0" font_size="12" color="#ff000000" align_type="0" font_family="Sans Serif" display_type="0" static_text="PLC1_PLC4 PacketLoss" font_style="0" strikeout="0" font_weight="50">
+            <display_on_off text_off="" text_on=""><![CDATA[]]></display_on_off>
+            <object description="" object_id="TEXT_10212" tool_tip="" object_number="10212"/>
+            <box top="0" bottom="0" left="0" axis_offset_top="330" right="0" axis_offset_left="64" axis_anchor="4" angle="0" z_index="135"/>
+        </text>
+        <text underline="0" font_size="12" color="#ff000000" align_type="0" font_family="Sans Serif" display_type="0" static_text="PLC1_PLC3 PacketLoss" font_style="0" strikeout="0" font_weight="50">
+            <display_on_off text_off="" text_on=""><![CDATA[]]></display_on_off>
+            <object description="" object_id="TEXT_10211" tool_tip="" object_number="10211"/>
+            <box top="0" bottom="0" left="0" axis_offset_top="300" right="0" axis_offset_left="64" axis_anchor="4" angle="0" z_index="134"/>
+        </text>
+        <text underline="0" font_size="20" color="#ff00007f" align_type="0" font_family="STIX" display_type="0" static_text="PACKET LOSS IN PLC-3" font_style="0" strikeout="0" font_weight="75">
+            <display_on_off text_off="" text_on=""><![CDATA[]]></display_on_off>
+            <object description="" object_id="TEXT_10209" tool_tip="" object_number="10209"/>
+            <box top="0" bottom="0" left="0" axis_offset_top="210" right="0" axis_offset_left="877" axis_anchor="4" angle="0" z_index="132"/>
+        </text>
+        <text underline="0" font_size="20" color="#ff00007f" align_type="0" font_family="STIX" display_type="0" static_text="PACKET LOSS IN PLC-2" font_style="0" strikeout="0" font_weight="75">
+            <display_on_off text_off="" text_on=""><![CDATA[]]></display_on_off>
+            <object description="" object_id="TEXT_10208" tool_tip="" object_number="10208"/>
+            <box top="0" bottom="0" left="0" axis_offset_top="210" right="0" axis_offset_left="467" axis_anchor="4" angle="0" z_index="131"/>
+        </text>
+        <text underline="0" font_size="20" color="#ff00007f" align_type="0" font_family="STIX" display_type="0" static_text="PACKET LOSS IN PLC-1" font_style="0" strikeout="0" font_weight="75">
+            <display_on_off text_off="" text_on=""><![CDATA[]]></display_on_off>
+            <object description="" object_id="TEXT_10207" tool_tip="" object_number="10207"/>
+            <box top="0" bottom="0" left="0" axis_offset_top="210" right="0" axis_offset_left="68" axis_anchor="4" angle="0" z_index="130"/>
+        </text>
+        <text underline="0" font_size="20" color="#ff00007f" align_type="0" font_family="STIX" display_type="0" static_text="DATA IN PLC-4" font_style="0" strikeout="0" font_weight="75">
+            <display_on_off text_off="" text_on=""><![CDATA[]]></display_on_off>
+            <object description="" object_id="TEXT_10206" tool_tip="" object_number="10206"/>
+            <box top="0" bottom="0" left="0" axis_offset_top="483" right="0" axis_offset_left="1293" axis_anchor="4" angle="0" z_index="129"/>
+        </text>
+        <text underline="0" font_size="20" color="#ff00007f" align_type="0" font_family="STIX" display_type="0" static_text="DATA IN PLC-3" font_style="0" strikeout="0" font_weight="75">
+            <display_on_off text_off="" text_on=""><![CDATA[]]></display_on_off>
+            <object description="" object_id="TEXT_10205" tool_tip="" object_number="10205"/>
+            <box top="0" bottom="0" left="0" axis_offset_top="479" right="0" axis_offset_left="883" axis_anchor="4" angle="0" z_index="128"/>
+        </text>
+        <text underline="0" font_size="20" color="#ff00007f" align_type="0" font_family="STIX" display_type="0" static_text="DATA IN PLC-2" font_style="0" strikeout="0" font_weight="75">
+            <display_on_off text_off="" text_on=""><![CDATA[]]></display_on_off>
+            <object description="" object_id="TEXT_10204" tool_tip="" object_number="10204"/>
+            <box top="0" bottom="0" left="0" axis_offset_top="483" right="0" axis_offset_left="470" axis_anchor="4" angle="0" z_index="127"/>
+        </text>
+        <text underline="0" font_size="12" color="#ff000000" align_type="0" font_family="Sans Serif" display_type="3" static_text="Text" font_style="0" strikeout="0" font_weight="50">
+            <display_numeric>
+                <expression><![CDATA[_INTERPLC4_TAG10]]></expression>
+                <format></format>
+            </display_numeric>
+            <object description="" object_id="TEXT_10201" tool_tip="" object_number="10201"/>
+            <box top="0" bottom="0" left="0" axis_offset_top="535" right="0" axis_offset_left="1523" axis_anchor="4" angle="0" z_index="124"/>
+        </text>
+        <text underline="0" font_size="12" color="#ff000000" align_type="0" font_family="Sans Serif" display_type="0" static_text="PLC4_PLC3_RX_Tag700" font_style="0" strikeout="0" font_weight="50">
+            <display_on_off text_off="" text_on=""><![CDATA[]]></display_on_off>
+            <object description="" object_id="TEXT_10200" tool_tip="" object_number="10200"/>
+            <box top="0" bottom="0" left="0" axis_offset_top="858" right="0" axis_offset_left="1294" axis_anchor="4" angle="0" z_index="123"/>
+        </text>
+        <text underline="0" font_size="12" color="#ff000000" align_type="0" font_family="Sans Serif" display_type="3" static_text="Text" font_style="0" strikeout="0" font_weight="50">
+            <display_numeric>
+                <expression><![CDATA[_INTERPLC4_TAG9]]></expression>
+                <format></format>
+            </display_numeric>
+            <object description="" object_id="TEXT_10199" tool_tip="" object_number="10199"/>
+            <box top="0" bottom="0" left="0" axis_offset_top="858" right="0" axis_offset_left="1523" axis_anchor="4" angle="0" z_index="122"/>
+        </text>
+        <text underline="0" font_size="12" color="#ff000000" align_type="0" font_family="Sans Serif" display_type="0" static_text="PLC4_PLC3_RX_Tag350" font_style="0" strikeout="0" font_weight="50">
+            <display_on_off text_off="" text_on=""><![CDATA[]]></display_on_off>
+            <object description="" object_id="TEXT_10198" tool_tip="" object_number="10198"/>
+            <box top="0" bottom="0" left="0" axis_offset_top="828" right="0" axis_offset_left="1294" axis_anchor="4" angle="0" z_index="121"/>
+        </text>
+        <text underline="0" font_size="12" color="#ff000000" align_type="0" font_family="Sans Serif" display_type="3" static_text="Text" font_style="0" strikeout="0" font_weight="50">
+            <display_numeric>
+                <expression><![CDATA[_INTERPLC4_TAG8]]></expression>
+                <format></format>
+            </display_numeric>
+            <object description="" object_id="TEXT_10197" tool_tip="" object_number="10197"/>
+            <box top="0" bottom="0" left="0" axis_offset_top="828" right="0" axis_offset_left="1523" axis_anchor="4" angle="0" z_index="120"/>
+        </text>
+        <text underline="0" font_size="12" color="#ff000000" align_type="0" font_family="Sans Serif" display_type="0" static_text="PLC4_PLC3_RX_Tag1" font_style="0" strikeout="0" font_weight="50">
+            <display_on_off text_off="" text_on=""><![CDATA[]]></display_on_off>
+            <object description="" object_id="TEXT_10196" tool_tip="" object_number="10196"/>
+            <box top="0" bottom="0" left="0" axis_offset_top="798" right="0" axis_offset_left="1294" axis_anchor="4" angle="0" z_index="119"/>
+        </text>
+        <text underline="0" font_size="12" color="#ff000000" align_type="0" font_family="Sans Serif" display_type="3" static_text="Text" font_style="0" strikeout="0" font_weight="50">
+            <display_numeric>
+                <expression><![CDATA[_INTERPLC4_TAG7]]></expression>
+                <format></format>
+            </display_numeric>
+            <object description="" object_id="TEXT_10195" tool_tip="" object_number="10195"/>
+            <box top="0" bottom="0" left="0" axis_offset_top="798" right="0" axis_offset_left="1523" axis_anchor="4" angle="0" z_index="118"/>
+        </text>
+        <text underline="0" font_size="12" color="#ff000000" align_type="0" font_family="Sans Serif" display_type="0" static_text="PLC4_PLC2_RX_Tag700" font_style="0" strikeout="0" font_weight="50">
+            <display_on_off text_off="" text_on=""><![CDATA[]]></display_on_off>
+            <object description="" object_id="TEXT_10194" tool_tip="" object_number="10194"/>
+            <box top="0" bottom="0" left="0" axis_offset_top="748" right="0" axis_offset_left="1294" axis_anchor="4" angle="0" z_index="117"/>
+        </text>
+        <text underline="0" font_size="12" color="#ff000000" align_type="0" font_family="Sans Serif" display_type="3" static_text="Text" font_style="0" strikeout="0" font_weight="50">
+            <display_numeric>
+                <expression><![CDATA[_INTERPLC4_TAG6]]></expression>
+                <format></format>
+            </display_numeric>
+            <object description="" object_id="TEXT_10193" tool_tip="" object_number="10193"/>
+            <box top="0" bottom="0" left="0" axis_offset_top="748" right="0" axis_offset_left="1523" axis_anchor="4" angle="0" z_index="116"/>
+        </text>
+        <text underline="0" font_size="12" color="#ff000000" align_type="0" font_family="Sans Serif" display_type="0" static_text="PLC4_PLC2_RX_Tag350" font_style="0" strikeout="0" font_weight="50">
+            <display_on_off text_off="" text_on=""><![CDATA[]]></display_on_off>
+            <object description="" object_id="TEXT_10192" tool_tip="" object_number="10192"/>
+            <box top="0" bottom="0" left="0" axis_offset_top="718" right="0" axis_offset_left="1294" axis_anchor="4" angle="0" z_index="115"/>
+        </text>
+        <text underline="0" font_size="12" color="#ff000000" align_type="0" font_family="Sans Serif" display_type="3" static_text="Text" font_style="0" strikeout="0" font_weight="50">
+            <display_numeric>
+                <expression><![CDATA[_INTERPLC4_TAG5]]></expression>
+                <format></format>
+            </display_numeric>
+            <object description="" object_id="TEXT_10191" tool_tip="" object_number="10191"/>
+            <box top="0" bottom="0" left="0" axis_offset_top="721" right="0" axis_offset_left="1523" axis_anchor="4" angle="0" z_index="114"/>
+        </text>
+        <text underline="0" font_size="12" color="#ff000000" align_type="0" font_family="Sans Serif" display_type="0" static_text="PLC4_PLC2_RX_Tag1" font_style="0" strikeout="0" font_weight="50">
+            <display_on_off text_off="" text_on=""><![CDATA[]]></display_on_off>
+            <object description="" object_id="TEXT_10190" tool_tip="" object_number="10190"/>
+            <box top="0" bottom="0" left="0" axis_offset_top="688" right="0" axis_offset_left="1294" axis_anchor="4" angle="0" z_index="113"/>
+        </text>
+        <text underline="0" font_size="12" color="#ff000000" align_type="0" font_family="Sans Serif" display_type="3" static_text="Text" font_style="0" strikeout="0" font_weight="50">
+            <display_numeric>
+                <expression><![CDATA[_INTERPLC4_TAG4]]></expression>
+                <format></format>
+            </display_numeric>
+            <object description="" object_id="TEXT_10189" tool_tip="" object_number="10189"/>
+            <box top="0" bottom="0" left="0" axis_offset_top="688" right="0" axis_offset_left="1523" axis_anchor="4" angle="0" z_index="112"/>
+        </text>
+        <text underline="0" font_size="12" color="#ff000000" align_type="0" font_family="Sans Serif" display_type="0" static_text="PLC4_PLC1_RX_Tag700" font_style="0" strikeout="0" font_weight="50">
+            <display_on_off text_off="" text_on=""><![CDATA[]]></display_on_off>
+            <object description="" object_id="TEXT_10188" tool_tip="" object_number="10188"/>
+            <box top="0" bottom="0" left="0" axis_offset_top="638" right="0" axis_offset_left="1294" axis_anchor="4" angle="0" z_index="111"/>
+        </text>
+        <text underline="0" font_size="12" color="#ff000000" align_type="0" font_family="Sans Serif" display_type="3" static_text="Text" font_style="0" strikeout="0" font_weight="50">
+            <display_numeric>
+                <expression><![CDATA[_INTERPLC4_TAG3]]></expression>
+                <format></format>
+            </display_numeric>
+            <object description="" object_id="TEXT_10187" tool_tip="" object_number="10187"/>
+            <box top="0" bottom="0" left="0" axis_offset_top="638" right="0" axis_offset_left="1523" axis_anchor="4" angle="0" z_index="110"/>
+        </text>
+        <text underline="0" font_size="12" color="#ff000000" align_type="0" font_family="Sans Serif" display_type="0" static_text="PLC4_PLC1_RX_Tag350" font_style="0" strikeout="0" font_weight="50">
+            <display_on_off text_off="" text_on=""><![CDATA[]]></display_on_off>
+            <object description="" object_id="TEXT_10186" tool_tip="" object_number="10186"/>
+            <box top="0" bottom="0" left="0" axis_offset_top="608" right="0" axis_offset_left="1294" axis_anchor="4" angle="0" z_index="109"/>
+        </text>
+        <text underline="0" font_size="12" color="#ff000000" align_type="0" font_family="Sans Serif" display_type="3" static_text="Text" font_style="0" strikeout="0" font_weight="50">
+            <display_numeric>
+                <expression><![CDATA[_INTERPLC4_TAG2]]></expression>
+                <format></format>
+            </display_numeric>
+            <object description="" object_id="TEXT_10185" tool_tip="" object_number="10185"/>
+            <box top="0" bottom="0" left="0" axis_offset_top="606" right="0" axis_offset_left="1523" axis_anchor="4" angle="0" z_index="108"/>
+        </text>
+        <text underline="0" font_size="12" color="#ff000000" align_type="0" font_family="Sans Serif" display_type="0" static_text="PLC4_PLC1_RX_Tag1" font_style="0" strikeout="0" font_weight="50">
+            <display_on_off text_off="" text_on=""><![CDATA[]]></display_on_off>
+            <object description="" object_id="TEXT_10184" tool_tip="" object_number="10184"/>
+            <box top="0" bottom="0" left="0" axis_offset_top="578" right="0" axis_offset_left="1294" axis_anchor="4" angle="0" z_index="107"/>
+        </text>
+        <text underline="0" font_size="12" color="#ff000000" align_type="0" font_family="Sans Serif" display_type="3" static_text="Text" font_style="0" strikeout="0" font_weight="50">
+            <display_numeric>
+                <expression><![CDATA[_INTERPLC4_TAG1]]></expression>
+                <format></format>
+            </display_numeric>
+            <object description="" object_id="TEXT_10183" tool_tip="" object_number="10183"/>
+            <box top="0" bottom="0" left="0" axis_offset_top="578" right="0" axis_offset_left="1523" axis_anchor="4" angle="0" z_index="106"/>
+        </text>
+        <text underline="0" font_size="12" color="#ff000000" align_type="0" font_family="Sans Serif" display_type="0" static_text="PLC4_TransmitData" font_style="0" strikeout="0" font_weight="50">
+            <display_on_off text_off="" text_on=""><![CDATA[]]></display_on_off>
+            <object description="" object_id="TEXT_10182" tool_tip="" object_number="10182"/>
+            <box top="0" bottom="0" left="0" axis_offset_top="538" right="0" axis_offset_left="1294" axis_anchor="4" angle="0" z_index="105"/>
+        </text>
+        <text underline="0" font_size="12" color="#ff000000" align_type="0" font_family="Sans Serif" display_type="3" static_text="Text" font_style="0" strikeout="0" font_weight="50">
+            <display_numeric>
+                <expression><![CDATA[_INTERPLC3_TAG10]]></expression>
+                <format></format>
+            </display_numeric>
+            <object description="" object_id="TEXT_10181" tool_tip="" object_number="10181"/>
+            <box top="0" bottom="0" left="0" axis_offset_top="538" right="0" axis_offset_left="1094" axis_anchor="4" angle="0" z_index="104"/>
+        </text>
+        <text underline="0" font_size="12" color="#ff000000" align_type="0" font_family="Sans Serif" display_type="0" static_text="PLC3_PLC4_RX_Tag700" font_style="0" strikeout="0" font_weight="50">
+            <display_on_off text_off="" text_on=""><![CDATA[]]></display_on_off>
+            <object description="" object_id="TEXT_10180" tool_tip="" object_number="10180"/>
+            <box top="0" bottom="0" left="0" axis_offset_top="858" right="0" axis_offset_left="874" axis_anchor="4" angle="0" z_index="103"/>
+        </text>
+        <text underline="0" font_size="12" color="#ff000000" align_type="0" font_family="Sans Serif" display_type="3" static_text="Text" font_style="0" strikeout="0" font_weight="50">
+            <display_numeric>
+                <expression><![CDATA[_INTERPLC3_TAG9]]></expression>
+                <format></format>
+            </display_numeric>
+            <object description="" object_id="TEXT_10179" tool_tip="" object_number="10179"/>
+            <box top="0" bottom="0" left="0" axis_offset_top="858" right="0" axis_offset_left="1094" axis_anchor="4" angle="0" z_index="102"/>
+        </text>
+        <text underline="0" font_size="12" color="#ff000000" align_type="0" font_family="Sans Serif" display_type="0" static_text="PLC3_PLC4_RX_Tag350" font_style="0" strikeout="0" font_weight="50">
+            <display_on_off text_off="" text_on=""><![CDATA[]]></display_on_off>
+            <object description="" object_id="TEXT_10178" tool_tip="" object_number="10178"/>
+            <box top="0" bottom="0" left="0" axis_offset_top="828" right="0" axis_offset_left="874" axis_anchor="4" angle="0" z_index="101"/>
+        </text>
+        <text underline="0" font_size="12" color="#ff000000" align_type="0" font_family="Sans Serif" display_type="3" static_text="Text" font_style="0" strikeout="0" font_weight="50">
+            <display_numeric>
+                <expression><![CDATA[_INTERPLC3_TAG8]]></expression>
+                <format></format>
+            </display_numeric>
+            <object description="" object_id="TEXT_10177" tool_tip="" object_number="10177"/>
+            <box top="0" bottom="0" left="0" axis_offset_top="828" right="0" axis_offset_left="1094" axis_anchor="4" angle="0" z_index="100"/>
+        </text>
+        <text underline="0" font_size="12" color="#ff000000" align_type="0" font_family="Sans Serif" display_type="0" static_text="PLC3_PLC4_RX_Tag1" font_style="0" strikeout="0" font_weight="50">
+            <display_on_off text_off="" text_on=""><![CDATA[]]></display_on_off>
+            <object description="" object_id="TEXT_10176" tool_tip="" object_number="10176"/>
+            <box top="0" bottom="0" left="0" axis_offset_top="798" right="0" axis_offset_left="874" axis_anchor="4" angle="0" z_index="99"/>
+        </text>
+        <text underline="0" font_size="12" color="#ff000000" align_type="0" font_family="Sans Serif" display_type="3" static_text="Text" font_style="0" strikeout="0" font_weight="50">
+            <display_numeric>
+                <expression><![CDATA[_INTERPLC3_TAG7]]></expression>
+                <format></format>
+            </display_numeric>
+            <object description="" object_id="TEXT_10175" tool_tip="" object_number="10175"/>
+            <box top="0" bottom="0" left="0" axis_offset_top="798" right="0" axis_offset_left="1094" axis_anchor="4" angle="0" z_index="98"/>
+        </text>
+        <text underline="0" font_size="12" color="#ff000000" align_type="0" font_family="Sans Serif" display_type="0" static_text="PLC3_PLC2_RX_Tag700" font_style="0" strikeout="0" font_weight="50">
+            <display_on_off text_off="" text_on=""><![CDATA[]]></display_on_off>
+            <object description="" object_id="TEXT_10174" tool_tip="" object_number="10174"/>
+            <box top="0" bottom="0" left="0" axis_offset_top="748" right="0" axis_offset_left="874" axis_anchor="4" angle="0" z_index="97"/>
+        </text>
+        <text underline="0" font_size="12" color="#ff000000" align_type="0" font_family="Sans Serif" display_type="3" static_text="Text" font_style="0" strikeout="0" font_weight="50">
+            <display_numeric>
+                <expression><![CDATA[_INTERPLC3_TAG6]]></expression>
+                <format></format>
+            </display_numeric>
+            <object description="" object_id="TEXT_10173" tool_tip="" object_number="10173"/>
+            <box top="0" bottom="0" left="0" axis_offset_top="748" right="0" axis_offset_left="1094" axis_anchor="4" angle="0" z_index="96"/>
+        </text>
+        <text underline="0" font_size="12" color="#ff000000" align_type="0" font_family="Sans Serif" display_type="0" static_text="PLC3_PLC2_RX_Tag350" font_style="0" strikeout="0" font_weight="50">
+            <display_on_off text_off="" text_on=""><![CDATA[]]></display_on_off>
+            <object description="" object_id="TEXT_10172" tool_tip="" object_number="10172"/>
+            <box top="0" bottom="0" left="0" axis_offset_top="718" right="0" axis_offset_left="874" axis_anchor="4" angle="0" z_index="95"/>
+        </text>
+        <text underline="0" font_size="12" color="#ff000000" align_type="0" font_family="Sans Serif" display_type="3" static_text="Text" font_style="0" strikeout="0" font_weight="50">
+            <display_numeric>
+                <expression><![CDATA[_INTERPLC3_TAG5]]></expression>
+                <format></format>
+            </display_numeric>
+            <object description="" object_id="TEXT_10171" tool_tip="" object_number="10171"/>
+            <box top="0" bottom="0" left="0" axis_offset_top="721" right="0" axis_offset_left="1094" axis_anchor="4" angle="0" z_index="94"/>
+        </text>
+        <text underline="0" font_size="12" color="#ff000000" align_type="0" font_family="Sans Serif" display_type="0" static_text="PLC3_PLC2_RX_Tag1" font_style="0" strikeout="0" font_weight="50">
+            <display_on_off text_off="" text_on=""><![CDATA[]]></display_on_off>
+            <object description="" object_id="TEXT_10170" tool_tip="" object_number="10170"/>
+            <box top="0" bottom="0" left="0" axis_offset_top="688" right="0" axis_offset_left="874" axis_anchor="4" angle="0" z_index="93"/>
+        </text>
+        <text underline="0" font_size="12" color="#ff000000" align_type="0" font_family="Sans Serif" display_type="3" static_text="Text" font_style="0" strikeout="0" font_weight="50">
+            <display_numeric>
+                <expression><![CDATA[_INTERPLC3_TAG4]]></expression>
+                <format></format>
+            </display_numeric>
+            <object description="" object_id="TEXT_10169" tool_tip="" object_number="10169"/>
+            <box top="0" bottom="0" left="0" axis_offset_top="688" right="0" axis_offset_left="1094" axis_anchor="4" angle="0" z_index="92"/>
+        </text>
+        <text underline="0" font_size="12" color="#ff000000" align_type="0" font_family="Sans Serif" display_type="0" static_text="PLC3_PLC1_RX_Tag700" font_style="0" strikeout="0" font_weight="50">
+            <display_on_off text_off="" text_on=""><![CDATA[]]></display_on_off>
+            <object description="" object_id="TEXT_10168" tool_tip="" object_number="10168"/>
+            <box top="0" bottom="0" left="0" axis_offset_top="638" right="0" axis_offset_left="874" axis_anchor="4" angle="0" z_index="91"/>
+        </text>
+        <text underline="0" font_size="12" color="#ff000000" align_type="0" font_family="Sans Serif" display_type="3" static_text="Text" font_style="0" strikeout="0" font_weight="50">
+            <display_numeric>
+                <expression><![CDATA[_INTERPLC3_TAG3]]></expression>
+                <format></format>
+            </display_numeric>
+            <object description="" object_id="TEXT_10167" tool_tip="" object_number="10167"/>
+            <box top="0" bottom="0" left="0" axis_offset_top="638" right="0" axis_offset_left="1094" axis_anchor="4" angle="0" z_index="90"/>
+        </text>
+        <text underline="0" font_size="12" color="#ff000000" align_type="0" font_family="Sans Serif" display_type="0" static_text="PLC3_PLC1_RX_Tag350" font_style="0" strikeout="0" font_weight="50">
+            <display_on_off text_off="" text_on=""><![CDATA[]]></display_on_off>
+            <object description="" object_id="TEXT_10166" tool_tip="" object_number="10166"/>
+            <box top="0" bottom="0" left="0" axis_offset_top="608" right="0" axis_offset_left="874" axis_anchor="4" angle="0" z_index="89"/>
+        </text>
+        <text underline="0" font_size="12" color="#ff000000" align_type="0" font_family="Sans Serif" display_type="3" static_text="Text" font_style="0" strikeout="0" font_weight="50">
+            <display_numeric>
+                <expression><![CDATA[_INTERPLC3_TAG2]]></expression>
+                <format></format>
+            </display_numeric>
+            <object description="" object_id="TEXT_10165" tool_tip="" object_number="10165"/>
+            <box top="0" bottom="0" left="0" axis_offset_top="606" right="0" axis_offset_left="1094" axis_anchor="4" angle="0" z_index="88"/>
+        </text>
+        <text underline="0" font_size="12" color="#ff000000" align_type="0" font_family="Sans Serif" display_type="0" static_text="PLC3_PLC1_RX_Tag1" font_style="0" strikeout="0" font_weight="50">
+            <display_on_off text_off="" text_on=""><![CDATA[]]></display_on_off>
+            <object description="" object_id="TEXT_10164" tool_tip="" object_number="10164"/>
+            <box top="0" bottom="0" left="0" axis_offset_top="578" right="0" axis_offset_left="874" axis_anchor="4" angle="0" z_index="87"/>
+        </text>
+        <text underline="0" font_size="12" color="#ff000000" align_type="0" font_family="Sans Serif" display_type="3" static_text="Text" font_style="0" strikeout="0" font_weight="50">
+            <display_numeric>
+                <expression><![CDATA[_INTERPLC3_TAG1]]></expression>
+                <format></format>
+            </display_numeric>
+            <object description="" object_id="TEXT_10163" tool_tip="" object_number="10163"/>
+            <box top="0" bottom="0" left="0" axis_offset_top="573" right="0" axis_offset_left="1094" axis_anchor="4" angle="0" z_index="86"/>
+        </text>
+        <text underline="0" font_size="12" color="#ff000000" align_type="0" font_family="Sans Serif" display_type="0" static_text="PLC3_TransmitData" font_style="0" strikeout="0" font_weight="50">
+            <display_on_off text_off="" text_on=""><![CDATA[]]></display_on_off>
+            <object description="" object_id="TEXT_10162" tool_tip="" object_number="10162"/>
+            <box top="0" bottom="0" left="0" axis_offset_top="538" right="0" axis_offset_left="874" axis_anchor="4" angle="0" z_index="85"/>
+        </text>
+        <text underline="0" font_size="12" color="#ff000000" align_type="0" font_family="Sans Serif" display_type="3" static_text="Text" font_style="0" strikeout="0" font_weight="50">
+            <display_numeric>
+                <expression><![CDATA[_INTERPLC2_TAG10]]></expression>
+                <format></format>
+            </display_numeric>
+            <object description="" object_id="TEXT_10161" tool_tip="" object_number="10161"/>
+            <box top="0" bottom="0" left="0" axis_offset_top="532" right="0" axis_offset_left="684" axis_anchor="4" angle="0" z_index="84"/>
+        </text>
+        <text underline="0" font_size="12" color="#ff000000" align_type="0" font_family="Sans Serif" display_type="0" static_text="PLC2_PLC4_RX_Tag700" font_style="0" strikeout="0" font_weight="50">
+            <display_on_off text_off="" text_on=""><![CDATA[]]></display_on_off>
+            <object description="" object_id="TEXT_10160" tool_tip="" object_number="10160"/>
+            <box top="0" bottom="0" left="0" axis_offset_top="858" right="0" axis_offset_left="464" axis_anchor="4" angle="0" z_index="83"/>
+        </text>
+        <text underline="0" font_size="12" color="#ff000000" align_type="0" font_family="Sans Serif" display_type="3" static_text="Text" font_style="0" strikeout="0" font_weight="50">
+            <display_numeric>
+                <expression><![CDATA[_INTERPLC2_TAG9]]></expression>
+                <format></format>
+            </display_numeric>
+            <object description="" object_id="TEXT_10159" tool_tip="" object_number="10159"/>
+            <box top="0" bottom="0" left="0" axis_offset_top="858" right="0" axis_offset_left="684" axis_anchor="4" angle="0" z_index="82"/>
+        </text>
+        <text underline="0" font_size="12" color="#ff000000" align_type="0" font_family="Sans Serif" display_type="0" static_text="PLC2_PLC4_RX_Tag350" font_style="0" strikeout="0" font_weight="50">
+            <display_on_off text_off="" text_on=""><![CDATA[]]></display_on_off>
+            <object description="" object_id="TEXT_10158" tool_tip="" object_number="10158"/>
+            <box top="0" bottom="0" left="0" axis_offset_top="828" right="0" axis_offset_left="464" axis_anchor="4" angle="0" z_index="81"/>
+        </text>
+        <text underline="0" font_size="12" color="#ff000000" align_type="0" font_family="Sans Serif" display_type="3" static_text="Text" font_style="0" strikeout="0" font_weight="50">
+            <display_numeric>
+                <expression><![CDATA[_INTERPLC2_TAG8]]></expression>
+                <format></format>
+            </display_numeric>
+            <object description="" object_id="TEXT_10157" tool_tip="" object_number="10157"/>
+            <box top="0" bottom="0" left="0" axis_offset_top="828" right="0" axis_offset_left="684" axis_anchor="4" angle="0" z_index="80"/>
+        </text>
+        <text underline="0" font_size="12" color="#ff000000" align_type="0" font_family="Sans Serif" display_type="0" static_text="PLC2_PLC4_RX_Tag1" font_style="0" strikeout="0" font_weight="50">
+            <display_on_off text_off="" text_on=""><![CDATA[]]></display_on_off>
+            <object description="" object_id="TEXT_10156" tool_tip="" object_number="10156"/>
+            <box top="0" bottom="0" left="0" axis_offset_top="798" right="0" axis_offset_left="464" axis_anchor="4" angle="0" z_index="79"/>
+        </text>
+        <text underline="0" font_size="12" color="#ff000000" align_type="0" font_family="Sans Serif" display_type="3" static_text="Text" font_style="0" strikeout="0" font_weight="50">
+            <display_numeric>
+                <expression><![CDATA[_INTERPLC2_TAG7]]></expression>
+                <format></format>
+            </display_numeric>
+            <object description="" object_id="TEXT_10155" tool_tip="" object_number="10155"/>
+            <box top="0" bottom="0" left="0" axis_offset_top="798" right="0" axis_offset_left="684" axis_anchor="4" angle="0" z_index="78"/>
+        </text>
+        <text underline="0" font_size="12" color="#ff000000" align_type="0" font_family="Sans Serif" display_type="0" static_text="PLC2_PLC3_RX_Tag700" font_style="0" strikeout="0" font_weight="50">
+            <display_on_off text_off="" text_on=""><![CDATA[]]></display_on_off>
+            <object description="" object_id="TEXT_10154" tool_tip="" object_number="10154"/>
+            <box top="0" bottom="0" left="0" axis_offset_top="748" right="0" axis_offset_left="464" axis_anchor="4" angle="0" z_index="77"/>
+        </text>
+        <text underline="0" font_size="12" color="#ff000000" align_type="0" font_family="Sans Serif" display_type="3" static_text="Text" font_style="0" strikeout="0" font_weight="50">
+            <display_numeric>
+                <expression><![CDATA[_INTERPLC2_TAG6]]></expression>
+                <format></format>
+            </display_numeric>
+            <object description="" object_id="TEXT_10153" tool_tip="" object_number="10153"/>
+            <box top="0" bottom="0" left="0" axis_offset_top="748" right="0" axis_offset_left="684" axis_anchor="4" angle="0" z_index="76"/>
+        </text>
+        <text underline="0" font_size="12" color="#ff000000" align_type="0" font_family="Sans Serif" display_type="0" static_text="PLC2_PLC3_RX_Tag350" font_style="0" strikeout="0" font_weight="50">
+            <display_on_off text_off="" text_on=""><![CDATA[]]></display_on_off>
+            <object description="" object_id="TEXT_10152" tool_tip="" object_number="10152"/>
+            <box top="0" bottom="0" left="0" axis_offset_top="718" right="0" axis_offset_left="464" axis_anchor="4" angle="0" z_index="75"/>
+        </text>
+        <text underline="0" font_size="12" color="#ff000000" align_type="0" font_family="Sans Serif" display_type="3" static_text="Text" font_style="0" strikeout="0" font_weight="50">
+            <display_numeric>
+                <expression><![CDATA[_INTERPLC2_TAG5]]></expression>
+                <format></format>
+            </display_numeric>
+            <object description="" object_id="TEXT_10151" tool_tip="" object_number="10151"/>
+            <box top="0" bottom="0" left="0" axis_offset_top="721" right="0" axis_offset_left="684" axis_anchor="4" angle="0" z_index="74"/>
+        </text>
+        <text underline="0" font_size="12" color="#ff000000" align_type="0" font_family="Sans Serif" display_type="0" static_text="PLC2_PLC3_RX_Tag1" font_style="0" strikeout="0" font_weight="50">
+            <display_on_off text_off="" text_on=""><![CDATA[]]></display_on_off>
+            <object description="" object_id="TEXT_10150" tool_tip="" object_number="10150"/>
+            <box top="0" bottom="0" left="0" axis_offset_top="688" right="0" axis_offset_left="464" axis_anchor="4" angle="0" z_index="73"/>
+        </text>
+        <text underline="0" font_size="12" color="#ff000000" align_type="0" font_family="Sans Serif" display_type="3" static_text="Text" font_style="0" strikeout="0" font_weight="50">
+            <display_numeric>
+                <expression><![CDATA[_INTERPLC2_TAG4]]></expression>
+                <format></format>
+            </display_numeric>
+            <object description="" object_id="TEXT_10149" tool_tip="" object_number="10149"/>
+            <box top="0" bottom="0" left="0" axis_offset_top="688" right="0" axis_offset_left="684" axis_anchor="4" angle="0" z_index="72"/>
+        </text>
+        <text underline="0" font_size="12" color="#ff000000" align_type="0" font_family="Sans Serif" display_type="0" static_text="PLC2_PLC1_RX_Tag700" font_style="0" strikeout="0" font_weight="50">
+            <display_on_off text_off="" text_on=""><![CDATA[]]></display_on_off>
+            <object description="" object_id="TEXT_10148" tool_tip="" object_number="10148"/>
+            <box top="0" bottom="0" left="0" axis_offset_top="638" right="0" axis_offset_left="464" axis_anchor="4" angle="0" z_index="71"/>
+        </text>
+        <text underline="0" font_size="12" color="#ff000000" align_type="0" font_family="Sans Serif" display_type="3" static_text="Text" font_style="0" strikeout="0" font_weight="50">
+            <display_numeric>
+                <expression><![CDATA[_INTERPLC2_TAG3]]></expression>
+                <format></format>
+            </display_numeric>
+            <object description="" object_id="TEXT_10147" tool_tip="" object_number="10147"/>
+            <box top="0" bottom="0" left="0" axis_offset_top="638" right="0" axis_offset_left="684" axis_anchor="4" angle="0" z_index="70"/>
+        </text>
+        <text underline="0" font_size="12" color="#ff000000" align_type="0" font_family="Sans Serif" display_type="0" static_text="PLC2_PLC1_RX_Tag4" font_style="0" strikeout="0" font_weight="50">
+            <display_on_off text_off="" text_on=""><![CDATA[]]></display_on_off>
+            <object description="" object_id="TEXT_10146" tool_tip="" object_number="10146"/>
+            <box top="0" bottom="0" left="0" axis_offset_top="608" right="0" axis_offset_left="464" axis_anchor="4" angle="0" z_index="69"/>
+        </text>
+        <text underline="0" font_size="12" color="#ff000000" align_type="0" font_family="Sans Serif" display_type="3" static_text="Text" font_style="0" strikeout="0" font_weight="50">
+            <display_numeric>
+                <expression><![CDATA[_INTERPLC2_TAG2]]></expression>
+                <format></format>
+            </display_numeric>
+            <object description="" object_id="TEXT_10145" tool_tip="" object_number="10145"/>
+            <box top="0" bottom="0" left="0" axis_offset_top="606" right="0" axis_offset_left="684" axis_anchor="4" angle="0" z_index="68"/>
+        </text>
+        <text underline="0" font_size="12" color="#ff000000" align_type="0" font_family="Sans Serif" display_type="0" static_text="PLC2_PLC1_RX_Tag1" font_style="0" strikeout="0" font_weight="50">
+            <display_on_off text_off="" text_on=""><![CDATA[]]></display_on_off>
+            <object description="" object_id="TEXT_10144" tool_tip="" object_number="10144"/>
+            <box top="0" bottom="0" left="0" axis_offset_top="578" right="0" axis_offset_left="464" axis_anchor="4" angle="0" z_index="67"/>
+        </text>
+        <text underline="0" font_size="12" color="#ff000000" align_type="0" font_family="Sans Serif" display_type="3" static_text="Text" font_style="0" strikeout="0" font_weight="50">
+            <display_numeric>
+                <expression><![CDATA[_INTERPLC2_TAG1]]></expression>
+                <format></format>
+            </display_numeric>
+            <object description="" object_id="TEXT_10143" tool_tip="" object_number="10143"/>
+            <box top="0" bottom="0" left="0" axis_offset_top="573" right="0" axis_offset_left="684" axis_anchor="4" angle="0" z_index="66"/>
+        </text>
+        <text underline="0" font_size="12" color="#ff000000" align_type="0" font_family="Sans Serif" display_type="0" static_text="PLC2_TransmitData" font_style="0" strikeout="0" font_weight="50">
+            <display_on_off text_off="" text_on=""><![CDATA[]]></display_on_off>
+            <object description="" object_id="TEXT_10142" tool_tip="" object_number="10142"/>
+            <box top="0" bottom="0" left="0" axis_offset_top="538" right="0" axis_offset_left="464" axis_anchor="4" angle="0" z_index="65"/>
+        </text>
+        <text underline="0" font_size="12" color="#ff000000" align_type="0" font_family="Sans Serif" display_type="3" static_text="Text" font_style="0" strikeout="0" font_weight="50">
+            <display_numeric>
+                <expression><![CDATA[_INTERPLC1_TAG10]]></expression>
+                <format></format>
+            </display_numeric>
+            <object description="" object_id="TEXT_10141" tool_tip="" object_number="10141"/>
+            <box top="0" bottom="0" left="0" axis_offset_top="537" right="0" axis_offset_left="284" axis_anchor="4" angle="0" z_index="64"/>
+        </text>
+        <text underline="0" font_size="12" color="#ff000000" align_type="0" font_family="Sans Serif" display_type="0" static_text="PLC1_PLC4_RX_Tag700" font_style="0" strikeout="0" font_weight="50">
+            <display_on_off text_off="" text_on=""><![CDATA[]]></display_on_off>
+            <object description="" object_id="TEXT_10140" tool_tip="" object_number="10140"/>
+            <box top="0" bottom="0" left="0" axis_offset_top="858" right="0" axis_offset_left="64" axis_anchor="4" angle="0" z_index="63"/>
+        </text>
+        <text underline="0" font_size="12" color="#ff000000" align_type="0" font_family="Sans Serif" display_type="3" static_text="Text" font_style="0" strikeout="0" font_weight="50">
+            <display_numeric>
+                <expression><![CDATA[_INTERPLC1_TAG9]]></expression>
+                <format></format>
+            </display_numeric>
+            <object description="" object_id="TEXT_10139" tool_tip="" object_number="10139"/>
+            <box top="0" bottom="0" left="0" axis_offset_top="858" right="0" axis_offset_left="284" axis_anchor="4" angle="0" z_index="62"/>
+        </text>
+        <text underline="0" font_size="12" color="#ff000000" align_type="0" font_family="Sans Serif" display_type="0" static_text="PLC1_PLC4_RX_Tag350" font_style="0" strikeout="0" font_weight="50">
+            <display_on_off text_off="" text_on=""><![CDATA[]]></display_on_off>
+            <object description="" object_id="TEXT_10138" tool_tip="" object_number="10138"/>
+            <box top="0" bottom="0" left="0" axis_offset_top="828" right="0" axis_offset_left="64" axis_anchor="4" angle="0" z_index="61"/>
+        </text>
+        <text underline="0" font_size="12" color="#ff000000" align_type="0" font_family="Sans Serif" display_type="3" static_text="Text" font_style="0" strikeout="0" font_weight="50">
+            <display_numeric>
+                <expression><![CDATA[_INTERPLC1_TAG8]]></expression>
+                <format></format>
+            </display_numeric>
+            <object description="" object_id="TEXT_10137" tool_tip="" object_number="10137"/>
+            <box top="0" bottom="0" left="0" axis_offset_top="828" right="0" axis_offset_left="284" axis_anchor="4" angle="0" z_index="60"/>
+        </text>
+        <text underline="0" font_size="12" color="#ff000000" align_type="0" font_family="Sans Serif" display_type="0" static_text="PLC1_PLC4_RX_Tag1" font_style="0" strikeout="0" font_weight="50">
+            <display_on_off text_off="" text_on=""><![CDATA[]]></display_on_off>
+            <object description="" object_id="TEXT_10136" tool_tip="" object_number="10136"/>
+            <box top="0" bottom="0" left="0" axis_offset_top="798" right="0" axis_offset_left="64" axis_anchor="4" angle="0" z_index="59"/>
+        </text>
+        <text underline="0" font_size="12" color="#ff000000" align_type="0" font_family="Sans Serif" display_type="3" static_text="Text" font_style="0" strikeout="0" font_weight="50">
+            <display_numeric>
+                <expression><![CDATA[_INTERPLC1_TAG7]]></expression>
+                <format></format>
+            </display_numeric>
+            <object description="" object_id="TEXT_10135" tool_tip="" object_number="10135"/>
+            <box top="0" bottom="0" left="0" axis_offset_top="798" right="0" axis_offset_left="284" axis_anchor="4" angle="0" z_index="58"/>
+        </text>
+        <text underline="0" font_size="12" color="#ff000000" align_type="0" font_family="Sans Serif" display_type="0" static_text="PLC1_PLC3_RX_Tag700" font_style="0" strikeout="0" font_weight="50">
+            <display_on_off text_off="" text_on=""><![CDATA[]]></display_on_off>
+            <object description="" object_id="TEXT_10134" tool_tip="" object_number="10134"/>
+            <box top="0" bottom="0" left="0" axis_offset_top="748" right="0" axis_offset_left="64" axis_anchor="4" angle="0" z_index="57"/>
+        </text>
+        <text underline="0" font_size="12" color="#ff000000" align_type="0" font_family="Sans Serif" display_type="3" static_text="Text" font_style="0" strikeout="0" font_weight="50">
+            <display_numeric>
+                <expression><![CDATA[_INTERPLC1_TAG6]]></expression>
+                <format></format>
+            </display_numeric>
+            <object description="" object_id="TEXT_10133" tool_tip="" object_number="10133"/>
+            <box top="0" bottom="0" left="0" axis_offset_top="748" right="0" axis_offset_left="284" axis_anchor="4" angle="0" z_index="56"/>
+        </text>
+        <text underline="0" font_size="12" color="#ff000000" align_type="0" font_family="Sans Serif" display_type="0" static_text="PLC1_PLC3_RX_Tag350" font_style="0" strikeout="0" font_weight="50">
+            <display_on_off text_off="" text_on=""><![CDATA[]]></display_on_off>
+            <object description="" object_id="TEXT_10132" tool_tip="" object_number="10132"/>
+            <box top="0" bottom="0" left="0" axis_offset_top="718" right="0" axis_offset_left="64" axis_anchor="4" angle="0" z_index="55"/>
+        </text>
+        <text underline="0" font_size="12" color="#ff000000" align_type="0" font_family="Sans Serif" display_type="3" static_text="Text" font_style="0" strikeout="0" font_weight="50">
+            <display_numeric>
+                <expression><![CDATA[_INTERPLC1_TAG5]]></expression>
+                <format></format>
+            </display_numeric>
+            <object description="" object_id="TEXT_10131" tool_tip="" object_number="10131"/>
+            <box top="0" bottom="0" left="0" axis_offset_top="718" right="0" axis_offset_left="284" axis_anchor="4" angle="0" z_index="54"/>
+        </text>
+        <text underline="0" font_size="12" color="#ff000000" align_type="0" font_family="Sans Serif" display_type="0" static_text="PLC1_PLC3_RX_Tag1" font_style="0" strikeout="0" font_weight="50">
+            <display_on_off text_off="" text_on=""><![CDATA[]]></display_on_off>
+            <object description="" object_id="TEXT_10130" tool_tip="" object_number="10130"/>
+            <box top="0" bottom="0" left="0" axis_offset_top="688" right="0" axis_offset_left="64" axis_anchor="4" angle="0" z_index="53"/>
+        </text>
+        <text underline="0" font_size="12" color="#ff000000" align_type="0" font_family="Sans Serif" display_type="3" static_text="Text" font_style="0" strikeout="0" font_weight="50">
+            <display_numeric>
+                <expression><![CDATA[_INTERPLC1_TAG4]]></expression>
+                <format></format>
+            </display_numeric>
+            <object description="" object_id="TEXT_10129" tool_tip="" object_number="10129"/>
+            <box top="0" bottom="0" left="0" axis_offset_top="688" right="0" axis_offset_left="284" axis_anchor="4" angle="0" z_index="52"/>
+        </text>
+        <text underline="0" font_size="12" color="#ff000000" align_type="0" font_family="Sans Serif" display_type="0" static_text="PLC1_PLC2_RX_Tag700" font_style="0" strikeout="0" font_weight="50">
+            <display_on_off text_off="" text_on=""><![CDATA[]]></display_on_off>
+            <object description="" object_id="TEXT_10128" tool_tip="" object_number="10128"/>
+            <box top="0" bottom="0" left="0" axis_offset_top="638" right="0" axis_offset_left="64" axis_anchor="4" angle="0" z_index="51"/>
+        </text>
+        <text underline="0" font_size="12" color="#ff000000" align_type="0" font_family="Sans Serif" display_type="3" static_text="Text" font_style="0" strikeout="0" font_weight="50">
+            <display_numeric>
+                <expression><![CDATA[_INTERPLC1_TAG3]]></expression>
+                <format></format>
+            </display_numeric>
+            <object description="" object_id="TEXT_10127" tool_tip="" object_number="10127"/>
+            <box top="0" bottom="0" left="0" axis_offset_top="638" right="0" axis_offset_left="284" axis_anchor="4" angle="0" z_index="50"/>
+        </text>
+        <text underline="0" font_size="12" color="#ff000000" align_type="0" font_family="Sans Serif" display_type="0" static_text="PLC1_PLC2_RX_Tag350" font_style="0" strikeout="0" font_weight="50">
+            <display_on_off text_off="" text_on=""><![CDATA[]]></display_on_off>
+            <object description="" object_id="TEXT_10126" tool_tip="" object_number="10126"/>
+            <box top="0" bottom="0" left="0" axis_offset_top="608" right="0" axis_offset_left="64" axis_anchor="4" angle="0" z_index="49"/>
+        </text>
+        <text underline="0" font_size="12" color="#ff000000" align_type="0" font_family="Sans Serif" display_type="3" static_text="Text" font_style="0" strikeout="0" font_weight="50">
+            <display_numeric>
+                <expression><![CDATA[_INTERPLC1_TAG2]]></expression>
+                <format></format>
+            </display_numeric>
+            <object description="" object_id="TEXT_10125" tool_tip="" object_number="10125"/>
+            <box top="0" bottom="0" left="0" axis_offset_top="608" right="0" axis_offset_left="284" axis_anchor="4" angle="0" z_index="48"/>
+        </text>
+        <text underline="0" font_size="12" color="#ff000000" align_type="0" font_family="Sans Serif" display_type="0" static_text="PLC1_PLC2_RX_Tag1" font_style="0" strikeout="0" font_weight="50">
+            <display_on_off text_off="" text_on=""><![CDATA[]]></display_on_off>
+            <object description="" object_id="TEXT_10124" tool_tip="" object_number="10124"/>
+            <box top="0" bottom="0" left="0" axis_offset_top="578" right="0" axis_offset_left="64" axis_anchor="4" angle="0" z_index="47"/>
+        </text>
+        <text underline="0" font_size="20" color="#ff00007f" align_type="0" font_family="STIX" display_type="0" static_text="DATA IN PLC-1" font_style="0" strikeout="0" font_weight="75">
+            <display_on_off text_off="" text_on=""><![CDATA[]]></display_on_off>
+            <object description="" object_id="TEXT_10123" tool_tip="" object_number="10123"/>
+            <box top="0" bottom="0" left="0" axis_offset_top="483" right="0" axis_offset_left="70" axis_anchor="4" angle="0" z_index="46"/>
+        </text>
+        <text underline="0" font_size="12" color="#ff000000" align_type="0" font_family="Sans Serif" display_type="3" static_text="Text" font_style="0" strikeout="0" font_weight="50">
+            <display_numeric>
+                <expression><![CDATA[_INTERPLC1_TAG1]]></expression>
+                <format></format>
+            </display_numeric>
+            <object description="" object_id="TEXT_10122" tool_tip="" object_number="10122"/>
+            <box top="0" bottom="0" left="0" axis_offset_top="573" right="0" axis_offset_left="284" axis_anchor="4" angle="0" z_index="45"/>
+        </text>
+        <text underline="0" font_size="12" color="#ff000000" align_type="0" font_family="Sans Serif" display_type="0" static_text="PLC1_TransmitData" font_style="0" strikeout="0" font_weight="50">
+            <display_on_off text_off="" text_on=""><![CDATA[]]></display_on_off>
+            <object description="" object_id="TEXT_10121" tool_tip="" object_number="10121"/>
+            <box top="0" bottom="0" left="0" axis_offset_top="538" right="0" axis_offset_left="64" axis_anchor="4" angle="0" z_index="44"/>
+        </text>
+        <text underline="0" font_size="12" color="#ff000000" align_type="0" font_family="Sans Serif" display_type="3" static_text="Text" font_style="0" strikeout="0" font_weight="50">
+            <display_numeric>
+                <expression><![CDATA[_INTERPLC4_PACKLOSS4]]></expression>
+                <format></format>
+            </display_numeric>
+            <object description="" object_id="TEXT_10108" tool_tip="" object_number="10108"/>
+            <box top="0" bottom="0" left="0" axis_offset_top="330" right="0" axis_offset_left="1523" axis_anchor="0" angle="0" z_index="31"/>
+        </text>
+        <text underline="0" font_size="12" color="#ff000000" align_type="0" font_family="Sans Serif" display_type="3" static_text="Text" font_style="0" strikeout="0" font_weight="50">
+            <display_numeric>
+                <expression><![CDATA[_INTERPLC4_PACKLOSS3]]></expression>
+                <format></format>
+            </display_numeric>
+            <object description="" object_id="TEXT_10107" tool_tip="" object_number="10107"/>
+            <box top="0" bottom="0" left="0" axis_offset_top="300" right="0" axis_offset_left="1523" axis_anchor="0" angle="0" z_index="30"/>
+        </text>
+        <text underline="0" font_size="12" color="#ff000000" align_type="0" font_family="Sans Serif" display_type="3" static_text="Text" font_style="0" strikeout="0" font_weight="50">
+            <display_numeric>
+                <expression><![CDATA[_INTERPLC4_PACKLOSS2]]></expression>
+                <format></format>
+            </display_numeric>
+            <object description="" object_id="TEXT_10106" tool_tip="" object_number="10106"/>
+            <box top="0" bottom="0" left="0" axis_offset_top="275" right="0" axis_offset_left="1525" axis_anchor="0" angle="0" z_index="29"/>
+        </text>
+        <text underline="0" font_size="12" color="#ff000000" align_type="0" font_family="Sans Serif" display_type="3" static_text="Text" font_style="0" strikeout="0" font_weight="50">
+            <display_numeric>
+                <expression><![CDATA[_INTERPLC3_PACKLOSS4]]></expression>
+                <format></format>
+            </display_numeric>
+            <object description="" object_id="TEXT_10101" tool_tip="" object_number="10101"/>
+            <box top="0" bottom="0" left="0" axis_offset_top="330" right="0" axis_offset_left="1094" axis_anchor="0" angle="0" z_index="24"/>
+        </text>
+        <text underline="0" font_size="12" color="#ff000000" align_type="0" font_family="Sans Serif" display_type="3" static_text="Text" font_style="0" strikeout="0" font_weight="50">
+            <display_numeric>
+                <expression><![CDATA[_INTERPLC3_PACKLOSS3]]></expression>
+                <format></format>
+            </display_numeric>
+            <object description="" object_id="TEXT_10100" tool_tip="" object_number="10100"/>
+            <box top="0" bottom="0" left="0" axis_offset_top="300" right="0" axis_offset_left="1094" axis_anchor="0" angle="0" z_index="23"/>
+        </text>
+        <text underline="0" font_size="12" color="#ff000000" align_type="0" font_family="Sans Serif" display_type="3" static_text="Text" font_style="0" strikeout="0" font_weight="50">
+            <display_numeric>
+                <expression><![CDATA[_INTERPLC3_PACKLOSS2]]></expression>
+                <format></format>
+            </display_numeric>
+            <object description="" object_id="TEXT_10099" tool_tip="" object_number="10099"/>
+            <box top="0" bottom="0" left="0" axis_offset_top="270" right="0" axis_offset_left="1096" axis_anchor="0" angle="0" z_index="22"/>
+        </text>
+        <text underline="0" font_size="12" color="#ff000000" align_type="0" font_family="Sans Serif" display_type="3" static_text="Text" font_style="0" strikeout="0" font_weight="50">
+            <display_numeric>
+                <expression><![CDATA[_INTERPLC2_PACKLOSS4]]></expression>
+                <format></format>
+            </display_numeric>
+            <object description="" object_id="TEXT_10057" tool_tip="" object_number="10057"/>
+            <box top="0" bottom="0" left="0" axis_offset_top="330" right="0" axis_offset_left="684" axis_anchor="0" angle="0" z_index="9"/>
+        </text>
+        <text underline="0" font_size="12" color="#ff000000" align_type="0" font_family="Sans Serif" display_type="3" static_text="Text" font_style="0" strikeout="0" font_weight="50">
+            <display_numeric>
+                <expression><![CDATA[_REG_36]]></expression>
+                <format></format>
+            </display_numeric>
+            <object description="" object_id="TEXT_10038" tool_tip="" object_number="10038"/>
+            <box top="0" bottom="0" left="0" axis_offset_top="330" right="0" axis_offset_left="284" axis_anchor="0" angle="0" z_index="7"/>
+        </text>
+        <text underline="0" font_size="12" color="#ff000000" align_type="0" font_family="Sans Serif" display_type="3" static_text="Text" font_style="0" strikeout="0" font_weight="50">
+            <display_numeric>
+                <expression><![CDATA[_INTERPLC2_PACKLOSS3]]></expression>
+                <format></format>
+            </display_numeric>
+            <object description="" object_id="TEXT_10060" tool_tip="" object_number="10060"/>
+            <box top="0" bottom="0" left="0" axis_offset_top="300" right="0" axis_offset_left="684" axis_anchor="0" angle="0" z_index="7"/>
+        </text>
+        <text underline="0" font_size="12" color="#ff000000" align_type="0" font_family="Sans Serif" display_type="3" static_text="Text" font_style="0" strikeout="0" font_weight="50">
+            <display_numeric>
+                <expression><![CDATA[_REG_35]]></expression>
+                <format></format>
+            </display_numeric>
+            <object description="" object_id="TEXT_10036" tool_tip="" object_number="10036"/>
+            <box top="0" bottom="0" left="0" axis_offset_top="300" right="0" axis_offset_left="284" axis_anchor="0" angle="0" z_index="5"/>
+        </text>
+        <text underline="0" font_size="12" color="#ff000000" align_type="0" font_family="Sans Serif" display_type="3" static_text="Text" font_style="0" strikeout="0" font_weight="50">
+            <display_numeric>
+                <expression><![CDATA[_INTERPLC2_PACKLOSS2]]></expression>
+                <format></format>
+            </display_numeric>
+            <object description="" object_id="TEXT_10062" tool_tip="" object_number="10062"/>
+            <box top="0" bottom="0" left="0" axis_offset_top="270" right="0" axis_offset_left="685" axis_anchor="0" angle="0" z_index="5"/>
+        </text>
+        <text underline="0" font_size="12" color="#ff000000" align_type="0" font_family="Sans Serif" display_type="0" static_text="PLC1_PLC2 PacketLoss" font_style="0" strikeout="0" font_weight="50">
+            <display_on_off text_off="" text_on=""><![CDATA[]]></display_on_off>
+            <object description="" object_id="TEXT_10035" tool_tip="" object_number="10035"/>
+            <box top="0" bottom="0" left="0" axis_offset_top="270" right="0" axis_offset_left="64" axis_anchor="4" angle="0" z_index="4"/>
+        </text>
+        <text underline="0" font_size="12" color="#ff000000" align_type="0" font_family="Sans Serif" display_type="3" static_text="Text" font_style="0" strikeout="0" font_weight="50">
+            <display_numeric>
+                <expression><![CDATA[_REG_34]]></expression>
+                <format></format>
+            </display_numeric>
+            <object description="" object_id="TEXT_10033" tool_tip="" object_number="10033"/>
+            <box top="0" bottom="0" left="0" axis_offset_top="269" right="0" axis_offset_left="285" axis_anchor="0" angle="0" z_index="2"/>
+        </text>
+    </labels>
+</hmipage>

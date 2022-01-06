@@ -5,11 +5,11 @@
             <box top="0" bottom="50" left="0" axis_offset_top="350" right="140" axis_offset_left="410" axis_anchor="0" angle="0" z_index="664"/>
             <line color="#ff000000" style="1" line_width="1"/>
             <button is_transparent="0" fill_color_down="#007000a8" fill_color_up="#ff55007f" customfill_enabled="1">
-                <buttontext underline="0" TextAlignType="0" text="Complete DAIG" font_size="13" color="#ffffff00" strikeout="0" font_style="0" font_weight="75"/>
+                <buttontext underline="0" TextAlignType="0" text="HMI features 1" font_size="13" color="#ffffff00" strikeout="0" font_style="0" font_weight="75"/>
             </button>
             <input_touch>
                 <up enabled="1">
-                    <command><![CDATA[openPage(PLC_DIAGNOSTICS_1_1,2);]]></command>
+                    <command><![CDATA[openPage(HMI_features_1);]]></command>
                 </up>
             </input_touch>
         </shape>
@@ -18,11 +18,11 @@
             <box top="0" bottom="50" left="0" axis_offset_top="650" right="140" axis_offset_left="1170" axis_anchor="0" angle="0" z_index="20"/>
             <line color="#ff000000" style="1" line_width="1"/>
             <button is_transparent="0" fill_color_down="#007000a8" fill_color_up="#ff55007f" customfill_enabled="1">
-                <buttontext underline="0" TextAlignType="0" text="P3A &#xa;ICCP DATA" font_size="13" color="#ffffff00" strikeout="0" font_style="0" font_weight="75"/>
+                <buttontext underline="0" TextAlignType="0" text="HWB_Column_A" font_size="13" color="#ffffff00" strikeout="0" font_style="0" font_weight="75"/>
             </button>
             <input_touch>
                 <up enabled="1">
-                    <command><![CDATA[openPage(P3A_HA_S1_1,2);]]></command>
+                    <command><![CDATA[openPage(HWB_Column_A);]]></command>
                 </up>
             </input_touch>
         </shape>
@@ -122,11 +122,11 @@
             <box top="0" bottom="50" left="0" axis_offset_top="350" right="140" axis_offset_left="1170" axis_anchor="0" angle="0" z_index="11"/>
             <line color="#ff000000" style="1" line_width="1"/>
             <button is_transparent="0" fill_color_down="#007000a8" fill_color_up="#ff55007f" customfill_enabled="1">
-                <buttontext underline="0" TextAlignType="0" text="IEC104 DATA" font_size="13" color="#ffffff00" strikeout="0" font_style="0" font_weight="75"/>
+                <buttontext underline="0" TextAlignType="0" text="HWB_Column_B" font_size="13" color="#ffffff00" strikeout="0" font_style="0" font_weight="75"/>
             </button>
             <input_touch>
                 <up enabled="1">
-                    <command><![CDATA[openPage(iec104data,2);]]></command>
+                    <command><![CDATA[openPage(HWB_Column_B);]]></command>
                 </up>
             </input_touch>
         </shape>
@@ -148,11 +148,11 @@
             <box top="0" bottom="50" left="0" axis_offset_top="650" right="140" axis_offset_left="790" axis_anchor="0" angle="0" z_index="9"/>
             <line color="#ff000000" style="1" line_width="1"/>
             <button is_transparent="0" fill_color_down="#007000a8" fill_color_up="#ff55007f" customfill_enabled="1">
-                <buttontext underline="0" TextAlignType="0" text="TPLC DATA" font_size="13" color="#ffffff00" strikeout="0" font_style="0" font_weight="75"/>
+                <buttontext underline="0" TextAlignType="0" text="Oil_Gas" font_size="13" color="#ffffff00" strikeout="0" font_style="0" font_weight="75"/>
             </button>
             <input_touch>
                 <up enabled="1">
-                    <command><![CDATA[openPage(tplcdata,2);]]></command>
+                    <command><![CDATA[openPage(Oil_Gas);]]></command>
                 </up>
             </input_touch>
         </shape>

@@ -17,7 +17,6 @@ export const getRectPointX = (shape, parentX) => {
          parseFloat(shape.box.axis_offset_left) + 
          (parseFloat(shape.box.left) + parseFloat(shape.box.right)) / 2
       );
-
   }
 };
 
@@ -155,7 +154,6 @@ export const getPolygonPoints = (shape, parentX, parentY) => {
 export const getLinePoints = (shape, parentX, parentY) => {
 
   var ptx = [];
-
   //starting Point{x:,y:}
   ptx.push({ x: shape.box.left, y: shape.box.top });
   //Ending Point{x:,y:}

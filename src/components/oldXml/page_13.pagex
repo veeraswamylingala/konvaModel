@@ -1,0 +1,146 @@
+<hmipage width="800" height="600" next_page="" id="page_13" color="4290822336" title="page_13" prev_page="" page_scan_time="250" template_id="" next_object_number="10010" default_page_scan="1" version="0.1.0" order="12" access_area="0" belongs_to_all_areas="1">
+    <shapes>
+        <shape type="Line">
+            <object object_id="SHAPE_10002" description="" object_number="10002" tool_tip=""/>
+            <box z_index="2" right="31" left="0" axis_anchor="0" top="0" axis_offset_top="169" angle="0" axis_offset_left="128" bottom="59"/>
+            <line color="#000000" style="1" line_width="1"/>
+        </shape>
+        <shape type="Line">
+            <object object_id="SHAPE_10001" description="" object_number="10001" tool_tip=""/>
+            <box z_index="1" right="35" left="0" axis_anchor="0" top="0" axis_offset_top="255" angle="0" axis_offset_left="88" bottom="-78"/>
+            <line color="#000000" style="1" line_width="1"/>
+        </shape>
+    </shapes>
+
+    
+    <component_instances>
+        <componentInstance objectId="" y1="409" x2="223" objectNumber="0" uuid="{57461299-a7ae-4885-8372-c31c7869c12f}" zIndex="0" y2="535" x1="17">
+            <shape type="Rectangle">
+                <object object_id="SHAPE_1" description="" object_number="1" tool_tip=""/>
+                <box z_index="0" right="178" left="0" axis_anchor="0" top="0" axis_offset_top="26" angle="0" axis_offset_left="12" bottom="74"/>
+                <line color="#000000" style="1" line_width="1"/>
+                <fill fill="#fefefe"/>
+                <gradient gradient_color="#707070" gradient_direction="7"/>
+                <rectangle y1="0" x2="178" corner_radius="30" y2="74" x1="0"/>
+            </shape>
+            <shape type="Rectangle">
+                <object object_id="SHAPE_2" description="" object_number="2" tool_tip=""/>
+                <box z_index="0" right="37" left="0" axis_anchor="0" top="0" axis_offset_top="6" angle="0" axis_offset_left="38" bottom="114"/>
+                <line color="#000000" style="1" line_width="1"/>
+                <fill fill="#fefefe"/>
+                <gradient gradient_color="#707070" gradient_direction="7"/>
+                <rectangle y1="0" x2="37" corner_radius="30" y2="114" x1="0"/>
+            </shape>
+            <shape type="Rectangle">
+                <object object_id="SHAPE_3" description="" object_number="3" tool_tip=""/>
+                <box z_index="0" right="37" left="0" axis_anchor="0" top="0" axis_offset_top="6" angle="0" axis_offset_left="82" bottom="114"/>
+                <line color="#000000" style="1" line_width="1"/>
+                <fill fill="#fefefe"/>
+                <gradient gradient_color="#707070" gradient_direction="7"/>
+                <rectangle y1="0" x2="37" corner_radius="30" y2="114" x1="0"/>
+            </shape>
+            <shape type="Rectangle">
+                <object object_id="SHAPE_4" description="" object_number="4" tool_tip=""/>
+                <box z_index="0" right="37" left="0" axis_anchor="0" top="0" axis_offset_top="6" angle="0" axis_offset_left="126" bottom="114"/>
+                <line color="#000000" style="1" line_width="1"/>
+                <fill fill="#fefefe"/>
+                <gradient gradient_color="#707070" gradient_direction="7"/>
+                <rectangle y1="0" x2="37" corner_radius="30" y2="114" x1="0"/>
+            </shape>
+            <shape type="Line">
+                <object object_id="SHAPE_6" description="" object_number="6" tool_tip=""/>
+                <box z_index="0" right="0" left="0" axis_anchor="2" top="0" axis_offset_top="12" angle="0" axis_offset_left="11" bottom="106"/>
+                <line color="#000000" style="1" line_width="1"/>
+            </shape>
+            <shape type="Line">
+                <object object_id="SHAPE_7" description="" object_number="7" tool_tip=""/>
+                <box z_index="0" right="0" left="0" axis_anchor="2" top="0" axis_offset_top="12" angle="0" axis_offset_left="191" bottom="106"/>
+                <line color="#000000" style="1" line_width="1"/>
+            </shape>
+            <description/>
+        </componentInstance>
+        <componentInstance objectId="" y1="148" x2="700" objectNumber="0" uuid="{5d6b4ace-ece8-4360-b317-446e26dbf03c}" zIndex="0" y2="282" x1="544">
+            <shape type="Polygon">
+                <object object_id="SHAPE_1" description="" object_number="1" tool_tip=""/>
+                <box z_index="0" right="0" left="0" axis_anchor="0" top="0" axis_offset_top="50" angle="0" axis_offset_left="11" bottom="0"/>
+                <line color="#000000" style="1" line_width="1"/>
+                <polyline closed="0">
+                    <points>
+                        <point y="0" x="0"/>
+                        <point y="0" x="1"/>
+                        <point y="-42" x="46"/>
+                        <point y="76" x="95"/>
+                        <point y="36" x="139"/>
+                    </points>
+                </polyline>
+            </shape>
+            <description/>
+        </componentInstance>
+        <componentInstance objectId="" y1="75" x2="459" objectNumber="4289439395" uuid="{a6911b54-9374-4581-bddf-4106307c0dae}" zIndex="0" y2="173" x1="361">
+            <shape type="Line">
+                <object object_id="SHAPE_2" description="" object_number="2" tool_tip=""/>
+                <box z_index="0" right="-54" left="0" axis_anchor="2" top="0" axis_offset_top="29" angle="0" axis_offset_left="91" bottom="59"/>
+                <line color="#000000" style="1" line_width="1"/>
+            </shape>
+            <shape type="Line">
+                <object object_id="SHAPE_1" description="" object_number="1" tool_tip=""/>
+                <box z_index="0" right="-54" left="0" axis_anchor="2" top="0" axis_offset_top="7" angle="0" axis_offset_left="61" bottom="59"/>
+                <line color="#000000" style="1" line_width="1"/>
+            </shape>
+            <shape type="Line">
+                <object object_id="SHAPE_2" description="" object_number="2" tool_tip=""/>
+                <box z_index="0" right="-54" left="0" axis_anchor="2" top="0" axis_offset_top="19" angle="0" axis_offset_left="76" bottom="59"/>
+                <line color="#000000" style="1" line_width="1"/>
+            </shape>
+            <shape type="Line">
+                <object object_id="SHAPE_3" description="" object_number="3" tool_tip=""/>
+                <box z_index="0" right="0" left="-55" axis_anchor="4" top="-85" axis_offset_top="91" angle="0" axis_offset_left="80" bottom="0"/>
+                <line color="#000000" style="1" line_width="1"/>
+            </shape>
+            <description/>
+        </componentInstance>
+        <componentInstance objectId="" y1="263" x2="483" objectNumber="4289439395" uuid="{5988765a-1a20-4bbd-a10d-478cf2a70ec3}" zIndex="0" y2="363" x1="269">
+            <shape type="Line">
+                <object object_id="SHAPE_2" description="" object_number="2" tool_tip=""/>
+                <box z_index="0" right="0" left="0" axis_anchor="2" top="0" axis_offset_top="11" angle="0" axis_offset_left="90" bottom="84"/>
+                <line color="#000000" style="1" line_width="1"/>
+            </shape>
+            <shape type="Line">
+                <object object_id="SHAPE_3" description="" object_number="3" tool_tip=""/>
+                <box z_index="0" right="0" left="0" axis_anchor="2" top="0" axis_offset_top="11" angle="0" axis_offset_left="132" bottom="84"/>
+                <line color="#000000" style="1" line_width="1"/>
+            </shape>
+            <shape type="Line">
+                <object object_id="SHAPE_4" description="" object_number="4" tool_tip=""/>
+                <box z_index="0" right="77" left="0" axis_anchor="7" top="0" axis_offset_top="53" angle="0" axis_offset_left="11" bottom="0"/>
+                <line color="#000000" style="1" line_width="1"/>
+            </shape>
+            <shape type="Line">
+                <object object_id="SHAPE_6" description="" object_number="6" tool_tip=""/>
+                <box z_index="0" right="77" left="0" axis_anchor="7" top="0" axis_offset_top="53" angle="0" axis_offset_left="132" bottom="0"/>
+                <line color="#000000" style="1" line_width="1"/>
+            </shape>
+            <shape type="Line">
+                <object object_id="SHAPE_7" description="" object_number="7" tool_tip=""/>
+                <box z_index="0" right="16" left="0" axis_anchor="6" top="0" axis_offset_top="27" angle="0" axis_offset_left="71" bottom="0"/>
+                <line color="#000000" style="1" line_width="1"/>
+            </shape>
+            <shape type="Line">
+                <object object_id="SHAPE_8" description="" object_number="8" tool_tip=""/>
+                <box z_index="0" right="16" left="0" axis_anchor="6" top="0" axis_offset_top="27" angle="0" axis_offset_left="135" bottom="0"/>
+                <line color="#000000" style="1" line_width="1"/>
+            </shape>
+            <shape type="Line">
+                <object object_id="SHAPE_9" description="" object_number="9" tool_tip=""/>
+                <box z_index="0" right="16" left="0" axis_anchor="6" top="0" axis_offset_top="79" angle="0" axis_offset_left="71" bottom="0"/>
+                <line color="#000000" style="1" line_width="1"/>
+            </shape>
+            <shape type="Line">
+                <object object_id="SHAPE_10" description="" object_number="10" tool_tip=""/>
+                <box z_index="0" right="16" left="0" axis_anchor="6" top="0" axis_offset_top="79" angle="0" axis_offset_left="135" bottom="0"/>
+                <line color="#000000" style="1" line_width="1"/>
+            </shape>
+            <description/>
+        </componentInstance>
+    </component_instances>
+</hmipage>

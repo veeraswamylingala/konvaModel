@@ -14,17 +14,17 @@
     </shapes>
     <labels>
         <text underline="0" font_size="12" color="#ffffffff" align_type="0" font_family="Waree" display_type="0" static_text="Not Active &amp;&#xa;UnAck" font_style="0" strikeout="0" font_weight="75">
-            <display_on_off text_off="" text_on=""><![CDATA[]]></display_on_off>
+         
             <object description="" object_id="TEXT_14" tool_tip="" object_number="14"/>
             <box top="0" bottom="0" left="0" axis_offset_top="100" right="0" axis_offset_left="370" axis_anchor="4" angle="0" z_index="300"/>
         </text>
         <text underline="0" font_size="12" color="#ffff0000" align_type="0" font_family="Waree" display_type="0" static_text="Active &amp;&#xa;Ack" font_style="0" strikeout="0" font_weight="75">
-            <display_on_off text_off="" text_on=""><![CDATA[]]></display_on_off>
+         
             <object description="" object_id="TEXT_13" tool_tip="" object_number="13"/>
             <box top="0" bottom="0" left="0" axis_offset_top="100" right="0" axis_offset_left="260" axis_anchor="4" angle="0" z_index="299"/>
         </text>
         <text underline="0" font_size="12" color="#ffaa0000" align_type="0" font_family="Waree" display_type="0" static_text="Active &amp;&#xa;UnAck" font_style="0" strikeout="0" font_weight="75">
-            <display_on_off text_off="" text_on=""><![CDATA[]]></display_on_off>
+         
             <object description="" object_id="TEXT_12" tool_tip="" object_number="12"/>
             <box top="0" bottom="0" left="0" axis_offset_top="100" right="0" axis_offset_left="150" axis_anchor="4" angle="0" z_index="298"/>
         </text>
@@ -90,7 +90,7 @@
                 <box top="0" bottom="0" left="0" axis_offset_top="6" right="0" axis_offset_left="145" axis_anchor="4" angle="0" z_index="2"/>
             </text>
             <text underline="0" font_size="12" color="#ff0000ff" align_type="0" font_family="URW Bookman L" display_type="0" static_text="%PLNTLOC%" font_style="0" strikeout="0" font_weight="75">
-                <display_on_off text_off="" text_on=""><![CDATA[]]></display_on_off>
+             
                 <object description="" object_id="TEXT_1" tool_tip="" object_number="1"/>
                 <box top="0" bottom="0" left="0" axis_offset_top="6" right="0" axis_offset_left="0" axis_anchor="4" angle="0" z_index="1"/>
             </text>
@@ -159,7 +159,7 @@
                 <box top="0" bottom="0" left="0" axis_offset_top="6" right="0" axis_offset_left="145" axis_anchor="4" angle="0" z_index="2"/>
             </text>
             <text underline="0" font_size="12" color="#ff0000ff" align_type="0" font_family="URW Bookman L" display_type="0" static_text="%PLNTLOC%" font_style="0" strikeout="0" font_weight="75">
-                <display_on_off text_off="" text_on=""><![CDATA[]]></display_on_off>
+             
                 <object description="" object_id="TEXT_1" tool_tip="" object_number="1"/>
                 <box top="0" bottom="0" left="0" axis_offset_top="6" right="0" axis_offset_left="0" axis_anchor="4" angle="0" z_index="1"/>
             </text>
@@ -228,7 +228,7 @@
                 <box top="0" bottom="0" left="0" axis_offset_top="6" right="0" axis_offset_left="145" axis_anchor="4" angle="0" z_index="2"/>
             </text>
             <text underline="0" font_size="12" color="#ff0000ff" align_type="0" font_family="URW Bookman L" display_type="0" static_text="%PLNTLOC%" font_style="0" strikeout="0" font_weight="75">
-                <display_on_off text_off="" text_on=""><![CDATA[]]></display_on_off>
+             
                 <object description="" object_id="TEXT_1" tool_tip="" object_number="1"/>
                 <box top="0" bottom="0" left="0" axis_offset_top="6" right="0" axis_offset_left="0" axis_anchor="4" angle="0" z_index="1"/>
             </text>
@@ -297,7 +297,7 @@
                 <box top="0" bottom="0" left="0" axis_offset_top="6" right="0" axis_offset_left="145" axis_anchor="4" angle="0" z_index="2"/>
             </text>
             <text underline="0" font_size="12" color="#ff0000ff" align_type="0" font_family="URW Bookman L" display_type="0" static_text="%PLNTLOC%" font_style="0" strikeout="0" font_weight="75">
-                <display_on_off text_off="" text_on=""><![CDATA[]]></display_on_off>
+             
                 <object description="" object_id="TEXT_1" tool_tip="" object_number="1"/>
                 <box top="0" bottom="0" left="0" axis_offset_top="6" right="0" axis_offset_left="0" axis_anchor="4" angle="0" z_index="1"/>
             </text>
@@ -366,7 +366,7 @@
                 <box top="0" bottom="0" left="0" axis_offset_top="6" right="0" axis_offset_left="145" axis_anchor="4" angle="0" z_index="2"/>
             </text>
             <text underline="0" font_size="12" color="#ff0000ff" align_type="0" font_family="URW Bookman L" display_type="0" static_text="%PLNTLOC%" font_style="0" strikeout="0" font_weight="75">
-                <display_on_off text_off="" text_on=""><![CDATA[]]></display_on_off>
+             
                 <object description="" object_id="TEXT_1" tool_tip="" object_number="1"/>
                 <box top="0" bottom="0" left="0" axis_offset_top="6" right="0" axis_offset_left="0" axis_anchor="4" angle="0" z_index="1"/>
             </text>
@@ -435,7 +435,7 @@
                 <box top="0" bottom="0" left="0" axis_offset_top="6" right="0" axis_offset_left="145" axis_anchor="4" angle="0" z_index="2"/>
             </text>
             <text underline="0" font_size="12" color="#ff0000ff" align_type="0" font_family="URW Bookman L" display_type="0" static_text="%PLNTLOC%" font_style="0" strikeout="0" font_weight="75">
-                <display_on_off text_off="" text_on=""><![CDATA[]]></display_on_off>
+             
                 <object description="" object_id="TEXT_1" tool_tip="" object_number="1"/>
                 <box top="0" bottom="0" left="0" axis_offset_top="6" right="0" axis_offset_left="0" axis_anchor="4" angle="0" z_index="1"/>
             </text>
@@ -504,7 +504,7 @@
                 <box top="0" bottom="0" left="0" axis_offset_top="6" right="0" axis_offset_left="145" axis_anchor="4" angle="0" z_index="2"/>
             </text>
             <text underline="0" font_size="12" color="#ff0000ff" align_type="0" font_family="URW Bookman L" display_type="0" static_text="%PLNTLOC%" font_style="0" strikeout="0" font_weight="75">
-                <display_on_off text_off="" text_on=""><![CDATA[]]></display_on_off>
+             
                 <object description="" object_id="TEXT_1" tool_tip="" object_number="1"/>
                 <box top="0" bottom="0" left="0" axis_offset_top="6" right="0" axis_offset_left="0" axis_anchor="4" angle="0" z_index="1"/>
             </text>
@@ -573,7 +573,7 @@
                 <box top="0" bottom="0" left="0" axis_offset_top="6" right="0" axis_offset_left="145" axis_anchor="4" angle="0" z_index="2"/>
             </text>
             <text underline="0" font_size="12" color="#ff0000ff" align_type="0" font_family="URW Bookman L" display_type="0" static_text="%PLNTLOC%" font_style="0" strikeout="0" font_weight="75">
-                <display_on_off text_off="" text_on=""><![CDATA[]]></display_on_off>
+             
                 <object description="" object_id="TEXT_1" tool_tip="" object_number="1"/>
                 <box top="0" bottom="0" left="0" axis_offset_top="6" right="0" axis_offset_left="0" axis_anchor="4" angle="0" z_index="1"/>
             </text>
@@ -642,7 +642,7 @@
                 <box top="0" bottom="0" left="0" axis_offset_top="6" right="0" axis_offset_left="145" axis_anchor="4" angle="0" z_index="2"/>
             </text>
             <text underline="0" font_size="12" color="#ff0000ff" align_type="0" font_family="URW Bookman L" display_type="0" static_text="%PLNTLOC%" font_style="0" strikeout="0" font_weight="75">
-                <display_on_off text_off="" text_on=""><![CDATA[]]></display_on_off>
+             
                 <object description="" object_id="TEXT_1" tool_tip="" object_number="1"/>
                 <box top="0" bottom="0" left="0" axis_offset_top="6" right="0" axis_offset_left="0" axis_anchor="4" angle="0" z_index="1"/>
             </text>
@@ -666,16 +666,11 @@
                 </input_touch>
             </shape>
             <shape type="Rectangle">
-                <object description="" object_id="SHAPE_6" tool_tip="" object_number="6">
-                   <security disable_if_no_privilege="0" privilege_level="0" no_privilege_restriction="1" area="0" area_same_as_page="1">
-                        <hidden_when><![CDATA[_DTms_0003 > 50]]></hidden_when>
-                    </security>  </object>
+                <object description="" object_id="SHAPE_6" tool_tip="" object_number="6"/>
                 <box top="0" bottom="19" left="0" axis_offset_top="13" right="57" axis_offset_left="399" axis_anchor="0" angle="0" z_index="6"/>
                 <line color="#ffaaff7f" style="1" line_width="2"/>
                 <fill fill="#ff808080"/>
                 <rectangle x1="0" x2="57" y2="19" corner_radius="0" y1="0"/>
-                
-              
                 <array>
                     <expression><![CDATA[getAreaAlarmStatus(_%PLNTLOC%.getTagID())]]></expression>
                     <colors><![CDATA[4278190080]]><![CDATA[4283825920]]><![CDATA[4294967295]]><![CDATA[4294901760]]><![CDATA[4294901760]]><![CDATA[15]]><![CDATA[16]]><![CDATA[17]]><![CDATA[18]]><![CDATA[19]]><![CDATA[20]]><![CDATA[21]]><![CDATA[22]]><![CDATA[23]]><![CDATA[24]]><![CDATA[25]]><![CDATA[26]]><![CDATA[27]]><![CDATA[28]]><![CDATA[29]]><![CDATA[30]]><![CDATA[31]]><![CDATA[32]]><![CDATA[33]]><![CDATA[34]]><![CDATA[35]]><![CDATA[36]]><![CDATA[37]]><![CDATA[38]]><![CDATA[39]]><![CDATA[40]]><![CDATA[41]]><![CDATA[42]]><![CDATA[43]]><![CDATA[44]]><![CDATA[45]]><![CDATA[46]]><![CDATA[47]]><![CDATA[48]]><![CDATA[49]]><![CDATA[50]]><![CDATA[51]]><![CDATA[52]]><![CDATA[53]]><![CDATA[54]]><![CDATA[55]]><![CDATA[56]]><![CDATA[57]]><![CDATA[58]]><![CDATA[59]]><![CDATA[60]]><![CDATA[61]]><![CDATA[62]]><![CDATA[63]]><![CDATA[64]]><![CDATA[65]]><![CDATA[66]]><![CDATA[67]]><![CDATA[68]]><![CDATA[69]]><![CDATA[70]]><![CDATA[71]]><![CDATA[72]]><![CDATA[73]]><![CDATA[74]]><![CDATA[75]]><![CDATA[76]]><![CDATA[77]]><![CDATA[78]]><![CDATA[79]]><![CDATA[80]]><![CDATA[81]]><![CDATA[82]]><![CDATA[83]]><![CDATA[84]]><![CDATA[85]]><![CDATA[86]]><![CDATA[87]]><![CDATA[88]]><![CDATA[89]]><![CDATA[90]]><![CDATA[91]]><![CDATA[92]]><![CDATA[93]]><![CDATA[94]]><![CDATA[95]]><![CDATA[96]]><![CDATA[97]]><![CDATA[98]]><![CDATA[99]]><![CDATA[100]]><![CDATA[101]]><![CDATA[102]]><![CDATA[103]]><![CDATA[104]]><![CDATA[105]]><![CDATA[106]]><![CDATA[107]]><![CDATA[108]]><![CDATA[109]]><![CDATA[110]]><![CDATA[111]]><![CDATA[112]]><![CDATA[113]]><![CDATA[114]]><![CDATA[115]]><![CDATA[116]]><![CDATA[117]]><![CDATA[118]]><![CDATA[119]]><![CDATA[120]]><![CDATA[121]]><![CDATA[122]]><![CDATA[123]]><![CDATA[124]]><![CDATA[125]]><![CDATA[126]]><![CDATA[127]]><![CDATA[128]]><![CDATA[129]]><![CDATA[130]]><![CDATA[131]]><![CDATA[132]]><![CDATA[133]]><![CDATA[134]]><![CDATA[135]]><![CDATA[136]]><![CDATA[137]]><![CDATA[138]]><![CDATA[139]]><![CDATA[140]]><![CDATA[141]]><![CDATA[142]]><![CDATA[143]]><![CDATA[144]]><![CDATA[145]]><![CDATA[146]]><![CDATA[147]]><![CDATA[148]]><![CDATA[149]]><![CDATA[150]]><![CDATA[151]]><![CDATA[152]]><![CDATA[153]]><![CDATA[154]]><![CDATA[155]]><![CDATA[156]]><![CDATA[157]]><![CDATA[158]]><![CDATA[159]]><![CDATA[160]]><![CDATA[161]]><![CDATA[162]]><![CDATA[163]]><![CDATA[164]]><![CDATA[165]]><![CDATA[166]]><![CDATA[167]]><![CDATA[168]]><![CDATA[169]]><![CDATA[170]]><![CDATA[171]]><![CDATA[172]]><![CDATA[173]]><![CDATA[174]]><![CDATA[175]]><![CDATA[176]]><![CDATA[177]]><![CDATA[178]]><![CDATA[179]]><![CDATA[180]]><![CDATA[181]]><![CDATA[182]]><![CDATA[183]]><![CDATA[184]]><![CDATA[185]]><![CDATA[186]]><![CDATA[187]]><![CDATA[188]]><![CDATA[189]]><![CDATA[190]]><![CDATA[191]]><![CDATA[192]]><![CDATA[193]]><![CDATA[194]]><![CDATA[195]]><![CDATA[196]]><![CDATA[197]]><![CDATA[198]]><![CDATA[199]]><![CDATA[200]]><![CDATA[201]]><![CDATA[202]]><![CDATA[203]]><![CDATA[204]]><![CDATA[205]]><![CDATA[206]]><![CDATA[207]]><![CDATA[208]]><![CDATA[209]]><![CDATA[210]]><![CDATA[211]]><![CDATA[212]]><![CDATA[213]]><![CDATA[214]]><![CDATA[215]]><![CDATA[216]]><![CDATA[217]]><![CDATA[218]]><![CDATA[219]]><![CDATA[220]]><![CDATA[221]]><![CDATA[222]]><![CDATA[223]]><![CDATA[224]]><![CDATA[225]]><![CDATA[226]]><![CDATA[227]]><![CDATA[228]]><![CDATA[229]]><![CDATA[230]]><![CDATA[231]]><![CDATA[232]]><![CDATA[233]]><![CDATA[234]]><![CDATA[235]]><![CDATA[236]]><![CDATA[237]]><![CDATA[238]]><![CDATA[239]]><![CDATA[240]]><![CDATA[241]]><![CDATA[242]]><![CDATA[243]]><![CDATA[244]]><![CDATA[245]]><![CDATA[246]]><![CDATA[247]]><![CDATA[248]]><![CDATA[249]]><![CDATA[250]]><![CDATA[251]]><![CDATA[252]]><![CDATA[253]]><![CDATA[254]]><![CDATA[255]]><![CDATA[256]]><![CDATA[257]]><![CDATA[258]]><![CDATA[259]]><![CDATA[260]]><![CDATA[261]]><![CDATA[262]]><![CDATA[263]]><![CDATA[264]]><![CDATA[265]]></colors>
@@ -716,7 +711,7 @@
                 <box top="0" bottom="0" left="0" axis_offset_top="6" right="0" axis_offset_left="145" axis_anchor="4" angle="0" z_index="2"/>
             </text>
             <text underline="0" font_size="12" color="#ff0000ff" align_type="0" font_family="URW Bookman L" display_type="0" static_text="%PLNTLOC%" font_style="0" strikeout="0" font_weight="75">
-                <display_on_off text_off="" text_on=""><![CDATA[]]></display_on_off>
+             
                 <object description="" object_id="TEXT_1" tool_tip="" object_number="1"/>
                 <box top="0" bottom="0" left="0" axis_offset_top="6" right="0" axis_offset_left="0" axis_anchor="4" angle="0" z_index="1"/>
             </text>
@@ -785,7 +780,7 @@
                 <box top="0" bottom="0" left="0" axis_offset_top="6" right="0" axis_offset_left="145" axis_anchor="4" angle="0" z_index="2"/>
             </text>
             <text underline="0" font_size="12" color="#ff0000ff" align_type="0" font_family="URW Bookman L" display_type="0" static_text="%PLNTLOC%" font_style="0" strikeout="0" font_weight="75">
-                <display_on_off text_off="" text_on=""><![CDATA[]]></display_on_off>
+             
                 <object description="" object_id="TEXT_1" tool_tip="" object_number="1"/>
                 <box top="0" bottom="0" left="0" axis_offset_top="6" right="0" axis_offset_left="0" axis_anchor="4" angle="0" z_index="1"/>
             </text>
@@ -814,11 +809,6 @@
                 <line color="#ffaaff7f" style="1" line_width="2"/>
                 <fill fill="#ff808080"/>
                 <rectangle x1="0" x2="57" y2="19" corner_radius="0" y1="0"/>
-                  <dynamic_fill type="0">
-                        <on_off off_color="4283825920" on_color="4294901760" blink_on_color="0" blink_off_enable="0" blink_off_color="0" blink_on_enable="0">
-                            <on_color_when><![CDATA[_%TAG%]]></on_color_when>
-                        </on_off>
-                    </dynamic_fill>
                 <array>
                     <expression><![CDATA[getAreaAlarmStatus(_%PLNTLOC%.getTagID())]]></expression>
                     <colors><![CDATA[4278190080]]><![CDATA[4283825920]]><![CDATA[4294967295]]><![CDATA[4294901760]]><![CDATA[4294901760]]><![CDATA[15]]><![CDATA[16]]><![CDATA[17]]><![CDATA[18]]><![CDATA[19]]><![CDATA[20]]><![CDATA[21]]><![CDATA[22]]><![CDATA[23]]><![CDATA[24]]><![CDATA[25]]><![CDATA[26]]><![CDATA[27]]><![CDATA[28]]><![CDATA[29]]><![CDATA[30]]><![CDATA[31]]><![CDATA[32]]><![CDATA[33]]><![CDATA[34]]><![CDATA[35]]><![CDATA[36]]><![CDATA[37]]><![CDATA[38]]><![CDATA[39]]><![CDATA[40]]><![CDATA[41]]><![CDATA[42]]><![CDATA[43]]><![CDATA[44]]><![CDATA[45]]><![CDATA[46]]><![CDATA[47]]><![CDATA[48]]><![CDATA[49]]><![CDATA[50]]><![CDATA[51]]><![CDATA[52]]><![CDATA[53]]><![CDATA[54]]><![CDATA[55]]><![CDATA[56]]><![CDATA[57]]><![CDATA[58]]><![CDATA[59]]><![CDATA[60]]><![CDATA[61]]><![CDATA[62]]><![CDATA[63]]><![CDATA[64]]><![CDATA[65]]><![CDATA[66]]><![CDATA[67]]><![CDATA[68]]><![CDATA[69]]><![CDATA[70]]><![CDATA[71]]><![CDATA[72]]><![CDATA[73]]><![CDATA[74]]><![CDATA[75]]><![CDATA[76]]><![CDATA[77]]><![CDATA[78]]><![CDATA[79]]><![CDATA[80]]><![CDATA[81]]><![CDATA[82]]><![CDATA[83]]><![CDATA[84]]><![CDATA[85]]><![CDATA[86]]><![CDATA[87]]><![CDATA[88]]><![CDATA[89]]><![CDATA[90]]><![CDATA[91]]><![CDATA[92]]><![CDATA[93]]><![CDATA[94]]><![CDATA[95]]><![CDATA[96]]><![CDATA[97]]><![CDATA[98]]><![CDATA[99]]><![CDATA[100]]><![CDATA[101]]><![CDATA[102]]><![CDATA[103]]><![CDATA[104]]><![CDATA[105]]><![CDATA[106]]><![CDATA[107]]><![CDATA[108]]><![CDATA[109]]><![CDATA[110]]><![CDATA[111]]><![CDATA[112]]><![CDATA[113]]><![CDATA[114]]><![CDATA[115]]><![CDATA[116]]><![CDATA[117]]><![CDATA[118]]><![CDATA[119]]><![CDATA[120]]><![CDATA[121]]><![CDATA[122]]><![CDATA[123]]><![CDATA[124]]><![CDATA[125]]><![CDATA[126]]><![CDATA[127]]><![CDATA[128]]><![CDATA[129]]><![CDATA[130]]><![CDATA[131]]><![CDATA[132]]><![CDATA[133]]><![CDATA[134]]><![CDATA[135]]><![CDATA[136]]><![CDATA[137]]><![CDATA[138]]><![CDATA[139]]><![CDATA[140]]><![CDATA[141]]><![CDATA[142]]><![CDATA[143]]><![CDATA[144]]><![CDATA[145]]><![CDATA[146]]><![CDATA[147]]><![CDATA[148]]><![CDATA[149]]><![CDATA[150]]><![CDATA[151]]><![CDATA[152]]><![CDATA[153]]><![CDATA[154]]><![CDATA[155]]><![CDATA[156]]><![CDATA[157]]><![CDATA[158]]><![CDATA[159]]><![CDATA[160]]><![CDATA[161]]><![CDATA[162]]><![CDATA[163]]><![CDATA[164]]><![CDATA[165]]><![CDATA[166]]><![CDATA[167]]><![CDATA[168]]><![CDATA[169]]><![CDATA[170]]><![CDATA[171]]><![CDATA[172]]><![CDATA[173]]><![CDATA[174]]><![CDATA[175]]><![CDATA[176]]><![CDATA[177]]><![CDATA[178]]><![CDATA[179]]><![CDATA[180]]><![CDATA[181]]><![CDATA[182]]><![CDATA[183]]><![CDATA[184]]><![CDATA[185]]><![CDATA[186]]><![CDATA[187]]><![CDATA[188]]><![CDATA[189]]><![CDATA[190]]><![CDATA[191]]><![CDATA[192]]><![CDATA[193]]><![CDATA[194]]><![CDATA[195]]><![CDATA[196]]><![CDATA[197]]><![CDATA[198]]><![CDATA[199]]><![CDATA[200]]><![CDATA[201]]><![CDATA[202]]><![CDATA[203]]><![CDATA[204]]><![CDATA[205]]><![CDATA[206]]><![CDATA[207]]><![CDATA[208]]><![CDATA[209]]><![CDATA[210]]><![CDATA[211]]><![CDATA[212]]><![CDATA[213]]><![CDATA[214]]><![CDATA[215]]><![CDATA[216]]><![CDATA[217]]><![CDATA[218]]><![CDATA[219]]><![CDATA[220]]><![CDATA[221]]><![CDATA[222]]><![CDATA[223]]><![CDATA[224]]><![CDATA[225]]><![CDATA[226]]><![CDATA[227]]><![CDATA[228]]><![CDATA[229]]><![CDATA[230]]><![CDATA[231]]><![CDATA[232]]><![CDATA[233]]><![CDATA[234]]><![CDATA[235]]><![CDATA[236]]><![CDATA[237]]><![CDATA[238]]><![CDATA[239]]><![CDATA[240]]><![CDATA[241]]><![CDATA[242]]><![CDATA[243]]><![CDATA[244]]><![CDATA[245]]><![CDATA[246]]><![CDATA[247]]><![CDATA[248]]><![CDATA[249]]><![CDATA[250]]><![CDATA[251]]><![CDATA[252]]><![CDATA[253]]><![CDATA[254]]><![CDATA[255]]><![CDATA[256]]><![CDATA[257]]><![CDATA[258]]><![CDATA[259]]><![CDATA[260]]><![CDATA[261]]><![CDATA[262]]><![CDATA[263]]><![CDATA[264]]><![CDATA[265]]></colors>
@@ -859,7 +849,7 @@
                 <box top="0" bottom="0" left="0" axis_offset_top="6" right="0" axis_offset_left="145" axis_anchor="4" angle="0" z_index="2"/>
             </text>
             <text underline="0" font_size="12" color="#ff0000ff" align_type="0" font_family="URW Bookman L" display_type="0" static_text="%PLNTLOC%" font_style="0" strikeout="0" font_weight="75">
-                <display_on_off text_off="" text_on=""><![CDATA[]]></display_on_off>
+             
                 <object description="" object_id="TEXT_1" tool_tip="" object_number="1"/>
                 <box top="0" bottom="0" left="0" axis_offset_top="6" right="0" axis_offset_left="0" axis_anchor="4" angle="0" z_index="1"/>
             </text>
@@ -928,7 +918,7 @@
                 <box top="0" bottom="0" left="0" axis_offset_top="6" right="0" axis_offset_left="145" axis_anchor="4" angle="0" z_index="2"/>
             </text>
             <text underline="0" font_size="12" color="#ff0000ff" align_type="0" font_family="URW Bookman L" display_type="0" static_text="%PLNTLOC%" font_style="0" strikeout="0" font_weight="75">
-                <display_on_off text_off="" text_on=""><![CDATA[]]></display_on_off>
+             
                 <object description="" object_id="TEXT_1" tool_tip="" object_number="1"/>
                 <box top="0" bottom="0" left="0" axis_offset_top="6" right="0" axis_offset_left="0" axis_anchor="4" angle="0" z_index="1"/>
             </text>
@@ -997,7 +987,7 @@
                 <box top="0" bottom="0" left="0" axis_offset_top="6" right="0" axis_offset_left="145" axis_anchor="4" angle="0" z_index="2"/>
             </text>
             <text underline="0" font_size="12" color="#ff0000ff" align_type="0" font_family="URW Bookman L" display_type="0" static_text="%PLNTLOC%" font_style="0" strikeout="0" font_weight="75">
-                <display_on_off text_off="" text_on=""><![CDATA[]]></display_on_off>
+             
                 <object description="" object_id="TEXT_1" tool_tip="" object_number="1"/>
                 <box top="0" bottom="0" left="0" axis_offset_top="6" right="0" axis_offset_left="0" axis_anchor="4" angle="0" z_index="1"/>
             </text>
@@ -1066,7 +1056,7 @@
                 <box top="0" bottom="0" left="0" axis_offset_top="6" right="0" axis_offset_left="145" axis_anchor="4" angle="0" z_index="2"/>
             </text>
             <text underline="0" font_size="12" color="#ff0000ff" align_type="0" font_family="URW Bookman L" display_type="0" static_text="%PLNTLOC%" font_style="0" strikeout="0" font_weight="75">
-                <display_on_off text_off="" text_on=""><![CDATA[]]></display_on_off>
+             
                 <object description="" object_id="TEXT_1" tool_tip="" object_number="1"/>
                 <box top="0" bottom="0" left="0" axis_offset_top="6" right="0" axis_offset_left="0" axis_anchor="4" angle="0" z_index="1"/>
             </text>
@@ -1135,7 +1125,7 @@
                 <box top="0" bottom="0" left="0" axis_offset_top="6" right="0" axis_offset_left="145" axis_anchor="4" angle="0" z_index="2"/>
             </text>
             <text underline="0" font_size="12" color="#ff0000ff" align_type="0" font_family="URW Bookman L" display_type="0" static_text="%PLNTLOC%" font_style="0" strikeout="0" font_weight="75">
-                <display_on_off text_off="" text_on=""><![CDATA[]]></display_on_off>
+             
                 <object description="" object_id="TEXT_1" tool_tip="" object_number="1"/>
                 <box top="0" bottom="0" left="0" axis_offset_top="6" right="0" axis_offset_left="0" axis_anchor="4" angle="0" z_index="1"/>
             </text>
@@ -1204,7 +1194,7 @@
                 <box top="0" bottom="0" left="0" axis_offset_top="6" right="0" axis_offset_left="145" axis_anchor="4" angle="0" z_index="2"/>
             </text>
             <text underline="0" font_size="12" color="#ff0000ff" align_type="0" font_family="URW Bookman L" display_type="0" static_text="%PLNTLOC%" font_style="0" strikeout="0" font_weight="75">
-                <display_on_off text_off="" text_on=""><![CDATA[]]></display_on_off>
+             
                 <object description="" object_id="TEXT_1" tool_tip="" object_number="1"/>
                 <box top="0" bottom="0" left="0" axis_offset_top="6" right="0" axis_offset_left="0" axis_anchor="4" angle="0" z_index="1"/>
             </text>
@@ -1273,7 +1263,7 @@
                 <box top="0" bottom="0" left="0" axis_offset_top="6" right="0" axis_offset_left="145" axis_anchor="4" angle="0" z_index="2"/>
             </text>
             <text underline="0" font_size="12" color="#ff0000ff" align_type="0" font_family="URW Bookman L" display_type="0" static_text="%PLNTLOC%" font_style="0" strikeout="0" font_weight="75">
-                <display_on_off text_off="" text_on=""><![CDATA[]]></display_on_off>
+             
                 <object description="" object_id="TEXT_1" tool_tip="" object_number="1"/>
                 <box top="0" bottom="0" left="0" axis_offset_top="6" right="0" axis_offset_left="0" axis_anchor="4" angle="0" z_index="1"/>
             </text>
@@ -1342,7 +1332,7 @@
                 <box top="0" bottom="0" left="0" axis_offset_top="6" right="0" axis_offset_left="145" axis_anchor="4" angle="0" z_index="2"/>
             </text>
             <text underline="0" font_size="12" color="#ff0000ff" align_type="0" font_family="URW Bookman L" display_type="0" static_text="%PLNTLOC%" font_style="0" strikeout="0" font_weight="75">
-                <display_on_off text_off="" text_on=""><![CDATA[]]></display_on_off>
+             
                 <object description="" object_id="TEXT_1" tool_tip="" object_number="1"/>
                 <box top="0" bottom="0" left="0" axis_offset_top="6" right="0" axis_offset_left="0" axis_anchor="4" angle="0" z_index="1"/>
             </text>
@@ -1411,7 +1401,7 @@
                 <box top="0" bottom="0" left="0" axis_offset_top="6" right="0" axis_offset_left="145" axis_anchor="4" angle="0" z_index="2"/>
             </text>
             <text underline="0" font_size="12" color="#ff0000ff" align_type="0" font_family="URW Bookman L" display_type="0" static_text="%PLNTLOC%" font_style="0" strikeout="0" font_weight="75">
-                <display_on_off text_off="" text_on=""><![CDATA[]]></display_on_off>
+             
                 <object description="" object_id="TEXT_1" tool_tip="" object_number="1"/>
                 <box top="0" bottom="0" left="0" axis_offset_top="6" right="0" axis_offset_left="0" axis_anchor="4" angle="0" z_index="1"/>
             </text>
@@ -1480,7 +1470,7 @@
                 <box top="0" bottom="0" left="0" axis_offset_top="6" right="0" axis_offset_left="145" axis_anchor="4" angle="0" z_index="2"/>
             </text>
             <text underline="0" font_size="12" color="#ff0000ff" align_type="0" font_family="URW Bookman L" display_type="0" static_text="%PLNTLOC%" font_style="0" strikeout="0" font_weight="75">
-                <display_on_off text_off="" text_on=""><![CDATA[]]></display_on_off>
+             
                 <object description="" object_id="TEXT_1" tool_tip="" object_number="1"/>
                 <box top="0" bottom="0" left="0" axis_offset_top="6" right="0" axis_offset_left="0" axis_anchor="4" angle="0" z_index="1"/>
             </text>
@@ -1549,7 +1539,7 @@
                 <box top="0" bottom="0" left="0" axis_offset_top="6" right="0" axis_offset_left="145" axis_anchor="4" angle="0" z_index="2"/>
             </text>
             <text underline="0" font_size="12" color="#ff0000ff" align_type="0" font_family="URW Bookman L" display_type="0" static_text="%PLNTLOC%" font_style="0" strikeout="0" font_weight="75">
-                <display_on_off text_off="" text_on=""><![CDATA[]]></display_on_off>
+             
                 <object description="" object_id="TEXT_1" tool_tip="" object_number="1"/>
                 <box top="0" bottom="0" left="0" axis_offset_top="6" right="0" axis_offset_left="0" axis_anchor="4" angle="0" z_index="1"/>
             </text>
@@ -1618,7 +1608,7 @@
                 <box top="0" bottom="0" left="0" axis_offset_top="6" right="0" axis_offset_left="145" axis_anchor="4" angle="0" z_index="2"/>
             </text>
             <text underline="0" font_size="12" color="#ff0000ff" align_type="0" font_family="URW Bookman L" display_type="0" static_text="%PLNTLOC%" font_style="0" strikeout="0" font_weight="75">
-                <display_on_off text_off="" text_on=""><![CDATA[]]></display_on_off>
+             
                 <object description="" object_id="TEXT_1" tool_tip="" object_number="1"/>
                 <box top="0" bottom="0" left="0" axis_offset_top="6" right="0" axis_offset_left="0" axis_anchor="4" angle="0" z_index="1"/>
             </text>
@@ -1687,7 +1677,7 @@
                 <box top="0" bottom="0" left="0" axis_offset_top="6" right="0" axis_offset_left="145" axis_anchor="4" angle="0" z_index="2"/>
             </text>
             <text underline="0" font_size="12" color="#ff0000ff" align_type="0" font_family="URW Bookman L" display_type="0" static_text="%PLNTLOC%" font_style="0" strikeout="0" font_weight="75">
-                <display_on_off text_off="" text_on=""><![CDATA[]]></display_on_off>
+             
                 <object description="" object_id="TEXT_1" tool_tip="" object_number="1"/>
                 <box top="0" bottom="0" left="0" axis_offset_top="6" right="0" axis_offset_left="0" axis_anchor="4" angle="0" z_index="1"/>
             </text>
@@ -1756,7 +1746,7 @@
                 <box top="0" bottom="0" left="0" axis_offset_top="6" right="0" axis_offset_left="145" axis_anchor="4" angle="0" z_index="2"/>
             </text>
             <text underline="0" font_size="12" color="#ff0000ff" align_type="0" font_family="URW Bookman L" display_type="0" static_text="%PLNTLOC%" font_style="0" strikeout="0" font_weight="75">
-                <display_on_off text_off="" text_on=""><![CDATA[]]></display_on_off>
+             
                 <object description="" object_id="TEXT_1" tool_tip="" object_number="1"/>
                 <box top="0" bottom="0" left="0" axis_offset_top="6" right="0" axis_offset_left="0" axis_anchor="4" angle="0" z_index="1"/>
             </text>
@@ -1825,7 +1815,7 @@
                 <box top="0" bottom="0" left="0" axis_offset_top="6" right="0" axis_offset_left="145" axis_anchor="4" angle="0" z_index="2"/>
             </text>
             <text underline="0" font_size="12" color="#ff0000ff" align_type="0" font_family="URW Bookman L" display_type="0" static_text="%PLNTLOC%" font_style="0" strikeout="0" font_weight="75">
-                <display_on_off text_off="" text_on=""><![CDATA[]]></display_on_off>
+             
                 <object description="" object_id="TEXT_1" tool_tip="" object_number="1"/>
                 <box top="0" bottom="0" left="0" axis_offset_top="6" right="0" axis_offset_left="0" axis_anchor="4" angle="0" z_index="1"/>
             </text>
@@ -1894,7 +1884,7 @@
                 <box top="0" bottom="0" left="0" axis_offset_top="6" right="0" axis_offset_left="145" axis_anchor="4" angle="0" z_index="2"/>
             </text>
             <text underline="0" font_size="12" color="#ff0000ff" align_type="0" font_family="URW Bookman L" display_type="0" static_text="%PLNTLOC%" font_style="0" strikeout="0" font_weight="75">
-                <display_on_off text_off="" text_on=""><![CDATA[]]></display_on_off>
+             
                 <object description="" object_id="TEXT_1" tool_tip="" object_number="1"/>
                 <box top="0" bottom="0" left="0" axis_offset_top="6" right="0" axis_offset_left="0" axis_anchor="4" angle="0" z_index="1"/>
             </text>
@@ -1963,7 +1953,7 @@
                 <box top="0" bottom="0" left="0" axis_offset_top="6" right="0" axis_offset_left="145" axis_anchor="4" angle="0" z_index="2"/>
             </text>
             <text underline="0" font_size="12" color="#ff0000ff" align_type="0" font_family="URW Bookman L" display_type="0" static_text="%PLNTLOC%" font_style="0" strikeout="0" font_weight="75">
-                <display_on_off text_off="" text_on=""><![CDATA[]]></display_on_off>
+             
                 <object description="" object_id="TEXT_1" tool_tip="" object_number="1"/>
                 <box top="0" bottom="0" left="0" axis_offset_top="6" right="0" axis_offset_left="0" axis_anchor="4" angle="0" z_index="1"/>
             </text>
@@ -2032,7 +2022,7 @@
                 <box top="0" bottom="0" left="0" axis_offset_top="6" right="0" axis_offset_left="145" axis_anchor="4" angle="0" z_index="2"/>
             </text>
             <text underline="0" font_size="12" color="#ff0000ff" align_type="0" font_family="URW Bookman L" display_type="0" static_text="%PLNTLOC%" font_style="0" strikeout="0" font_weight="75">
-                <display_on_off text_off="" text_on=""><![CDATA[]]></display_on_off>
+             
                 <object description="" object_id="TEXT_1" tool_tip="" object_number="1"/>
                 <box top="0" bottom="0" left="0" axis_offset_top="6" right="0" axis_offset_left="0" axis_anchor="4" angle="0" z_index="1"/>
             </text>
@@ -2101,7 +2091,7 @@
                 <box top="0" bottom="0" left="0" axis_offset_top="6" right="0" axis_offset_left="145" axis_anchor="4" angle="0" z_index="2"/>
             </text>
             <text underline="0" font_size="12" color="#ff0000ff" align_type="0" font_family="URW Bookman L" display_type="0" static_text="%PLNTLOC%" font_style="0" strikeout="0" font_weight="75">
-                <display_on_off text_off="" text_on=""><![CDATA[]]></display_on_off>
+             
                 <object description="" object_id="TEXT_1" tool_tip="" object_number="1"/>
                 <box top="0" bottom="0" left="0" axis_offset_top="6" right="0" axis_offset_left="0" axis_anchor="4" angle="0" z_index="1"/>
             </text>
@@ -2170,7 +2160,7 @@
                 <box top="0" bottom="0" left="0" axis_offset_top="6" right="0" axis_offset_left="145" axis_anchor="4" angle="0" z_index="2"/>
             </text>
             <text underline="0" font_size="12" color="#ff0000ff" align_type="0" font_family="URW Bookman L" display_type="0" static_text="%PLNTLOC%" font_style="0" strikeout="0" font_weight="75">
-                <display_on_off text_off="" text_on=""><![CDATA[]]></display_on_off>
+             
                 <object description="" object_id="TEXT_1" tool_tip="" object_number="1"/>
                 <box top="0" bottom="0" left="0" axis_offset_top="6" right="0" axis_offset_left="0" axis_anchor="4" angle="0" z_index="1"/>
             </text>
@@ -2239,7 +2229,7 @@
                 <box top="0" bottom="0" left="0" axis_offset_top="6" right="0" axis_offset_left="145" axis_anchor="4" angle="0" z_index="2"/>
             </text>
             <text underline="0" font_size="12" color="#ff0000ff" align_type="0" font_family="URW Bookman L" display_type="0" static_text="%PLNTLOC%" font_style="0" strikeout="0" font_weight="75">
-                <display_on_off text_off="" text_on=""><![CDATA[]]></display_on_off>
+             
                 <object description="" object_id="TEXT_1" tool_tip="" object_number="1"/>
                 <box top="0" bottom="0" left="0" axis_offset_top="6" right="0" axis_offset_left="0" axis_anchor="4" angle="0" z_index="1"/>
             </text>
@@ -2308,7 +2298,7 @@
                 <box top="0" bottom="0" left="0" axis_offset_top="6" right="0" axis_offset_left="145" axis_anchor="4" angle="0" z_index="2"/>
             </text>
             <text underline="0" font_size="12" color="#ff0000ff" align_type="0" font_family="URW Bookman L" display_type="0" static_text="%PLNTLOC%" font_style="0" strikeout="0" font_weight="75">
-                <display_on_off text_off="" text_on=""><![CDATA[]]></display_on_off>
+             
                 <object description="" object_id="TEXT_1" tool_tip="" object_number="1"/>
                 <box top="0" bottom="0" left="0" axis_offset_top="6" right="0" axis_offset_left="0" axis_anchor="4" angle="0" z_index="1"/>
             </text>
@@ -2377,7 +2367,7 @@
                 <box top="0" bottom="0" left="0" axis_offset_top="6" right="0" axis_offset_left="145" axis_anchor="4" angle="0" z_index="2"/>
             </text>
             <text underline="0" font_size="12" color="#ff0000ff" align_type="0" font_family="URW Bookman L" display_type="0" static_text="%PLNTLOC%" font_style="0" strikeout="0" font_weight="75">
-                <display_on_off text_off="" text_on=""><![CDATA[]]></display_on_off>
+             
                 <object description="" object_id="TEXT_1" tool_tip="" object_number="1"/>
                 <box top="0" bottom="0" left="0" axis_offset_top="6" right="0" axis_offset_left="0" axis_anchor="4" angle="0" z_index="1"/>
             </text>
@@ -2446,7 +2436,7 @@
                 <box top="0" bottom="0" left="0" axis_offset_top="6" right="0" axis_offset_left="145" axis_anchor="4" angle="0" z_index="2"/>
             </text>
             <text underline="0" font_size="12" color="#ff0000ff" align_type="0" font_family="URW Bookman L" display_type="0" static_text="%PLNTLOC%" font_style="0" strikeout="0" font_weight="75">
-                <display_on_off text_off="" text_on=""><![CDATA[]]></display_on_off>
+             
                 <object description="" object_id="TEXT_1" tool_tip="" object_number="1"/>
                 <box top="0" bottom="0" left="0" axis_offset_top="6" right="0" axis_offset_left="0" axis_anchor="4" angle="0" z_index="1"/>
             </text>
@@ -2515,7 +2505,7 @@
                 <box top="0" bottom="0" left="0" axis_offset_top="6" right="0" axis_offset_left="145" axis_anchor="4" angle="0" z_index="2"/>
             </text>
             <text underline="0" font_size="12" color="#ff0000ff" align_type="0" font_family="URW Bookman L" display_type="0" static_text="%PLNTLOC%" font_style="0" strikeout="0" font_weight="75">
-                <display_on_off text_off="" text_on=""><![CDATA[]]></display_on_off>
+             
                 <object description="" object_id="TEXT_1" tool_tip="" object_number="1"/>
                 <box top="0" bottom="0" left="0" axis_offset_top="6" right="0" axis_offset_left="0" axis_anchor="4" angle="0" z_index="1"/>
             </text>
@@ -2584,7 +2574,7 @@
                 <box top="0" bottom="0" left="0" axis_offset_top="6" right="0" axis_offset_left="145" axis_anchor="4" angle="0" z_index="2"/>
             </text>
             <text underline="0" font_size="12" color="#ff0000ff" align_type="0" font_family="URW Bookman L" display_type="0" static_text="%PLNTLOC%" font_style="0" strikeout="0" font_weight="75">
-                <display_on_off text_off="" text_on=""><![CDATA[]]></display_on_off>
+             
                 <object description="" object_id="TEXT_1" tool_tip="" object_number="1"/>
                 <box top="0" bottom="0" left="0" axis_offset_top="6" right="0" axis_offset_left="0" axis_anchor="4" angle="0" z_index="1"/>
             </text>
@@ -2653,7 +2643,7 @@
                 <box top="0" bottom="0" left="0" axis_offset_top="6" right="0" axis_offset_left="145" axis_anchor="4" angle="0" z_index="2"/>
             </text>
             <text underline="0" font_size="12" color="#ff0000ff" align_type="0" font_family="URW Bookman L" display_type="0" static_text="%PLNTLOC%" font_style="0" strikeout="0" font_weight="75">
-                <display_on_off text_off="" text_on=""><![CDATA[]]></display_on_off>
+             
                 <object description="" object_id="TEXT_1" tool_tip="" object_number="1"/>
                 <box top="0" bottom="0" left="0" axis_offset_top="6" right="0" axis_offset_left="0" axis_anchor="4" angle="0" z_index="1"/>
             </text>
@@ -2722,7 +2712,7 @@
                 <box top="0" bottom="0" left="0" axis_offset_top="6" right="0" axis_offset_left="145" axis_anchor="4" angle="0" z_index="2"/>
             </text>
             <text underline="0" font_size="12" color="#ff0000ff" align_type="0" font_family="URW Bookman L" display_type="0" static_text="%PLNTLOC%" font_style="0" strikeout="0" font_weight="75">
-                <display_on_off text_off="" text_on=""><![CDATA[]]></display_on_off>
+             
                 <object description="" object_id="TEXT_1" tool_tip="" object_number="1"/>
                 <box top="0" bottom="0" left="0" axis_offset_top="6" right="0" axis_offset_left="0" axis_anchor="4" angle="0" z_index="1"/>
             </text>
@@ -2791,7 +2781,7 @@
                 <box top="0" bottom="0" left="0" axis_offset_top="6" right="0" axis_offset_left="145" axis_anchor="4" angle="0" z_index="2"/>
             </text>
             <text underline="0" font_size="12" color="#ff0000ff" align_type="0" font_family="URW Bookman L" display_type="0" static_text="%PLNTLOC%" font_style="0" strikeout="0" font_weight="75">
-                <display_on_off text_off="" text_on=""><![CDATA[]]></display_on_off>
+             
                 <object description="" object_id="TEXT_1" tool_tip="" object_number="1"/>
                 <box top="0" bottom="0" left="0" axis_offset_top="6" right="0" axis_offset_left="0" axis_anchor="4" angle="0" z_index="1"/>
             </text>

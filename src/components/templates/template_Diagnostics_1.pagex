@@ -371,7 +371,7 @@
             </text>
         </labels>
         <component_instances>
-            <componentInstance x2="1361" uuid="{ba6586bc-1838-4c42-9c4c-da8d6fbcb0b0}" objectNumber="0" objectId="" zIndex="0" y1="37" x1="1300" y2="90">
+            <componentInstance x2="1361" uuid="{ba6586bc-1838-4c42-9c4c-da8d6fbcb0b0}" objectNumber="0" objectId="" zIndex="0" y1="50" x1="1300" y2="90">
                 <group objectNumber="0" objectId="" zIndex="0">
                     <shape type="Ellipse">
                         <object tool_tip="" object_number="2" description="" object_id="SHAPE_2"/>

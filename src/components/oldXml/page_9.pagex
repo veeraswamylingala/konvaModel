@@ -1,0 +1,146 @@
+<hmipage template_id="" height="600" color="#ffc0c0c0" title="page_9" access_area="0" next_object_number="10017" default_page_scan="1" id="page_9" version="0.1.0" next_page="" belongs_to_all_areas="1" page_scan_time="250" prev_page="" order="8" width="800">
+    <shapes>
+        <shape type="Rectangle">
+            <object description="" object_id="SHAPE_10015" object_number="10015" tool_tip=""/>
+            <box top="0" bottom="253" z_index="10" right="103" axis_offset_top="226" left="0" axis_offset_left="42" axis_anchor="0" angle="0"/>
+            <line color="#ff000000" style="1" line_width="1"/>
+            <fill fill="#ff808080"/>
+            <gradient gradient_direction="4" gradient_color="#ffffffff"/>
+            <rectangle x2="103" corner_radius="0" y2="253" y1="0" x1="0"/>
+        </shape>
+        <shape type="FreeHand">
+            <object description="" object_id="SHAPE_10013" object_number="10013" tool_tip=""/>
+            <box top="0" bottom="0" z_index="8" right="0" axis_offset_top="367" left="0" axis_offset_left="529" axis_anchor="0" angle="0"/>
+            <line color="#ff000000" style="1" line_width="1"/>
+            <freehand closed="0">
+                <points>
+                    <point y="0" x="0"/>
+                    <point y="0" x="5"/>
+                    <point y="4" x="19"/>
+                    <point y="6" x="30"/>
+                    <point y="8" x="40"/>
+                    <point y="10" x="68"/>
+                    <point y="12" x="80"/>
+                    <point y="13" x="92"/>
+                    <point y="14" x="104"/>
+                    <point y="16" x="118"/>
+                    <point y="17" x="127"/>
+                    <point y="19" x="137"/>
+                    <point y="20" x="145"/>
+                    <point y="20" x="152"/>
+                    <point y="20" x="157"/>
+                    <point y="21" x="160"/>
+                    <point y="23" x="167"/>
+                    <point y="23" x="169"/>
+                    <point y="23" x="171"/>
+                    <point y="24" x="173"/>
+                    <point y="24" x="175"/>
+                    <point y="25" x="178"/>
+                    <point y="26" x="181"/>
+                    <point y="26" x="183"/>
+                    <point y="26" x="184"/>
+                    <point y="26" x="185"/>
+                    <point y="26" x="187"/>
+                    <point y="17" x="193"/>
+                    <point y="14" x="196"/>
+                    <point y="10" x="199"/>
+                    <point y="5" x="203"/>
+                    <point y="3" x="206"/>
+                    <point y="1" x="207"/>
+                    <point y="-1" x="209"/>
+                    <point y="-2" x="209"/>
+                    <point y="-3" x="211"/>
+                    <point y="-4" x="211"/>
+                    <point y="-5" x="212"/>
+                    <point y="-6" x="212"/>
+                    <point y="-7" x="212"/>
+                    <point y="-8" x="213"/>
+                    <point y="-10" x="214"/>
+                    <point y="-11" x="214"/>
+                    <point y="-15" x="217"/>
+                    <point y="-16" x="217"/>
+                    <point y="-18" x="218"/>
+                    <point y="-19" x="219"/>
+                    <point y="-20" x="219"/>
+                    <point y="-21" x="219"/>
+                    <point y="-22" x="219"/>
+                    <point y="-24" x="221"/>
+                    <point y="-25" x="221"/>
+                    <point y="-26" x="221"/>
+                    <point y="-27" x="221"/>
+                    <point y="-28" x="222"/>
+                </points>
+            </freehand>
+        </shape>
+        <shape type="Rectangle">
+            <object description="" object_id="SHAPE_10007" object_number="10007" tool_tip=""/>
+            <box top="0" bottom="71" z_index="6" right="292" axis_offset_top="112" left="0" axis_offset_left="401" axis_anchor="0" angle="0"/>
+            <line color="#ff000000" style="1" line_width="3"/>
+            <fill fill="#78ff557f"/>
+            <gradient gradient_direction="0" gradient_color="#ffffffff"/>
+            <rectangle x2="292" corner_radius="0" y2="71" y1="0" x1="0"/>
+        </shape>
+        <shape type="Line">
+            <object description="" object_id="SHAPE_10006" object_number="10006" tool_tip=""/>
+            <box top="0" bottom="14" z_index="5" right="400" axis_offset_top="314" left="0" axis_offset_left="207" axis_anchor="0" angle="0"/>
+            <line color="#ff5500ff" style="4" line_width="5"/>
+        </shape>
+        <shape type="Pipe">
+            <object description="" object_id="SHAPE_10012" object_number="10012" tool_tip=""/>
+            <box top="0" bottom="0" z_index="0" right="0" axis_offset_top="486" left="0" axis_offset_left="186" axis_anchor="0" angle="0"/>
+            <line color="#ff000000" style="1" line_width="1"/>
+            <pipe lowlight_color="#ffff0000" highlight_color="#ffffffff" pipe_width="10">
+                <points>
+                    <point y="0" x="0"/>
+                    <point y="-7" x="392"/>
+                    <point y="-7" x="392"/>
+                    <point y="-9" x="394"/>
+                    <point y="-6" x="394"/>
+                    <point y="-3" x="59"/>
+                    <point y="-82" x="9"/>
+                    <point y="-87" x="61"/>
+                    <point y="-73" x="346"/>
+                    <point y="-75" x="331"/>
+                    <point y="-75" x="331"/>
+                </points>
+            </pipe>
+        </shape>
+        <shape type="Pipe">
+            <object description="" object_id="SHAPE_10014" object_number="10014" tool_tip=""/>
+            <box top="0" bottom="0" z_index="0" right="0" axis_offset_top="562" left="0" axis_offset_left="507" axis_anchor="0" angle="0"/>
+            <line color="#ff000000" style="1" line_width="1"/>
+            <pipe lowlight_color="#ff808080" highlight_color="#ffffffff" pipe_width="10">
+                <points>
+                    <point y="0" x="0"/>
+                    <point y="-7" x="163"/>
+                </points>
+            </pipe>
+        </shape>
+    </shapes>
+    <images>
+        <image objectId="" y="234.5" objectNumber="0" x="553.5" zIndex="12">
+            <filename src="coffee_2.png"/>
+            <on_off on_name="" off_name=""><![CDATA[]]></on_off>
+            <object id="IMAGE_10017" description="" number="10017" tool_tip=""/>
+            <box top="0" offset_top="234" bottom="31" z_index="12" right="31" left="0" offset_left="553" axis_anchor="0" angle="0"/>
+        </image>
+    </images>
+    <labels>
+        <text font_weight="50" color="4278190335" static_text="HAIHALLO" font_style="0" underline="0" strikeout="0" font_family="Overpass" align_type="0" display_type="3" font_size="12">
+            <display_numeric>
+                <expression><![CDATA[]]></expression>
+                <format>3</format>
+            </display_numeric>
+            <object description="" object_id="TEXT_10016" object_number="10016" tool_tip=""/>
+            <box top="0" bottom="0" z_index="11" right="0" axis_offset_top="86" left="0" axis_offset_left="107" axis_anchor="4" angle="0"/>
+        </text>
+        <text font_weight="50" color="4283760895" static_text="_HTR_1A" font_style="0" underline="0" strikeout="0" font_family="Sans Serif" align_type="1" display_type="3" font_size="17">
+            <display_numeric>
+                <expression><![CDATA[_HTR_1A]]></expression>
+                <format></format>
+            </display_numeric>
+            <object description="" object_id="TEXT_10001" object_number="10001" tool_tip=""/>
+            <box top="0" bottom="0" z_index="1" right="0" axis_offset_top="152" left="0" axis_offset_left="174" axis_anchor="4" angle="0"/>
+        </text>
+    </labels>
+</hmipage>

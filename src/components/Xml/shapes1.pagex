@@ -1,0 +1,55 @@
+<hmipage version="0.1.0" template_id="" order="1" belongs_to_all_areas="1" access_area="0" color="4290822336" default_page_scan="1" prev_page="" title="page_2" height="600" id="page_2" page_scan_time="250" width="800" next_object_number="10009" next_page="">
+    <shapes>
+        <shape type="Line">
+            <object tool_tip="" object_number="10009" object_id="SHAPE_10009" description=""/>
+            <box axis_offset_top="321" angle="0" top="0" axis_anchor="6" z_index="9" left="0" axis_offset_left="109" bottom="-4" right="123"/>
+            <line line_width="1" color="#000000" style="1"/>
+        </shape>
+        <shape type="Polygon">
+            <object tool_tip="" object_number="10003" object_id="SHAPE_10003" description=""/>
+            <box axis_offset_top="181" angle="0" top="0" axis_anchor="0" z_index="3" left="0" axis_offset_left="376" bottom="20" right="30"/>
+            <line line_width="1" color="#000000" style="1"/>
+            <polyline closed="0">
+                <points>
+                    <point y="107" x="89"/>
+                      <point y="107" x="89"/>
+                </points>
+            </polyline>
+        </shape>
+        <shape type="Ellipse">
+            <object tool_tip="" object_number="10002" object_id="SHAPE_10002" description=""/>
+            <box axis_offset_top="133" angle="0" top="0" axis_anchor="0" z_index="2" left="0" axis_offset_left="91" bottom="109" right="116"/>
+            <line line_width="1" color="#000000" style="1"/>
+            <fill fill="#ffaa00"/>
+            <gradient gradient_direction="7" gradient_color="#aa557f"/>
+            <ellipse y1="0" angle_end="0" y2="109" ellipse_type="ARC_ELLIPSE" angle_start="0" x1="0" x2="116"/>
+        </shape>
+
+        <shape type="Polygon">
+            <object tool_tip="" object_number="10008" object_id="SHAPE_10008" description=""/>
+            <box axis_offset_top="183" angle="0" top="-5" axis_anchor="0" z_index="0" left="-5" axis_offset_left="372" bottom="111" right="67"/>
+            <line line_width="1" color="#000000" style="1"/>
+            <fill fill="#ffaa7f"/>
+            <polyline closed="1">
+                <points>
+                    <point y="79" x="0"/>
+                    <point y="111" x="36"/>
+                    <point y="67" x="67"/>
+                    <point y="78" x="1"/>
+                    <point y="78" x="2"/>
+                    <point y="79" x="5"/>
+                </points>
+            </polyline>
+        </shape>
+        <shape type="Rectangle">
+            <object tool_tip="" object_number="10001" object_id="SHAPE_10001" description=""/>
+            <box axis_offset_top="49" angle="0" top="0" axis_anchor="0" z_index="0" left="0" axis_offset_left="201" bottom="55" right="185"/>
+            <line line_width="1" color="#000000" style="1"/>
+            <fill fill="#55aa00"/>
+            <gradient gradient_direction="1" gradient_color="#ffffff"/>
+            <rectangle y1="0" y2="55" x1="0" x2="185" corner_radius="0"/>
+        </shape>
+
+        
+    </shapes>
+</hmipage>

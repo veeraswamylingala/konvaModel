@@ -1,0 +1,112 @@
+<hmipage id="PopUp_SP" default_page_scan="1" belongs_to_all_areas="1" next_page="" order="75" width="270" next_object_number="10035" page_scan_time="250" title="PopUp_SP" version="0.1.0" access_area="0" color="4289374847" height="300" prev_page="" template_id="">
+    <shapes>
+        <shape type="Rectangle">
+            <object tool_tip="" object_number="10019" description="" object_id="SHAPE_10019"/>
+            <box axis_anchor="0" axis_offset_left="10" axis_offset_top="10" left="0" bottom="43" right="251" top="0" angle="0" z_index="4"/>
+            <line style="1" line_width="1" color="#000000"/>
+            <fill fill="#ffffff"/>
+            <gradient gradient_direction="5" gradient_color="#c6c6c6"/>
+            <rectangle y2="43" corner_radius="0" x1="0" y1="0" x2="251"/>
+        </shape>
+        <shape type="Button">
+            <object tool_tip="" object_number="10023" description="" object_id="SHAPE_10023">
+                <security privilege_level="0" no_privilege_restriction="1" disable_if_no_privilege="0" area_same_as_page="1" area="0">
+                    <hidden_when><![CDATA[(EcTag["_UND_MAINT"]==0);]]></hidden_when>
+                </security>
+            </object>
+            <box axis_anchor="0" axis_offset_left="10" axis_offset_top="199" left="0" bottom="55" right="116" top="0" angle="0" z_index="-13"/>
+            <line style="1" line_width="1" color="#000000"/>
+            <input_touch>
+                <up enabled="1">
+                    <command><![CDATA[(EcTag["_UND_MAINT"]=0);]]></command>
+                </up>
+            </input_touch>
+        </shape>
+        <shape type="Button">
+            <object tool_tip="" object_number="10024" description="" object_id="SHAPE_10024">
+                <security privilege_level="0" no_privilege_restriction="1" disable_if_no_privilege="0" area_same_as_page="1" area="0">
+                    <hidden_when><![CDATA[(EcTag["_BYPASS"]==1);]]></hidden_when>
+                </security>
+            </object>
+            <box axis_anchor="0" axis_offset_left="146" axis_offset_top="199" left="0" bottom="55" right="112" top="0" angle="0" z_index="-14"/>
+            <line style="1" line_width="1" color="#000000"/>
+            <input_touch>
+                <up enabled="1">
+                    <command><![CDATA[(EcTag["_BYPASS"]=1);]]></command>
+                </up>
+            </input_touch>
+        </shape>
+        <shape type="Button">
+            <object tool_tip="" object_number="10021" description="" object_id="SHAPE_10021">
+                <security privilege_level="0" no_privilege_restriction="1" disable_if_no_privilege="0" area_same_as_page="1" area="0">
+                    <hidden_when><![CDATA[(EcTag["_BYPASS"]==0);]]></hidden_when>
+                </security>
+            </object>
+            <box axis_anchor="0" axis_offset_left="146" axis_offset_top="199" left="0" bottom="55" right="112" top="0" angle="0" z_index="-15"/>
+            <line style="1" line_width="1" color="#000000"/>
+            <input_touch>
+                <up enabled="1">
+                    <command><![CDATA[(EcTag["_BYPASS"]=0);]]></command>
+                </up>
+            </input_touch>
+        </shape>
+        <shape type="Button">
+            <object tool_tip="" object_number="10022" description="" object_id="SHAPE_10022">
+                <security privilege_level="0" no_privilege_restriction="1" disable_if_no_privilege="0" area_same_as_page="1" area="0">
+                    <hidden_when><![CDATA[(EcTag["_UND_MAINT"]==1);]]></hidden_when>
+                </security>
+            </object>
+            <box axis_anchor="0" axis_offset_left="10" axis_offset_top="199" left="0" bottom="55" right="115" top="0" angle="0" z_index="-16"/>
+            <line style="1" line_width="1" color="#000000"/>
+            <input_touch>
+                <up enabled="1">
+                    <command><![CDATA[(EcTag["_UND_MAINT"]=1);]]></command>
+                </up>
+            </input_touch>
+        </shape>
+        <shape type="Button">
+            <object tool_tip="" object_number="10026" description="" object_id="SHAPE_10026">
+                <security privilege_level="0" no_privilege_restriction="1" disable_if_no_privilege="0" area_same_as_page="1" area="0">
+                    <hidden_when><![CDATA[(EcTag["_AVBL"]==0 || EcTag["_DO"]==1);]]></hidden_when>
+                </security>
+            </object>
+            <box axis_anchor="0" axis_offset_left="79" axis_offset_top="90" left="0" bottom="58" right="100" top="0" angle="0" z_index="-17"/>
+            <line style="1" line_width="1" color="#000000"/>
+            <input_touch>
+                <up enabled="1">
+                    <command><![CDATA[EcTag["_STR"] = 1;]]></command>
+                </up>
+            </input_touch>
+        </shape>
+        <shape type="Button">
+            <object tool_tip="" object_number="10025" description="" object_id="SHAPE_10025">
+                <security privilege_level="0" no_privilege_restriction="1" disable_if_no_privilege="0" area_same_as_page="1" area="0">
+                    <hidden_when><![CDATA[(EcTag["_AVBL"]==1);]]></hidden_when>
+                </security>
+            </object>
+            <box axis_anchor="0" axis_offset_left="80" axis_offset_top="90" left="0" bottom="58" right="99" top="0" angle="0" z_index="-18"/>
+            <line style="1" line_width="1" color="#000000"/>
+        </shape>
+        <shape type="Button">
+            <object tool_tip="" object_number="10027" description="" object_id="SHAPE_10027">
+                <security privilege_level="0" no_privilege_restriction="1" disable_if_no_privilege="0" area_same_as_page="1" area="0">
+                    <hidden_when><![CDATA[(EcTag["_AVBL"]==0 || EcTag["_DO"]==0);]]></hidden_when>
+                </security>
+            </object>
+            <box axis_anchor="0" axis_offset_left="79" axis_offset_top="90" left="0" bottom="58" right="101" top="0" angle="0" z_index="-19"/>
+            <line style="1" line_width="1" color="#000000"/>
+            <input_touch>
+                <up enabled="1">
+                    <command><![CDATA[EcTag["_STP"] = 1;]]></command>
+                </up>
+            </input_touch>
+        </shape>
+    </shapes>
+    <labels>
+        <text font_family="STIX" font_style="0" static_text="Solenoid Valve" strikeout="0" underline="0" font_weight="75" display_type="4" color="4278211840" align_type="0" font_size="13">
+            <display_string><![CDATA[EcTag.title();]]></display_string>
+            <object tool_tip="" object_number="10030" description="" object_id="TEXT_10030"/>
+            <box axis_anchor="4" axis_offset_left="85" axis_offset_top="13" left="0" bottom="0" right="0" top="0" angle="0" z_index="13"/>
+        </text>
+    </labels>
+</hmipage>

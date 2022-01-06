@@ -1,14 +1,12 @@
 import { Line } from "react-konva";
 import { getLinePoints } from "./CanvasUtils.js";
-import { hextoRGBA, lineStyle ,gradientStartPoints ,gradientEndPoints ,androidToRgba} from './Utils';
-
+import {hextoRGBA,lineStyle} from './Utils';
 
 const UNCLine = (shapeProps) => {
   const { shape, parentX, parentY } = shapeProps;
 
-  
   return (
-  <Line
+    <Line
       key={"Line_" +  shape.object.object_number}
       id={"Line_" + shape.object.object_id}
       points={getLinePoints(shape, parentX, parentY)}
@@ -20,9 +18,10 @@ const UNCLine = (shapeProps) => {
       draggable={false}
       lineCap={"round"}
       lineJoin={"round"}
-       
+      
     ></Line>
   );
+  
 };
 
 export default UNCLine;

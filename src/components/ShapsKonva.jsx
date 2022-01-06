@@ -10,25 +10,13 @@ export default class ShapesKonva extends  Component{
       this.state = {};
     }
 
-
-
-
-
     render() { 
         let rectOjects = {};
         let eleObjects = {};
         //console.log(ShapesData.hmipage.component_instances.map); 
         return ( 
-
-        
             <Stage width={parseFloat(ShapesData.hmipage.width)} height={parseFloat(ShapesData.hmipage.height)}>
             <Layer>
-
-
- 
-          
-              
-           
             
                 {/* <Line
                 stroke="red"

@@ -2,7 +2,11 @@
         <shapes>
             <shape type="Button">
                 <object tool_tip="" object_number="263" description="" object_id="SHAPE_263"/>
+                <fill fill_color="#55aa7f"/>
                 <box top="0" axis_offset_left="1625" bottom="39" left="0" z_index="241" axis_anchor="0" right="62" angle="0" axis_offset_top="43"/>
+                <button fill_color_up="#9600ffff" customfill_enabled="1" fill_color_down="#00000000" is_transparent="0">
+                <buttontext font_size="12" TextAlignType="0" underline="0" font_style="0" text="Trends" font_weight="50" color="#ff000000" strikeout="0"/>
+                 </button>
                 <line line_width="1" color="#000000" style="1"/>
                 <input_touch>
                     <up enabled="1">
@@ -12,8 +16,12 @@
             </shape>
             <shape type="Button">
                 <object tool_tip="" object_number="262" description="" object_id="SHAPE_262"/>
+                <fill fill_color="#55aa7f"/>
                 <box top="0" axis_offset_left="1691" bottom="39" left="0" z_index="240" axis_anchor="0" right="62" angle="0" axis_offset_top="43"/>
                 <line line_width="1" color="#000000" style="1"/>
+                  <button fill_color_up="#9600ffff" customfill_enabled="1" fill_color_down="#00000000" is_transparent="0">
+                <buttontext font_size="12" TextAlignType="0" underline="0" font_style="0" text="Alarms" font_weight="50" color="#ff000000" strikeout="0"/>
+                 </button>
                 <input_touch>
                     <up enabled="1">
                         <command><![CDATA[openDayWiseAlarmPage()]]></command>
@@ -24,6 +32,9 @@
                 <object tool_tip="" object_number="261" description="" object_id="SHAPE_261"/>
                 <box top="0" axis_offset_left="1559" bottom="39" left="0" z_index="239" axis_anchor="0" right="62" angle="0" axis_offset_top="43"/>
                 <line line_width="1" color="#000000" style="1"/>
+                    <button fill_color_up="#9600ffff" customfill_enabled="1" fill_color_down="#00000000" is_transparent="0">
+                <buttontext font_size="12" TextAlignType="0" underline="0" font_style="0" text="Events" font_weight="50" color="#ff000000" strikeout="0"/>
+                 </button>
                 <input_touch>
                     <up enabled="1">
                         <command><![CDATA[openPage(LatestEventsPage,2);]]></command>
@@ -32,7 +43,11 @@
             </shape>
             <shape type="Button">
                 <object tool_tip="" object_number="260" description="" object_id="SHAPE_260"/>
+               <fill fill_color="#55aa7f"/>
                 <box top="0" axis_offset_left="1426" bottom="39" left="0" z_index="238" axis_anchor="0" right="62" angle="0" axis_offset_top="43"/>
+                    <button fill_color_up="#9600ffff" customfill_enabled="1" fill_color_down="#00000000" is_transparent="0">
+                <buttontext font_size="12" TextAlignType="0" underline="0" font_style="0" text="Logoff" font_weight="50" color="#ff000000" strikeout="0"/>
+                 </button>
                 <line line_width="1" color="#000000" style="1"/>
                 <input_touch>
                     <up enabled="1">
@@ -42,7 +57,11 @@
             </shape>
             <shape type="Button">
                 <object tool_tip="" object_number="259" description="" object_id="SHAPE_259"/>
+               <fill fill_color="#55aa7f"/>
                 <box top="0" axis_offset_left="1360" bottom="39" left="0" z_index="237" axis_anchor="0" right="62" angle="0" axis_offset_top="43"/>
+                 <button fill_color_up="#9600ffff" customfill_enabled="1" fill_color_down="#00000000" is_transparent="0">
+                <buttontext font_size="12" TextAlignType="0" underline="0" font_style="0" text="Login" font_weight="50" color="#ff000000" strikeout="0"/>
+                 </button>
                 <line line_width="1" color="#000000" style="1"/>
                 <input_touch>
                     <up enabled="1">
@@ -54,9 +73,12 @@
                 <object tool_tip="" object_number="258" description="" object_id="SHAPE_258"/>
                 <box top="0" axis_offset_left="1492" bottom="39" left="0" z_index="236" axis_anchor="0" right="62" angle="0" axis_offset_top="43"/>
                 <line line_width="1" color="#000000" style="1"/>
+                  <button fill_color_up="#9600ffff" customfill_enabled="1" fill_color_down="#00000000" is_transparent="0">
+                <buttontext font_size="12" TextAlignType="0" underline="0" font_style="0" text="HomePage" font_weight="50" color="#ff000000" strikeout="0"/>
+                 </button>
                 <input_touch>
                     <up enabled="1">
-                        <command><![CDATA[openPage(LatestAlarmsPage,2);]]></command>
+                        <command><![CDATA[openPage(Home_Page);]]></command>
                     </up>
                 </input_touch>
             </shape>

@@ -1,4 +1,6 @@
-
+import { xyz } from "color-convert";
+import { groupSort } from "d3";
+import { image } from "d3-fetch";
 
 export function ShapeObjects(shapesData) {
 
@@ -308,7 +310,6 @@ export function ShapeObjects(shapesData) {
 
   //Rnder Group Function-------------
   function rendergroup(value) {
-
     var groups = value;
     //If we have Mutiple Groups------ <Groups> ---------
     if (Array.isArray(groups)) {
@@ -396,11 +397,9 @@ export function ShapeObjects(shapesData) {
            //   console.log(shapeComponetsList)
             }
           }
-
           
           //If groups has Component Instance -----------------------------------------
       if (x.componentInstance != undefined) {
-
         //if Group has Multiple Component Instance---------------------
         if (Array.isArray(x.componentInstance)) {
           console.log("Array")
@@ -421,7 +420,6 @@ export function ShapeObjects(shapesData) {
                 shapeComponetsList.push(group);
               }
             }
-
             //If we Have Component.shape-----------
             if (shape != undefined) {
               if (Array.isArray(shape)) {

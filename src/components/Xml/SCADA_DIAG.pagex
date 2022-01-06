@@ -1,0 +1,632 @@
+<hmipage next_object_number="10089" template_id="template_Diagnostics" version="0.1.0" color="#ffc7c7c7" belongs_to_all_areas="1" access_area="0" default_page_scan="1" order="46" height="1050" prev_page="" width="1890" id="SCADA_DIAG" title="SCADA_DIAG" page_scan_time="250" next_page="">
+    <shapes>
+        <shape type="Rectangle">
+            <object description="" object_id="SHAPE_10084" tool_tip="" object_number="10084"/>
+            <box top="0" bottom="32" left="0" axis_offset_top="376" right="274" axis_offset_left="1456" axis_anchor="0" angle="0" z_index="260"/>
+            <line color="#ffffffff" style="1" line_width="2"/>
+            <fill fill="#64aaaaff"/>
+            <gradient gradient_direction="5" gradient_color="#96002727"/>
+            <rectangle x1="0" x2="274" y2="32" corner_radius="16" y1="0"/>
+        </shape>
+        <shape type="Rectangle">
+            <object description="" object_id="SHAPE_10083" tool_tip="" object_number="10083"/>
+            <box top="0" bottom="39" left="0" axis_offset_top="373" right="278" axis_offset_left="1454" axis_anchor="0" angle="0" z_index="259"/>
+            <line color="#ffffffff" style="1" line_width="1"/>
+            <fill fill="#32595959"/>
+            <gradient gradient_direction="6" gradient_color="#ff000000"/>
+            <rectangle x1="0" x2="278" y2="39" corner_radius="16" y1="0"/>
+        </shape>
+        <shape type="Rectangle">
+            <object description="" object_id="SHAPE_10082" tool_tip="" object_number="10082"/>
+            <box top="0" bottom="38" left="0" axis_offset_top="638" right="110" axis_offset_left="1636" axis_anchor="0" angle="0" z_index="258"/>
+            <line color="#ff000000" style="1" line_width="1"/>
+            <fill fill="#ff3d3d3d"/>
+            <rectangle x1="0" x2="110" y2="38" corner_radius="10" y1="0"/>
+        </shape>
+        <shape type="Rectangle">
+            <object description="" object_id="SHAPE_10081" tool_tip="" object_number="10081"/>
+            <box top="0" bottom="38" left="0" axis_offset_top="593" right="110" axis_offset_left="1636" axis_anchor="0" angle="0" z_index="257"/>
+            <line color="#ff000000" style="1" line_width="1"/>
+            <fill fill="#ff3d3d3d"/>
+            <rectangle x1="0" x2="110" y2="38" corner_radius="10" y1="0"/>
+        </shape>
+        <shape type="Rectangle">
+            <object description="" object_id="SHAPE_10080" tool_tip="" object_number="10080"/>
+            <box top="0" bottom="38" left="0" axis_offset_top="547" right="110" axis_offset_left="1636" axis_anchor="0" angle="0" z_index="256"/>
+            <line color="#ff000000" style="1" line_width="1"/>
+            <fill fill="#ff3d3d3d"/>
+            <rectangle x1="0" x2="110" y2="38" corner_radius="10" y1="0"/>
+        </shape>
+        <shape type="Rectangle">
+            <object description="" object_id="SHAPE_10079" tool_tip="" object_number="10079"/>
+            <box top="0" bottom="38" left="0" axis_offset_top="500" right="110" axis_offset_left="1636" axis_anchor="0" angle="0" z_index="255"/>
+            <line color="#ff000000" style="1" line_width="1"/>
+            <fill fill="#ff3d3d3d"/>
+            <rectangle x1="0" x2="110" y2="38" corner_radius="10" y1="0"/>
+        </shape>
+        <shape type="Rectangle">
+            <object description="" object_id="SHAPE_10072" tool_tip="" object_number="10072"/>
+            <box top="0" bottom="38" left="0" axis_offset_top="454" right="110" axis_offset_left="1636" axis_anchor="0" angle="0" z_index="248"/>
+            <line color="#ff000000" style="1" line_width="1"/>
+            <fill fill="#ff3d3d3d"/>
+            <rectangle x1="0" x2="110" y2="38" corner_radius="10" y1="0"/>
+        </shape>
+        <shape type="Rectangle">
+            <object description="" object_id="SHAPE_10071" tool_tip="" object_number="10071"/>
+            <box top="0" bottom="352" left="0" axis_offset_top="355" right="365" axis_offset_left="1412" axis_anchor="0" angle="0" z_index="247"/>
+            <line color="#ffff0000" style="1" line_width="5"/>
+            <fill fill="#ff000000"/>
+            <rectangle x1="0" x2="365" y2="352" corner_radius="10" y1="0"/>
+        </shape>
+        <shape type="Rectangle">
+            <object description="" object_id="SHAPE_10055" tool_tip="" object_number="10055"/>
+            <box top="0" bottom="32" left="0" axis_offset_top="217" right="334" axis_offset_left="417" axis_anchor="0" angle="0" z_index="226"/>
+            <line color="#ffffffff" style="1" line_width="2"/>
+            <fill fill="#64aaaaff"/>
+            <gradient gradient_direction="5" gradient_color="#96002727"/>
+            <rectangle x1="0" x2="334" y2="32" corner_radius="16" y1="0"/>
+        </shape>
+        <shape type="Rectangle">
+            <object description="" object_id="SHAPE_10039" tool_tip="" object_number="10039"/>
+            <box top="0" bottom="32" left="0" axis_offset_top="127" right="274" axis_offset_left="801" axis_anchor="0" angle="0" z_index="226"/>
+            <line color="#ffffffff" style="1" line_width="2"/>
+            <fill fill="#64aaaaff"/>
+            <gradient gradient_direction="5" gradient_color="#96002727"/>
+            <rectangle x1="0" x2="274" y2="32" corner_radius="16" y1="0"/>
+        </shape>
+        <shape type="Rectangle">
+            <object description="" object_id="SHAPE_10051" tool_tip="" object_number="10051"/>
+            <box top="0" bottom="32" left="0" axis_offset_top="378" right="274" axis_offset_left="1053" axis_anchor="0" angle="0" z_index="226"/>
+            <line color="#ffffffff" style="1" line_width="2"/>
+            <fill fill="#64aaaaff"/>
+            <gradient gradient_direction="5" gradient_color="#96002727"/>
+            <rectangle x1="0" x2="274" y2="32" corner_radius="16" y1="0"/>
+        </shape>
+        <shape type="Rectangle">
+            <object description="" object_id="SHAPE_10054" tool_tip="" object_number="10054"/>
+            <box top="0" bottom="39" left="0" axis_offset_top="214" right="339" axis_offset_left="415" axis_anchor="0" angle="0" z_index="225"/>
+            <line color="#ffffffff" style="1" line_width="1"/>
+            <fill fill="#32595959"/>
+            <gradient gradient_direction="6" gradient_color="#ff000000"/>
+            <rectangle x1="0" x2="339" y2="39" corner_radius="16" y1="0"/>
+        </shape>
+        <shape type="Rectangle">
+            <object description="" object_id="SHAPE_10038" tool_tip="" object_number="10038"/>
+            <box top="0" bottom="39" left="0" axis_offset_top="123" right="278" axis_offset_left="799" axis_anchor="0" angle="0" z_index="225"/>
+            <line color="#ffffffff" style="1" line_width="1"/>
+            <fill fill="#32595959"/>
+            <gradient gradient_direction="6" gradient_color="#ff000000"/>
+            <rectangle x1="0" x2="278" y2="39" corner_radius="16" y1="0"/>
+        </shape>
+        <shape type="Rectangle">
+            <object description="" object_id="SHAPE_10050" tool_tip="" object_number="10050"/>
+            <box top="0" bottom="39" left="0" axis_offset_top="375" right="278" axis_offset_left="1051" axis_anchor="0" angle="0" z_index="225"/>
+            <line color="#ffffffff" style="1" line_width="1"/>
+            <fill fill="#32595959"/>
+            <gradient gradient_direction="6" gradient_color="#ff000000"/>
+            <rectangle x1="0" x2="278" y2="39" corner_radius="16" y1="0"/>
+        </shape>
+        <shape type="Rectangle">
+            <object description="" object_id="SHAPE_10060" tool_tip="" object_number="10060"/>
+            <box top="0" bottom="38" left="0" axis_offset_top="640" right="110" axis_offset_left="1233" axis_anchor="0" angle="0" z_index="31"/>
+            <line color="#ff000000" style="1" line_width="1"/>
+            <fill fill="#ff3d3d3d"/>
+            <rectangle x1="0" x2="110" y2="38" corner_radius="10" y1="0"/>
+        </shape>
+        <shape type="Rectangle">
+            <object description="" object_id="SHAPE_10059" tool_tip="" object_number="10059"/>
+            <box top="0" bottom="38" left="0" axis_offset_top="595" right="110" axis_offset_left="1233" axis_anchor="0" angle="0" z_index="30"/>
+            <line color="#ff000000" style="1" line_width="1"/>
+            <fill fill="#ff3d3d3d"/>
+            <rectangle x1="0" x2="110" y2="38" corner_radius="10" y1="0"/>
+        </shape>
+        <shape type="Rectangle">
+            <object description="" object_id="SHAPE_10058" tool_tip="" object_number="10058"/>
+            <box top="0" bottom="38" left="0" axis_offset_top="549" right="110" axis_offset_left="1233" axis_anchor="0" angle="0" z_index="29"/>
+            <line color="#ff000000" style="1" line_width="1"/>
+            <fill fill="#ff3d3d3d"/>
+            <rectangle x1="0" x2="110" y2="38" corner_radius="10" y1="0"/>
+        </shape>
+        <shape type="Rectangle">
+            <object description="" object_id="SHAPE_10057" tool_tip="" object_number="10057"/>
+            <box top="0" bottom="38" left="0" axis_offset_top="502" right="110" axis_offset_left="1233" axis_anchor="0" angle="0" z_index="28"/>
+            <line color="#ff000000" style="1" line_width="1"/>
+            <fill fill="#ff3d3d3d"/>
+            <rectangle x1="0" x2="110" y2="38" corner_radius="10" y1="0"/>
+        </shape>
+        <shape type="Rectangle">
+            <object description="" object_id="SHAPE_10033" tool_tip="" object_number="10033"/>
+            <box top="0" bottom="38" left="0" axis_offset_top="456" right="110" axis_offset_left="1233" axis_anchor="0" angle="0" z_index="-5"/>
+            <line color="#ff000000" style="1" line_width="1"/>
+            <fill fill="#ff3d3d3d"/>
+            <rectangle x1="0" x2="110" y2="38" corner_radius="10" y1="0"/>
+        </shape>
+        <shape type="Rectangle">
+            <object description="" object_id="SHAPE_10042" tool_tip="" object_number="10042"/>
+            <box top="0" bottom="754" left="-1" axis_offset_top="197" right="407" axis_offset_left="381" axis_anchor="0" angle="0" z_index="-9"/>
+            <line color="#ffff0000" style="1" line_width="5"/>
+            <fill fill="#ff000000"/>
+            <rectangle x1="-1" x2="407" y2="754" corner_radius="10" y1="0"/>
+        </shape>
+        <shape type="Rectangle">
+            <object description="" object_id="SHAPE_10043" tool_tip="" object_number="10043"/>
+            <box top="0" bottom="352" left="0" axis_offset_top="357" right="365" axis_offset_left="1009" axis_anchor="0" angle="0" z_index="-11"/>
+            <line color="#ffff0000" style="1" line_width="5"/>
+            <fill fill="#ff000000"/>
+            <rectangle x1="0" x2="365" y2="352" corner_radius="10" y1="0"/>
+        </shape>
+    </shapes>
+    <labels>
+        <text underline="0" font_size="14" color="#ff55ff00" align_type="0" font_family="STIX" display_type="3" static_text="Text" font_style="0" strikeout="0" font_weight="75">
+            <display_numeric>
+                <expression><![CDATA[tagAnalogValue(INTERPLC2_NO_MAX);]]></expression>
+                <format></format>
+            </display_numeric>
+            <object description="" object_id="TEXT_10089" tool_tip="" object_number="10089"/>
+            <box top="0" bottom="0" left="0" axis_offset_top="637" right="0" axis_offset_left="1664" axis_anchor="4" angle="0" z_index="265"/>
+        </text>
+        <text underline="0" font_size="14" color="#ff55ff00" align_type="0" font_family="STIX" display_type="3" static_text="Text" font_style="0" strikeout="0" font_weight="75">
+            <display_numeric>
+                <expression><![CDATA[tagAnalogValue(INTERPLC2_CUR_TX);]]></expression>
+                <format></format>
+            </display_numeric>
+            <object description="" object_id="TEXT_10088" tool_tip="" object_number="10088"/>
+            <box top="0" bottom="0" left="0" axis_offset_top="592" right="0" axis_offset_left="1664" axis_anchor="4" angle="0" z_index="264"/>
+        </text>
+        <text underline="0" font_size="14" color="#ff55ff00" align_type="0" font_family="STIX" display_type="3" static_text="Text" font_style="0" strikeout="0" font_weight="75">
+            <display_numeric>
+                <expression><![CDATA[tagAnalogValue(INTERPLC2_NO_EX);]]></expression>
+                <format></format>
+            </display_numeric>
+            <object description="" object_id="TEXT_10087" tool_tip="" object_number="10087"/>
+            <box top="0" bottom="0" left="0" axis_offset_top="546" right="0" axis_offset_left="1664" axis_anchor="4" angle="0" z_index="263"/>
+        </text>
+        <text underline="0" font_size="14" color="#ff55ff00" align_type="0" font_family="STIX" display_type="3" static_text="Text" font_style="0" strikeout="0" font_weight="75">
+            <display_numeric>
+                <expression><![CDATA[tagAnalogValue(INTERPLC2_NO_RX);]]></expression>
+                <format></format>
+            </display_numeric>
+            <object description="" object_id="TEXT_10086" tool_tip="" object_number="10086"/>
+            <box top="0" bottom="0" left="0" axis_offset_top="499" right="0" axis_offset_left="1664" axis_anchor="4" angle="0" z_index="262"/>
+        </text>
+        <text underline="0" font_size="15" color="#ff55ffff" align_type="0" font_family="STIX" display_type="0" static_text="INTERPLC2 - DIAGNOSTICS" font_style="0" strikeout="0" font_weight="75">
+            <display_on_off text_off="" text_on=""><![CDATA[]]></display_on_off>
+            <object description="" object_id="TEXT_10085" tool_tip="" object_number="10085"/>
+            <box top="0" bottom="0" left="0" axis_offset_top="371" right="0" axis_offset_left="1468" axis_anchor="4" angle="0" z_index="261"/>
+        </text>
+        <text underline="0" font_size="14" color="#ff55ff00" align_type="0" font_family="STIX" display_type="3" static_text="Text" font_style="0" strikeout="0" font_weight="75">
+            <display_numeric>
+                <expression><![CDATA[tagAnalogValue(INTERPLC2_NO_TX);]]></expression>
+                <format></format>
+            </display_numeric>
+            <object description="" object_id="TEXT_10078" tool_tip="" object_number="10078"/>
+            <box top="0" bottom="0" left="0" axis_offset_top="453" right="0" axis_offset_left="1665" axis_anchor="4" angle="0" z_index="254"/>
+        </text>
+        <text underline="0" font_size="12" color="#ffaaaa00" align_type="0" font_family="URW Bookman L" display_type="0" static_text="Present Project Queries" font_style="0" strikeout="0" font_weight="75">
+            <display_on_off text_off="" text_on=""><![CDATA[]]></display_on_off>
+            <object description="" object_id="TEXT_10077" tool_tip="" object_number="10077"/>
+            <box top="0" bottom="0" left="0" axis_offset_top="598" right="0" axis_offset_left="1423" axis_anchor="4" angle="0" z_index="253"/>
+        </text>
+        <text underline="0" font_size="12" color="#ffaaaa00" align_type="0" font_family="URW Bookman L" display_type="0" static_text="Max Parallel Queries" font_style="0" strikeout="0" font_weight="75">
+            <display_on_off text_off="" text_on=""><![CDATA[]]></display_on_off>
+            <object description="" object_id="TEXT_10076" tool_tip="" object_number="10076"/>
+            <box top="0" bottom="0" left="0" axis_offset_top="638" right="0" axis_offset_left="1433" axis_anchor="4" angle="0" z_index="252"/>
+        </text>
+        <text underline="0" font_size="12" color="#ffaaaa00" align_type="0" font_family="URW Bookman L" display_type="0" static_text="No of Exceptions" font_style="0" strikeout="0" font_weight="75">
+            <display_on_off text_off="" text_on=""><![CDATA[]]></display_on_off>
+            <object description="" object_id="TEXT_10075" tool_tip="" object_number="10075"/>
+            <box top="0" bottom="0" left="0" axis_offset_top="551" right="0" axis_offset_left="1424" axis_anchor="4" angle="0" z_index="251"/>
+        </text>
+        <text underline="0" font_size="12" color="#ffaaaa00" align_type="0" font_family="URW Bookman L" display_type="0" static_text="No of Res Received" font_style="0" strikeout="0" font_weight="75">
+            <display_on_off text_off="" text_on=""><![CDATA[]]></display_on_off>
+            <object description="" object_id="TEXT_10074" tool_tip="" object_number="10074"/>
+            <box top="0" bottom="0" left="0" axis_offset_top="505" right="0" axis_offset_left="1424" axis_anchor="4" angle="0" z_index="250"/>
+        </text>
+        <text underline="0" font_size="12" color="#ffaaaa00" align_type="0" font_family="URW Bookman L" display_type="0" static_text="No of Req sent" font_style="0" strikeout="0" font_weight="75">
+            <display_on_off text_off="" text_on=""><![CDATA[]]></display_on_off>
+            <object description="" object_id="TEXT_10073" tool_tip="" object_number="10073"/>
+            <box top="0" bottom="0" left="0" axis_offset_top="458" right="0" axis_offset_left="1424" axis_anchor="4" angle="0" z_index="249"/>
+        </text>
+        <text underline="0" font_size="14" color="#ff55ff00" align_type="0" font_family="STIX" display_type="3" static_text="Text" font_style="0" strikeout="0" font_weight="75">
+            <display_numeric>
+                <expression><![CDATA[tagAnalogValue(MODBUS_NO_MAX);]]></expression>
+                <format></format>
+            </display_numeric>
+            <object description="" object_id="TEXT_10032" tool_tip="" object_number="10032"/>
+            <box top="0" bottom="0" left="0" axis_offset_top="639" right="0" axis_offset_left="1261" axis_anchor="4" angle="0" z_index="233"/>
+        </text>
+        <text underline="0" font_size="14" color="#ff55ff00" align_type="0" font_family="STIX" display_type="3" static_text="Text" font_style="0" strikeout="0" font_weight="75">
+            <display_numeric>
+                <expression><![CDATA[tagAnalogValue(MODBUS_CUR_TX);]]></expression>
+                <format></format>
+            </display_numeric>
+            <object description="" object_id="TEXT_10031" tool_tip="" object_number="10031"/>
+            <box top="0" bottom="0" left="0" axis_offset_top="594" right="0" axis_offset_left="1261" axis_anchor="4" angle="0" z_index="232"/>
+        </text>
+        <text underline="0" font_size="14" color="#ff55ff00" align_type="0" font_family="STIX" display_type="3" static_text="Text" font_style="0" strikeout="0" font_weight="75">
+            <display_numeric>
+                <expression><![CDATA[tagAnalogValue(MODBUS_NO_EX);]]></expression>
+                <format></format>
+            </display_numeric>
+            <object description="" object_id="TEXT_10030" tool_tip="" object_number="10030"/>
+            <box top="0" bottom="0" left="0" axis_offset_top="548" right="0" axis_offset_left="1261" axis_anchor="4" angle="0" z_index="231"/>
+        </text>
+        <text underline="0" font_size="14" color="#ff55ff00" align_type="0" font_family="STIX" display_type="3" static_text="Text" font_style="0" strikeout="0" font_weight="75">
+            <display_numeric>
+                <expression><![CDATA[tagAnalogValue(MODBUS_NO_RX);]]></expression>
+                <format></format>
+            </display_numeric>
+            <object description="" object_id="TEXT_10029" tool_tip="" object_number="10029"/>
+            <box top="0" bottom="0" left="0" axis_offset_top="501" right="0" axis_offset_left="1261" axis_anchor="4" angle="0" z_index="230"/>
+        </text>
+        <text underline="0" font_size="15" color="#ff55ffff" align_type="0" font_family="STIX" display_type="0" static_text="SCADA - DIAGNOSTICS" font_style="0" strikeout="0" font_weight="75">
+            <display_on_off text_off="" text_on=""><![CDATA[]]></display_on_off>
+            <object description="" object_id="TEXT_10040" tool_tip="" object_number="10040"/>
+            <box top="0" bottom="0" left="0" axis_offset_top="122" right="0" axis_offset_left="824" axis_anchor="4" angle="0" z_index="227"/>
+        </text>
+        <text underline="0" font_size="12" color="#ff55ffff" align_type="0" font_family="STIX" display_type="0" static_text="SCADA TASKS/MODULES - STATUS" font_style="0" strikeout="0" font_weight="75">
+            <display_on_off text_off="" text_on=""><![CDATA[]]></display_on_off>
+            <object description="" object_id="TEXT_10053" tool_tip="" object_number="10053"/>
+            <box top="0" bottom="0" left="0" axis_offset_top="216" right="0" axis_offset_left="444" axis_anchor="4" angle="0" z_index="227"/>
+        </text>
+        <text underline="0" font_size="15" color="#ff55ffff" align_type="0" font_family="STIX" display_type="0" static_text="NUCON PLC - DIAGNOSTICS" font_style="0" strikeout="0" font_weight="75">
+            <display_on_off text_off="" text_on=""><![CDATA[]]></display_on_off>
+            <object description="" object_id="TEXT_10049" tool_tip="" object_number="10049"/>
+            <box top="0" bottom="0" left="0" axis_offset_top="373" right="0" axis_offset_left="1065" axis_anchor="4" angle="0" z_index="227"/>
+        </text>
+        <text underline="0" font_size="14" color="#ff55ff00" align_type="0" font_family="STIX" display_type="3" static_text="Text" font_style="0" strikeout="0" font_weight="75">
+            <display_numeric>
+                <expression><![CDATA[tagAnalogValue(MODBUS_NO_TX);]]></expression>
+                <format></format>
+            </display_numeric>
+            <object description="" object_id="TEXT_10028" tool_tip="" object_number="10028"/>
+            <box top="0" bottom="0" left="0" axis_offset_top="455" right="0" axis_offset_left="1262" axis_anchor="4" angle="0" z_index="27"/>
+        </text>
+        <text underline="0" font_size="12" color="#ffaaaa00" align_type="0" font_family="URW Bookman L" display_type="0" static_text="Present Project Queries" font_style="0" strikeout="0" font_weight="75">
+            <display_on_off text_off="" text_on=""><![CDATA[]]></display_on_off>
+            <object description="" object_id="TEXT_10016" tool_tip="" object_number="10016"/>
+            <box top="0" bottom="0" left="0" axis_offset_top="600" right="0" axis_offset_left="1020" axis_anchor="4" angle="0" z_index="16"/>
+        </text>
+        <text underline="0" font_size="12" color="#ffaaaa00" align_type="0" font_family="URW Bookman L" display_type="0" static_text="Max Parallel Queries" font_style="0" strikeout="0" font_weight="75">
+            <display_on_off text_off="" text_on=""><![CDATA[]]></display_on_off>
+            <object description="" object_id="TEXT_10015" tool_tip="" object_number="10015"/>
+            <box top="0" bottom="0" left="0" axis_offset_top="640" right="0" axis_offset_left="1030" axis_anchor="4" angle="0" z_index="15"/>
+        </text>
+        <text underline="0" font_size="12" color="#ffaaaa00" align_type="0" font_family="URW Bookman L" display_type="0" static_text="No of Exceptions" font_style="0" strikeout="0" font_weight="75">
+            <display_on_off text_off="" text_on=""><![CDATA[]]></display_on_off>
+            <object description="" object_id="TEXT_10014" tool_tip="" object_number="10014"/>
+            <box top="0" bottom="0" left="0" axis_offset_top="553" right="0" axis_offset_left="1021" axis_anchor="4" angle="0" z_index="14"/>
+        </text>
+        <text underline="0" font_size="12" color="#ffaaaa00" align_type="0" font_family="URW Bookman L" display_type="0" static_text="No of Res Received" font_style="0" strikeout="0" font_weight="75">
+            <display_on_off text_off="" text_on=""><![CDATA[]]></display_on_off>
+            <object description="" object_id="TEXT_10013" tool_tip="" object_number="10013"/>
+            <box top="0" bottom="0" left="0" axis_offset_top="507" right="0" axis_offset_left="1021" axis_anchor="4" angle="0" z_index="13"/>
+        </text>
+        <text underline="0" font_size="12" color="#ffaaaa00" align_type="0" font_family="URW Bookman L" display_type="0" static_text="No of Req sent" font_style="0" strikeout="0" font_weight="75">
+            <display_on_off text_off="" text_on=""><![CDATA[]]></display_on_off>
+            <object description="" object_id="TEXT_10012" tool_tip="" object_number="10012"/>
+            <box top="0" bottom="0" left="0" axis_offset_top="460" right="0" axis_offset_left="1021" axis_anchor="4" angle="0" z_index="12"/>
+        </text>
+    </labels>
+    <component_instances>
+        <componentInstance x1="417" uuid="{2c271c4b-354c-4c0c-9ca9-24c1d100f04b}" objectId="" x2="770" y2="620" objectNumber="0" zIndex="0" y1="578">
+            <text underline="0" font_size="12" color="#ffaaaa00" align_type="0" font_family="URW Bookman L" display_type="0" static_text="%MODULE_NAME%" font_style="0" strikeout="0" font_weight="75">
+                <display_on_off text_off="" text_on=""><![CDATA[]]></display_on_off>
+                <object description="" object_id="TEXT_4" tool_tip="" object_number="4"/>
+                <box top="0" bottom="0" left="0" axis_offset_top="6" right="0" axis_offset_left="0" axis_anchor="4" angle="0" z_index="4"/>
+            </text>
+            <text underline="0" font_size="12" color="#ff000000" align_type="0" font_family="STIX" display_type="0" static_text="Text" font_style="0" strikeout="0" font_weight="75">
+                <display_on_off text_off="FAILED" text_on="NORMAL"><![CDATA[tagDigitalValue(%TAG%);]]></display_on_off>
+                <object description="" object_id="TEXT_3" tool_tip="" object_number="3"/>
+                <box top="0" bottom="0" left="0" axis_offset_top="4" right="0" axis_offset_left="222" axis_anchor="4" angle="0" z_index="3"/>
+            </text>
+            <shape type="Rectangle">
+                <object description="" object_id="SHAPE_2" tool_tip="" object_number="2"/>
+                <box top="0" bottom="30" left="0" axis_offset_top="6" right="150" axis_offset_left="197" axis_anchor="0" angle="0" z_index="-3"/>
+                <line color="#ff000000" style="1" line_width="1"/>
+                <fill fill="#ff808080"/>
+                <rectangle x1="0" x2="150" y2="30" corner_radius="10" y1="0"/>
+                <dynamic_fill type="0">
+                    <on_off on_color="#ff00ff00" blink_on_color="#00000000" off_color="#ffff0000" blink_off_enable="0" blink_off_color="#00000000" blink_on_enable="0">
+                        <on_color_when><![CDATA[tagDigitalValue(%TAG%);]]></on_color_when>
+                    </on_off>
+                </dynamic_fill>
+            </shape>
+            <description/>
+            <params>
+                <param value="ALARM LOGGING" name="MODULE_NAME"/>
+                <param value="MODULE6_ST" name="TAG"/>
+            </params>
+        </componentInstance>
+        <componentInstance x1="417" uuid="{2c271c4b-354c-4c0c-9ca9-24c1d100f04b}" objectId="" x2="770" y2="556" objectNumber="0" zIndex="0" y1="514">
+            <text underline="0" font_size="12" color="#ffaaaa00" align_type="0" font_family="URW Bookman L" display_type="0" static_text="%MODULE_NAME%" font_style="0" strikeout="0" font_weight="75">
+                <display_on_off text_off="" text_on=""><![CDATA[]]></display_on_off>
+                <object description="" object_id="TEXT_4" tool_tip="" object_number="4"/>
+                <box top="0" bottom="0" left="0" axis_offset_top="6" right="0" axis_offset_left="0" axis_anchor="4" angle="0" z_index="4"/>
+            </text>
+            <text underline="0" font_size="12" color="#ff000000" align_type="0" font_family="STIX" display_type="0" static_text="Text" font_style="0" strikeout="0" font_weight="75">
+                <display_on_off text_off="FAILED" text_on="NORMAL"><![CDATA[tagDigitalValue(%TAG%);]]></display_on_off>
+                <object description="" object_id="TEXT_3" tool_tip="" object_number="3"/>
+                <box top="0" bottom="0" left="0" axis_offset_top="4" right="0" axis_offset_left="222" axis_anchor="4" angle="0" z_index="3"/>
+            </text>
+            <shape type="Rectangle">
+                <object description="" object_id="SHAPE_2" tool_tip="" object_number="2"/>
+                <box top="0" bottom="30" left="0" axis_offset_top="6" right="150" axis_offset_left="197" axis_anchor="0" angle="0" z_index="-3"/>
+                <line color="#ff000000" style="1" line_width="1"/>
+                <fill fill="#ff808080"/>
+                <rectangle x1="0" x2="150" y2="30" corner_radius="10" y1="0"/>
+                <dynamic_fill type="0">
+                    <on_off on_color="#ff00ff00" blink_on_color="#00000000" off_color="#ffff0000" blink_off_enable="0" blink_off_color="#00000000" blink_on_enable="0">
+                        <on_color_when><![CDATA[tagDigitalValue(%TAG%);]]></on_color_when>
+                    </on_off>
+                </dynamic_fill>
+            </shape>
+            <description/>
+            <params>
+                <param value="ALARM_GEN" name="MODULE_NAME"/>
+                <param value="MODULE5_ST" name="TAG"/>
+            </params>
+        </componentInstance>
+        <componentInstance x1="417" uuid="{2c271c4b-354c-4c0c-9ca9-24c1d100f04b}" objectId="" x2="770" y2="926" objectNumber="0" zIndex="0" y1="884">
+            <text underline="0" font_size="12" color="#ffaaaa00" align_type="0" font_family="URW Bookman L" display_type="0" static_text="%MODULE_NAME%" font_style="0" strikeout="0" font_weight="75">
+                <display_on_off text_off="" text_on=""><![CDATA[]]></display_on_off>
+                <object description="" object_id="TEXT_4" tool_tip="" object_number="4"/>
+                <box top="0" bottom="0" left="0" axis_offset_top="6" right="0" axis_offset_left="0" axis_anchor="4" angle="0" z_index="4"/>
+            </text>
+            <text underline="0" font_size="12" color="#ff000000" align_type="0" font_family="STIX" display_type="0" static_text="Text" font_style="0" strikeout="0" font_weight="75">
+                <display_on_off text_off="FAILED" text_on="NORMAL"><![CDATA[tagDigitalValue(%TAG%);]]></display_on_off>
+                <object description="" object_id="TEXT_3" tool_tip="" object_number="3"/>
+                <box top="0" bottom="0" left="0" axis_offset_top="4" right="0" axis_offset_left="222" axis_anchor="4" angle="0" z_index="3"/>
+            </text>
+            <shape type="Rectangle">
+                <object description="" object_id="SHAPE_2" tool_tip="" object_number="2"/>
+                <box top="0" bottom="30" left="0" axis_offset_top="6" right="150" axis_offset_left="197" axis_anchor="0" angle="0" z_index="-3"/>
+                <line color="#ff000000" style="1" line_width="1"/>
+                <fill fill="#ff808080"/>
+                <rectangle x1="0" x2="150" y2="30" corner_radius="10" y1="0"/>
+                <dynamic_fill type="0">
+                    <on_off on_color="#ff00ff00" blink_on_color="#00000000" off_color="#ffff0000" blink_off_enable="0" blink_off_color="#00000000" blink_on_enable="0">
+                        <on_color_when><![CDATA[tagDigitalValue(%TAG%);]]></on_color_when>
+                    </on_off>
+                </dynamic_fill>
+            </shape>
+            <description/>
+            <params>
+                <param value="SWITCH OVER" name="MODULE_NAME"/>
+                <param value="MODULE11_ST" name="TAG"/>
+            </params>
+        </componentInstance>
+        <componentInstance x1="417" uuid="{2c271c4b-354c-4c0c-9ca9-24c1d100f04b}" objectId="" x2="770" y2="864" objectNumber="0" zIndex="0" y1="822">
+            <text underline="0" font_size="12" color="#ffaaaa00" align_type="0" font_family="URW Bookman L" display_type="0" static_text="%MODULE_NAME%" font_style="0" strikeout="0" font_weight="75">
+                <display_on_off text_off="" text_on=""><![CDATA[]]></display_on_off>
+                <object description="" object_id="TEXT_4" tool_tip="" object_number="4"/>
+                <box top="0" bottom="0" left="0" axis_offset_top="6" right="0" axis_offset_left="0" axis_anchor="4" angle="0" z_index="4"/>
+            </text>
+            <text underline="0" font_size="12" color="#ff000000" align_type="0" font_family="STIX" display_type="0" static_text="Text" font_style="0" strikeout="0" font_weight="75">
+                <display_on_off text_off="FAILED" text_on="NORMAL"><![CDATA[tagDigitalValue(%TAG%);]]></display_on_off>
+                <object description="" object_id="TEXT_3" tool_tip="" object_number="3"/>
+                <box top="0" bottom="0" left="0" axis_offset_top="4" right="0" axis_offset_left="222" axis_anchor="4" angle="0" z_index="3"/>
+            </text>
+            <shape type="Rectangle">
+                <object description="" object_id="SHAPE_2" tool_tip="" object_number="2"/>
+                <box top="0" bottom="30" left="0" axis_offset_top="6" right="150" axis_offset_left="197" axis_anchor="0" angle="0" z_index="-3"/>
+                <line color="#ff000000" style="1" line_width="1"/>
+                <fill fill="#ff808080"/>
+                <rectangle x1="0" x2="150" y2="30" corner_radius="10" y1="0"/>
+                <dynamic_fill type="0">
+                    <on_off on_color="#ff00ff00" blink_on_color="#00000000" off_color="#ffff0000" blink_off_enable="0" blink_off_color="#00000000" blink_on_enable="0">
+                        <on_color_when><![CDATA[tagDigitalValue(%TAG%);]]></on_color_when>
+                    </on_off>
+                </dynamic_fill>
+            </shape>
+            <description/>
+            <params>
+                <param value="NETSTAT" name="MODULE_NAME"/>
+                <param value="MODULE10_ST" name="TAG"/>
+            </params>
+        </componentInstance>
+        <componentInstance x1="417" uuid="{2c271c4b-354c-4c0c-9ca9-24c1d100f04b}" objectId="" x2="770" y2="801" objectNumber="0" zIndex="0" y1="759">
+            <text underline="0" font_size="12" color="#ffaaaa00" align_type="0" font_family="URW Bookman L" display_type="0" static_text="%MODULE_NAME%" font_style="0" strikeout="0" font_weight="75">
+                <display_on_off text_off="" text_on=""><![CDATA[]]></display_on_off>
+                <object description="" object_id="TEXT_4" tool_tip="" object_number="4"/>
+                <box top="0" bottom="0" left="0" axis_offset_top="6" right="0" axis_offset_left="0" axis_anchor="4" angle="0" z_index="4"/>
+            </text>
+            <text underline="0" font_size="12" color="#ff000000" align_type="0" font_family="STIX" display_type="0" static_text="Text" font_style="0" strikeout="0" font_weight="75">
+                <display_on_off text_off="FAILED" text_on="NORMAL"><![CDATA[tagDigitalValue(%TAG%);]]></display_on_off>
+                <object description="" object_id="TEXT_3" tool_tip="" object_number="3"/>
+                <box top="0" bottom="0" left="0" axis_offset_top="4" right="0" axis_offset_left="222" axis_anchor="4" angle="0" z_index="3"/>
+            </text>
+            <shape type="Rectangle">
+                <object description="" object_id="SHAPE_2" tool_tip="" object_number="2"/>
+                <box top="0" bottom="30" left="0" axis_offset_top="6" right="150" axis_offset_left="197" axis_anchor="0" angle="0" z_index="-3"/>
+                <line color="#ff000000" style="1" line_width="1"/>
+                <fill fill="#ff808080"/>
+                <rectangle x1="0" x2="150" y2="30" corner_radius="10" y1="0"/>
+                <dynamic_fill type="0">
+                    <on_off on_color="#ff00ff00" blink_on_color="#00000000" off_color="#ffff0000" blink_off_enable="0" blink_off_color="#00000000" blink_on_enable="0">
+                        <on_color_when><![CDATA[tagDigitalValue(%TAG%);]]></on_color_when>
+                    </on_off>
+                </dynamic_fill>
+            </shape>
+            <description/>
+            <params>
+                <param value="TIME SERVER" name="MODULE_NAME"/>
+                <param value="MODULE9_ST" name="TAG"/>
+            </params>
+        </componentInstance>
+        <componentInstance x1="417" uuid="{2c271c4b-354c-4c0c-9ca9-24c1d100f04b}" objectId="" x2="770" y2="739" objectNumber="0" zIndex="0" y1="697">
+            <text underline="0" font_size="12" color="#ffaaaa00" align_type="0" font_family="URW Bookman L" display_type="0" static_text="%MODULE_NAME%" font_style="0" strikeout="0" font_weight="75">
+                <display_on_off text_off="" text_on=""><![CDATA[]]></display_on_off>
+                <object description="" object_id="TEXT_4" tool_tip="" object_number="4"/>
+                <box top="0" bottom="0" left="0" axis_offset_top="6" right="0" axis_offset_left="0" axis_anchor="4" angle="0" z_index="4"/>
+            </text>
+            <text underline="0" font_size="12" color="#ff000000" align_type="0" font_family="STIX" display_type="0" static_text="Text" font_style="0" strikeout="0" font_weight="75">
+                <display_on_off text_off="FAILED" text_on="NORMAL"><![CDATA[tagDigitalValue(%TAG%);]]></display_on_off>
+                <object description="" object_id="TEXT_3" tool_tip="" object_number="3"/>
+                <box top="0" bottom="0" left="0" axis_offset_top="4" right="0" axis_offset_left="222" axis_anchor="4" angle="0" z_index="3"/>
+            </text>
+            <shape type="Rectangle">
+                <object description="" object_id="SHAPE_2" tool_tip="" object_number="2"/>
+                <box top="0" bottom="30" left="0" axis_offset_top="6" right="150" axis_offset_left="197" axis_anchor="0" angle="0" z_index="-3"/>
+                <line color="#ff000000" style="1" line_width="1"/>
+                <fill fill="#ff808080"/>
+                <rectangle x1="0" x2="150" y2="30" corner_radius="10" y1="0"/>
+                <dynamic_fill type="0">
+                    <on_off on_color="#ff00ff00" blink_on_color="#00000000" off_color="#ffff0000" blink_off_enable="0" blink_off_color="#00000000" blink_on_enable="0">
+                        <on_color_when><![CDATA[tagDigitalValue(%TAG%);]]></on_color_when>
+                    </on_off>
+                </dynamic_fill>
+            </shape>
+            <description/>
+            <params>
+                <param value="TREND SERVER" name="MODULE_NAME"/>
+                <param value="MODULE8_ST" name="TAG"/>
+            </params>
+        </componentInstance>
+        <componentInstance x1="417" uuid="{2c271c4b-354c-4c0c-9ca9-24c1d100f04b}" objectId="" x2="770" y2="682" objectNumber="0" zIndex="0" y1="640">
+            <text underline="0" font_size="12" color="#ffaaaa00" align_type="0" font_family="URW Bookman L" display_type="0" static_text="%MODULE_NAME%" font_style="0" strikeout="0" font_weight="75">
+                <display_on_off text_off="" text_on=""><![CDATA[]]></display_on_off>
+                <object description="" object_id="TEXT_4" tool_tip="" object_number="4"/>
+                <box top="0" bottom="0" left="0" axis_offset_top="6" right="0" axis_offset_left="0" axis_anchor="4" angle="0" z_index="4"/>
+            </text>
+            <text underline="0" font_size="12" color="#ff000000" align_type="0" font_family="STIX" display_type="0" static_text="Text" font_style="0" strikeout="0" font_weight="75">
+                <display_on_off text_off="FAILED" text_on="NORMAL"><![CDATA[tagDigitalValue(%TAG%);]]></display_on_off>
+                <object description="" object_id="TEXT_3" tool_tip="" object_number="3"/>
+                <box top="0" bottom="0" left="0" axis_offset_top="4" right="0" axis_offset_left="222" axis_anchor="4" angle="0" z_index="3"/>
+            </text>
+            <shape type="Rectangle">
+                <object description="" object_id="SHAPE_2" tool_tip="" object_number="2"/>
+                <box top="0" bottom="30" left="0" axis_offset_top="6" right="150" axis_offset_left="197" axis_anchor="0" angle="0" z_index="-3"/>
+                <line color="#ff000000" style="1" line_width="1"/>
+                <fill fill="#ff808080"/>
+                <rectangle x1="0" x2="150" y2="30" corner_radius="10" y1="0"/>
+                <dynamic_fill type="0">
+                    <on_off on_color="#ff00ff00" blink_on_color="#00000000" off_color="#ffff0000" blink_off_enable="0" blink_off_color="#00000000" blink_on_enable="0">
+                        <on_color_when><![CDATA[tagDigitalValue(%TAG%);]]></on_color_when>
+                    </on_off>
+                </dynamic_fill>
+            </shape>
+            <description/>
+            <params>
+                <param value="TREND COLLECTOR" name="MODULE_NAME"/>
+                <param value="MODULE7_ST" name="TAG"/>
+            </params>
+        </componentInstance>
+        <componentInstance x1="417" uuid="{2c271c4b-354c-4c0c-9ca9-24c1d100f04b}" objectId="" x2="770" y2="491" objectNumber="0" zIndex="0" y1="449">
+            <text underline="0" font_size="12" color="#ffaaaa00" align_type="0" font_family="URW Bookman L" display_type="0" static_text="%MODULE_NAME%" font_style="0" strikeout="0" font_weight="75">
+                <display_on_off text_off="" text_on=""><![CDATA[]]></display_on_off>
+                <object description="" object_id="TEXT_4" tool_tip="" object_number="4"/>
+                <box top="0" bottom="0" left="0" axis_offset_top="6" right="0" axis_offset_left="0" axis_anchor="4" angle="0" z_index="4"/>
+            </text>
+            <text underline="0" font_size="12" color="#ff000000" align_type="0" font_family="STIX" display_type="0" static_text="Text" font_style="0" strikeout="0" font_weight="75">
+                <display_on_off text_off="FAILED" text_on="NORMAL"><![CDATA[tagDigitalValue(%TAG%);]]></display_on_off>
+                <object description="" object_id="TEXT_3" tool_tip="" object_number="3"/>
+                <box top="0" bottom="0" left="0" axis_offset_top="4" right="0" axis_offset_left="222" axis_anchor="4" angle="0" z_index="3"/>
+            </text>
+            <shape type="Rectangle">
+                <object description="" object_id="SHAPE_2" tool_tip="" object_number="2"/>
+                <box top="0" bottom="30" left="0" axis_offset_top="6" right="150" axis_offset_left="197" axis_anchor="0" angle="0" z_index="-3"/>
+                <line color="#ff000000" style="1" line_width="1"/>
+                <fill fill="#ff808080"/>
+                <rectangle x1="0" x2="150" y2="30" corner_radius="10" y1="0"/>
+                <dynamic_fill type="0">
+                    <on_off on_color="#ff00ff00" blink_on_color="#00000000" off_color="#ffff0000" blink_off_enable="0" blink_off_color="#00000000" blink_on_enable="0">
+                        <on_color_when><![CDATA[tagDigitalValue(%TAG%);]]></on_color_when>
+                    </on_off>
+                </dynamic_fill>
+            </shape>
+            <description/>
+            <params>
+                <param value="MODBUS" name="MODULE_NAME"/>
+                <param value="MODULE4_ST" name="TAG"/>
+            </params>
+        </componentInstance>
+        <componentInstance x1="417" uuid="{2c271c4b-354c-4c0c-9ca9-24c1d100f04b}" objectId="" x2="770" y2="427" objectNumber="251" zIndex="0" y1="385">
+            <text underline="0" font_size="12" color="#ffaaaa00" align_type="0" font_family="URW Bookman L" display_type="0" static_text="%MODULE_NAME%" font_style="0" strikeout="0" font_weight="75">
+                <display_on_off text_off="" text_on=""><![CDATA[]]></display_on_off>
+                <object description="" object_id="TEXT_4" tool_tip="" object_number="4"/>
+                <box top="0" bottom="0" left="0" axis_offset_top="6" right="0" axis_offset_left="0" axis_anchor="4" angle="0" z_index="4"/>
+            </text>
+            <text underline="0" font_size="12" color="#ff000000" align_type="0" font_family="STIX" display_type="0" static_text="Text" font_style="0" strikeout="0" font_weight="75">
+                <display_on_off text_off="FAILED" text_on="NORMAL"><![CDATA[tagDigitalValue(%TAG%);]]></display_on_off>
+                <object description="" object_id="TEXT_3" tool_tip="" object_number="3"/>
+                <box top="0" bottom="0" left="0" axis_offset_top="4" right="0" axis_offset_left="222" axis_anchor="4" angle="0" z_index="3"/>
+            </text>
+            <shape type="Rectangle">
+                <object description="" object_id="SHAPE_2" tool_tip="" object_number="2"/>
+                <box top="0" bottom="30" left="0" axis_offset_top="6" right="150" axis_offset_left="197" axis_anchor="0" angle="0" z_index="-3"/>
+                <line color="#ff000000" style="1" line_width="1"/>
+                <fill fill="#ff808080"/>
+                <rectangle x1="0" x2="150" y2="30" corner_radius="10" y1="0"/>
+                <dynamic_fill type="0">
+                    <on_off on_color="#ff00ff00" blink_on_color="#00000000" off_color="#ffff0000" blink_off_enable="0" blink_off_color="#00000000" blink_on_enable="0">
+                        <on_color_when><![CDATA[tagDigitalValue(%TAG%);]]></on_color_when>
+                    </on_off>
+                </dynamic_fill>
+            </shape>
+            <description/>
+            <params>
+                <param value="DBMPOSIX" name="MODULE_NAME"/>
+                <param value="MODULE3_ST" name="TAG"/>
+            </params>
+        </componentInstance>
+        <componentInstance x1="417" uuid="{2c271c4b-354c-4c0c-9ca9-24c1d100f04b}" objectId="" x2="770" y2="367" objectNumber="0" zIndex="0" y1="325">
+            <text underline="0" font_size="12" color="#ffaaaa00" align_type="0" font_family="URW Bookman L" display_type="0" static_text="%MODULE_NAME%" font_style="0" strikeout="0" font_weight="75">
+                <display_on_off text_off="" text_on=""><![CDATA[]]></display_on_off>
+                <object description="" object_id="TEXT_4" tool_tip="" object_number="4"/>
+                <box top="0" bottom="0" left="0" axis_offset_top="6" right="0" axis_offset_left="0" axis_anchor="4" angle="0" z_index="4"/>
+            </text>
+            <text underline="0" font_size="12" color="#ff000000" align_type="0" font_family="STIX" display_type="0" static_text="Text" font_style="0" strikeout="0" font_weight="75">
+                <display_on_off text_off="FAILED" text_on="NORMAL"><![CDATA[tagDigitalValue(%TAG%);]]></display_on_off>
+                <object description="" object_id="TEXT_3" tool_tip="" object_number="3"/>
+                <box top="0" bottom="0" left="0" axis_offset_top="4" right="0" axis_offset_left="222" axis_anchor="4" angle="0" z_index="3"/>
+            </text>
+            <shape type="Rectangle">
+                <object description="" object_id="SHAPE_2" tool_tip="" object_number="2"/>
+                <box top="0" bottom="30" left="0" axis_offset_top="6" right="150" axis_offset_left="197" axis_anchor="0" angle="0" z_index="-3"/>
+                <line color="#ff000000" style="1" line_width="1"/>
+                <fill fill="#ff808080"/>
+                <rectangle x1="0" x2="150" y2="30" corner_radius="10" y1="0"/>
+                <dynamic_fill type="0">
+                    <on_off on_color="#ff00ff00" blink_on_color="#00000000" off_color="#ffff0000" blink_off_enable="0" blink_off_color="#00000000" blink_on_enable="0">
+                        <on_color_when><![CDATA[tagDigitalValue(%TAG%);]]></on_color_when>
+                    </on_off>
+                </dynamic_fill>
+            </shape>
+            <description/>
+            <params>
+                <param value="SYSCON" name="MODULE_NAME"/>
+                <param value="MODULE2_ST" name="TAG"/>
+            </params>
+        </componentInstance>
+        <componentInstance x1="418" uuid="{2c271c4b-354c-4c0c-9ca9-24c1d100f04b}" objectId="" x2="1386" y2="566" objectNumber="0" zIndex="0" y1="254">
+            <text underline="0" font_size="12" color="#ffaaaa00" align_type="0" font_family="URW Bookman L" display_type="0" static_text="%MODULE_NAME%" font_style="0" strikeout="0" font_weight="75">
+                <display_on_off text_off="" text_on=""><![CDATA[]]></display_on_off>
+                <object description="" object_id="TEXT_4" tool_tip="" object_number="4"/>
+                <box top="0" bottom="0" left="0" axis_offset_top="6" right="0" axis_offset_left="0" axis_anchor="4" angle="0" z_index="4"/>
+            </text>
+            <text underline="0" font_size="12" color="#ff000000" align_type="0" font_family="STIX" display_type="0" static_text="Text" font_style="0" strikeout="0" font_weight="75">
+                <display_on_off text_off="FAILED" text_on="NORMAL"><![CDATA[tagDigitalValue(%TAG%);]]></display_on_off>
+                <object description="" object_id="TEXT_3" tool_tip="" object_number="3"/>
+                <box top="0" bottom="0" left="0" axis_offset_top="4" right="0" axis_offset_left="222" axis_anchor="4" angle="0" z_index="3"/>
+            </text>
+            <shape type="Rectangle">
+                <object description="" object_id="SHAPE_2" tool_tip="" object_number="2"/>
+                <box top="265" bottom="295" left="615" axis_offset_top="6" right="765" axis_offset_left="197" axis_anchor="0" angle="0" z_index="-3"/>
+                <line color="#ff000000" style="1" line_width="1"/>
+                <fill fill="#ff808080"/>
+                <rectangle x1="615" x2="765" y2="295" corner_radius="10" y1="265"/>
+                <dynamic_fill type="0">
+                    <on_off on_color="#ff00ff00" blink_on_color="#00000000" off_color="#ffff0000" blink_off_enable="0" blink_off_color="#00000000" blink_on_enable="0">
+                        <on_color_when><![CDATA[tagDigitalValue(%TAG%);]]></on_color_when>
+                    </on_off>
+                </dynamic_fill>
+            </shape>
+            <description/>
+            <params>
+                <param value="TCPPOSIX" name="MODULE_NAME"/>
+                <param value="MODULE1_ST" name="TAG"/>
+            </params>
+        </componentInstance>
+    </component_instances>
+</hmipage>
