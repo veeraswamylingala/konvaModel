@@ -1,0 +1,962 @@
+<hmipage page_scan_time="250" version="0.1.0" id="page_8" height="800" color="#ffc0c0c0" order="7" width="1000" title="page_8" access_area="0" prev_page="" belongs_to_all_areas="1" next_page="" next_object_number="10091" default_page_scan="1" template_id="">
+    <shapes>
+        <shape type="Ellipse">
+            <object description="" object_number="10060" object_id="SHAPE_10060" tool_tip=""/>
+            <box axis_offset_left="34" angle="0" top="0" right="74" axis_offset_top="390" left="0" bottom="66" z_index="63" axis_anchor="0"/>
+            <line style="1" line_width="1" color="#ff000000"/>
+            <fill fill="#ffff0000"/>
+            <ellipse angle_end="0" x1="0" y1="0" angle_start="0" y2="66" ellipse_type="ARC_ELLIPSE" x2="74"/>
+            <dynamic_fill type="0">
+                <on_off on_color="#ff00ff00" blink_on_enable="0" off_color="#ffff0000" blink_on_color="#00000000" blink_off_color="#00000000" blink_off_enable="0">
+                    <on_color_when><![CDATA[_DTms_0010 > 50]]></on_color_when>
+                </on_off>
+            </dynamic_fill>
+        </shape>
+        <shape type="Rectangle">
+            <object description="" object_number="10077" object_id="SHAPE_10077" tool_tip=""/>
+            <box axis_offset_left="628" angle="0" top="0" right="106" axis_offset_top="344" left="0" bottom="31" z_index="61" axis_anchor="0"/>
+            <line style="1" line_width="2" color="#ffffffff"/>
+            <fill fill="#ff000000"/>
+            <rectangle x1="0" y1="0" y2="31" corner_radius="0" x2="106"/>
+        </shape>
+        <shape type="Rectangle">
+            <object description="" object_number="10075" object_id="SHAPE_10075" tool_tip=""/>
+            <box axis_offset_left="628" angle="0" top="0" right="106" axis_offset_top="290" left="0" bottom="31" z_index="59" axis_anchor="0"/>
+            <line style="1" line_width="2" color="#ffffffff"/>
+            <fill fill="#ff000000"/>
+            <rectangle x1="0" y1="0" y2="31" corner_radius="0" x2="106"/>
+        </shape>
+        <shape type="Rectangle">
+            <object description="" object_number="10073" object_id="SHAPE_10073" tool_tip=""/>
+            <box axis_offset_left="628" angle="0" top="0" right="106" axis_offset_top="238" left="0" bottom="31" z_index="57" axis_anchor="0"/>
+            <line style="1" line_width="2" color="#ffffffff"/>
+            <fill fill="#ff000000"/>
+            <rectangle x1="0" y1="0" y2="31" corner_radius="0" x2="106"/>
+        </shape>
+        <shape type="Rectangle">
+            <object description="" object_number="10071" object_id="SHAPE_10071" tool_tip=""/>
+            <box axis_offset_left="628" angle="0" top="0" right="106" axis_offset_top="192" left="0" bottom="31" z_index="55" axis_anchor="0"/>
+            <line style="1" line_width="2" color="#ffffffff"/>
+            <fill fill="#ff000000"/>
+            <rectangle x1="0" y1="0" y2="31" corner_radius="0" x2="106"/>
+        </shape>
+        <shape type="Rectangle">
+            <object description="" object_number="10069" object_id="SHAPE_10069" tool_tip=""/>
+            <box axis_offset_left="628" angle="0" top="0" right="106" axis_offset_top="138" left="0" bottom="31" z_index="53" axis_anchor="0"/>
+            <line style="1" line_width="2" color="#ffffffff"/>
+            <fill fill="#ff000000"/>
+            <rectangle x1="0" y1="0" y2="31" corner_radius="0" x2="106"/>
+        </shape>
+        <shape type="Rectangle">
+            <object description="" object_number="10067" object_id="SHAPE_10067" tool_tip=""/>
+            <box axis_offset_left="628" angle="0" top="0" right="106" axis_offset_top="90" left="0" bottom="31" z_index="51" axis_anchor="0"/>
+            <line style="1" line_width="2" color="#ffffffff"/>
+            <fill fill="#ff000000"/>
+            <rectangle x1="0" y1="0" y2="31" corner_radius="0" x2="106"/>
+        </shape>
+        <shape type="Rectangle">
+            <object description="" object_number="10065" object_id="SHAPE_10065" tool_tip=""/>
+            <box axis_offset_left="628" angle="0" top="0" right="106" axis_offset_top="35" left="0" bottom="31" z_index="49" axis_anchor="0"/>
+            <line style="1" line_width="2" color="#ffffffff"/>
+            <fill fill="#ff000000"/>
+            <rectangle x1="0" y1="0" y2="31" corner_radius="0" x2="106"/>
+        </shape>
+        <shape type="Rectangle">
+            <object description="" object_number="10054" object_id="SHAPE_10054" tool_tip="">
+                <security area="0" area_same_as_page="1" no_privilege_restriction="1" disable_if_no_privilege="0" privilege_level="0">
+                    <hidden_when><![CDATA[_DTms_0010 >= 60]]></hidden_when>
+                </security>
+            </object>
+            <box axis_offset_left="132" angle="0" top="0" right="117" axis_offset_top="333" left="0" bottom="60" z_index="40" axis_anchor="0"/>
+            <line style="1" line_width="3" color="#ff55ffff"/>
+            <fill fill="#ffaa5500"/>
+            <rectangle x1="0" y1="0" y2="60" corner_radius="5" x2="117"/>
+        </shape>
+        <shape type="Rectangle">
+            <object description="" object_number="10046" object_id="SHAPE_10046" tool_tip=""/>
+            <box axis_offset_left="87" angle="0" top="-1" right="423" axis_offset_top="17" left="0" bottom="29" z_index="36" axis_anchor="0"/>
+            <line style="1" line_width="2" color="#ff000000"/>
+            <fill fill="#ff55ff7f"/>
+            <rectangle x1="0" y1="-1" y2="29" corner_radius="3" x2="423"/>
+        </shape>
+        <shape type="Rectangle">
+            <object description="" object_number="10044" object_id="SHAPE_10044" tool_tip=""/>
+            <box axis_offset_left="565" angle="0" top="0" right="11" axis_offset_top="235" left="0" bottom="67" z_index="34" axis_anchor="0"/>
+            <line style="1" line_width="1" color="#ff000000"/>
+            <fill fill="#ff55ff7f"/>
+            <rectangle x1="0" y1="0" y2="67" corner_radius="0" x2="11"/>
+            <dynamic_fill_level maximum="100" background_color="#ff000000" minimum="0" enabled="1" level_at_minimum="0" level_at_maximum="100" fill_direction="2">
+                <expression><![CDATA[_DTms_0010]]></expression>
+            </dynamic_fill_level>
+        </shape>
+        <shape type="Rectangle">
+            <object description="" object_number="10043" object_id="SHAPE_10043" tool_tip=""/>
+            <box axis_offset_left="565" angle="0" top="0" right="11" axis_offset_top="148" left="0" bottom="67" z_index="33" axis_anchor="0"/>
+            <line style="1" line_width="1" color="#ff000000"/>
+            <fill fill="#ff55ff7f"/>
+            <rectangle x1="0" y1="0" y2="67" corner_radius="0" x2="11"/>
+            <dynamic_fill_level maximum="100" background_color="#ff000000" minimum="0" enabled="1" level_at_minimum="0" level_at_maximum="100" fill_direction="2">
+                <expression><![CDATA[_DTms_0010]]></expression>
+            </dynamic_fill_level>
+        </shape>
+        <shape type="Rectangle">
+            <object description="" object_number="10042" object_id="SHAPE_10042" tool_tip=""/>
+            <box axis_offset_left="564" angle="0" top="0" right="11" axis_offset_top="64" left="0" bottom="67" z_index="32" axis_anchor="0"/>
+            <line style="1" line_width="1" color="#ff000000"/>
+            <fill fill="#ff55ff7f"/>
+            <rectangle x1="0" y1="0" y2="67" corner_radius="0" x2="11"/>
+            <dynamic_fill_level maximum="100" background_color="#ff000000" minimum="0" enabled="1" level_at_minimum="0" level_at_maximum="100" fill_direction="2">
+                <expression><![CDATA[_DTms_0010]]></expression>
+            </dynamic_fill_level>
+        </shape>
+        <shape type="Rectangle">
+            <object description="" object_number="10041" object_id="SHAPE_10041" tool_tip=""/>
+            <box axis_offset_left="549" angle="0" top="0" right="40" axis_offset_top="234" left="0" bottom="70" z_index="31" axis_anchor="0"/>
+            <line style="1" line_width="1" color="#ff000000"/>
+            <fill fill="#ff808080"/>
+            <gradient gradient_color="#ffffffff" gradient_direction="4"/>
+            <rectangle x1="0" y1="0" y2="70" corner_radius="0" x2="40"/>
+        </shape>
+        <shape type="Rectangle">
+            <object description="" object_number="10040" object_id="SHAPE_10040" tool_tip=""/>
+            <box axis_offset_left="549" angle="0" top="0" right="40" axis_offset_top="147" left="0" bottom="70" z_index="30" axis_anchor="0"/>
+            <line style="1" line_width="1" color="#ff000000"/>
+            <fill fill="#ff808080"/>
+            <gradient gradient_color="#ffffffff" gradient_direction="4"/>
+            <rectangle x1="0" y1="0" y2="70" corner_radius="0" x2="40"/>
+        </shape>
+        <shape type="Rectangle">
+            <object description="" object_number="10039" object_id="SHAPE_10039" tool_tip=""/>
+            <box axis_offset_left="548" angle="0" top="0" right="40" axis_offset_top="63" left="0" bottom="70" z_index="29" axis_anchor="0"/>
+            <line style="1" line_width="1" color="#ff000000"/>
+            <fill fill="#ff808080"/>
+            <gradient gradient_color="#ffffffff" gradient_direction="4"/>
+            <rectangle x1="0" y1="0" y2="70" corner_radius="0" x2="40"/>
+        </shape>
+        <shape type="Rectangle">
+            <object description="" object_number="10028" object_id="SHAPE_10028" tool_tip=""/>
+            <box axis_offset_left="416" angle="0" top="0" right="106" axis_offset_top="214" left="0" bottom="31" z_index="24" axis_anchor="0"/>
+            <line style="1" line_width="2" color="#ffffffff"/>
+            <fill fill="#ff000000"/>
+            <rectangle x1="0" y1="0" y2="31" corner_radius="0" x2="106"/>
+        </shape>
+        <shape type="Rectangle">
+            <object description="" object_number="10024" object_id="SHAPE_10024" tool_tip=""/>
+            <box axis_offset_left="186" angle="0" top="0" right="106" axis_offset_top="258" left="0" bottom="31" z_index="21" axis_anchor="0"/>
+            <line style="1" line_width="2" color="#ffffffff"/>
+            <fill fill="#ff000000"/>
+            <rectangle x1="0" y1="0" y2="31" corner_radius="0" x2="106"/>
+        </shape>
+        <shape type="Polygon">
+            <object description="" object_number="10020" object_id="SHAPE_10020" tool_tip=""/>
+            <box axis_offset_left="312" angle="0" top="0" right="0" axis_offset_top="170" left="0" bottom="0" z_index="17" axis_anchor="0"/>
+            <line style="1" line_width="1" color="#ff000000"/>
+            <fill fill="#ff00ff00"/>
+            <polyline closed="1">
+                <points>
+                    <point y="41" x="0"/>
+                    <point y="80" x="0"/>
+                    <point y="43" x="76"/>
+                    <point y="79" x="75"/>
+                    <point y="40" x="0"/>
+                </points>
+            </polyline>
+            <dynamic_fill type="0">
+                <on_off on_color="#ff00ff00" blink_on_enable="0" off_color="#ffff0000" blink_on_color="#00000000" blink_off_color="#00000000" blink_off_enable="0">
+                    <on_color_when><![CDATA[_DTms_0010 < 60]]></on_color_when>
+                </on_off>
+            </dynamic_fill>
+        </shape>
+        <shape type="Polygon">
+            <object description="" object_number="10019" object_id="SHAPE_10019" tool_tip=""/>
+            <box axis_offset_left="312" angle="0" top="0" right="0" axis_offset_top="68" left="0" bottom="0" z_index="16" axis_anchor="0"/>
+            <line style="1" line_width="1" color="#ff000000"/>
+            <fill fill="#ff00ff00"/>
+            <polyline closed="1">
+                <points>
+                    <point y="41" x="0"/>
+                    <point y="80" x="0"/>
+                    <point y="43" x="76"/>
+                    <point y="77" x="75"/>
+                    <point y="40" x="0"/>
+                </points>
+            </polyline>
+            <dynamic_fill type="0">
+                <on_off on_color="#ff00ff00" blink_on_enable="0" off_color="#ffff0000" blink_on_color="#00000000" blink_off_color="#00000000" blink_off_enable="0">
+                    <on_color_when><![CDATA[_DTms_0010 > 60]]></on_color_when>
+                </on_off>
+            </dynamic_fill>
+        </shape>
+        <shape type="Polygon">
+            <object description="" object_number="10018" object_id="SHAPE_10018" tool_tip=""/>
+            <box axis_offset_left="92" angle="0" top="0" right="0" axis_offset_top="211" left="0" bottom="0" z_index="15" axis_anchor="0"/>
+            <line style="1" line_width="1" color="#ff000000"/>
+            <fill fill="#ff00ff00"/>
+            <polyline closed="1">
+                <points>
+                    <point y="41" x="0"/>
+                    <point y="80" x="0"/>
+                    <point y="43" x="76"/>
+                    <point y="77" x="75"/>
+                    <point y="40" x="0"/>
+                </points>
+            </polyline>
+        </shape>
+        <shape type="Polygon">
+            <object description="" object_number="10017" object_id="SHAPE_10017" tool_tip=""/>
+            <box axis_offset_left="93" angle="0" top="0" right="0" axis_offset_top="127" left="0" bottom="0" z_index="14" axis_anchor="0"/>
+            <line style="1" line_width="1" color="#ff000000"/>
+            <fill fill="#ff00ff00"/>
+            <polyline closed="1">
+                <points>
+                    <point y="41" x="0"/>
+                    <point y="80" x="0"/>
+                    <point y="43" x="76"/>
+                    <point y="81" x="75"/>
+                    <point y="40" x="0"/>
+                </points>
+            </polyline>
+        </shape>
+        <shape type="Ellipse">
+            <object description="" object_number="10014" object_id="SHAPE_10014" tool_tip="">
+                <security area="0" area_same_as_page="1" no_privilege_restriction="1" disable_if_no_privilege="0" privilege_level="0">
+                    <hidden_when><![CDATA[_DTms_0010 >= 60]]></hidden_when>
+                </security>
+            </object>
+            <box axis_offset_left="349" angle="0" top="0" right="47" axis_offset_top="352" left="0" bottom="36" z_index="8" axis_anchor="0"/>
+            <line style="1" line_width="1" color="#ff000000"/>
+            <fill fill="#ff55ffff"/>
+            <ellipse angle_end="0" x1="0" y1="0" angle_start="0" y2="36" ellipse_type="ARC_ELLIPSE" x2="47"/>
+        </shape>
+        <shape type="Rectangle">
+            <object description="" object_number="10007" object_id="SHAPE_10007" tool_tip=""/>
+            <box axis_offset_left="30" angle="0" top="0" right="11" axis_offset_top="238" left="0" bottom="67" z_index="7" axis_anchor="0"/>
+            <line style="1" line_width="1" color="#ff000000"/>
+            <fill fill="#ff55ff7f"/>
+            <rectangle x1="0" y1="0" y2="67" corner_radius="0" x2="11"/>
+            <dynamic_fill_level maximum="5000" background_color="#ff000000" minimum="0" enabled="1" level_at_minimum="0" level_at_maximum="100" fill_direction="0">
+                <expression><![CDATA[_DTms_0010]]></expression>
+            </dynamic_fill_level>
+        </shape>
+        <shape type="Rectangle">
+            <object description="" object_number="10006" object_id="SHAPE_10006" tool_tip=""/>
+            <box axis_offset_left="12" angle="0" top="0" right="40" axis_offset_top="237" left="0" bottom="70" z_index="6" axis_anchor="0"/>
+            <line style="1" line_width="1" color="#ff000000"/>
+            <fill fill="#ff808080"/>
+            <gradient gradient_color="#ffffffff" gradient_direction="4"/>
+            <rectangle x1="0" y1="0" y2="70" corner_radius="0" x2="40"/>
+        </shape>
+        <shape type="Rectangle">
+            <object description="" object_number="10005" object_id="SHAPE_10005" tool_tip=""/>
+            <box axis_offset_left="30" angle="0" top="0" right="11" axis_offset_top="151" left="0" bottom="67" z_index="5" axis_anchor="0"/>
+            <line style="1" line_width="1" color="#ff000000"/>
+            <fill fill="#ff55ff7f"/>
+            <rectangle x1="0" y1="0" y2="67" corner_radius="0" x2="11"/>
+            <dynamic_fill_level maximum="100" background_color="#ff000000" minimum="0" enabled="1" level_at_minimum="0" level_at_maximum="100" fill_direction="0">
+                <expression><![CDATA[_DTms_0010]]></expression>
+            </dynamic_fill_level>
+        </shape>
+        <shape type="Rectangle">
+            <object description="" object_number="10004" object_id="SHAPE_10004" tool_tip=""/>
+            <box axis_offset_left="12" angle="0" top="0" right="40" axis_offset_top="150" left="0" bottom="70" z_index="4" axis_anchor="0"/>
+            <line style="1" line_width="1" color="#ff000000"/>
+            <fill fill="#ff808080"/>
+            <gradient gradient_color="#ffffffff" gradient_direction="4"/>
+            <rectangle x1="0" y1="0" y2="70" corner_radius="0" x2="40"/>
+        </shape>
+        <shape type="Rectangle">
+            <object description="" object_number="10003" object_id="SHAPE_10003" tool_tip=""/>
+            <box axis_offset_left="29" angle="0" top="0" right="11" axis_offset_top="67" left="0" bottom="67" z_index="3" axis_anchor="0"/>
+            <line style="1" line_width="1" color="#ff000000"/>
+            <fill fill="#ff55ff7f"/>
+            <rectangle x1="0" y1="0" y2="67" corner_radius="0" x2="11"/>
+            <dynamic_fill_level maximum="100" background_color="#ff000000" minimum="0" enabled="1" level_at_minimum="0" level_at_maximum="100" fill_direction="0">
+                <expression><![CDATA[_DTms_0010]]></expression>
+            </dynamic_fill_level>
+        </shape>
+        <shape type="Rectangle">
+            <object description="" object_number="10002" object_id="SHAPE_10002" tool_tip=""/>
+            <box axis_offset_left="11" angle="0" top="0" right="40" axis_offset_top="66" left="0" bottom="70" z_index="2" axis_anchor="0"/>
+            <line style="1" line_width="1" color="#ff000000"/>
+            <fill fill="#ff808080"/>
+            <gradient gradient_color="#ffffffff" gradient_direction="4"/>
+            <rectangle x1="0" y1="0" y2="70" corner_radius="0" x2="40"/>
+        </shape>
+        <shape type="Polygon">
+            <object description="" object_number="10016" object_id="SHAPE_10016" tool_tip=""/>
+            <box axis_offset_left="93" angle="0" top="0" right="0" axis_offset_top="41" left="0" bottom="0" z_index="0" axis_anchor="0"/>
+            <line style="1" line_width="1" color="#ff000000"/>
+            <fill fill="#ff00ff00"/>
+            <polyline closed="1">
+                <points>
+                    <point y="41" x="0"/>
+                    <point y="80" x="0"/>
+                    <point y="43" x="76"/>
+                    <point y="77" x="75"/>
+                    <point y="40" x="0"/>
+                </points>
+            </polyline>
+        </shape>
+        <shape type="Polygon">
+            <object description="" object_number="10015" object_id="SHAPE_10015" tool_tip="">
+                <security area="0" area_same_as_page="1" no_privilege_restriction="1" disable_if_no_privilege="0" privilege_level="0">
+                    <hidden_when><![CDATA[_DTms_0010 >= 60]]></hidden_when>
+                </security>
+            </object>
+            <box axis_offset_left="361" angle="0" top="0" right="0" axis_offset_top="375" left="0" bottom="0" z_index="0" axis_anchor="0"/>
+            <line style="1" line_width="1" color="#ff000000"/>
+            <fill fill="#ff00ff00"/>
+            <polyline closed="1">
+                <points>
+                    <point y="1.91566264629364" x="-2.129032373428345"/>
+                    <point y="24.90361404418945" x="-15.6129035949707"/>
+                    <point y="25.54216957092285" x="31.22580718994141"/>
+                    <point y="1.91566264629364" x="15.6129035949707"/>
+                    <point y="1.91566264629364" x="-1.419354796409607"/>
+                </points>
+            </polyline>
+        </shape>
+        <shape type="Polygon">
+            <object description="" object_number="10062" object_id="SHAPE_10062" tool_tip=""/>
+            <box axis_offset_left="95" angle="0" top="0" right="0" axis_offset_top="505" left="0" bottom="0" z_index="0" axis_anchor="0"/>
+            <line style="1" line_width="1" color="#ff000000"/>
+            <fill fill="#ffff0000"/>
+            <polyline closed="1">
+                <points>
+                    <point y="1.91566264629364" x="-2.129032373428345"/>
+                    <point y="40" x="-40"/>
+                    <point y="41" x="57"/>
+                    <point y="1.91566264629364" x="15.6129035949707"/>
+                    <point y="1.91566264629364" x="-1.419354796409607"/>
+                </points>
+            </polyline>
+            <dynamic_fill type="0">
+                <on_off on_color="#ff00ff00" blink_on_enable="0" off_color="#ffff0000" blink_on_color="#00000000" blink_off_color="#00000000" blink_off_enable="0">
+                    <on_color_when><![CDATA[_DTms_0010 > 50]]></on_color_when>
+                </on_off>
+            </dynamic_fill>
+        </shape>
+        <shape type="Rectangle">
+            <object description="" object_number="10013" object_id="SHAPE_10013" tool_tip="">
+                <security area="0" area_same_as_page="1" no_privilege_restriction="1" disable_if_no_privilege="0" privilege_level="0">
+                    <hidden_when><![CDATA[_DTms_0010 >= 60]]></hidden_when>
+                </security>
+            </object>
+            <box axis_offset_left="372" angle="0" top="0" right="48" axis_offset_top="359" left="0" bottom="12" z_index="-2" axis_anchor="0"/>
+            <line style="1" line_width="1" color="#ff000000"/>
+            <fill fill="#ff00ff7f"/>
+            <rectangle x1="0" y1="0" y2="12" corner_radius="0" x2="48"/>
+        </shape>
+        <shape type="Rectangle">
+            <object description="" object_number="10023" object_id="SHAPE_10023" tool_tip=""/>
+            <box axis_offset_left="189" angle="0" top="0" right="106" axis_offset_top="148" left="0" bottom="31" z_index="-3" axis_anchor="0"/>
+            <line style="1" line_width="2" color="#ffffffff"/>
+            <fill fill="#ff000000"/>
+            <rectangle x1="0" y1="0" y2="31" corner_radius="0" x2="106"/>
+        </shape>
+        <shape type="Rectangle">
+            <object description="" object_number="10061" object_id="SHAPE_10061" tool_tip=""/>
+            <box axis_offset_left="94" angle="0" top="0" right="76" axis_offset_top="464" left="0" bottom="24" z_index="-4" axis_anchor="0"/>
+            <line style="1" line_width="1" color="#ff000000"/>
+            <fill fill="#ffff0000"/>
+            <rectangle x1="0" y1="0" y2="24" corner_radius="0" x2="76"/>
+            <dynamic_fill type="0">
+                <on_off on_color="#ff00ff00" blink_on_enable="0" off_color="#ffff0000" blink_on_color="#00000000" blink_off_color="#00000000" blink_off_enable="0">
+                    <on_color_when><![CDATA[_DTms_0010 > 50]]></on_color_when>
+                </on_off>
+            </dynamic_fill>
+        </shape>
+        <shape type="Pipe">
+            <object description="" object_number="10084" object_id="SHAPE_10084" tool_tip=""/>
+            <box axis_offset_left="17" angle="0" top="0" right="0" axis_offset_top="495" left="0" bottom="0" z_index="-5" axis_anchor="0"/>
+            <line style="1" line_width="1" color="#ff000000"/>
+            <pipe highlight_color="#ffffffff" lowlight_color="#ff808080" pipe_width="5">
+                <points>
+                    <point y="4" x="9"/>
+                    <point y="5" x="55"/>
+                    <point y="-27" x="137"/>
+                    <point y="-10" x="183"/>
+                    <point y="21" x="185"/>
+                    <point y="22" x="266"/>
+                    <point y="-20" x="267"/>
+                    <point y="-20" x="360"/>
+                    <point y="17" x="361"/>
+                    <point y="18" x="423"/>
+                    <point y="-24" x="420"/>
+                    <point y="-24" x="529"/>
+                </points>
+            </pipe>
+            <dynamic_fill type="0">
+                <on_off on_color="#ff00ff00" blink_on_enable="0" off_color="#ffff0000" blink_on_color="#00000000" blink_off_color="#00000000" blink_off_enable="0">
+                    <on_color_when><![CDATA[_DTms_0010 > 50]]></on_color_when>
+                </on_off>
+            </dynamic_fill>
+        </shape>
+    </shapes>
+    <labels>
+        <text font_style="0" underline="0" font_family="Sans Serif" display_type="0" static_text="Hidden when by indi" font_size="12" color="#ff000000" align_type="0" font_weight="50" strikeout="0">
+            <object description="" object_number="10088" object_id="TEXT_10088" tool_tip=""/>
+            <box axis_offset_left="770" angle="0" top="0" right="0" axis_offset_top="290" left="0" bottom="0" z_index="72" axis_anchor="4"/>
+        </text>
+        <text font_style="0" underline="0" font_family="Sans Serif" display_type="0" static_text="color change by indiv" font_size="12" color="#ff000000" align_type="0" font_weight="50" strikeout="0">
+            <object description="" object_number="10087" object_id="TEXT_10087" tool_tip=""/>
+            <box axis_offset_left="787" angle="0" top="0" right="0" axis_offset_top="145" left="0" bottom="0" z_index="71" axis_anchor="4"/>
+        </text>
+        <text font_style="0" underline="0" font_family="NanumGothic" display_type="0" static_text="MP 401C" font_size="12" color="#ff000000" align_type="0" font_weight="63" strikeout="0">
+            <object description="" object_number="10083" object_id="TEXT_10083" tool_tip=""/>
+            <box axis_offset_left="410" angle="0" top="0" right="0" axis_offset_top="550" left="0" bottom="0" z_index="68" axis_anchor="4"/>
+        </text>
+        <text font_style="0" underline="0" font_family="NanumGothic" display_type="0" static_text="MP 401B" font_size="12" color="#ff000000" align_type="0" font_weight="63" strikeout="0">
+            <object description="" object_number="10082" object_id="TEXT_10082" tool_tip=""/>
+            <box axis_offset_left="240" angle="0" top="0" right="0" axis_offset_top="550" left="0" bottom="0" z_index="67" axis_anchor="4"/>
+        </text>
+        <text font_style="0" underline="0" font_family="NanumGothic" display_type="0" static_text="MP 401A" font_size="12" color="#ff000000" align_type="0" font_weight="63" strikeout="0">
+            <object description="" object_number="10081" object_id="TEXT_10081" tool_tip=""/>
+            <box axis_offset_left="60" angle="0" top="0" right="0" axis_offset_top="550" left="0" bottom="0" z_index="66" axis_anchor="4"/>
+        </text>
+        <text font_style="0" underline="0" font_family="Overpass" display_type="3" static_text="Text" font_size="12" color="#ff00ff00" align_type="0" font_weight="50" strikeout="0">
+            <display_numeric>
+                <expression><![CDATA[_DTms_0012*3]]></expression>
+                <format>2</format>
+            </display_numeric>
+            <object description="" object_number="10078" object_id="TEXT_10078" tool_tip=""/>
+            <box axis_offset_left="660" angle="0" top="0" right="0" axis_offset_top="344" left="0" bottom="0" z_index="62" axis_anchor="4"/>
+        </text>
+        <text font_style="0" underline="0" font_family="Overpass" display_type="3" static_text="Text" font_size="12" color="#ff00ff00" align_type="0" font_weight="50" strikeout="0">
+            <display_numeric>
+                <expression><![CDATA[_DTms_1*2]]></expression>
+                <format>2</format>
+            </display_numeric>
+            <object description="" object_number="10076" object_id="TEXT_10076" tool_tip=""/>
+            <box axis_offset_left="660" angle="0" top="0" right="0" axis_offset_top="290" left="0" bottom="0" z_index="60" axis_anchor="4"/>
+        </text>
+        <text font_style="0" underline="0" font_family="Overpass" display_type="3" static_text="Text" font_size="12" color="#ff00ff00" align_type="0" font_weight="50" strikeout="0">
+            <display_numeric>
+                <expression><![CDATA[_DTms_0012]]></expression>
+                <format>2</format>
+            </display_numeric>
+            <object description="" object_number="10074" object_id="TEXT_10074" tool_tip=""/>
+            <box axis_offset_left="660" angle="0" top="0" right="0" axis_offset_top="240" left="0" bottom="0" z_index="58" axis_anchor="4"/>
+        </text>
+        <text font_style="0" underline="0" font_family="Overpass" display_type="3" static_text="Text" font_size="12" color="#ff00ff00" align_type="0" font_weight="50" strikeout="0">
+            <display_numeric>
+                <expression><![CDATA[_DTms_0011 *5]]></expression>
+                <format>2</format>
+            </display_numeric>
+            <object description="" object_number="10072" object_id="TEXT_10072" tool_tip=""/>
+            <box axis_offset_left="660" angle="0" top="0" right="0" axis_offset_top="190" left="0" bottom="0" z_index="56" axis_anchor="4"/>
+        </text>
+        <text font_style="0" underline="0" font_family="Overpass" display_type="3" static_text="Text" font_size="12" color="#ff00ff00" align_type="0" font_weight="50" strikeout="0">
+            <display_numeric>
+                <expression><![CDATA[_DTms_0011 *4]]></expression>
+                <format>2</format>
+            </display_numeric>
+            <object description="" object_number="10070" object_id="TEXT_10070" tool_tip=""/>
+            <box axis_offset_left="660" angle="0" top="0" right="0" axis_offset_top="140" left="0" bottom="0" z_index="54" axis_anchor="4"/>
+        </text>
+        <text font_style="0" underline="0" font_family="Overpass" display_type="3" static_text="Text" font_size="12" color="#ff00ff00" align_type="0" font_weight="50" strikeout="0">
+            <display_numeric>
+                <expression><![CDATA[_DTms_0011 *3]]></expression>
+                <format>2</format>
+            </display_numeric>
+            <object description="" object_number="10068" object_id="TEXT_10068" tool_tip=""/>
+            <box axis_offset_left="660" angle="0" top="0" right="0" axis_offset_top="90" left="0" bottom="0" z_index="52" axis_anchor="4"/>
+        </text>
+        <text font_style="0" underline="0" font_family="Overpass" display_type="3" static_text="Text" font_size="12" color="#ff00ff00" align_type="0" font_weight="50" strikeout="0">
+            <display_numeric>
+                <expression><![CDATA[_DTms_0011*2]]></expression>
+                <format>2</format>
+            </display_numeric>
+            <object description="" object_number="10066" object_id="TEXT_10066" tool_tip=""/>
+            <box axis_offset_left="660" angle="0" top="0" right="0" axis_offset_top="35" left="0" bottom="0" z_index="50" axis_anchor="4"/>
+        </text>
+        <text font_style="0" underline="0" font_family="Sans Serif" display_type="1" static_text="Text" font_size="12" color="#ff55aa00" align_type="0" font_weight="50" strikeout="0">
+            <display_multi_state>
+                <conditions><![CDATA[_DTms_0010 > 10]]><![CDATA[_DTms_0010 > 20]]></conditions>
+                <state_text><![CDATA[Normal]]><![CDATA[Undefined]]><![CDATA[10-20]]><![CDATA[>20]]><![CDATA[Normal]]><![CDATA[Undefined]]><![CDATA[10-20]]><![CDATA[>20]]></state_text>
+            </display_multi_state>
+            <object description="" object_number="10059" object_id="TEXT_10059" tool_tip=""/>
+            <box axis_offset_left="480" angle="0" top="0" right="0" axis_offset_top="410" left="0" bottom="0" z_index="44" axis_anchor="4"/>
+        </text>
+        <text font_style="0" underline="0" font_family="Sans Serif" display_type="2" static_text="Text" font_size="12" color="#ff000000" align_type="0" font_weight="50" strikeout="0">
+            <display_array>
+                <index_expression><![CDATA[_DTms_0010]]></index_expression>
+                <array_text><![CDATA[Hi0]]><![CDATA[Hi1]]><![CDATA[Hi2]]><![CDATA[Hi3]]><![CDATA[Hi4]]><![CDATA[Hi5]]><![CDATA[Hi6]]><![CDATA[Hi7]]><![CDATA[Hi8]]><![CDATA[Hi9]]><![CDATA[Hi10]]><![CDATA[Hi11]]><![CDATA[Hi12]]><![CDATA[Hi13]]><![CDATA[Hi14]]><![CDATA[Hi15]]><![CDATA[Hi16]]><![CDATA[Hi17]]><![CDATA[Hi18]]><![CDATA[Hi19]]><![CDATA[Hi20]]><![CDATA[Hi21]]><![CDATA[Hi22]]><![CDATA[Hi23]]><![CDATA[Hi24]]><![CDATA[Hi25]]><![CDATA[Hi26]]><![CDATA[Hi27]]><![CDATA[Hi28]]><![CDATA[Hi29]]><![CDATA[Hi30]]><![CDATA[Hi31]]><![CDATA[Hi32]]><![CDATA[Hi33]]><![CDATA[Hi34]]><![CDATA[Hi35]]><![CDATA[Hi36]]><![CDATA[Hi37]]><![CDATA[Hi38]]><![CDATA[Hi39]]><![CDATA[Hi40]]><![CDATA[Hi41]]><![CDATA[Hi42]]><![CDATA[Hi43]]><![CDATA[Hi44]]><![CDATA[Hi45]]><![CDATA[Hi46]]><![CDATA[Hi47]]><![CDATA[Hi48]]><![CDATA[Hi49]]><![CDATA[Hi50]]><![CDATA[Hi51]]><![CDATA[Hi52]]><![CDATA[Hi53]]><![CDATA[Hi54]]><![CDATA[Hi55]]><![CDATA[Hi56]]><![CDATA[Hi57]]><![CDATA[Hi58]]><![CDATA[Hi59]]><![CDATA[Hi60]]><![CDATA[Hi61]]><![CDATA[Hi62]]><![CDATA[Hi63]]><![CDATA[Hi64]]><![CDATA[Hi65]]><![CDATA[Hi66]]><![CDATA[Hi67]]><![CDATA[Hi68]]><![CDATA[Hi69]]><![CDATA[Hi70]]><![CDATA[Hi71]]><![CDATA[Hi72]]><![CDATA[Hi73]]><![CDATA[Hi74]]><![CDATA[Hi75]]><![CDATA[Hi76]]><![CDATA[Hi77]]><![CDATA[Hi78]]><![CDATA[Hi79]]><![CDATA[Hi80]]><![CDATA[Hi81]]><![CDATA[Hi82]]><![CDATA[Hi83]]><![CDATA[Hi84]]><![CDATA[Hi85]]><![CDATA[Hi86]]><![CDATA[Hi87]]><![CDATA[Hi88]]><![CDATA[Hi89]]><![CDATA[Hi90]]><![CDATA[Hi91]]><![CDATA[Hi92]]><![CDATA[Hi93]]><![CDATA[Hi94]]><![CDATA[Hi95]]><![CDATA[Hi96]]><![CDATA[Hi97]]><![CDATA[Hi98]]><![CDATA[Hi99]]><![CDATA[Hi100]]><![CDATA[Hi101]]><![CDATA[Hi102]]><![CDATA[Hi103]]><![CDATA[Hi104]]><![CDATA[Hi105]]><![CDATA[Hi106]]><![CDATA[Hi107]]><![CDATA[Hi108]]><![CDATA[Hi109]]><![CDATA[Hi110]]><![CDATA[Hi111]]><![CDATA[Hi112]]><![CDATA[Hi113]]><![CDATA[Hi114]]><![CDATA[Hi115]]><![CDATA[Hi116]]><![CDATA[Hi117]]><![CDATA[Hi118]]><![CDATA[Hi119]]><![CDATA[Hi120]]><![CDATA[Hi121]]><![CDATA[Hi122]]><![CDATA[Hi123]]><![CDATA[Hi124]]><![CDATA[Hi125]]><![CDATA[Hi126]]><![CDATA[Hi127]]><![CDATA[Hi128]]><![CDATA[Hi129]]><![CDATA[Hi130]]><![CDATA[Hi131]]><![CDATA[Hi132]]><![CDATA[Hi133]]><![CDATA[Hi134]]><![CDATA[Hi135]]><![CDATA[Hi136]]><![CDATA[Hi137]]><![CDATA[Hi138]]><![CDATA[Hi139]]><![CDATA[Hi140]]><![CDATA[Hi141]]><![CDATA[Hi142]]><![CDATA[Hi143]]><![CDATA[Hi144]]><![CDATA[Hi145]]><![CDATA[Hi146]]><![CDATA[Hi147]]><![CDATA[Hi148]]><![CDATA[Hi149]]><![CDATA[Hi150]]><![CDATA[Hi151]]><![CDATA[Hi152]]><![CDATA[Hi153]]><![CDATA[Hi154]]><![CDATA[Hi155]]><![CDATA[Hi156]]><![CDATA[Hi157]]><![CDATA[Hi158]]><![CDATA[Hi159]]><![CDATA[Hi160]]><![CDATA[Hi161]]><![CDATA[Hi162]]><![CDATA[Hi163]]><![CDATA[Hi164]]><![CDATA[Hi165]]><![CDATA[Hi166]]><![CDATA[Hi167]]><![CDATA[Hi168]]><![CDATA[Hi169]]><![CDATA[Hi170]]><![CDATA[Hi171]]><![CDATA[Hi172]]><![CDATA[Hi173]]><![CDATA[Hi174]]><![CDATA[Hi175]]><![CDATA[Hi176]]><![CDATA[Hi177]]><![CDATA[Hi178]]><![CDATA[Hi179]]><![CDATA[Hi180]]><![CDATA[Hi181]]><![CDATA[Hi182]]><![CDATA[Hi183]]><![CDATA[Hi184]]><![CDATA[Hi185]]><![CDATA[Hi186]]><![CDATA[Hi187]]><![CDATA[Hi188]]><![CDATA[Hi189]]><![CDATA[Hi190]]><![CDATA[Hi191]]><![CDATA[Hi192]]><![CDATA[Hi193]]><![CDATA[Hi194]]><![CDATA[Hi195]]><![CDATA[Hi196]]><![CDATA[Hi197]]><![CDATA[Hi198]]><![CDATA[Hi199]]><![CDATA[Hi200]]><![CDATA[Hi201]]><![CDATA[Hi202]]><![CDATA[Hi203]]><![CDATA[Hi204]]><![CDATA[Hi205]]><![CDATA[Hi206]]><![CDATA[Hi207]]><![CDATA[Hi208]]><![CDATA[Hi209]]><![CDATA[Hi210]]><![CDATA[Hi211]]><![CDATA[Hi212]]><![CDATA[Hi213]]><![CDATA[Hi214]]><![CDATA[Hi215]]><![CDATA[Hi216]]><![CDATA[Hi217]]><![CDATA[Hi218]]><![CDATA[Hi219]]><![CDATA[Hi220]]><![CDATA[Hi221]]><![CDATA[Hi222]]><![CDATA[Hi223]]><![CDATA[Hi224]]><![CDATA[Hi225]]><![CDATA[Hi226]]><![CDATA[Hi227]]><![CDATA[Hi228]]><![CDATA[Hi229]]><![CDATA[Hi230]]><![CDATA[Hi231]]><![CDATA[Hi232]]><![CDATA[Hi233]]><![CDATA[Hi234]]><![CDATA[Hi235]]><![CDATA[Hi236]]><![CDATA[Hi237]]><![CDATA[Hi238]]><![CDATA[Hi239]]><![CDATA[Hi240]]><![CDATA[Hi241]]><![CDATA[Hi242]]><![CDATA[Hi243]]><![CDATA[Hi244]]><![CDATA[Hi245]]><![CDATA[Hi246]]><![CDATA[Hi247]]><![CDATA[Hi248]]><![CDATA[Hi249]]><![CDATA[Hi250]]><![CDATA[Hi251]]><![CDATA[Hi252]]><![CDATA[Hi253]]><![CDATA[Hi254]]><![CDATA[Hi255]]></array_text>
+            </display_array>
+            <object description="" object_number="10058" object_id="TEXT_10058" tool_tip=""/>
+            <box axis_offset_left="480" angle="0" top="0" right="0" axis_offset_top="370" left="0" bottom="0" z_index="43" axis_anchor="4"/>
+            <array>
+                <expression><![CDATA[_DTms_0010]]></expression>
+                <colors><![CDATA[10]]><![CDATA[11]]><![CDATA[12]]><![CDATA[13]]><![CDATA[14]]><![CDATA[15]]><![CDATA[16]]><![CDATA[17]]><![CDATA[18]]><![CDATA[19]]><![CDATA[20]]><![CDATA[21]]><![CDATA[22]]><![CDATA[23]]><![CDATA[24]]><![CDATA[25]]><![CDATA[26]]><![CDATA[27]]><![CDATA[28]]><![CDATA[29]]><![CDATA[30]]><![CDATA[31]]><![CDATA[32]]><![CDATA[33]]><![CDATA[34]]><![CDATA[35]]><![CDATA[36]]><![CDATA[37]]><![CDATA[38]]><![CDATA[39]]><![CDATA[40]]><![CDATA[41]]><![CDATA[42]]><![CDATA[43]]><![CDATA[44]]><![CDATA[45]]><![CDATA[46]]><![CDATA[47]]><![CDATA[48]]><![CDATA[49]]><![CDATA[50]]><![CDATA[51]]><![CDATA[52]]><![CDATA[53]]><![CDATA[54]]><![CDATA[55]]><![CDATA[56]]><![CDATA[57]]><![CDATA[58]]><![CDATA[59]]><![CDATA[60]]><![CDATA[61]]><![CDATA[62]]><![CDATA[63]]><![CDATA[64]]><![CDATA[65]]><![CDATA[66]]><![CDATA[67]]><![CDATA[68]]><![CDATA[69]]><![CDATA[70]]><![CDATA[71]]><![CDATA[72]]><![CDATA[73]]><![CDATA[74]]><![CDATA[75]]><![CDATA[76]]><![CDATA[77]]><![CDATA[78]]><![CDATA[79]]><![CDATA[80]]><![CDATA[81]]><![CDATA[82]]><![CDATA[83]]><![CDATA[84]]><![CDATA[85]]><![CDATA[86]]><![CDATA[87]]><![CDATA[88]]><![CDATA[89]]><![CDATA[90]]><![CDATA[91]]><![CDATA[92]]><![CDATA[93]]><![CDATA[94]]><![CDATA[95]]><![CDATA[96]]><![CDATA[97]]><![CDATA[98]]><![CDATA[99]]><![CDATA[100]]><![CDATA[101]]><![CDATA[102]]><![CDATA[103]]><![CDATA[104]]><![CDATA[105]]><![CDATA[106]]><![CDATA[107]]><![CDATA[108]]><![CDATA[109]]><![CDATA[110]]><![CDATA[111]]><![CDATA[112]]><![CDATA[113]]><![CDATA[114]]><![CDATA[115]]><![CDATA[116]]><![CDATA[117]]><![CDATA[118]]><![CDATA[119]]><![CDATA[120]]><![CDATA[121]]><![CDATA[122]]><![CDATA[123]]><![CDATA[124]]><![CDATA[125]]><![CDATA[126]]><![CDATA[127]]><![CDATA[128]]><![CDATA[129]]><![CDATA[130]]><![CDATA[131]]><![CDATA[132]]><![CDATA[133]]><![CDATA[134]]><![CDATA[135]]><![CDATA[136]]><![CDATA[137]]><![CDATA[138]]><![CDATA[139]]><![CDATA[140]]><![CDATA[141]]><![CDATA[142]]><![CDATA[143]]><![CDATA[144]]><![CDATA[145]]><![CDATA[146]]><![CDATA[147]]><![CDATA[148]]><![CDATA[149]]><![CDATA[150]]><![CDATA[151]]><![CDATA[152]]><![CDATA[153]]><![CDATA[154]]><![CDATA[155]]><![CDATA[156]]><![CDATA[157]]><![CDATA[158]]><![CDATA[159]]><![CDATA[160]]><![CDATA[161]]><![CDATA[162]]><![CDATA[163]]><![CDATA[164]]><![CDATA[165]]><![CDATA[166]]><![CDATA[167]]><![CDATA[168]]><![CDATA[169]]><![CDATA[170]]><![CDATA[171]]><![CDATA[172]]><![CDATA[173]]><![CDATA[174]]><![CDATA[175]]><![CDATA[176]]><![CDATA[177]]><![CDATA[178]]><![CDATA[179]]><![CDATA[180]]><![CDATA[181]]><![CDATA[182]]><![CDATA[183]]><![CDATA[184]]><![CDATA[185]]><![CDATA[186]]><![CDATA[187]]><![CDATA[188]]><![CDATA[189]]><![CDATA[190]]><![CDATA[191]]><![CDATA[192]]><![CDATA[193]]><![CDATA[194]]><![CDATA[195]]><![CDATA[196]]><![CDATA[197]]><![CDATA[198]]><![CDATA[199]]><![CDATA[200]]><![CDATA[201]]><![CDATA[202]]><![CDATA[203]]><![CDATA[204]]><![CDATA[205]]><![CDATA[206]]><![CDATA[207]]><![CDATA[208]]><![CDATA[209]]><![CDATA[210]]><![CDATA[211]]><![CDATA[212]]><![CDATA[213]]><![CDATA[214]]><![CDATA[215]]><![CDATA[216]]><![CDATA[217]]><![CDATA[218]]><![CDATA[219]]><![CDATA[220]]><![CDATA[221]]><![CDATA[222]]><![CDATA[223]]><![CDATA[224]]><![CDATA[225]]><![CDATA[226]]><![CDATA[227]]><![CDATA[228]]><![CDATA[229]]><![CDATA[230]]><![CDATA[231]]><![CDATA[232]]><![CDATA[233]]><![CDATA[234]]><![CDATA[235]]><![CDATA[236]]><![CDATA[237]]><![CDATA[238]]><![CDATA[239]]><![CDATA[240]]><![CDATA[241]]><![CDATA[242]]><![CDATA[243]]><![CDATA[244]]><![CDATA[245]]><![CDATA[246]]><![CDATA[247]]><![CDATA[248]]><![CDATA[249]]><![CDATA[250]]><![CDATA[251]]><![CDATA[252]]><![CDATA[253]]><![CDATA[254]]><![CDATA[255]]><![CDATA[256]]><![CDATA[257]]><![CDATA[258]]><![CDATA[259]]><![CDATA[260]]><![CDATA[261]]><![CDATA[262]]><![CDATA[263]]><![CDATA[264]]><![CDATA[265]]></colors>
+                <blink_enable><![CDATA[1]]><![CDATA[1]]><![CDATA[1]]><![CDATA[1]]><![CDATA[1]]><![CDATA[1]]><![CDATA[1]]><![CDATA[1]]><![CDATA[1]]><![CDATA[1]]><![CDATA[1]]><![CDATA[1]]><![CDATA[1]]><![CDATA[1]]><![CDATA[1]]><![CDATA[1]]><![CDATA[1]]><![CDATA[1]]><![CDATA[1]]><![CDATA[1]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[1]]><![CDATA[1]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[1]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[1]]><![CDATA[1]]><![CDATA[1]]><![CDATA[1]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[1]]><![CDATA[1]]><![CDATA[1]]><![CDATA[1]]><![CDATA[1]]><![CDATA[1]]><![CDATA[0]]><![CDATA[0]]><![CDATA[1]]><![CDATA[1]]><![CDATA[1]]><![CDATA[1]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[1]]><![CDATA[1]]><![CDATA[1]]><![CDATA[1]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[1]]><![CDATA[1]]><![CDATA[1]]><![CDATA[1]]><![CDATA[1]]><![CDATA[1]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[1]]><![CDATA[0]]><![CDATA[1]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[1]]><![CDATA[1]]><![CDATA[1]]><![CDATA[0]]><![CDATA[0]]><![CDATA[1]]><![CDATA[1]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[1]]><![CDATA[1]]><![CDATA[1]]><![CDATA[1]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[1]]><![CDATA[1]]><![CDATA[1]]><![CDATA[1]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[1]]><![CDATA[1]]><![CDATA[1]]><![CDATA[1]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[1]]><![CDATA[1]]><![CDATA[1]]><![CDATA[1]]><![CDATA[1]]><![CDATA[1]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[1]]><![CDATA[0]]><![CDATA[1]]><![CDATA[0]]><![CDATA[1]]><![CDATA[0]]><![CDATA[0]]><![CDATA[1]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[1]]><![CDATA[1]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[1]]><![CDATA[1]]><![CDATA[1]]><![CDATA[1]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[1]]><![CDATA[1]]><![CDATA[1]]><![CDATA[1]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[1]]><![CDATA[1]]><![CDATA[1]]><![CDATA[1]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[1]]><![CDATA[1]]><![CDATA[1]]><![CDATA[1]]><![CDATA[1]]><![CDATA[1]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]></blink_enable>
+                <blink_color><![CDATA[1636605400]]><![CDATA[32596]]><![CDATA[65217808]]><![CDATA[0]]><![CDATA[65217808]]><![CDATA[0]]><![CDATA[1679449152]]><![CDATA[32596]]><![CDATA[65217920]]><![CDATA[0]]><![CDATA[65217760]]><![CDATA[0]]><![CDATA[3672083880]]><![CDATA[32767]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[1245219]]><![CDATA[2147483661]]><![CDATA[0]]><![CDATA[817]]><![CDATA[0]]><![CDATA[65221040]]><![CDATA[0]]><![CDATA[1636603832]]><![CDATA[32596]]><![CDATA[1679449152]]><![CDATA[32596]]><![CDATA[65221056]]><![CDATA[0]]><![CDATA[65217840]]><![CDATA[0]]><![CDATA[3672083880]]><![CDATA[32767]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[2359331]]><![CDATA[2147483661]]><![CDATA[779120500]]><![CDATA[737]]><![CDATA[0]]><![CDATA[65218992]]><![CDATA[0]]><![CDATA[65216592]]><![CDATA[0]]><![CDATA[1679449152]]><![CDATA[32596]]><![CDATA[65219104]]><![CDATA[0]]><![CDATA[65217920]]><![CDATA[0]]><![CDATA[3672083880]]><![CDATA[32767]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[1310755]]><![CDATA[2147483662]]><![CDATA[0]]><![CDATA[657]]><![CDATA[0]]><![CDATA[65219328]]><![CDATA[0]]><![CDATA[65217264]]><![CDATA[0]]><![CDATA[1679449152]]><![CDATA[32596]]><![CDATA[65221296]]><![CDATA[0]]><![CDATA[65218000]]><![CDATA[0]]><![CDATA[3672083880]]><![CDATA[32767]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[2424867]]><![CDATA[2147483663]]><![CDATA[1702129263]]><![CDATA[577]]><![CDATA[0]]><![CDATA[65220048]]><![CDATA[0]]><![CDATA[65216592]]><![CDATA[0]]><![CDATA[1668593280]]><![CDATA[32596]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[32596]]><![CDATA[49]]><![CDATA[0]]><![CDATA[66558688]]><![CDATA[0]]><![CDATA[63106880]]><![CDATA[0]]><![CDATA[24]]><![CDATA[0]]><![CDATA[5177420]]><![CDATA[87]]><![CDATA[96]]><![CDATA[0]]><![CDATA[80]]><![CDATA[0]]><![CDATA[51014720]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[1679449152]]><![CDATA[32596]]><![CDATA[65219584]]><![CDATA[0]]><![CDATA[65218080]]><![CDATA[0]]><![CDATA[3672083880]]><![CDATA[32767]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[2555939]]><![CDATA[176]]><![CDATA[0]]><![CDATA[80]]><![CDATA[0]]><![CDATA[51013824]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[1679449152]]><![CDATA[32596]]><![CDATA[65219184]]><![CDATA[0]]><![CDATA[65218256]]><![CDATA[0]]><![CDATA[3672083880]]><![CDATA[32767]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[2162723]]><![CDATA[2147483666]]><![CDATA[0]]><![CDATA[81]]><![CDATA[0]]><![CDATA[65218560]]><![CDATA[0]]><![CDATA[65216416]]><![CDATA[0]]><![CDATA[1679449152]]><![CDATA[32596]]><![CDATA[65220496]]><![CDATA[0]]><![CDATA[65218336]]><![CDATA[0]]><![CDATA[3672083880]]><![CDATA[32767]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[2228259]]><![CDATA[336]]><![CDATA[0]]><![CDATA[80]]><![CDATA[0]]><![CDATA[65216592]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[1679449152]]><![CDATA[32596]]><![CDATA[65220336]]><![CDATA[0]]><![CDATA[65218416]]><![CDATA[0]]><![CDATA[3672083880]]><![CDATA[32767]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[2293795]]><![CDATA[2147483665]]><![CDATA[0]]><![CDATA[161]]><![CDATA[0]]><![CDATA[65219408]]><![CDATA[0]]><![CDATA[65216416]]><![CDATA[0]]><![CDATA[1679449152]]><![CDATA[32596]]><![CDATA[65219664]]><![CDATA[0]]><![CDATA[65218496]]><![CDATA[0]]><![CDATA[3672083880]]><![CDATA[32767]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[2490403]]><![CDATA[80]]><![CDATA[0]]><![CDATA[80]]><![CDATA[0]]><![CDATA[51013744]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[1679449152]]><![CDATA[32596]]><![CDATA[65219744]]><![CDATA[0]]><![CDATA[65218576]]><![CDATA[0]]><![CDATA[3672083880]]><![CDATA[32767]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[458787]]><![CDATA[896]]><![CDATA[0]]><![CDATA[80]]><![CDATA[0]]><![CDATA[51013136]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[1679449152]]><![CDATA[32596]]><![CDATA[65219984]]><![CDATA[0]]><![CDATA[65218656]]><![CDATA[0]]><![CDATA[3672083880]]><![CDATA[32767]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[2687011]]><![CDATA[3152]]><![CDATA[0]]><![CDATA[192]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[63323760]]><![CDATA[0]]><![CDATA[160]]><![CDATA[320]]><![CDATA[4]]><![CDATA[0]]><![CDATA[4294967294]]><![CDATA[20]]></blink_color>
+            </array>
+        </text>
+        <text font_style="0" underline="0" font_family="Sans Serif" display_type="0" static_text="Text" font_size="12" color="#ffff0000" align_type="0" font_weight="50" strikeout="0">
+            <display_on_off text_off="LOW" text_on="UP"><![CDATA[_DTms_0010 > 50]]></display_on_off>
+            <object description="" object_number="10057" object_id="TEXT_10057" tool_tip=""/>
+            <box axis_offset_left="480" angle="0" top="0" right="0" axis_offset_top="330" left="0" bottom="0" z_index="42" axis_anchor="4"/>
+            <dynamic_fill type="0">
+                <on_off on_color="4278255360" blink_on_enable="0" off_color="4294901760" blink_on_color="0" blink_off_color="4278190080" blink_off_enable="1">
+                    <on_color_when><![CDATA[_DTms_0010 > 50]]></on_color_when>
+                </on_off>
+            </dynamic_fill>
+        </text>
+        <text font_style="0" underline="0" font_family="Overpass" display_type="0" static_text="MUMBAI STATION OVERVIEW" font_size="12" color="#ff0000ff" align_type="0" font_weight="50" strikeout="0">
+            <object description="" object_number="10047" object_id="TEXT_10047" tool_tip=""/>
+            <box axis_offset_left="181" angle="0" top="0" right="0" axis_offset_top="16" left="0" bottom="0" z_index="37" axis_anchor="4"/>
+        </text>
+        <text font_style="0" underline="0" font_family="Overpass" display_type="0" static_text="Inlet Pressure  PT101" font_size="12" color="#ff000000" align_type="0" font_weight="50" strikeout="0">
+            <object description="" object_number="10045" object_id="TEXT_10045" tool_tip=""/>
+            <box axis_offset_left="170" angle="0" top="0" right="0" axis_offset_top="300" left="0" bottom="0" z_index="35" axis_anchor="4"/>
+        </text>
+        <text font_style="0" underline="0" font_family="Overpass" display_type="0" static_text="FLOW 101" font_size="12" color="#ff000000" align_type="0" font_weight="50" strikeout="0">
+            <object description="" object_number="10038" object_id="TEXT_10038" tool_tip=""/>
+            <box axis_offset_left="430" angle="0" top="0" right="0" axis_offset_top="250" left="0" bottom="0" z_index="28" axis_anchor="4"/>
+        </text>
+        <text font_style="0" underline="0" font_family="Overpass" display_type="3" static_text="Text" font_size="12" color="#ff00ff00" align_type="0" font_weight="50" strikeout="0">
+            <display_numeric>
+                <expression><![CDATA[_DTms_0011 *125.36]]></expression>
+                <format>2</format>
+            </display_numeric>
+            <object description="" object_number="10029" object_id="TEXT_10029" tool_tip=""/>
+            <box axis_offset_left="447" angle="0" top="0" right="0" axis_offset_top="214" left="0" bottom="0" z_index="25" axis_anchor="4"/>
+        </text>
+        <text font_style="0" underline="0" font_family="Overpass" display_type="3" static_text="Text" font_size="12" color="#ff00ff00" align_type="0" font_weight="50" strikeout="0">
+            <display_numeric>
+                <expression><![CDATA[_DTms_0010]]></expression>
+                <format>2</format>
+            </display_numeric>
+            <object description="" object_number="10025" object_id="TEXT_10025" tool_tip=""/>
+            <box axis_offset_left="216" angle="0" top="0" right="0" axis_offset_top="258" left="0" bottom="0" z_index="22" axis_anchor="4"/>
+        </text>
+        <text font_style="0" underline="0" font_family="Overpass" display_type="3" static_text="Text" font_size="12" color="#ff00ff00" align_type="0" font_weight="50" strikeout="0">
+            <display_numeric>
+                <expression><![CDATA[_DTms_0010]]></expression>
+                <format>2</format>
+            </display_numeric>
+            <object description="" object_number="10022" object_id="TEXT_10022" tool_tip=""/>
+            <box axis_offset_left="214" angle="0" top="0" right="0" axis_offset_top="148" left="0" bottom="0" z_index="19" axis_anchor="4"/>
+        </text>
+    </labels>
+    <groups>
+        <group x1="201.387" y1="72" zIndex="0" y2="129.542" objectNumber="0" objectId="" x2="271">
+            <shape type="Rectangle">
+                <object description="" object_number="10031" object_id="SHAPE_10031" tool_tip=""/>
+                <box axis_offset_left="13" angle="0" top="0" right="48" axis_offset_top="6" left="0" bottom="12" z_index="-2" axis_anchor="0"/>
+                <line style="1" line_width="1" color="#ff000000"/>
+                <fill fill="#ff00ff7f"/>
+                <rectangle x1="0" y1="0" y2="12" corner_radius="0" x2="48"/>
+            </shape>
+            <shape type="Ellipse">
+                <object description="" object_number="10032" object_id="SHAPE_10032" tool_tip=""/>
+                <box axis_offset_left="4" angle="0" top="0" right="47" axis_offset_top="3" left="0" bottom="36" z_index="8" axis_anchor="0"/>
+                <line style="1" line_width="1" color="#ff000000"/>
+                <fill fill="#ff00ff00"/>
+                <ellipse angle_end="0" x1="0" y1="0" angle_start="0" y2="36" ellipse_type="ARC_ELLIPSE" x2="47"/>
+            </shape>
+            <shape type="Polygon">
+                <object description="" object_number="10033" object_id="SHAPE_10033" tool_tip=""/>
+                <box axis_offset_left="19" angle="0" top="0" right="0" axis_offset_top="23" left="0" bottom="0" z_index="0" axis_anchor="0"/>
+                <line style="1" line_width="1" color="#ff000000"/>
+                <fill fill="#ff00ff00"/>
+                <polyline closed="1">
+                    <points>
+                        <point y="1.91566264629364" x="-2.129032373428345"/>
+                        <point y="24.90361404418945" x="-15.6129035949707"/>
+                        <point y="25.54216957092285" x="31.22580718994141"/>
+                        <point y="1.91566264629364" x="15.6129035949707"/>
+                        <point y="1.91566264629364" x="-1.419354796409607"/>
+                    </points>
+                </polyline>
+            </shape>
+            <description/>
+        </group>
+        <group x1="424.387" y1="124" zIndex="0" y2="181.542" objectNumber="0" objectId="" x2="494">
+            <shape type="Rectangle">
+                <object description="" object_number="10009" object_id="SHAPE_10009" tool_tip=""/>
+                <box axis_offset_left="13" angle="0" top="0" right="48" axis_offset_top="6" left="0" bottom="12" z_index="-2" axis_anchor="0"/>
+                <line style="1" line_width="1" color="#ff000000"/>
+                <fill fill="#ff00ff7f"/>
+                <rectangle x1="0" y1="0" y2="12" corner_radius="0" x2="48"/>
+            </shape>
+            <shape type="Ellipse">
+                <object description="" object_number="10008" object_id="SHAPE_10008" tool_tip=""/>
+                <box axis_offset_left="4" angle="0" top="0" right="47" axis_offset_top="3" left="0" bottom="36" z_index="8" axis_anchor="0"/>
+                <line style="1" line_width="1" color="#ff000000"/>
+                <fill fill="#ff00ff00"/>
+                <ellipse angle_end="0" x1="0" y1="0" angle_start="0" y2="36" ellipse_type="ARC_ELLIPSE" x2="47"/>
+            </shape>
+            <shape type="Polygon">
+                <object description="" object_number="10010" object_id="SHAPE_10010" tool_tip=""/>
+                <box axis_offset_left="19" angle="0" top="0" right="0" axis_offset_top="23" left="0" bottom="0" z_index="0" axis_anchor="0"/>
+                <line style="1" line_width="1" color="#ff000000"/>
+                <fill fill="#ff00ff00"/>
+                <polyline closed="1">
+                    <points>
+                        <point y="1.91566264629364" x="-2.129032373428345"/>
+                        <point y="24.90361404418945" x="-15.6129035949707"/>
+                        <point y="25.54216957092285" x="31.22580718994141"/>
+                        <point y="1.91566264629364" x="15.6129035949707"/>
+                        <point y="1.91566264629364" x="-1.419354796409607"/>
+                    </points>
+                </polyline>
+            </shape>
+            <description/>
+        </group>
+        <group x1="205.387" y1="193" zIndex="0" y2="250.542" objectNumber="0" objectId="" x2="275">
+            <shape type="Rectangle">
+                <object description="" object_number="10050" object_id="SHAPE_10050" tool_tip=""/>
+                <box axis_offset_left="15" angle="0" top="0" right="48" axis_offset_top="9" left="0" bottom="12" z_index="-2" axis_anchor="0"/>
+                <line style="1" line_width="1" color="#ff000000"/>
+                <fill fill="#ffff0000"/>
+                <rectangle x1="0" y1="0" y2="12" corner_radius="0" x2="48"/>
+            </shape>
+            <shape type="Ellipse">
+                <object description="" object_number="10051" object_id="SHAPE_10051" tool_tip=""/>
+                <box axis_offset_left="6" angle="0" top="0" right="47" axis_offset_top="6" left="0" bottom="36" z_index="8" axis_anchor="0"/>
+                <line style="1" line_width="1" color="#ff000000"/>
+                <fill fill="#ffff0000"/>
+                <ellipse angle_end="0" x1="0" y1="0" angle_start="0" y2="36" ellipse_type="ARC_ELLIPSE" x2="47"/>
+            </shape>
+            <shape type="Polygon">
+                <object description="" object_number="10052" object_id="SHAPE_10052" tool_tip=""/>
+                <box axis_offset_left="21" angle="0" top="0" right="0" axis_offset_top="26" left="0" bottom="0" z_index="0" axis_anchor="0"/>
+                <line style="1" line_width="1" color="#ff000000"/>
+                <fill fill="#ffff0000"/>
+                <polyline closed="1">
+                    <points>
+                        <point y="1.91566264629364" x="-2.129032373428345"/>
+                        <point y="24.90361404418945" x="-15.6129035949707"/>
+                        <point y="25.54216957092285" x="31.22580718994141"/>
+                        <point y="1.91566264629364" x="15.6129035949707"/>
+                        <point y="1.91566264629364" x="-1.419354796409607"/>
+                    </points>
+                </polyline>
+            </shape>
+            <description/>
+        </group>
+    </groups>
+    <component_instances>
+        <componentInstance x1="821" y1="574" zIndex="0" uuid="{795dbd75-b108-4540-a10b-85e955be7641}" y2="673" objectNumber="0" objectId="" x2="948">
+            <shape type="Ellipse">
+                <object description="" object_number="3" object_id="SHAPE_3" tool_tip="">
+                    <security area="0" area_same_as_page="1" no_privilege_restriction="1" disable_if_no_privilege="0" privilege_level="0">
+                        <hidden_when><![CDATA[_DTms_0010 <= 50]]></hidden_when>
+                    </security>
+                </object>
+                <box axis_offset_left="16" angle="0" top="0" right="74" axis_offset_top="6" left="0" bottom="66" z_index="3" axis_anchor="0"/>
+                <line style="1" line_width="1" color="#ff000000"/>
+                <fill fill="#ff55ff7f"/>
+                <ellipse angle_end="0" x1="0" y1="0" angle_start="0" y2="66" ellipse_type="ARC_ELLIPSE" x2="74"/>
+            </shape>
+            <shape type="Polygon">
+                <object description="" object_number="2" object_id="SHAPE_2" tool_tip="">
+                    <security area="0" area_same_as_page="1" no_privilege_restriction="1" disable_if_no_privilege="0" privilege_level="0">
+                        <hidden_when><![CDATA[_DTms_0010 <= 50]]></hidden_when>
+                    </security>
+                </object>
+                <box axis_offset_left="46" angle="0" top="1" right="57" axis_offset_top="52" left="-40" bottom="41" z_index="2" axis_anchor="0"/>
+                <line style="1" line_width="1" color="#ff000000"/>
+                <fill fill="#ff55ff7f"/>
+                <polyline closed="1">
+                    <points>
+                        <point y="1.91566264629364" x="-2.129032373428345"/>
+                        <point y="40" x="-40"/>
+                        <point y="41" x="57"/>
+                        <point y="1.91566264629364" x="15.6129035949707"/>
+                        <point y="1.91566264629364" x="-1.419354796409607"/>
+                    </points>
+                </polyline>
+            </shape>
+            <shape type="Rectangle">
+                <object description="" object_number="1" object_id="SHAPE_1" tool_tip="">
+                    <security area="0" area_same_as_page="1" no_privilege_restriction="1" disable_if_no_privilege="0" privilege_level="0">
+                        <hidden_when><![CDATA[_DTms_0010 <= 50]]></hidden_when>
+                    </security>
+                </object>
+                <box axis_offset_left="45" angle="0" top="0" right="76" axis_offset_top="11" left="0" bottom="24" z_index="1" axis_anchor="0"/>
+                <line style="1" line_width="1" color="#ff000000"/>
+                <fill fill="#ff55ff7f"/>
+                <rectangle x1="0" y1="0" y2="24" corner_radius="0" x2="76"/>
+            </shape>
+            <description/>
+        </componentInstance>
+        <componentInstance x1="828" y1="442" zIndex="0" uuid="{795dbd75-b108-4540-a10b-85e955be7641}" y2="541" objectNumber="3221293122" objectId="" x2="955">
+            <shape type="Ellipse">
+                <object description="" object_number="3" object_id="SHAPE_3" tool_tip="">
+                    <security area="0" area_same_as_page="1" no_privilege_restriction="1" disable_if_no_privilege="0" privilege_level="0">
+                        <hidden_when><![CDATA[_DTms_0010 <= 50]]></hidden_when>
+                    </security>
+                </object>
+                <box axis_offset_left="16" angle="0" top="0" right="74" axis_offset_top="6" left="0" bottom="66" z_index="3" axis_anchor="0"/>
+                <line style="1" line_width="1" color="#ff000000"/>
+                <fill fill="#ff55ff7f"/>
+                <ellipse angle_end="0" x1="0" y1="0" angle_start="0" y2="66" ellipse_type="ARC_ELLIPSE" x2="74"/>
+            </shape>
+            <shape type="Polygon">
+                <object description="" object_number="2" object_id="SHAPE_2" tool_tip="">
+                    <security area="0" area_same_as_page="1" no_privilege_restriction="1" disable_if_no_privilege="0" privilege_level="0">
+                        <hidden_when><![CDATA[_DTms_0010 <= 50]]></hidden_when>
+                    </security>
+                </object>
+                <box axis_offset_left="46" angle="0" top="1" right="57" axis_offset_top="52" left="-40" bottom="41" z_index="2" axis_anchor="0"/>
+                <line style="1" line_width="1" color="#ff000000"/>
+                <fill fill="#ff55ff7f"/>
+                <polyline closed="1">
+                    <points>
+                        <point y="1.91566264629364" x="-2.129032373428345"/>
+                        <point y="40" x="-40"/>
+                        <point y="41" x="57"/>
+                        <point y="1.91566264629364" x="15.6129035949707"/>
+                        <point y="1.91566264629364" x="-1.419354796409607"/>
+                    </points>
+                </polyline>
+            </shape>
+            <shape type="Rectangle">
+                <object description="" object_number="1" object_id="SHAPE_1" tool_tip="">
+                    <security area="0" area_same_as_page="1" no_privilege_restriction="1" disable_if_no_privilege="0" privilege_level="0">
+                        <hidden_when><![CDATA[_DTms_0010 <= 50]]></hidden_when>
+                    </security>
+                </object>
+                <box axis_offset_left="45" angle="0" top="0" right="76" axis_offset_top="11" left="0" bottom="24" z_index="1" axis_anchor="0"/>
+                <line style="1" line_width="1" color="#ff000000"/>
+                <fill fill="#ff55ff7f"/>
+                <rectangle x1="0" y1="0" y2="24" corner_radius="0" x2="76"/>
+            </shape>
+            <description/>
+        </componentInstance>
+        <componentInstance x1="800" y1="325" zIndex="0" uuid="{2bee505a-0535-4ee1-a175-f86a1c0f0751}" y2="424" objectNumber="3221293122" objectId="" x2="927">
+            <shape type="Ellipse">
+                <object description="" object_number="3" object_id="SHAPE_3" tool_tip="">
+                    <security area="0" area_same_as_page="1" no_privilege_restriction="1" disable_if_no_privilege="0" privilege_level="0">
+                        <hidden_when><![CDATA[_DTms_0010 > 50]]></hidden_when>
+                    </security>
+                </object>
+                <box axis_offset_left="16" angle="0" top="0" right="74" axis_offset_top="6" left="0" bottom="66" z_index="4" axis_anchor="0"/>
+                <line style="1" line_width="1" color="#ff000000"/>
+                <fill fill="#ffff0000"/>
+                <ellipse angle_end="0" x1="0" y1="0" angle_start="0" y2="66" ellipse_type="ARC_ELLIPSE" x2="74"/>
+            </shape>
+            <shape type="Polygon">
+                <object description="" object_number="2" object_id="SHAPE_2" tool_tip="">
+                    <security area="0" area_same_as_page="1" no_privilege_restriction="1" disable_if_no_privilege="0" privilege_level="0">
+                        <hidden_when><![CDATA[_DTms_0010 > 50]]></hidden_when>
+                    </security>
+                </object>
+                <box axis_offset_left="46" angle="0" top="1" right="57" axis_offset_top="52" left="-40" bottom="41" z_index="3" axis_anchor="0"/>
+                <line style="1" line_width="1" color="#ff000000"/>
+                <fill fill="#ffff0000"/>
+                <polyline closed="1">
+                    <points>
+                        <point y="1.91566264629364" x="-2.129032373428345"/>
+                        <point y="40" x="-40"/>
+                        <point y="41" x="57"/>
+                        <point y="1.91566264629364" x="15.6129035949707"/>
+                        <point y="1.91566264629364" x="-1.419354796409607"/>
+                    </points>
+                </polyline>
+            </shape>
+            <shape type="Rectangle">
+                <object description="" object_number="1" object_id="SHAPE_1" tool_tip="">
+                    <security area="0" area_same_as_page="1" no_privilege_restriction="1" disable_if_no_privilege="0" privilege_level="0">
+                        <hidden_when><![CDATA[_DTms_0010 > 50]]></hidden_when>
+                    </security>
+                </object>
+                <box axis_offset_left="45" angle="0" top="0" right="76" axis_offset_top="11" left="0" bottom="24" z_index="2" axis_anchor="0"/>
+                <line style="1" line_width="1" color="#ff000000"/>
+                <fill fill="#ffff0000"/>
+                <rectangle x1="0" y1="0" y2="24" corner_radius="0" x2="76"/>
+            </shape>
+            <description/>
+        </componentInstance>
+        <componentInstance x1="790" y1="178" zIndex="0" uuid="{3db4b635-e213-4c2e-8807-a4e9436c5028}" y2="277" objectNumber="0" objectId="" x2="917">
+            <shape type="Ellipse">
+                <object description="" object_number="3" object_id="SHAPE_3" tool_tip=""/>
+                <box axis_offset_left="16" angle="0" top="0" right="74" axis_offset_top="6" left="0" bottom="66" z_index="4" axis_anchor="0"/>
+                <line style="1" line_width="1" color="#ff000000"/>
+                <fill fill="#ffff0000"/>
+                <ellipse angle_end="0" x1="0" y1="0" angle_start="0" y2="66" ellipse_type="ARC_ELLIPSE" x2="74"/>
+                <dynamic_fill type="0">
+                    <on_off on_color="#ff00ff00" blink_on_enable="0" off_color="#ffff0000" blink_on_color="#00000000" blink_off_color="#00000000" blink_off_enable="0">
+                        <on_color_when><![CDATA[_DTms_0010 > 50]]></on_color_when>
+                    </on_off>
+                </dynamic_fill>
+            </shape>
+            <shape type="Polygon">
+                <object description="" object_number="2" object_id="SHAPE_2" tool_tip=""/>
+                <box axis_offset_left="46" angle="0" top="-5" right="57" axis_offset_top="52" left="-40" bottom="41" z_index="3" axis_anchor="0"/>
+                <line style="1" line_width="1" color="#ff000000"/>
+                <fill fill="#ffff0000"/>
+                <polyline closed="1">
+                    <points>
+                        <point y="1.91566264629364" x="-2.129032373428345"/>
+                        <point y="40" x="-40"/>
+                        <point y="41" x="57"/>
+                        <point y="1.91566264629364" x="15.6129035949707"/>
+                        <point y="1.91566264629364" x="-1.419354796409607"/>
+                    </points>
+                </polyline>
+                <dynamic_fill type="0">
+                    <on_off on_color="#ff00ff00" blink_on_enable="0" off_color="#ffff0000" blink_on_color="#00000000" blink_off_color="#00000000" blink_off_enable="0">
+                        <on_color_when><![CDATA[_DTms_0010 > 50]]></on_color_when>
+                    </on_off>
+                </dynamic_fill>
+            </shape>
+            <shape type="Rectangle">
+                <object description="" object_number="1" object_id="SHAPE_1" tool_tip=""/>
+                <box axis_offset_left="45" angle="0" top="0" right="76" axis_offset_top="11" left="0" bottom="24" z_index="2" axis_anchor="0"/>
+                <line style="1" line_width="1" color="#ff000000"/>
+                <fill fill="#ffff0000"/>
+                <rectangle x1="0" y1="0" y2="24" corner_radius="0" x2="76"/>
+                <dynamic_fill type="0">
+                    <on_off on_color="#ff00ff00" blink_on_enable="0" off_color="#ffff0000" blink_on_color="#00000000" blink_off_color="#00000000" blink_off_enable="0">
+                        <on_color_when><![CDATA[_DTms_0010 > 50]]></on_color_when>
+                    </on_off>
+                </dynamic_fill>
+            </shape>
+            <description/>
+        </componentInstance>
+        <componentInstance x1="612" y1="437" zIndex="0" uuid="{8203d864-3bef-4ae2-a803-4106cd1ffe94}" y2="536" objectNumber="3221293122" objectId="" x2="739">
+            <shape type="Ellipse">
+                <object description="" object_number="7" object_id="SHAPE_7" tool_tip=""/>
+                <box axis_offset_left="16" angle="0" top="0" right="74" axis_offset_top="6" left="0" bottom="66" z_index="4" axis_anchor="0"/>
+                <line style="1" line_width="1" color="#ff000000"/>
+                <fill fill="#ffff0000"/>
+                <ellipse angle_end="0" x1="0" y1="0" angle_start="0" y2="66" ellipse_type="ARC_ELLIPSE" x2="74"/>
+                <dynamic_fill type="0">
+                    <on_off on_color="#ff00ff00" blink_on_enable="0" off_color="#ffff0000" blink_on_color="#00000000" blink_off_color="#00000000" blink_off_enable="0">
+                        <on_color_when><![CDATA[_DTms_0010 > 50]]></on_color_when>
+                    </on_off>
+                </dynamic_fill>
+            </shape>
+            <shape type="Polygon">
+                <object description="" object_number="6" object_id="SHAPE_6" tool_tip=""/>
+                <box axis_offset_left="46" angle="0" top="0" right="0" axis_offset_top="52" left="0" bottom="0" z_index="3" axis_anchor="0"/>
+                <line style="1" line_width="1" color="#ff000000"/>
+                <fill fill="#ffff0000"/>
+                <polyline closed="1">
+                    <points>
+                        <point y="1.91566264629364" x="-2.129032373428345"/>
+                        <point y="40" x="-40"/>
+                        <point y="41" x="57"/>
+                        <point y="1.91566264629364" x="15.6129035949707"/>
+                        <point y="1.91566264629364" x="-1.419354796409607"/>
+                    </points>
+                </polyline>
+                <dynamic_fill type="0">
+                    <on_off on_color="#ff00ff00" blink_on_enable="0" off_color="#ffff0000" blink_on_color="#00000000" blink_off_color="#00000000" blink_off_enable="0">
+                        <on_color_when><![CDATA[_DTms_0010 > 50]]></on_color_when>
+                    </on_off>
+                </dynamic_fill>
+            </shape>
+            <shape type="Rectangle">
+                <object description="" object_number="5" object_id="SHAPE_5" tool_tip=""/>
+                <box axis_offset_left="45" angle="0" top="0" right="76" axis_offset_top="11" left="0" bottom="24" z_index="2" axis_anchor="0"/>
+                <line style="1" line_width="1" color="#ff000000"/>
+                <fill fill="#ffff0000"/>
+                <rectangle x1="0" y1="0" y2="24" corner_radius="0" x2="76"/>
+                <dynamic_fill type="0">
+                    <on_off on_color="#ff00ff00" blink_on_enable="0" off_color="#ffff0000" blink_on_color="#00000000" blink_off_color="#00000000" blink_off_enable="0">
+                        <on_color_when><![CDATA[_DTms_0010 > 50]]></on_color_when>
+                    </on_off>
+                </dynamic_fill>
+            </shape>
+            <description/>
+        </componentInstance>
+        <componentInstance x1="395" y1="456" zIndex="0" uuid="{8203d864-3bef-4ae2-a803-4106cd1ffe94}" y2="555" objectNumber="0" objectId="" x2="522">
+            <shape type="Ellipse">
+                <object description="" object_number="7" object_id="SHAPE_7" tool_tip=""/>
+                <box axis_offset_left="16" angle="0" top="0" right="74" axis_offset_top="6" left="0" bottom="66" z_index="4" axis_anchor="0"/>
+                <line style="1" line_width="1" color="#ff000000"/>
+                <fill fill="#ffff0000"/>
+                <ellipse angle_end="0" x1="0" y1="0" angle_start="0" y2="66" ellipse_type="ARC_ELLIPSE" x2="74"/>
+                <dynamic_fill type="0">
+                    <on_off on_color="#ff00ff00" blink_on_enable="0" off_color="#ffff0000" blink_on_color="#00000000" blink_off_color="#00000000" blink_off_enable="0">
+                        <on_color_when><![CDATA[_DTms_0010 > 50]]></on_color_when>
+                    </on_off>
+                </dynamic_fill>
+            </shape>
+            <shape type="Polygon">
+                <object description="" object_number="6" object_id="SHAPE_6" tool_tip=""/>
+                <box axis_offset_left="46" angle="0" top="0" right="0" axis_offset_top="52" left="0" bottom="0" z_index="3" axis_anchor="0"/>
+                <line style="1" line_width="1" color="#ff000000"/>
+                <fill fill="#ffff0000"/>
+                <polyline closed="1">
+                    <points>
+                        <point y="1.91566264629364" x="-2.129032373428345"/>
+                        <point y="40" x="-40"/>
+                        <point y="41" x="57"/>
+                        <point y="1.91566264629364" x="15.6129035949707"/>
+                        <point y="1.91566264629364" x="-1.419354796409607"/>
+                    </points>
+                </polyline>
+                <dynamic_fill type="0">
+                    <on_off on_color="#ff00ff00" blink_on_enable="0" off_color="#ffff0000" blink_on_color="#00000000" blink_off_color="#00000000" blink_off_enable="0">
+                        <on_color_when><![CDATA[_DTms_0010 > 50]]></on_color_when>
+                    </on_off>
+                </dynamic_fill>
+            </shape>
+            <shape type="Rectangle">
+                <object description="" object_number="5" object_id="SHAPE_5" tool_tip=""/>
+                <box axis_offset_left="45" angle="0" top="0" right="76" axis_offset_top="11" left="0" bottom="24" z_index="2" axis_anchor="0"/>
+                <line style="1" line_width="1" color="#ff000000"/>
+                <fill fill="#ffff0000"/>
+                <rectangle x1="0" y1="0" y2="24" corner_radius="0" x2="76"/>
+                <dynamic_fill type="0">
+                    <on_off on_color="#ff00ff00" blink_on_enable="0" off_color="#ffff0000" blink_on_color="#00000000" blink_off_color="#00000000" blink_off_enable="0">
+                        <on_color_when><![CDATA[_DTms_0010 > 50]]></on_color_when>
+                    </on_off>
+                </dynamic_fill>
+            </shape>
+            <description/>
+        </componentInstance>
+        <componentInstance x1="226" y1="454" zIndex="0" uuid="{8203d864-3bef-4ae2-a803-4106cd1ffe94}" y2="553" objectNumber="3221293122" objectId="" x2="353">
+            <shape type="Ellipse">
+                <object description="" object_number="7" object_id="SHAPE_7" tool_tip=""/>
+                <box axis_offset_left="16" angle="0" top="0" right="74" axis_offset_top="6" left="0" bottom="66" z_index="4" axis_anchor="0"/>
+                <line style="1" line_width="1" color="#ff000000"/>
+                <fill fill="#ffff0000"/>
+                <ellipse angle_end="0" x1="0" y1="0" angle_start="0" y2="66" ellipse_type="ARC_ELLIPSE" x2="74"/>
+                <dynamic_fill type="0">
+                    <on_off on_color="#ff00ff00" blink_on_enable="0" off_color="#ffff0000" blink_on_color="#00000000" blink_off_color="#00000000" blink_off_enable="0">
+                        <on_color_when><![CDATA[_DTms_0010 > 50]]></on_color_when>
+                    </on_off>
+                </dynamic_fill>
+            </shape>
+            <shape type="Polygon">
+                <object description="" object_number="6" object_id="SHAPE_6" tool_tip=""/>
+                <box axis_offset_left="46" angle="0" top="0" right="0" axis_offset_top="52" left="0" bottom="0" z_index="3" axis_anchor="0"/>
+                <line style="1" line_width="1" color="#ff000000"/>
+                <fill fill="#ffff0000"/>
+                <polyline closed="1">
+                    <points>
+                        <point y="1.91566264629364" x="-2.129032373428345"/>
+                        <point y="40" x="-40"/>
+                        <point y="41" x="57"/>
+                        <point y="1.91566264629364" x="15.6129035949707"/>
+                        <point y="1.91566264629364" x="-1.419354796409607"/>
+                    </points>
+                </polyline>
+                <dynamic_fill type="0">
+                    <on_off on_color="#ff00ff00" blink_on_enable="0" off_color="#ffff0000" blink_on_color="#00000000" blink_off_color="#00000000" blink_off_enable="0">
+                        <on_color_when><![CDATA[_DTms_0010 > 50]]></on_color_when>
+                    </on_off>
+                </dynamic_fill>
+            </shape>
+            <shape type="Rectangle">
+                <object description="" object_number="5" object_id="SHAPE_5" tool_tip=""/>
+                <box axis_offset_left="45" angle="0" top="0" right="76" axis_offset_top="11" left="0" bottom="24" z_index="2" axis_anchor="0"/>
+                <line style="1" line_width="1" color="#ff000000"/>
+                <fill fill="#ffff0000"/>
+                <rectangle x1="0" y1="0" y2="24" corner_radius="0" x2="76"/>
+                <dynamic_fill type="0">
+                    <on_off on_color="#ff00ff00" blink_on_enable="0" off_color="#ffff0000" blink_on_color="#00000000" blink_off_color="#00000000" blink_off_enable="0">
+                        <on_color_when><![CDATA[_DTms_0010 > 50]]></on_color_when>
+                    </on_off>
+                </dynamic_fill>
+            </shape>
+            <description/>
+        </componentInstance>
+    </component_instances>
+</hmipage>

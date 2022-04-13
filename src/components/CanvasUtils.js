@@ -5,6 +5,7 @@ export const getRectPointX = (shape, parentX) => {
   parentX = parentX === undefined ? 0 : parentX;
   switch (shape.type) {
     case "Rectangle":
+    case "Image":
       // console.log(parentX);
       return (
         parseFloat(shape.rectangle.x1) +
@@ -106,7 +107,6 @@ export const getPipePoints = (shape, parentX, parentY) => {
 export const getPolygonPoints = (shape, parentX, parentY) => {
 
   var ptx = [];
-
   if (Array.isArray(shape.polyline.points)) {
     ptx = shape.polyline.points.map((o) => ({
       x: parseFloat(o.x),
@@ -122,12 +122,8 @@ export const getPolygonPoints = (shape, parentX, parentY) => {
       })
     }
   }
-
-  
   var data = [];
-
   ptx.map((point) => {
-
     //if the object is Not from Component_Instance 
     if (parentX == 0 && parentY == 0) {
       //push x
@@ -136,12 +132,14 @@ export const getPolygonPoints = (shape, parentX, parentY) => {
       data.push(point.y + parseFloat(shape.box.axis_offset_top))
 
     }
-    //if the object is Not from Component_Instance 
+    //if the object is  from Component_Instance 
     else {
+      // console.log(point.x)
+      // console.log(point.y)
       //push x
-      data.push(point.x + parseFloat(shape.box.left) / 2 + parseFloat(parentX ?? "0") + parseFloat(shape.box.axis_offset_left))
+      data.push(point.x + parseFloat(shape.box.left) / 4 + parseFloat(parentX ?? "0") + parseFloat(shape.box.axis_offset_left))
       //push y
-      data.push(point.y + parseFloat(shape.box.top) / 2 + parseFloat(parentY ?? "0") + parseFloat(shape.box.axis_offset_top))
+      data.push(point.y + parseFloat(shape.box.top) / 4 + parseFloat(parentY ?? "0") + parseFloat(shape.box.axis_offset_top))
     }
   });
   return data;

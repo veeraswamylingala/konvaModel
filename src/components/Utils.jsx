@@ -1,8 +1,21 @@
 
 export var intervalUpdate = 1000;
 export var ip = "192.168.0.45";
-export const getTagValueApi ="http://"+ip+"/ScadaClient/api/ExpressionEval/GetExprVal";
+//export const getTagValueApi ="http://"+ip+"/ScadaClient/api/ExpressionEval/GetExprVal";
+export const getTagValueApi ="https://demo3412.herokuapp.com/tagExpr";
+//export const getTagValueApi = "http://localhost:8080/tagExpr";
 
+export const fileDirectory= "C:/ECWEBSERVER";
+
+export var paramsList = [];
+
+ export function addParam(map) {
+  paramsList.push(map)
+ }
+ 
+ export function emptyParamList() {
+  paramsList = [];
+ }
 //Function-1
 //Hexa(#fafafafa) to RGBA Convertion-----------------------------------
 export function hextoRGBA(color) {

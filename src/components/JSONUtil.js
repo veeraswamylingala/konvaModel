@@ -1,16 +1,14 @@
-import { xyz } from "color-convert";
-import { groupSort } from "d3";
-import { image } from "d3-fetch";
+
 
 export function ShapeObjects(shapesData) {
 
   const { project } = shapesData;
-  //console.log(shapesData)
+  ////console.log(shapesData)
   if (project !== undefined) {
     shapesData = project;
-    console.log(project)
+    //console.log(project)
   }
-  //console.log(project)
+  ////console.log(project)
   // const hmipage =
   //   shapesData.hmipage === undefined ? shapesData : shapesData.hmipage;
 
@@ -28,9 +26,9 @@ export function ShapeObjects(shapesData) {
     hmipage = shapesData;
   }
 
-  console.log(hmipage)
+  //console.log(hmipage)
   const { shapes, component_instances, labels, images, groups } = hmipage; // Destructuring
-  // //console.log(component_instances);
+  // ////console.log(component_instances);
 
   let emptyCompObj = {
     uuid: "{4c64b6e1-bb25-442a-abf7-6fa6c5694ff5}",
@@ -49,18 +47,18 @@ export function ShapeObjects(shapesData) {
 
 
   //------ Shapes--------------------------------------------------------------------------------------------
-  //console.log(shapes)
+  ////console.log(shapes)
   if (shapes !== undefined) {
     if (Array.isArray(shapes)) {
 
       shapes.map((obj, i) =>
-        //console.log(obj),
+        ////console.log(obj),
         emptyCompObj.shape.push(obj));
       emptyCompObj.shape.sort((a, b) =>
         parseInt(a.box.z_index) > parseInt(b.box.z_index) ? 1 : -1
       );
       shapeComponetsList.push(emptyCompObj);
-      console.log(shapeComponetsList)
+      //console.log(shapeComponetsList)
     } else if (shapes.shape !== undefined) {
       if (Array.isArray(shapes.shape)) {
         shapes.shape.map((obj, i) => emptyCompObj.shape.push(obj));
@@ -68,17 +66,17 @@ export function ShapeObjects(shapesData) {
           parseInt(a.box.z_index) > parseInt(b.box.z_index) ? 1 : -1
         );
         shapeComponetsList.push(emptyCompObj);
-        console.log(shapeComponetsList)
+        //console.log(shapeComponetsList)
       }
       else {
         emptyCompObj.shape.push(shapes.shape);
         shapeComponetsList.push(emptyCompObj);
-        console.log(shapeComponetsList)
+        //console.log(shapeComponetsList)
       }
-      // //console.log("empty obj ");
+      // ////console.log("empty obj ");
     }
-    // //console.log("After Adding Shapes--???????????????????????????")
-    // //console.log(shapeComponetsList)
+    // ////console.log("After Adding Shapes--???????????????????????????")
+    // ////console.log(shapeComponetsList)
   }
 
 
@@ -87,8 +85,8 @@ export function ShapeObjects(shapesData) {
   //    //groups------------------------------------------------------------------------------------------------------------
   //    if (groups !== undefined) {
 
-  //     // //console.log("Images Dtaa---????????????????????????????")
-  //     // //console.log(groups);
+  //     // ////console.log("Images Dtaa---????????????????????????????")
+  //     // ////console.log(groups);
   //     // shapeComponetsList.push(groups);
 
   //    // if we have only groups
@@ -112,7 +110,7 @@ export function ShapeObjects(shapesData) {
   //       emptyCompObj.shape.push(groups.group);
   //       shapeComponetsList.push(emptyCompObj);
   //     }
-  //     //console.log("empty obj ");
+  //     ////console.log("empty obj ");
   //   }else if (groups.group.grup !== undefined) {
   //     if(Array.isArray(groups.group.group)){
   //       groups.group.group.map((obj, i) => emptyCompObj.shape.push(obj));
@@ -125,24 +123,24 @@ export function ShapeObjects(shapesData) {
   //       emptyCompObj.shape.push(groups.group.group);
   //       shapeComponetsList.push(emptyCompObj);
   //     }
-  //     //console.log("empty obj ");
+  //     ////console.log("empty obj ");
   //   }
-  //   //console.log("After Groups Dtaa---????????????????????????????")
-  //   //console.log(shapeComponetsList);
+  //   ////console.log("After Groups Dtaa---????????????????????????????")
+  //   ////console.log(shapeComponetsList);
   // }
 
 
 
   //--------component instances-----------------------------------------------------------------------------------------------------
   if (component_instances !== undefined) {
-    // console.log("Group")
+    // //console.log("Group")
     renderComponentInstances(component_instances)
   }
 
   //Render ComponentInstances Function-------------------
   function renderComponentInstances(component_instances) {
     if (Array.isArray(component_instances)) {
-      console.log("1")
+      //console.log("1")
       component_instances.map((obj, i) => {
         if (obj.group === undefined) {
           obj.shape.sort((a, b) =>
@@ -161,7 +159,8 @@ export function ShapeObjects(shapesData) {
       });
     }
     else if (Array.isArray(component_instances.componentInstance)) {
-      //  console.log(component_instances.componentInstance)
+      //console.log("2")
+      //  //console.log(component_instances.componentInstance)
 
       component_instances.componentInstance.sort((a, b) =>
         parseInt(a.zIndex) > parseInt(b.zIndex) ? 1 : -1);
@@ -232,11 +231,11 @@ export function ShapeObjects(shapesData) {
       });
     }
     else if (component_instances.componentInstance !== undefined) {
-      console.log("3")
+      //console.log("3")
       //declaring group variable if we get composite instances have <Group> node under compositeInstance
       const { group, shape, text } = component_instances.componentInstance;
-      //console.log("group in JSONUTILS")
-      console.log(group)
+      ////console.log("group in JSONUTILS")
+      //console.log(group)
 
       //If we Have Component.Group-----------
       if (group !== undefined) {
@@ -304,7 +303,7 @@ export function ShapeObjects(shapesData) {
 
   //--------Group-----------------------------------------------------------------------------------------------------
   if (groups !== undefined) {
-    // console.log("Group")
+    // //console.log("Group")
     rendergroup(groups)
   }
 
@@ -313,9 +312,9 @@ export function ShapeObjects(shapesData) {
     var groups = value;
     //If we have Mutiple Groups------ <Groups> ---------
     if (Array.isArray(groups)) {
-      console.log("1")
+      //console.log("1")
       groups.map((obj, i) => {
-        //  //console.log(obj)
+        //  ////console.log(obj)
         //If <Groups> has Mutiple Group------ <Groups> ---------
         if (Array.isArray(obj.group)) {
           obj.group.map((x) => {
@@ -324,7 +323,6 @@ export function ShapeObjects(shapesData) {
             );
             shapeComponetsList.push(x);
           });
-
         }  //If <Groups> has single Group------ <Groups> ---------
         else {
           //   obj.shape.sort((a, b) =>
@@ -335,15 +333,14 @@ export function ShapeObjects(shapesData) {
       });
     }//if Groups has multiple group iniside  -----------------------------
     else if (Array.isArray(groups.group)) {
-      console.log("2")
+      //console.log("2")
       //Group Level Z-Index Sorting-------
       groups.group.sort((a, b) =>
         parseInt(a.zIndex) > parseInt(b.zIndex) ? 1 : -1
       );
       let tempAry = groups.group.map(obj => obj)
       tempAry.map((x) => {
-        
-     
+      
       //If groups has  Shapes -------------------------------------------------------------
       if (x.shape !== undefined) {
         //console.log("1.2")
@@ -352,22 +349,26 @@ export function ShapeObjects(shapesData) {
         if (Array.isArray(x.shape))
         //if composite instance contains multple shapes 
         {
+          //console.log("1.3")
+          x.shape.sort((a, b) =>
+          parseInt(a.box.z_index) > parseInt(b.box.z_index) ? 1 : -1
+        );
           x.shape.map((obj, i) => singleshapearray.push(obj));
-          //sorting values based on z_index
-          singleshapearray.sort((a, b) =>
-            parseInt(a.box.z_index) > parseInt(b.box.z_index) ? 1 : -1
-          );
+          // //sorting values based on z_index
+          // singleshapearray.sort((a, b) =>
+          //   parseInt(a.box.z_index) > parseInt(b.box.z_index) ? 1 : -1
+          // );
   
           shapeComponetsList.push(x);
         } else {
-          console.log("Values")
+          //console.log("Values")
           //if composite instance contains only one object 
           shapeComponetsList.push(x)
         }
       }
       //If groups has group ----------------------------------------------------------
       if (x.group !== undefined) {
-          console.log("1.1")
+          //console.log("1.1")
         if (Array.isArray(x.group)) {
           x.group.sort((a, b) =>
             parseInt(a.zIndex) > parseInt(b.zIndex) ? 1 : -1
@@ -381,20 +382,20 @@ export function ShapeObjects(shapesData) {
       }
           //if group has Text---------------------------------------------------------
           if (x.text !== undefined) {
-            // console.log("text")
-            // console.log(groups.group)
+           //console.log("text")
+            // //console.log(groups.group)
             var { text } = x;
-            console.log(text);
+            //console.log(text);
             if (Array.isArray(text)) {
-              console.log("1")
+              //console.log("1")
               text.sort((a, b) =>
                 parseInt(a.box.z_index) > parseInt(b.box.z_index) ? 1 : -1
               );
               shapeComponetsList.push(x)
             } else {
-              console.log("2")
+              //console.log("2")
             shapeComponetsList.push(x.group)
-           //   console.log(shapeComponetsList)
+           //   //console.log(shapeComponetsList)
             }
           }
           
@@ -402,8 +403,8 @@ export function ShapeObjects(shapesData) {
       if (x.componentInstance != undefined) {
         //if Group has Multiple Component Instance---------------------
         if (Array.isArray(x.componentInstance)) {
-          console.log("Array")
-         // console.log(groups.group.componentInstance)
+          //console.log("Array")
+         // //console.log(groups.group.componentInstance)
           //Map-------------------------------------
           x.componentInstance.map((ci, i) => {
             var { group, shape, text } = ci;
@@ -447,8 +448,8 @@ export function ShapeObjects(shapesData) {
         }
         //if Group has Single Component Instance--------------------- 
         else {
-          console.log("single")
-       //   console.log(groups.group)
+          //console.log("single")
+       //   //console.log(groups.group)
 
           var { group, shape, text } = x.componentInstance;
           //group
@@ -499,15 +500,15 @@ export function ShapeObjects(shapesData) {
     }
     //Single Group--------------------------------
     else if (groups.group !== undefined) {
-      console.log("3")
+      //console.log("3")
 
       //If groups has Component Instance -----------------------------------------
       if (groups.group.componentInstance != undefined) {
 
         //if Group has Multiple Component Instance---------------------
         if (Array.isArray(groups.group.componentInstance)) {
-          console.log("Array")
-          console.log(groups.group.componentInstance)
+          //console.log("Array")
+          //console.log(groups.group.componentInstance)
           //Map-------------------------------------
           groups.group.componentInstance.map((ci, i) => {
             var { group, shape, text } = ci;
@@ -552,8 +553,8 @@ export function ShapeObjects(shapesData) {
         }
         //if Group has Single Component Instance--------------------- 
         else {
-          console.log("single")
-          console.log(groups.group)
+          //console.log("single")
+          //console.log(groups.group)
 
           var { group, shape, text } = groups.group.componentInstance;
           //group
@@ -597,26 +598,26 @@ export function ShapeObjects(shapesData) {
 
       //if group has Text---------------------------------------------------------
       if (groups.group.text !== undefined) {
-        console.log("text")
-        console.log(groups.group)
+        //console.log("text")
+        //console.log(groups.group)
         var { text } = groups.group;
-        console.log(text);
+        //console.log(text);
         if (Array.isArray(text)) {
-          console.log("1")
+          //console.log("1")
           text.sort((a, b) =>
             parseInt(a.box.z_index) > parseInt(b.box.z_index) ? 1 : -1
           );
           shapeComponetsList.push(groups.group)
         } else {
-          console.log("2")
+          //console.log("2")
           shapeComponetsList.push(groups.group)
-          console.log(shapeComponetsList)
+          //console.log(shapeComponetsList)
         }
       }
 
       //If groups has group ----------------------------------------------------------
       if (groups.group.group !== undefined) {
-        console.log("1.1")
+        //console.log("1.1")
         if (Array.isArray(groups.group.group)) {
           groups.group.group.sort((a, b) =>
             parseInt(a.zIndex) > parseInt(b.zIndex) ? 1 : -1
@@ -636,7 +637,7 @@ export function ShapeObjects(shapesData) {
 
       //If groups has  Shapes -------------------------------------------------------------
       if (groups.group.shape !== undefined) {
-        console.log("1.2")
+        //console.log("1.2")
         let singleshapearray = [];
         if (Array.isArray(groups.group.shape))
         //if composite instance contains multple shapes 
@@ -653,7 +654,7 @@ export function ShapeObjects(shapesData) {
 
         //assigning singleshapearray to shape of composite instance
         groups.group.shape = singleshapearray
-        console.log(groups.group)
+        //console.log(groups.group)
         var ele = {};
         ele = groups.group;
         //to get parentx and parenty values we are removing group from shapes section
@@ -680,39 +681,39 @@ export function ShapeObjects(shapesData) {
     let singleshapearray = [];
     // if(Array.isArray(labels))   //labelcontains mul 
     // {
-    //   //console.log("???????????????????????????????????????????????")
-    //   //console.log("Entering into if Statement ")
-    //   //console.log(labels)
+    //   ////console.log("???????????????????????????????????????????????")
+    //   ////console.log("Entering into if Statement ")
+    //   ////console.log(labels)
     //  labels.text.map((obj, i) => singleshapearray.push(obj));
-    //  //console.log(singleshapearray)
+    //  ////console.log(singleshapearray)
 
     // //  singleshapearray.sort((a, b) =>
     // //    parseInt(a.box.z_index) > parseInt(b.box.z_index) ? 1 : -1
     // //  );
 
     // }else{  //if label contains only one object 
-    //  // //console.log(labels)
-    //  //console.log("???????????????????????????????????????????????")
-    //  //console.log("Entering into else Statement ")
-    //  //console.log(labels)
-    //  //console.log(singleshapearray)
+    //  // ////console.log(labels)
+    //  ////console.log("???????????????????????????????????????????????")
+    //  ////console.log("Entering into else Statement ")
+    //  ////console.log(labels)
+    //  ////console.log(singleshapearray)
     //   // singleshapearray.push(labels.text)
     //   labels.text.map((obj, i) => singleshapearray.push(obj));
-    //   //console.log(singleshapearray)
+    //   ////console.log(singleshapearray)
     // }
 
 
     // if(labels.length  ==  undefined)
     // {
-    //   //console.log("Entered If --labels Length is Zero")
+    //   ////console.log("Entered If --labels Length is Zero")
 
     // }else{
-    //   //console.log("Entered else - labels length is " +labels.length)
+    //   ////console.log("Entered else - labels length is " +labels.length)
 
     // }
 
-    // //console.log("Label Dtaa---????????????????????????????")
-    // //console.log(labels);
+    // ////console.log("Label Dtaa---????????????????????????????")
+    // ////console.log(labels);
 
     shapeComponetsList.push({ "labels": labels });
 
@@ -721,14 +722,14 @@ export function ShapeObjects(shapesData) {
     let singleshapearray = [];
     if (Array.isArray(labels))   //labelcontains mul 
     {
-      // //console.log(labels)
+      // ////console.log(labels)
       labels.text.map((obj, i) => singleshapearray.push(obj));
       singleshapearray.sort((a, b) =>
         parseInt(a.box.z_index) > parseInt(b.box.z_index) ? 1 : -1
       );
 
     } else {  //if label contains only one object 
-      // //console.log(labels)
+      // ////console.log(labels)
       singleshapearray.push(labels)
     }
 
@@ -746,8 +747,8 @@ export function ShapeObjects(shapesData) {
   //Images------------------------------------------------------------------------------------------------------
   if (images !== undefined) {
 
-    // //console.log("Images Dtaa---????????????????????????????")
-    // //console.log(images);
+    // ////console.log("Images Dtaa---????????????????????????????")
+    // ////console.log(images);
     shapeComponetsList.push(images);
   }
   return shapeComponetsList;
@@ -785,13 +786,13 @@ export function LableComponets(labels) {
         parseInt(a.box.z_index) > parseInt(b.box.z_index) ? 1 : -1
       );
     } else if (labels.text !== undefined) {
-      //console.log("labels-text")
+      ////console.log("labels-text")
       lableComponetsList.push(labels.text);
     }
 
-    //console.log(labels.text)
-    //console.log("obj:")
-    //console.log(labels.text.box.z_index)
+    ////console.log(labels.text)
+    ////console.log("obj:")
+    ////console.log(labels.text.box.z_index)
   }
   return lableComponetsList;
 }

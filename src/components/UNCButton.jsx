@@ -11,8 +11,6 @@ import UNCCanvas from "./UNCCanvas";
 const UNCButton = (shapeElement) => {
   const { shape, parentX, parentY, ProjectId } = shapeElement;
 
-
-
   return (
     <Group>
       <Rect
@@ -30,7 +28,7 @@ const UNCButton = (shapeElement) => {
         shadowOffsetX={3}
         shadowOffsetY={3}
         showOpacity={0.8}
-        shadowBlur={3}
+
         draggable={false}
         dashEnabled={true}
         dash={lineStyle(shape.line.style)}
@@ -41,14 +39,17 @@ const UNCButton = (shapeElement) => {
             //console.log(shape?.input_touch?.up?.command.__cdata)
             var cdata = shape?.input_touch?.up?.command.__cdata;
             cdata = cdata.split("(");
-           
+
             if(cdata[0]=="openPage")
             {
               var targetPage = cdata[1].replace(")","");
-             targetPage = targetPage.replace(";","");
-             //console.log("targetPage : "+targetPage)
-            new UNCCanvas().handleSubmit(targetPage.toString());
-
+             targetPage = targetPage.replace(";","").split(",");
+             console.log("targetPage : "+targetPage[0])
+            new UNCCanvas().handleSubmit(targetPage[0].toString());
+            console.log(cdata[0]);
+            }else if(cdata[0]=="MessageBox")
+            {
+              console.log(cdata[0]);
             }
           }else{
             //console.log(shape?.button?.buttontext?.text)

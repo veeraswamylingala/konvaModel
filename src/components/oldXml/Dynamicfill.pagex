@@ -1,0 +1,198 @@
+<hmipage page_scan_time="250" access_area="0" title="page_13" width="800" template_id="" id="page_13" prev_page="" color="#ffc0c0c0" order="11" next_page="" version="0.1.0" next_object_number="10069" default_page_scan="1" belongs_to_all_areas="1" height="600">
+    <shapes>
+        <shape type="Ellipse">
+            <object object_number="10062" object_id="SHAPE_10062" description="" tool_tip=""/>
+            <box axis_anchor="0" angle="0" axis_offset_top="468" z_index="23" left="0" bottom="82" top="0" right="200" axis_offset_left="312"/>
+            <line line_width="1" color="#ff000000" style="1"/>
+            <fill fill="#ff55ff00"/>
+            <ellipse angle_end="0" x2="200" y2="82" x1="0" angle_start="0" y1="0" ellipse_type="ARC_ELLIPSE"/>
+            <dynamic_fill_level minimum="0" maximum="100" background_color="#ffaaaa7f" fill_direction="3" level_at_minimum="0" level_at_maximum="100" enabled="1">
+                <expression><![CDATA[_DTms_0010]]></expression>
+            </dynamic_fill_level>
+        </shape>
+        <shape type="Rectangle">
+            <object object_number="10063" object_id="SHAPE_10063" description="" tool_tip=""/>
+            <box axis_anchor="0" angle="0" axis_offset_top="448" z_index="22" left="0" bottom="119" top="0" right="212" axis_offset_left="304"/>
+            <line line_width="1" color="#ff000000" style="1"/>
+            <fill fill="#ff808080"/>
+            <gradient gradient_direction="6" gradient_color="#ffffffff"/>
+            <rectangle x2="212" y2="119" x1="0" y1="0" corner_radius="0"/>
+        </shape>
+        <shape type="Rectangle">
+            <object object_number="10002" object_id="SHAPE_10002" description="" tool_tip=""/>
+            <box axis_anchor="0" angle="0" axis_offset_top="96" z_index="2" left="0" bottom="188" top="0" right="23" axis_offset_left="98"/>
+            <line line_width="1" color="#ff808080" style="1"/>
+            <fill fill="#ff55ff7f"/>
+            <rectangle x2="23" y2="188" x1="0" y1="0" corner_radius="0"/>
+            <dynamic_fill_level minimum="0" maximum="200" background_color="#ff808080" fill_direction="0" level_at_minimum="0" level_at_maximum="100" enabled="1">
+                <expression><![CDATA[_DTms_0010]]></expression>
+            </dynamic_fill_level>
+        </shape>
+        <shape type="Rectangle">
+            <object object_number="10026" object_id="SHAPE_10026" description="" tool_tip=""/>
+            <box axis_anchor="0" angle="0" axis_offset_top="97" z_index="2" left="0" bottom="188" top="0" right="49" axis_offset_left="194"/>
+            <line line_width="1" color="#ff000000" style="1"/>
+            <fill fill="#ff55ff00"/>
+            <rectangle x2="49" y2="188" x1="0" y1="0" corner_radius="0"/>
+            <dynamic_fill_level minimum="0" maximum="300" background_color="#ffaaaa7f" fill_direction="2" level_at_minimum="0" level_at_maximum="100" enabled="1">
+                <expression><![CDATA[_DTms_0010]]></expression>
+            </dynamic_fill_level>
+        </shape>
+        <shape type="Rectangle">
+            <object object_number="10001" object_id="SHAPE_10001" description="" tool_tip=""/>
+            <box axis_anchor="0" angle="0" axis_offset_top="96" z_index="1" left="-4" bottom="189" top="0" right="81" axis_offset_left="40"/>
+            <line line_width="1" color="#ff000000" style="1"/>
+            <fill fill="#ff808080"/>
+            <gradient gradient_direction="4" gradient_color="#ffffffff"/>
+            <rectangle x2="81" y2="189" x1="-4" y1="0" corner_radius="0"/>
+        </shape>
+        <shape type="Rectangle">
+            <object object_number="10025" object_id="SHAPE_10025" description="" tool_tip=""/>
+            <box axis_anchor="0" angle="0" axis_offset_top="96" z_index="1" left="-4" bottom="189" top="0" right="81" axis_offset_left="181"/>
+            <line line_width="1" color="#ff000000" style="1"/>
+            <fill fill="#ff808080"/>
+            <gradient gradient_direction="4" gradient_color="#ffffffff"/>
+            <rectangle x2="81" y2="189" x1="-4" y1="0" corner_radius="0"/>
+        </shape>
+    </shapes>
+    <labels>
+        <text align_type="0" static_text="LEFT_TO_RIGHT" color="#ff000000" font_style="0" font_family="Sans Serif" strikeout="0" display_type="0" underline="0" font_weight="50" font_size="10">
+            <object object_number="10040" object_id="TEXT_10040" description="" tool_tip=""/>
+            <box axis_anchor="4" angle="0" axis_offset_top="50" z_index="18" left="0" bottom="0" top="0" right="0" axis_offset_left="540"/>
+        </text>
+        <text align_type="0" static_text="RIGHT_TO_LEFT" color="#ff000000" font_style="0" font_family="Sans Serif" strikeout="0" display_type="0" underline="0" font_weight="50" font_size="10">
+            <object object_number="10035" object_id="TEXT_10035" description="" tool_tip=""/>
+            <box axis_anchor="4" angle="0" axis_offset_top="50" z_index="16" left="0" bottom="0" top="0" right="0" axis_offset_left="330"/>
+        </text>
+        <text align_type="0" static_text="TOP_TO_BOTTOM" color="#ff000000" font_style="0" font_family="Sans Serif" strikeout="0" display_type="0" underline="0" font_weight="50" font_size="10">
+            <object object_number="10027" object_id="TEXT_10027" description="" tool_tip=""/>
+            <box axis_anchor="4" angle="0" axis_offset_top="50" z_index="12" left="0" bottom="0" top="0" right="0" axis_offset_left="160"/>
+        </text>
+        <text align_type="0" static_text="Text" color="#ff000000" font_style="0" font_family="Bitstream Charter" strikeout="0" display_type="3" underline="0" font_weight="75" font_size="14">
+            <display_numeric>
+                <expression><![CDATA[_DTms_0010]]></expression>
+                <format></format>
+            </display_numeric>
+            <object object_number="10020" object_id="TEXT_10020" description="" tool_tip=""/>
+            <box axis_anchor="4" angle="0" axis_offset_top="320" z_index="10" left="0" bottom="0" top="0" right="0" axis_offset_left="320"/>
+        </text>
+        <text align_type="0" static_text="BOTTOM_TO_TOP" color="#ff000000" font_style="0" font_family="Sans Serif" strikeout="0" display_type="0" underline="0" font_weight="50" font_size="10">
+            <object object_number="10016" object_id="TEXT_10016" description="" tool_tip=""/>
+            <box axis_anchor="4" angle="0" axis_offset_top="50" z_index="6" left="0" bottom="0" top="0" right="0" axis_offset_left="20"/>
+        </text>
+    </labels>
+    <groups>
+        <group objectNumber="0" objectId="" zIndex="0" x2="492" y2="288" x1="293" y1="169">
+            <shape type="Rectangle">
+                <object object_number="10033" object_id="SHAPE_10033" description="" tool_tip=""/>
+                <box axis_anchor="0" angle="0" axis_offset_top="31" z_index="15" left="0" bottom="50" top="0" right="186" axis_offset_left="7"/>
+                <line line_width="1" color="#ff000000" style="1"/>
+                <fill fill="#ff00ff00"/>
+                <rectangle x2="186" y2="50" x1="0" y1="0" corner_radius="0"/>
+                <dynamic_fill_level minimum="0" maximum="100" background_color="#ffaaaa00" fill_direction="3" level_at_minimum="0" level_at_maximum="100" enabled="1">
+                    <expression><![CDATA[_DTms_0010]]></expression>
+                </dynamic_fill_level>
+            </shape>
+            <shape type="Rectangle">
+                <object object_number="10031" object_id="SHAPE_10031" description="" tool_tip=""/>
+                <box axis_anchor="0" angle="0" axis_offset_top="6" z_index="13" left="0" bottom="107" top="0" right="187" axis_offset_left="6"/>
+                <line line_width="1" color="#ff000000" style="1"/>
+                <fill fill="#ff808080"/>
+                <gradient gradient_direction="6" gradient_color="#ffffffff"/>
+                <rectangle x2="187" y2="107" x1="0" y1="0" corner_radius="0"/>
+            </shape>
+            <description/>
+        </group>
+        <group objectNumber="0" objectId="" zIndex="0" x2="721" y2="284" x1="522" y1="165">
+            <shape type="Rectangle">
+                <object object_number="10038" object_id="SHAPE_10038" description="" tool_tip=""/>
+                <box axis_anchor="0" angle="0" axis_offset_top="31" z_index="15" left="0" bottom="50" top="0" right="186" axis_offset_left="7"/>
+                <line line_width="1" color="#ff000000" style="1"/>
+                <fill fill="#ff00ff00"/>
+                <rectangle x2="186" y2="50" x1="0" y1="0" corner_radius="0"/>
+                <dynamic_fill_level minimum="0" maximum="100" background_color="#ffaaaa00" fill_direction="1" level_at_minimum="0" level_at_maximum="100" enabled="1">
+                    <expression><![CDATA[_DTms_0010]]></expression>
+                </dynamic_fill_level>
+            </shape>
+            <shape type="Rectangle">
+                <object object_number="10039" object_id="SHAPE_10039" description="" tool_tip=""/>
+                <box axis_anchor="0" angle="0" axis_offset_top="6" z_index="13" left="0" bottom="107" top="0" right="187" axis_offset_left="6"/>
+                <line line_width="1" color="#ff000000" style="1"/>
+                <fill fill="#ff808080"/>
+                <gradient gradient_direction="6" gradient_color="#ffffffff"/>
+                <rectangle x2="187" y2="107" x1="0" y1="0" corner_radius="0"/>
+            </shape>
+            <description/>
+        </group>
+        <group objectNumber="0" objectId="" zIndex="0" x2="157" y2="573" x1="33" y1="374">
+            <shape type="Rectangle">
+                <object object_number="10045" object_id="SHAPE_10045" description="" tool_tip=""/>
+                <box axis_anchor="0" angle="0" axis_offset_top="6" z_index="22" left="0" bottom="187" top="0" right="112" axis_offset_left="6"/>
+                <line line_width="1" color="#ff000000" style="1"/>
+                <fill fill="#ff808080"/>
+                <gradient gradient_direction="6" gradient_color="#ffffffff"/>
+                <rectangle x2="112" y2="187" x1="0" y1="0" corner_radius="0"/>
+            </shape>
+            <shape type="Ellipse">
+                <object object_number="10044" object_id="SHAPE_10044" description="" tool_tip=""/>
+                <box axis_anchor="0" angle="0" axis_offset_top="16" z_index="23" left="0" bottom="174" top="0" right="88" axis_offset_left="16"/>
+                <line line_width="1" color="#ff000000" style="1"/>
+                <fill fill="#ff55ff00"/>
+                <ellipse angle_end="0" x2="88" y2="174" x1="0" angle_start="0" y1="0" ellipse_type="ARC_ELLIPSE"/>
+                <dynamic_fill_level minimum="0" maximum="100" background_color="#ffaaaa7f" fill_direction="0" level_at_minimum="0" level_at_maximum="100" enabled="1">
+                    <expression><![CDATA[_DTms_0010]]></expression>
+                </dynamic_fill_level>
+            </shape>
+            <description/>
+        </group>
+        <group objectNumber="0" objectId="" zIndex="0" x2="294" y2="573" x1="170" y1="374">
+            <shape type="Ellipse">
+                <object object_number="10058" object_id="SHAPE_10058" description="" tool_tip=""/>
+                <box axis_anchor="0" angle="0" axis_offset_top="16" z_index="23" left="0" bottom="174" top="0" right="88" axis_offset_left="16"/>
+                <line line_width="1" color="#ff000000" style="1"/>
+                <fill fill="#ff55ff00"/>
+                <ellipse angle_end="0" x2="88" y2="174" x1="0" angle_start="0" y1="0" ellipse_type="ARC_ELLIPSE"/>
+                <dynamic_fill_level minimum="0" maximum="100" background_color="#ffaaaa7f" fill_direction="2" level_at_minimum="0" level_at_maximum="100" enabled="1">
+                    <expression><![CDATA[_DTms_0010]]></expression>
+                </dynamic_fill_level>
+            </shape>
+            <shape type="Rectangle">
+                <object object_number="10057" object_id="SHAPE_10057" description="" tool_tip=""/>
+                <box axis_anchor="0" angle="0" axis_offset_top="6" z_index="22" left="0" bottom="187" top="0" right="112" axis_offset_left="6"/>
+                <line line_width="1" color="#ff000000" style="1"/>
+                <fill fill="#ff808080"/>
+                <gradient gradient_direction="6" gradient_color="#ffffffff"/>
+                <rectangle x2="112" y2="187" x1="0" y1="0" corner_radius="0"/>
+            </shape>
+            <description/>
+        </group>
+        <group objectNumber="0" objectId="" zIndex="0" x2="751" y2="571" x1="527" y1="440">
+            <shape type="Rectangle">
+                <object object_number="10067" object_id="SHAPE_10067" description="" tool_tip=""/>
+                <box axis_anchor="0" angle="0" axis_offset_top="6" z_index="22" left="0" bottom="119" top="0" right="212" axis_offset_left="6"/>
+                <line line_width="1" color="#ff000000" style="1"/>
+                <fill fill="#ff808080"/>
+                <gradient gradient_direction="6" gradient_color="#ffffffff"/>
+                <rectangle x2="212" y2="119" x1="0" y1="0" corner_radius="0"/>
+            </shape>
+            <shape type="Ellipse">
+                <object object_number="10068" object_id="SHAPE_10068" description="" tool_tip=""/>
+                <box axis_anchor="0" angle="0" axis_offset_top="26" z_index="23" left="0" bottom="82" top="0" right="200" axis_offset_left="14"/>
+                <line line_width="1" color="#ff000000" style="1"/>
+                <fill fill="#ff55ff00"/>
+                <ellipse angle_end="0" x2="200" y2="82" x1="0" angle_start="0" y1="0" ellipse_type="ARC_ELLIPSE"/>
+                <dynamic_fill_level minimum="0" maximum="100" background_color="#ffaaaa7f" fill_direction="1" level_at_minimum="0" level_at_maximum="100" enabled="1">
+                    <expression><![CDATA[_DTms_0010]]></expression>
+                </dynamic_fill_level>
+            </shape>
+            <description/>
+        </group>
+    </groups>
+     <images>
+        <image objectId="" objectNumber="0" y="235" zIndex="0" x="74">
+            <filename src="ecs1.png"/>
+            <object description="" tool_tip="" id="IMAGE_10008" number="10008"/>
+            <box offset_top="235" top="-23" bottom="24" left="-32" right="33" axis_anchor="0" angle="0" z_index="0" offset_left="74"/>
+        </image>
+        </images>
+</hmipage>

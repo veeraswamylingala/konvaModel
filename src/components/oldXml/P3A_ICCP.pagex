@@ -1,0 +1,102 @@
+<hmipage next_object_number="10028" template_id="template_Diagnostics_1" version="0.1.0" color="#ffc0c0c0" belongs_to_all_areas="1" access_area="0" default_page_scan="1" order="67" height="1050" prev_page="" width="1890" id="P3A_ICCP" title="P3A_ICCP" page_scan_time="250" next_page="">
+    <shapes>
+        <shape type="Rectangle">
+            <object description="" object_id="SHAPE_10003" tool_tip="" object_number="10003"/>
+            <box top="0" bottom="35" left="0" axis_offset_top="146" right="75" axis_offset_left="383" axis_anchor="0" angle="0" z_index="-1"/>
+            <line color="#ff000000" style="1" line_width="1"/>
+            <rectangle x1="0" x2="75" y2="35" corner_radius="0" y1="0"/>
+            <dynamic_fill type="0">
+                <on_off on_color="#ff00ff00" blink_on_color="#00000000" off_color="#ff000000" blink_off_enable="1" blink_off_color="#ffefebe7" blink_on_enable="0">
+                    <on_color_when><![CDATA[_ICCPSERVER_ST]]></on_color_when>
+                </on_off>
+            </dynamic_fill>
+        </shape>
+    </shapes>
+    <labels>
+        <text underline="0" font_size="12" color="#ff000000" align_type="0" font_family="Sans Serif" display_type="0" static_text="Text" font_style="0" strikeout="0" font_weight="50">
+            <display_on_off text_off="FAIL" text_on="NORMAL"><![CDATA[_ICCPSERVER_ST]]></display_on_off>
+            <object description="" object_id="TEXT_10001" tool_tip="" object_number="10001"/>
+            <box top="0" bottom="0" left="0" axis_offset_top="150" right="0" axis_offset_left="470" axis_anchor="4" angle="0" z_index="27"/>
+            <dynamic_fill type="0">
+                <on_off on_color="4278255360" blink_on_color="0" off_color="4294901760" blink_off_enable="0" blink_off_color="0" blink_on_enable="0">
+                    <on_color_when><![CDATA[_ICCPSERVER_ST]]></on_color_when>
+                </on_off>
+            </dynamic_fill>
+        </text>
+        <text underline="0" font_size="12" color="#ff000000" align_type="0" font_family="Sans Serif" display_type="3" static_text="Text" font_style="0" strikeout="0" font_weight="50">
+            <display_numeric>
+                <expression><![CDATA[_SJC10328D_BYPASS]]></expression>
+                <format></format>
+            </display_numeric>
+            <object description="" object_id="TEXT_10026" tool_tip="" object_number="10026"/>
+            <box top="0" bottom="0" left="0" axis_offset_top="252" right="0" axis_offset_left="444" axis_anchor="4" angle="0" z_index="26"/>
+        </text>
+        <text underline="0" font_size="12" color="#ff000000" align_type="0" font_family="Sans Serif" display_type="0" static_text="SJC10328D_BYPASS" font_style="0" strikeout="0" font_weight="50">
+            <display_on_off text_off="" text_on=""><![CDATA[]]></display_on_off>
+            <object description="" object_id="TEXT_10025" tool_tip="" object_number="10025"/>
+            <box top="0" bottom="0" left="0" axis_offset_top="252" right="0" axis_offset_left="251" axis_anchor="4" angle="0" z_index="25"/>
+        </text>
+        <text underline="0" font_size="12" color="#ff000000" align_type="0" font_family="Sans Serif" display_type="0" static_text="HAX_L" font_style="0" strikeout="0" font_weight="50">
+            <display_on_off text_off="" text_on=""><![CDATA[]]></display_on_off>
+            <object description="" object_id="TEXT_10024" tool_tip="" object_number="10024"/>
+            <box top="0" bottom="0" left="0" axis_offset_top="290" right="0" axis_offset_left="40" axis_anchor="4" angle="0" z_index="24"/>
+        </text>
+        <text underline="0" font_size="12" color="#ff000000" align_type="0" font_family="Sans Serif" display_type="0" static_text="HAX_D1" font_style="0" strikeout="0" font_weight="50">
+            <display_on_off text_off="" text_on=""><![CDATA[]]></display_on_off>
+            <object description="" object_id="TEXT_10023" tool_tip="" object_number="10023"/>
+            <box top="0" bottom="0" left="0" axis_offset_top="330" right="0" axis_offset_left="40" axis_anchor="4" angle="0" z_index="23"/>
+        </text>
+        <text underline="0" font_size="12" color="#ff000000" align_type="0" font_family="Sans Serif" display_type="0" static_text="HAF_D1" font_style="0" strikeout="0" font_weight="50">
+            <display_on_off text_off="" text_on=""><![CDATA[]]></display_on_off>
+            <object description="" object_id="TEXT_10022" tool_tip="" object_number="10022"/>
+            <box top="0" bottom="0" left="0" axis_offset_top="250" right="0" axis_offset_left="40" axis_anchor="4" angle="0" z_index="22"/>
+        </text>
+        <text underline="0" font_size="12" color="#ff000000" align_type="0" font_family="Sans Serif" display_type="0" static_text="HAF_L" font_style="0" strikeout="0" font_weight="50">
+            <display_on_off text_off="" text_on=""><![CDATA[]]></display_on_off>
+            <object description="" object_id="TEXT_10021" tool_tip="" object_number="10021"/>
+            <box top="0" bottom="0" left="0" axis_offset_top="210" right="0" axis_offset_left="40" axis_anchor="4" angle="0" z_index="21"/>
+        </text>
+        <text underline="0" font_size="14" color="#ff0000ff" align_type="0" font_family="STIX" display_type="0" static_text="P3A ICCP DATA DISPLAY" font_style="0" strikeout="0" font_weight="75">
+            <display_on_off text_off="" text_on=""><![CDATA[]]></display_on_off>
+            <object description="" object_id="TEXT_10019" tool_tip="" object_number="10019"/>
+            <box top="0" bottom="0" left="0" axis_offset_top="110" right="0" axis_offset_left="510" axis_anchor="4" angle="0" z_index="19"/>
+        </text>
+        <text underline="0" font_size="12" color="#ff000000" align_type="0" font_family="Sans Serif" display_type="3" static_text="Text" font_style="0" strikeout="0" font_weight="50">
+            <display_numeric>
+                <expression><![CDATA[_HAX_D1]]></expression>
+                <format>2</format>
+            </display_numeric>
+            <object description="" object_id="TEXT_10008" tool_tip="" object_number="10008"/>
+            <box top="0" bottom="0" left="0" axis_offset_top="330" right="0" axis_offset_left="118" axis_anchor="4" angle="0" z_index="8"/>
+        </text>
+        <text underline="0" font_size="12" color="#ff000000" align_type="0" font_family="Sans Serif" display_type="3" static_text="Text" font_style="0" strikeout="0" font_weight="50">
+            <display_numeric>
+                <expression><![CDATA[_HAX_L]]></expression>
+                <format>2</format>
+            </display_numeric>
+            <object description="" object_id="TEXT_10007" tool_tip="" object_number="10007"/>
+            <box top="0" bottom="0" left="0" axis_offset_top="290" right="0" axis_offset_left="118" axis_anchor="4" angle="0" z_index="7"/>
+        </text>
+        <text underline="0" font_size="12" color="#ff000000" align_type="0" font_family="Sans Serif" display_type="3" static_text="Text" font_style="0" strikeout="0" font_weight="50">
+            <display_numeric>
+                <expression><![CDATA[_HAF_D1]]></expression>
+                <format>2</format>
+            </display_numeric>
+            <object description="" object_id="TEXT_10006" tool_tip="" object_number="10006"/>
+            <box top="0" bottom="0" left="0" axis_offset_top="250" right="0" axis_offset_left="118" axis_anchor="4" angle="0" z_index="6"/>
+        </text>
+        <text underline="0" font_size="12" color="#ff000000" align_type="0" font_family="Sans Serif" display_type="3" static_text="Text" font_style="0" strikeout="0" font_weight="50">
+            <display_numeric>
+                <expression><![CDATA[_HAF_L]]></expression>
+                <format>2</format>
+            </display_numeric>
+            <object description="" object_id="TEXT_10005" tool_tip="" object_number="10005"/>
+            <box top="0" bottom="0" left="0" axis_offset_top="210" right="0" axis_offset_left="118" axis_anchor="4" angle="0" z_index="5"/>
+        </text>
+        <text underline="0" font_size="12" color="#ff000000" align_type="0" font_family="Sans Serif" display_type="0" static_text="ICCP SERVER STATUS" font_style="0" strikeout="0" font_weight="50">
+            <display_on_off text_off="" text_on=""><![CDATA[]]></display_on_off>
+            <object description="" object_id="TEXT_10002" tool_tip="" object_number="10002"/>
+            <box top="0" bottom="0" left="0" axis_offset_top="150" right="0" axis_offset_left="160" axis_anchor="4" angle="0" z_index="2"/>
+        </text>
+    </labels>
+</hmipage>

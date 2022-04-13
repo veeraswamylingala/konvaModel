@@ -1,0 +1,171 @@
+<hmipage id="page_1" access_area="0" page_scan_time="250" color="#ffc0c0c0" order="0" version="0.1.0" next_page="" template_id="" belongs_to_all_areas="1" default_page_scan="1" width="800" height="600" title="page_1" next_object_number="10084" prev_page="">
+    <shapes>
+        <shape type="Button">
+            <object object_id="SHAPE_10081" tool_tip="" description="" object_number="10081"/>
+            <box z_index="50" axis_offset_top="224" axis_anchor="0" angle="0" right="81" top="0" left="0" bottom="56" axis_offset_left="686"/>
+            <line color="#ff000000" line_width="1" style="1"/>
+            <button fill_color_down="#00000000" fill_color_up="#ffc0c0c0" is_transparent="0" customfill_enabled="0">
+                <buttontext font_size="12" color="#ff000000" font_style="0" underline="0" TextAlignType="0" font_weight="50" text="BUTTON" strikeout="0"/>
+            </button>
+        </shape>
+        <shape type="Line">
+            <object object_id="SHAPE_10075" tool_tip="" description="" object_number="10075">
+                <security area_same_as_page="1" area="0" disable_if_no_privilege="0" no_privilege_restriction="1" privilege_level="0">
+                    <hidden_when><![CDATA[_DTms_0010 > 80]]></hidden_when>
+                </security>
+            </object>
+            <box z_index="46" axis_offset_top="419" axis_anchor="0" angle="0" right="151" top="0" left="0" bottom="-1" axis_offset_left="283"/>
+            <line color="#ff5555ff" line_width="4" style="1"/>
+            <dynamic_fill type="0">
+                <on_off blink_off_enable="0" blink_on_color="#00000000" blink_off_color="#00000000" blink_on_enable="0" off_color="#ffff0000" on_color="#ff00ff00">
+                    <on_color_when><![CDATA[_DTms_0010 > 50]]></on_color_when>
+                </on_off>
+            </dynamic_fill>
+        </shape>
+        <shape type="Line">
+            <object object_id="SHAPE_10077" tool_tip="" description="" object_number="10077"/>
+            <box z_index="46" axis_offset_top="471" axis_anchor="6" angle="0" right="151" top="-1" left="0" bottom="0" axis_offset_left="287"/>
+            <line color="#ff5555ff" line_width="4" style="1"/>
+            <dynamic_fill type="1">
+                <multi_state>
+                    <condition><![CDATA[_DTms_0010 > 90]]><![CDATA[_DTms_0010 < 10]]></condition>
+                    <color><![CDATA[4278255360]]><![CDATA[4294901760]]><![CDATA[4289331200]]><![CDATA[4278190335]]></color>
+                    <blink_enable><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]></blink_enable>
+                    <blink_color><![CDATA[73781440]]><![CDATA[0]]><![CDATA[32]]><![CDATA[0]]></blink_color>
+                </multi_state>
+            </dynamic_fill>
+        </shape>
+        <shape type="Line">
+            <object object_id="SHAPE_10078" tool_tip="" description="" object_number="10078"/>
+            <box z_index="46" axis_offset_top="528" axis_anchor="6" angle="0" right="151" top="0" left="0" bottom="-1" axis_offset_left="284"/>
+            <line color="#ff5555ff" line_width="4" style="1"/>
+            <array>
+                <expression><![CDATA[_DTms_0010]]></expression>
+                <colors><![CDATA[4289396480]]><![CDATA[4283804287]]><![CDATA[4294902015]]><![CDATA[4289331327]]><![CDATA[14]]><![CDATA[15]]><![CDATA[16]]><![CDATA[17]]><![CDATA[18]]><![CDATA[19]]><![CDATA[20]]><![CDATA[21]]><![CDATA[22]]><![CDATA[23]]><![CDATA[24]]><![CDATA[25]]><![CDATA[26]]><![CDATA[27]]><![CDATA[28]]><![CDATA[29]]><![CDATA[30]]><![CDATA[31]]><![CDATA[32]]><![CDATA[33]]><![CDATA[34]]><![CDATA[35]]><![CDATA[36]]><![CDATA[37]]><![CDATA[38]]><![CDATA[39]]><![CDATA[40]]><![CDATA[41]]><![CDATA[42]]><![CDATA[43]]><![CDATA[44]]><![CDATA[45]]><![CDATA[46]]><![CDATA[47]]><![CDATA[48]]><![CDATA[49]]><![CDATA[50]]><![CDATA[51]]><![CDATA[52]]><![CDATA[53]]><![CDATA[54]]><![CDATA[55]]><![CDATA[56]]><![CDATA[57]]><![CDATA[58]]><![CDATA[59]]><![CDATA[60]]><![CDATA[61]]><![CDATA[62]]><![CDATA[63]]><![CDATA[64]]><![CDATA[65]]><![CDATA[66]]><![CDATA[67]]><![CDATA[68]]><![CDATA[69]]><![CDATA[70]]><![CDATA[71]]><![CDATA[72]]><![CDATA[73]]><![CDATA[74]]><![CDATA[75]]><![CDATA[76]]><![CDATA[77]]><![CDATA[78]]><![CDATA[79]]><![CDATA[80]]><![CDATA[81]]><![CDATA[82]]><![CDATA[83]]><![CDATA[84]]><![CDATA[85]]><![CDATA[86]]><![CDATA[87]]><![CDATA[88]]><![CDATA[89]]><![CDATA[90]]><![CDATA[91]]><![CDATA[92]]><![CDATA[93]]><![CDATA[94]]><![CDATA[95]]><![CDATA[96]]><![CDATA[97]]><![CDATA[98]]><![CDATA[99]]><![CDATA[100]]><![CDATA[101]]><![CDATA[102]]><![CDATA[103]]><![CDATA[104]]><![CDATA[105]]><![CDATA[106]]><![CDATA[107]]><![CDATA[108]]><![CDATA[109]]><![CDATA[110]]><![CDATA[111]]><![CDATA[112]]><![CDATA[113]]><![CDATA[114]]><![CDATA[115]]><![CDATA[116]]><![CDATA[117]]><![CDATA[118]]><![CDATA[119]]><![CDATA[120]]><![CDATA[121]]><![CDATA[122]]><![CDATA[123]]><![CDATA[124]]><![CDATA[125]]><![CDATA[126]]><![CDATA[127]]><![CDATA[128]]><![CDATA[129]]><![CDATA[130]]><![CDATA[131]]><![CDATA[132]]><![CDATA[133]]><![CDATA[134]]><![CDATA[135]]><![CDATA[136]]><![CDATA[137]]><![CDATA[138]]><![CDATA[139]]><![CDATA[140]]><![CDATA[141]]><![CDATA[142]]><![CDATA[143]]><![CDATA[144]]><![CDATA[145]]><![CDATA[146]]><![CDATA[147]]><![CDATA[148]]><![CDATA[149]]><![CDATA[150]]><![CDATA[151]]><![CDATA[152]]><![CDATA[153]]><![CDATA[154]]><![CDATA[155]]><![CDATA[156]]><![CDATA[157]]><![CDATA[158]]><![CDATA[159]]><![CDATA[160]]><![CDATA[161]]><![CDATA[162]]><![CDATA[163]]><![CDATA[164]]><![CDATA[165]]><![CDATA[166]]><![CDATA[167]]><![CDATA[168]]><![CDATA[169]]><![CDATA[170]]><![CDATA[171]]><![CDATA[172]]><![CDATA[173]]><![CDATA[174]]><![CDATA[175]]><![CDATA[176]]><![CDATA[177]]><![CDATA[178]]><![CDATA[179]]><![CDATA[180]]><![CDATA[181]]><![CDATA[182]]><![CDATA[183]]><![CDATA[184]]><![CDATA[185]]><![CDATA[186]]><![CDATA[187]]><![CDATA[188]]><![CDATA[189]]><![CDATA[190]]><![CDATA[191]]><![CDATA[192]]><![CDATA[193]]><![CDATA[194]]><![CDATA[195]]><![CDATA[196]]><![CDATA[197]]><![CDATA[198]]><![CDATA[199]]><![CDATA[200]]><![CDATA[201]]><![CDATA[202]]><![CDATA[203]]><![CDATA[204]]><![CDATA[205]]><![CDATA[206]]><![CDATA[207]]><![CDATA[208]]><![CDATA[209]]><![CDATA[210]]><![CDATA[211]]><![CDATA[212]]><![CDATA[213]]><![CDATA[214]]><![CDATA[215]]><![CDATA[216]]><![CDATA[217]]><![CDATA[218]]><![CDATA[219]]><![CDATA[220]]><![CDATA[221]]><![CDATA[222]]><![CDATA[223]]><![CDATA[224]]><![CDATA[225]]><![CDATA[226]]><![CDATA[227]]><![CDATA[228]]><![CDATA[229]]><![CDATA[230]]><![CDATA[231]]><![CDATA[232]]><![CDATA[233]]><![CDATA[234]]><![CDATA[235]]><![CDATA[236]]><![CDATA[237]]><![CDATA[238]]><![CDATA[239]]><![CDATA[240]]><![CDATA[241]]><![CDATA[242]]><![CDATA[243]]><![CDATA[244]]><![CDATA[245]]><![CDATA[246]]><![CDATA[247]]><![CDATA[248]]><![CDATA[249]]><![CDATA[250]]><![CDATA[251]]><![CDATA[252]]><![CDATA[253]]><![CDATA[254]]><![CDATA[255]]><![CDATA[256]]><![CDATA[257]]><![CDATA[258]]><![CDATA[259]]><![CDATA[260]]><![CDATA[261]]><![CDATA[262]]><![CDATA[263]]><![CDATA[264]]><![CDATA[265]]></colors>
+                <blink_enable><![CDATA[1]]><![CDATA[1]]><![CDATA[1]]><![CDATA[1]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[1]]><![CDATA[1]]><![CDATA[1]]><![CDATA[1]]><![CDATA[1]]><![CDATA[1]]><![CDATA[0]]><![CDATA[0]]><![CDATA[1]]><![CDATA[0]]><![CDATA[1]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[1]]><![CDATA[1]]><![CDATA[1]]><![CDATA[1]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[1]]><![CDATA[1]]><![CDATA[1]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[1]]><![CDATA[1]]><![CDATA[1]]><![CDATA[1]]><![CDATA[1]]><![CDATA[1]]><![CDATA[1]]><![CDATA[1]]><![CDATA[1]]><![CDATA[1]]><![CDATA[1]]><![CDATA[1]]><![CDATA[1]]><![CDATA[1]]><![CDATA[1]]><![CDATA[1]]><![CDATA[1]]><![CDATA[1]]><![CDATA[1]]><![CDATA[1]]><![CDATA[1]]><![CDATA[0]]><![CDATA[1]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[1]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[1]]><![CDATA[1]]><![CDATA[0]]><![CDATA[0]]><![CDATA[1]]><![CDATA[1]]><![CDATA[0]]><![CDATA[0]]><![CDATA[1]]><![CDATA[1]]><![CDATA[0]]><![CDATA[0]]><![CDATA[1]]><![CDATA[0]]><![CDATA[1]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[1]]><![CDATA[1]]><![CDATA[1]]><![CDATA[1]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[1]]><![CDATA[1]]><![CDATA[1]]><![CDATA[1]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[1]]><![CDATA[1]]><![CDATA[1]]><![CDATA[1]]><![CDATA[1]]><![CDATA[1]]><![CDATA[1]]><![CDATA[1]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[1]]><![CDATA[1]]><![CDATA[0]]><![CDATA[0]]><![CDATA[1]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[1]]><![CDATA[1]]><![CDATA[0]]><![CDATA[0]]><![CDATA[1]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[1]]><![CDATA[0]]><![CDATA[0]]><![CDATA[1]]><![CDATA[1]]><![CDATA[1]]><![CDATA[1]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[1]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[1]]><![CDATA[1]]><![CDATA[1]]><![CDATA[1]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[1]]><![CDATA[1]]><![CDATA[1]]><![CDATA[1]]><![CDATA[1]]><![CDATA[1]]><![CDATA[1]]><![CDATA[1]]><![CDATA[1]]><![CDATA[1]]><![CDATA[1]]><![CDATA[1]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]></blink_enable>
+                <blink_color><![CDATA[3519344168]]><![CDATA[32633]]><![CDATA[18997456]]><![CDATA[0]]><![CDATA[18997456]]><![CDATA[0]]><![CDATA[49508400]]><![CDATA[0]]><![CDATA[49305360]]><![CDATA[0]]><![CDATA[49306032]]><![CDATA[0]]><![CDATA[23167472]]><![CDATA[0]]><![CDATA[63696336]]><![CDATA[0]]><![CDATA[49845488]]><![CDATA[0]]><![CDATA[49846272]]><![CDATA[0]]><![CDATA[22313712]]><![CDATA[0]]><![CDATA[23824176]]><![CDATA[0]]><![CDATA[63672896]]><![CDATA[0]]><![CDATA[35841232]]><![CDATA[0]]><![CDATA[22271712]]><![CDATA[0]]><![CDATA[63735104]]><![CDATA[0]]><![CDATA[63654704]]><![CDATA[0]]><![CDATA[49912864]]><![CDATA[0]]><![CDATA[49810560]]><![CDATA[0]]><![CDATA[49811232]]><![CDATA[0]]><![CDATA[22008768]]><![CDATA[0]]><![CDATA[76080640]]><![CDATA[0]]><![CDATA[48430576]]><![CDATA[0]]><![CDATA[48431248]]><![CDATA[0]]><![CDATA[23918016]]><![CDATA[0]]><![CDATA[63650000]]><![CDATA[0]]><![CDATA[49406528]]><![CDATA[0]]><![CDATA[49407856]]><![CDATA[0]]><![CDATA[24154432]]><![CDATA[0]]><![CDATA[49709648]]><![CDATA[0]]><![CDATA[23639664]]><![CDATA[0]]><![CDATA[49710608]]><![CDATA[0]]><![CDATA[6401]]><![CDATA[0]]><![CDATA[3519342520]]><![CDATA[32633]]><![CDATA[3519342520]]><![CDATA[32633]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[50073360]]><![CDATA[0]]><![CDATA[48393024]]><![CDATA[0]]><![CDATA[48393696]]><![CDATA[0]]><![CDATA[23023392]]><![CDATA[0]]><![CDATA[63595152]]><![CDATA[0]]><![CDATA[23386880]]><![CDATA[0]]><![CDATA[17861648]]><![CDATA[0]]><![CDATA[23558768]]><![CDATA[0]]><![CDATA[76594624]]><![CDATA[0]]><![CDATA[76011328]]><![CDATA[0]]><![CDATA[77095024]]><![CDATA[0]]><![CDATA[48354128]]><![CDATA[0]]><![CDATA[48355104]]><![CDATA[0]]><![CDATA[49364688]]><![CDATA[0]]><![CDATA[49365904]]><![CDATA[0]]><![CDATA[17865088]]><![CDATA[0]]><![CDATA[17866128]]><![CDATA[0]]><![CDATA[52061264]]><![CDATA[0]]><![CDATA[52061904]]><![CDATA[0]]><![CDATA[17860256]]><![CDATA[0]]><![CDATA[76557456]]><![CDATA[0]]><![CDATA[52091856]]><![CDATA[0]]><![CDATA[51253264]]><![CDATA[0]]><![CDATA[62695472]]><![CDATA[0]]><![CDATA[23414608]]><![CDATA[0]]><![CDATA[62749056]]><![CDATA[0]]><![CDATA[63423184]]><![CDATA[0]]><![CDATA[76303520]]><![CDATA[0]]><![CDATA[24360080]]><![CDATA[0]]><![CDATA[77594928]]><![CDATA[0]]><![CDATA[23924368]]><![CDATA[0]]><![CDATA[23197008]]><![CDATA[0]]><![CDATA[17816928]]><![CDATA[0]]><![CDATA[63793728]]><![CDATA[0]]><![CDATA[49434096]]><![CDATA[0]]><![CDATA[75935072]]><![CDATA[0]]><![CDATA[49435152]]><![CDATA[0]]><![CDATA[23292640]]><![CDATA[0]]><![CDATA[18006224]]><![CDATA[0]]><![CDATA[18006848]]><![CDATA[0]]><![CDATA[22054592]]><![CDATA[0]]><![CDATA[23829920]]><![CDATA[0]]><![CDATA[68382176]]><![CDATA[0]]><![CDATA[63258240]]><![CDATA[0]]><![CDATA[68816016]]><![CDATA[0]]><![CDATA[63829088]]><![CDATA[0]]><![CDATA[49838368]]><![CDATA[0]]><![CDATA[77130352]]><![CDATA[0]]><![CDATA[76021296]]><![CDATA[0]]><![CDATA[48221472]]><![CDATA[0]]><![CDATA[48222256]]><![CDATA[0]]><![CDATA[43584704]]><![CDATA[0]]><![CDATA[62743792]]><![CDATA[0]]><![CDATA[62758592]]><![CDATA[0]]><![CDATA[51556288]]><![CDATA[0]]><![CDATA[51557072]]><![CDATA[0]]><![CDATA[77394720]]><![CDATA[0]]><![CDATA[23110720]]><![CDATA[0]]><![CDATA[69113056]]><![CDATA[0]]><![CDATA[23220224]]><![CDATA[0]]><![CDATA[24329248]]><![CDATA[0]]><![CDATA[77010320]]><![CDATA[0]]><![CDATA[76360272]]><![CDATA[0]]><![CDATA[77082400]]><![CDATA[0]]><![CDATA[48322416]]><![CDATA[0]]><![CDATA[66354112]]><![CDATA[0]]><![CDATA[23378944]]><![CDATA[0]]><![CDATA[76989424]]><![CDATA[0]]><![CDATA[51354144]]><![CDATA[0]]><![CDATA[73401152]]><![CDATA[0]]><![CDATA[22818816]]><![CDATA[0]]><![CDATA[76079728]]><![CDATA[0]]><![CDATA[50747856]]><![CDATA[0]]><![CDATA[23908960]]><![CDATA[0]]><![CDATA[77269968]]><![CDATA[0]]><![CDATA[23860672]]><![CDATA[0]]><![CDATA[77296016]]><![CDATA[0]]><![CDATA[23915600]]><![CDATA[0]]><![CDATA[22979696]]><![CDATA[0]]><![CDATA[23611136]]><![CDATA[0]]><![CDATA[68849424]]><![CDATA[0]]><![CDATA[52027792]]><![CDATA[0]]><![CDATA[52028592]]><![CDATA[0]]><![CDATA[63786864]]><![CDATA[0]]><![CDATA[23684112]]><![CDATA[0]]><![CDATA[49775584]]><![CDATA[0]]><![CDATA[0]]><![CDATA[0]]><![CDATA[5665]]><![CDATA[0]]><![CDATA[3519344136]]><![CDATA[32633]]><![CDATA[3519344136]]><![CDATA[32633]]><![CDATA[18998464]]><![CDATA[0]]></blink_color>
+            </array>
+        </shape>
+    </shapes>
+    <images>
+        <image y="73" x="450" zIndex="45" objectNumber="0" objectId="">
+            <filename src="green.png"/>
+            <hidden_when><![CDATA[_DTms_0010 > 50]]></hidden_when>
+            <on_off on_name="RED.png" off_name="green.png"><![CDATA[_DTms_0010 > 50]]></on_off>
+            <object id="IMAGE_10074" number="10074" tool_tip="" description=""/>
+            <box z_index="45" axis_anchor="0" angle="0" offset_top="73" right="143" offset_left="450" top="0" left="0" bottom="206"/>
+        </image>
+    </images>
+    <labels>
+        <text font_size="12" align_type="0" color="#ff000000" font_style="0" underline="0" display_type="3" font_weight="50" static_text="Text" strikeout="0" font_family="Sans Serif">
+            <display_numeric>
+                <expression><![CDATA[_DTms_0010]]></expression>
+                <format>2</format>
+            </display_numeric>
+            <object object_id="TEXT_10076" tool_tip="" description="" object_number="10076"/>
+            <box z_index="47" axis_offset_top="392" axis_anchor="4" angle="0" right="0" top="0" left="0" bottom="0" axis_offset_left="611"/>
+        </text>
+    </labels>
+    <groups>
+        <group zIndex="0" x1="593" y1="72" objectNumber="0" objectId="GROUP_10084" x2="782" y2="167">
+            <text font_size="12" align_type="0" color="#ff000000" font_style="0" underline="0" display_type="0" font_weight="50" static_text="" strikeout="0" font_family="Sans Serif">
+                <object object_id="TEXT_10083" tool_tip="" description="" object_number="10083"/>
+                <box z_index="52" axis_offset_top="0" axis_anchor="0" angle="0" right="0" top="0" left="0" bottom="0" axis_offset_left="0"/>
+            </text>
+            <shape type="Ellipse">
+                <object object_id="SHAPE_10079" tool_tip="" description="" object_number="10079"/>
+                <box z_index="48" axis_offset_top="12" axis_anchor="0" angle="0" right="92" top="0" left="0" bottom="65" axis_offset_left="65"/>
+                <line color="#ff000000" line_width="1" style="1"/>
+                <fill fill="#ff808080"/>
+                <gradient gradient_color="#ffffffff" gradient_direction="6"/>
+                <ellipse angle_end="0" angle_start="0" ellipse_type="ARC_ELLIPSE" x1="0" y1="0" x2="92" y2="65"/>
+            </shape>
+            <shape type="Rectangle">
+                <object object_id="SHAPE_10082" tool_tip="" description="" object_number="10082"/>
+                <box z_index="51" axis_offset_top="46" axis_anchor="0" angle="0" right="67" top="0" left="0" bottom="43" axis_offset_left="116"/>
+                <line color="#ff000000" line_width="1" style="1"/>
+                <fill fill="#ff808080"/>
+                <gradient gradient_color="#ffffffff" gradient_direction="0"/>
+                <rectangle corner_radius="0" x1="0" y1="0" x2="67" y2="43"/>
+            </shape>
+            <description/>
+            <group_object_properties>
+                <security>
+                    <hidden_when><![CDATA[_DTms_0010 < 0]]></hidden_when>
+                </security>
+            </group_object_properties>
+        </group>
+    </groups>
+    <component_instances>
+        <componentInstance zIndex="0" x1="171" y1="247" objectNumber="0" objectId="COMP_10072" x2="354" y2="345" uuid="{87e8e31c-cc5a-411f-b9c0-f481dd503bfe}">
+            <group zIndex="0" x1="177" y1="253" objectNumber="0" objectId="GROUP_5" x2="348" y2="339">
+                <shape type="Rectangle">
+                    <object object_id="SHAPE_3" tool_tip="" description="" object_number="3"/>
+                    <box z_index="-1" axis_offset_top="11" axis_anchor="0" angle="0" right="69" top="0" left="0" bottom="23" axis_offset_left="6"/>
+                    <line color="#ff000000" line_width="1" style="1"/>
+                    <fill fill="#ffff007f"/>
+                    <rectangle corner_radius="0" x1="0" y1="0" x2="69" y2="23"/>
+                </shape>
+                <shape type="Rectangle">
+                    <object object_id="SHAPE_2" tool_tip="" description="" object_number="2"/>
+                    <box z_index="-2" axis_offset_top="54" axis_anchor="0" angle="0" right="69" top="0" left="0" bottom="23" axis_offset_left="96"/>
+                    <line color="#ff000000" line_width="1" style="1"/>
+                    <fill fill="#ffff007f"/>
+                    <rectangle corner_radius="0" x1="0" y1="0" x2="69" y2="23"/>
+                </shape>
+                <shape type="Ellipse">
+                    <object object_id="SHAPE_4" tool_tip="" description="" object_number="4"/>
+                    <box z_index="1" axis_offset_top="6" axis_anchor="0" angle="0" right="79" top="0" left="0" bottom="74" axis_offset_left="48"/>
+                    <line color="#ff000000" line_width="1" style="1"/>
+                    <fill fill="#ffff007f"/>
+                    <ellipse angle_end="0" angle_start="0" ellipse_type="ARC_ELLIPSE" x1="0" y1="0" x2="79" y2="74"/>
+                </shape>
+                <description/>
+                <group_object_properties>
+                    <security>
+                        <hidden_when><![CDATA[_MOV%NO%_ST==3]]></hidden_when>
+                    </security>
+                </group_object_properties>
+            </group>
+            <description/>
+            <params>
+                <param value="101" name="NO" componentID="COMP_10072"/>
+            </params>
+        </componentInstance>
+        <componentInstance zIndex="0" x1="233" y1="129" objectNumber="0" objectId="COMP_10071" x2="416" y2="227" uuid="{d18224c5-5df4-4381-b2f6-ed47e718d969}">
+            <group zIndex="0" x1="239" y1="135" objectNumber="0" objectId="GROUP_5" x2="410" y2="221">
+                <shape type="Rectangle">
+                    <object object_id="SHAPE_4" tool_tip="" description="" object_number="4"/>
+                    <box z_index="-2" axis_offset_top="54" axis_anchor="0" angle="0" right="69" top="0" left="0" bottom="23" axis_offset_left="96"/>
+                    <line color="#ff000000" line_width="1" style="1"/>
+                    <fill fill="#ff55ff7f"/>
+                    <rectangle corner_radius="0" x1="0" y1="0" x2="69" y2="23"/>
+                </shape>
+                <shape type="Rectangle">
+                    <object object_id="SHAPE_2" tool_tip="" description="" object_number="2"/>
+                    <box z_index="-1" axis_offset_top="11" axis_anchor="0" angle="0" right="69" top="0" left="0" bottom="23" axis_offset_left="6"/>
+                    <line color="#ff000000" line_width="1" style="1"/>
+                    <fill fill="#ff55ff7f"/>
+                    <rectangle corner_radius="0" x1="0" y1="0" x2="69" y2="23"/>
+                </shape>
+                <shape type="Ellipse">
+                    <object object_id="SHAPE_1" tool_tip="" description="" object_number="1"/>
+                    <box z_index="1" axis_offset_top="6" axis_anchor="0" angle="0" right="79" top="0" left="0" bottom="74" axis_offset_left="48"/>
+                    <line color="#ff000000" line_width="1" style="1"/>
+                    <fill fill="#ff55ff7f"/>
+                    <ellipse angle_end="0" angle_start="0" ellipse_type="ARC_ELLIPSE" x1="0" y1="0" x2="79" y2="74"/>
+                </shape>
+                <description/>
+                <group_object_properties>
+                    <security>
+                        <hidden_when><![CDATA[_MOV%NO%_ST==1]]></hidden_when>
+                    </security>
+                </group_object_properties>
+            </group>
+            <description/>
+            <params>
+                <param value="101" name="NO" componentID="COMP_10071"/>
+            </params>
+        </componentInstance>
+    </component_instances>
+</hmipage>

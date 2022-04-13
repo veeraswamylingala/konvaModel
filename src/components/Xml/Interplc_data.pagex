@@ -1,0 +1,52 @@
+<hmipage page_scan_time="250" next_page="" title="page_9" belongs_to_all_areas="1" access_area="0" next_object_number="10027" width="800" template_id="" version="0.1.0" default_page_scan="1" height="600" prev_page="" color="#ffffffff" id="page_9" order="8">
+   <shapes>
+        <shape type="Button">
+            <object object_number="10028" tool_tip="" description="" object_id="SHAPE_10028">
+                <security area_same_as_page="1" disable_if_no_privilege="0" privilege_level="0" area="0" no_privilege_restriction="1">
+                    <hidden_when><![CDATA[_MOV101_LR_ST]]></hidden_when>
+                </security>
+            </object>
+            <box left="0" top="0" bottom="42" z_index="0" angle="0" axis_offset_left="461" right="150" axis_offset_top="228" axis_anchor="0"/>
+            <line style="1" line_width="1" color="#ff000000"/>
+            <button fill_color_down="#00000000" customfill_enabled="0" is_transparent="0" fill_color_up="#ffc0c0c0">
+                <buttontext TextAlignType="0" font_style="0" text="BUTTON" strikeout="0" font_weight="50" font_size="12" color="#ff000000" underline="0"/>
+            </button>
+            <input_touch>
+                <up enabled="1">
+                    <command><![CDATA[messageBox("hi hellow")]]></command>
+                </up>
+            </input_touch>
+        </shape>
+    </shapes>
+   
+    <images>
+        <image zIndex="0" objectId="" x="78" y="296" objectNumber="0">
+            <filename src="error_image.png"/>
+            <on_off off_name="RED.png" on_name="GREEN.png"><![CDATA[_MOV101_LR_ST]]></on_off>
+            <object number="10027" tool_tip="" description="" id="IMAGE_10027"/>
+            <box left="0" top="0" bottom="112" z_index="0" angle="0" offset_left="78" right="209" axis_anchor="0" offset_top="296"/>
+        </image>
+        <image zIndex="0" objectId="" x="75" y="150" objectNumber="0">
+            <filename src="error_image.png"/>
+            <hidden_when><![CDATA[_MOV101_LR_ST]]></hidden_when>
+            <object number="10025" tool_tip="" description="" id="IMAGE_10025"/>
+            <box left="0" top="0" bottom="112" z_index="0" angle="0" offset_left="75" right="209" axis_anchor="0" offset_top="150"/>
+        </image>
+      
+    </images>
+    <labels>
+        <text font_style="0" align_type="0" display_type="3" strikeout="0" static_text="Text" font_weight="50" font_size="12" color="#ff000000" font_family="Sans Serif" underline="0">
+            <display_numeric>
+                <expression><![CDATA[_MOV101_LR_ST]]></expression>
+                <format></format>
+            </display_numeric>
+            <object object_number="10020" tool_tip="" description="" object_id="TEXT_10020"/>
+            <box left="0" top="0" bottom="0" z_index="20" angle="0" axis_offset_left="70" right="0" axis_offset_top="110" axis_anchor="4"/>
+        </text>
+        <text font_style="0" align_type="0" display_type="4" strikeout="0" static_text="Text" font_weight="50" font_size="12" color="#ff000000" font_family="Sans Serif" underline="0">
+            <display_string><![CDATA[getDate()]]></display_string>
+            <object object_number="10029" tool_tip="" description="" object_id="TEXT_10029"/>
+            <box left="0" top="0" bottom="0" z_index="29" angle="0" axis_offset_left="580" right="0" axis_offset_top="56" axis_anchor="4"/>
+        </text>
+    </labels>
+</hmipage>
